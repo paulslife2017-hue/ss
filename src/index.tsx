@@ -233,8 +233,8 @@ app.get('/', (c) => {
                         <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Finance">Finance</a>
                         <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Cryptocurrency">Crypto</a>
                         <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Legal">Legal</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Web Hosting">Hosting</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="VPN">VPN</a>
+                        <a href="/about" class="text-gray-600 hover:text-purple-600 transition">About</a>
+                        <a href="/contact" class="text-gray-600 hover:text-purple-600 transition">Contact</a>
                     </nav>
                     <div class="flex items-center space-x-3">
                         <button id="searchBtn" class="text-gray-600 hover:text-purple-600">
@@ -352,7 +352,7 @@ app.get('/', (c) => {
         <!-- Footer with AdSense Anchor Ad -->
         <footer class="bg-gray-800 text-white mt-16 py-8">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
                         <h4 class="text-lg font-bold mb-4">Wealth Hub</h4>
                         <p class="text-gray-400">Expert guides on finance, investing, and wealth building.</p>
@@ -363,6 +363,16 @@ app.get('/', (c) => {
                             <li><a href="#" class="hover:text-white transition">Insurance</a></li>
                             <li><a href="#" class="hover:text-white transition">Cryptocurrency</a></li>
                             <li><a href="#" class="hover:text-white transition">Finance</a></li>
+                            <li><a href="#" class="hover:text-white transition">Legal</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Information</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="/about" class="hover:text-white transition">About Us</a></li>
+                            <li><a href="/contact" class="hover:text-white transition">Contact</a></li>
+                            <li><a href="/privacy" class="hover:text-white transition">Privacy Policy</a></li>
+                            <li><a href="/terms" class="hover:text-white transition">Terms of Service</a></li>
                         </ul>
                     </div>
                     <div>
@@ -780,6 +790,385 @@ app.get('/post/:slug', async (c) => {
   } catch (error) {
     return c.html('<h1>Error loading post</h1>')
   }
+})
+
+// About page
+app.get('/about', (c) => {
+  return c.html(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us - Wealth Hub</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>body { font-family: 'Inter', sans-serif; }</style>
+    </head>
+    <body class="bg-gray-50">
+        <header class="bg-white shadow-sm">
+            <div class="max-w-4xl mx-auto px-4 py-4">
+                <a href="/" class="text-purple-600 hover:text-purple-700"><i class="fas fa-arrow-left mr-2"></i>Back to Home</a>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto px-4 py-12">
+            <h1 class="text-4xl font-bold mb-6">About Wealth Hub</h1>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-xl text-gray-600 mb-6">Your trusted source for expert financial guidance and money management advice.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Our Mission</h2>
+                <p>Wealth Hub is dedicated to providing comprehensive, accurate, and actionable financial information to help individuals make informed decisions about their money, investments, and financial future.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">What We Cover</h2>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Insurance:</strong> Comprehensive guides on car, health, life, and home insurance</li>
+                    <li><strong>Finance:</strong> Investment strategies, wealth building, and personal finance tips</li>
+                    <li><strong>Cryptocurrency:</strong> Expert analysis of Bitcoin, Ethereum, and altcoins</li>
+                    <li><strong>Legal:</strong> Guidance on personal injury claims and legal services</li>
+                    <li><strong>Technology:</strong> VPN services, web hosting, and online security</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Our Team</h2>
+                <p>Our content is created by financial experts, industry professionals, and experienced writers who are passionate about helping people achieve financial success. We research extensively and provide up-to-date information based on current market conditions.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Our Commitment</h2>
+                <p>We are committed to:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Providing accurate and reliable information</li>
+                    <li>Regular content updates reflecting market changes</li>
+                    <li>Transparent reviews and comparisons</li>
+                    <li>User-friendly, accessible content for all knowledge levels</li>
+                    <li>Privacy and security of our readers</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Contact Us</h2>
+                <p>Have questions or suggestions? Visit our <a href="/contact" class="text-purple-600 hover:underline">Contact page</a> to get in touch with us.</p>
+            </div>
+        </main>
+        <footer class="bg-gray-800 text-white mt-16 py-8">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    </html>
+  `)
+})
+
+// Privacy Policy page
+app.get('/privacy', (c) => {
+  return c.html(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Privacy Policy - Wealth Hub</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>body { font-family: 'Inter', sans-serif; }</style>
+    </head>
+    <body class="bg-gray-50">
+        <header class="bg-white shadow-sm">
+            <div class="max-w-4xl mx-auto px-4 py-4">
+                <a href="/" class="text-purple-600 hover:text-purple-700"><i class="fas fa-arrow-left mr-2"></i>Back to Home</a>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto px-4 py-12">
+            <h1 class="text-4xl font-bold mb-6">Privacy Policy</h1>
+            <p class="text-gray-600 mb-8">Last updated: November 25, 2025</p>
+            
+            <div class="prose prose-lg max-w-none space-y-6">
+                <h2 class="text-2xl font-bold mt-8 mb-4">Introduction</h2>
+                <p>Wealth Hub ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Information We Collect</h2>
+                <h3 class="text-xl font-semibold mt-6 mb-3">Automatically Collected Information</h3>
+                <p>When you visit our website, we automatically collect certain information about your device, including:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>IP address</li>
+                    <li>Browser type</li>
+                    <li>Operating system</li>
+                    <li>Access times</li>
+                    <li>Pages viewed</li>
+                    <li>Referring website addresses</li>
+                </ul>
+                
+                <h3 class="text-xl font-semibold mt-6 mb-3">Information You Provide</h3>
+                <p>We may collect information you voluntarily provide when you:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Leave comments on our blog posts</li>
+                    <li>Contact us through our contact form</li>
+                    <li>Subscribe to our newsletter</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">How We Use Your Information</h2>
+                <p>We use the information we collect to:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Provide, operate, and maintain our website</li>
+                    <li>Improve, personalize, and expand our website</li>
+                    <li>Understand and analyze how you use our website</li>
+                    <li>Develop new products, services, features, and functionality</li>
+                    <li>Respond to your comments and questions</li>
+                    <li>Send you marketing and promotional communications (with your consent)</li>
+                    <li>Find and prevent fraud</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Google AdSense</h2>
+                <p>We use Google AdSense to display advertisements on our website. Google uses cookies to serve ads based on your prior visits to our website or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" class="text-purple-600 hover:underline" target="_blank">Google Ads Settings</a>.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Cookies and Tracking Technologies</h2>
+                <p>We use cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Third-Party Services</h2>
+                <p>We may employ third-party companies and individuals to:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Facilitate our website</li>
+                    <li>Provide analytics services</li>
+                    <li>Perform website-related services</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Data Security</h2>
+                <p>We implement appropriate technical and organizational security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Your Rights</h2>
+                <p>Depending on your location, you may have the following rights:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Access to your personal information</li>
+                    <li>Correction of inaccurate information</li>
+                    <li>Deletion of your information</li>
+                    <li>Objection to processing</li>
+                    <li>Data portability</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Children's Privacy</h2>
+                <p>Our website is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Changes to This Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Contact Us</h2>
+                <p>If you have questions about this Privacy Policy, please contact us through our <a href="/contact" class="text-purple-600 hover:underline">Contact page</a>.</p>
+            </div>
+        </main>
+        <footer class="bg-gray-800 text-white mt-16 py-8">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    </html>
+  `)
+})
+
+// Terms of Service page
+app.get('/terms', (c) => {
+  return c.html(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Terms of Service - Wealth Hub</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>body { font-family: 'Inter', sans-serif; }</style>
+    </head>
+    <body class="bg-gray-50">
+        <header class="bg-white shadow-sm">
+            <div class="max-w-4xl mx-auto px-4 py-4">
+                <a href="/" class="text-purple-600 hover:text-purple-700"><i class="fas fa-arrow-left mr-2"></i>Back to Home</a>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto px-4 py-12">
+            <h1 class="text-4xl font-bold mb-6">Terms of Service</h1>
+            <p class="text-gray-600 mb-8">Last updated: November 25, 2025</p>
+            
+            <div class="prose prose-lg max-w-none space-y-6">
+                <h2 class="text-2xl font-bold mt-8 mb-4">Agreement to Terms</h2>
+                <p>By accessing and using Wealth Hub, you accept and agree to be bound by the terms and provision of this agreement.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Use License</h2>
+                <p>Permission is granted to temporarily view the materials (information or software) on Wealth Hub's website for personal, non-commercial transitory viewing only.</p>
+                <p>This license shall automatically terminate if you violate any of these restrictions and may be terminated by Wealth Hub at any time.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Disclaimer</h2>
+                <p>The materials on Wealth Hub's website are provided on an 'as is' basis. Wealth Hub makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Implied warranties or conditions of merchantability</li>
+                    <li>Fitness for a particular purpose</li>
+                    <li>Non-infringement of intellectual property</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Financial Disclaimer</h2>
+                <p><strong>IMPORTANT:</strong> The information provided on this website is for educational and informational purposes only and should not be construed as financial advice.</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>We are not financial advisors, accountants, or lawyers</li>
+                    <li>Always consult with qualified professionals before making financial decisions</li>
+                    <li>Investment involves risk, including possible loss of principal</li>
+                    <li>Past performance does not guarantee future results</li>
+                    <li>We may earn commissions from affiliate partnerships</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Limitations</h2>
+                <p>In no event shall Wealth Hub or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Wealth Hub's website.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Accuracy of Materials</h2>
+                <p>The materials appearing on Wealth Hub's website could include technical, typographical, or photographic errors. Wealth Hub does not warrant that any of the materials on its website are accurate, complete, or current.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Links</h2>
+                <p>Wealth Hub has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Wealth Hub of the site.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Affiliate Disclosure</h2>
+                <p>Wealth Hub participates in affiliate marketing programs. This means we may earn a commission when you click on or make purchases through affiliate links on our site. This comes at no additional cost to you.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">User Comments</h2>
+                <p>Certain parts of this website offer users the opportunity to post and exchange opinions. Wealth Hub reserves the right to monitor and remove comments that are:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Offensive or inappropriate</li>
+                    <li>Spam or promotional</li>
+                    <li>Harassing or threatening</li>
+                    <li>Infringing on intellectual property rights</li>
+                </ul>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Modifications</h2>
+                <p>Wealth Hub may revise these terms of service at any time without notice. By using this website, you agree to be bound by the current version of these terms of service.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Governing Law</h2>
+                <p>These terms and conditions are governed by and construed in accordance with the laws and you irrevocably submit to the exclusive jurisdiction of the courts in that location.</p>
+                
+                <h2 class="text-2xl font-bold mt-8 mb-4">Contact Us</h2>
+                <p>If you have any questions about these Terms, please contact us through our <a href="/contact" class="text-purple-600 hover:underline">Contact page</a>.</p>
+            </div>
+        </main>
+        <footer class="bg-gray-800 text-white mt-16 py-8">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    </html>
+  `)
+})
+
+// Contact page
+app.get('/contact', (c) => {
+  return c.html(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Wealth Hub</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>body { font-family: 'Inter', sans-serif; }</style>
+    </head>
+    <body class="bg-gray-50">
+        <header class="bg-white shadow-sm">
+            <div class="max-w-4xl mx-auto px-4 py-4">
+                <a href="/" class="text-purple-600 hover:text-purple-700"><i class="fas fa-arrow-left mr-2"></i>Back to Home</a>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto px-4 py-12">
+            <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
+            <p class="text-xl text-gray-600 mb-8">Have questions or feedback? We'd love to hear from you!</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-envelope text-purple-600 text-xl mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold">Email</h3>
+                                <p class="text-gray-600">contact@wealthhub.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-clock text-purple-600 text-xl mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold">Response Time</h3>
+                                <p class="text-gray-600">We typically respond within 24-48 hours</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-globe text-purple-600 text-xl mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold">Social Media</h3>
+                                <div class="flex space-x-4 mt-2">
+                                    <a href="#" class="text-gray-600 hover:text-purple-600"><i class="fab fa-facebook text-2xl"></i></a>
+                                    <a href="#" class="text-gray-600 hover:text-purple-600"><i class="fab fa-twitter text-2xl"></i></a>
+                                    <a href="#" class="text-gray-600 hover:text-purple-600"><i class="fab fa-linkedin text-2xl"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h2 class="text-2xl font-bold mb-4">Send us a Message</h2>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Name</label>
+                            <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Subject</label>
+                            <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Message</label>
+                            <textarea rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-blue-50 rounded-xl p-6">
+                <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold mb-2">What topics do you cover?</h3>
+                        <p class="text-gray-600">We cover insurance, finance, cryptocurrency, legal advice, web hosting, VPN services, and more.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Can you provide personal financial advice?</h3>
+                        <p class="text-gray-600">We provide educational content only. For personalized advice, please consult a licensed financial advisor.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">How often is your content updated?</h3>
+                        <p class="text-gray-600">We regularly update our content to ensure accuracy and relevance, typically quarterly or when major changes occur.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-gray-800 text-white mt-16 py-8">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
+            </div>
+        </footer>
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you soon.');
+                e.target.reset();
+            });
+        </script>
+    </body>
+    </html>
+  `)
 })
 
 export default app
