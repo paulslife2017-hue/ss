@@ -170,13 +170,13 @@ app.get('/', (c) => {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>수익형 블로그 - 금융, 투자, 재테크 전문 정보</title>
-        <meta name="description" content="금융, 투자, 암호화폐, 부동산, 온라인 비즈니스 등 고수익 정보를 제공하는 전문 블로그입니다.">
-        <meta name="keywords" content="재테크,투자,금융,암호화폐,부동산,온라인비즈니스,블로그수익화">
+        <title>Wealth & Finance Hub - Expert Guides on Money, Investing & Insurance</title>
+        <meta name="description" content="Expert guides on insurance, finance, cryptocurrency, legal advice, and web hosting. Make smarter financial decisions with our comprehensive reviews.">
+        <meta name="keywords" content="finance,investing,insurance,cryptocurrency,legal advice,web hosting,money management">
         
         <!-- Open Graph -->
-        <meta property="og:title" content="수익형 블로그 - 금융, 투자, 재테크 전문 정보">
-        <meta property="og:description" content="금융, 투자, 암호화폐, 부동산, 온라인 비즈니스 등 고수익 정보를 제공하는 전문 블로그입니다.">
+        <meta property="og:title" content="Wealth & Finance Hub - Expert Money & Investing Guides">
+        <meta property="og:description" content="Expert guides on insurance, finance, cryptocurrency, legal advice, and web hosting. Make smarter financial decisions.">
         <meta property="og:type" content="website">
         
         <!-- Tailwind CSS -->
@@ -188,11 +188,11 @@ app.get('/', (c) => {
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         
         <style>
             body {
-                font-family: 'Noto Sans KR', sans-serif;
+                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             }
             .adsense-placeholder {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -224,16 +224,17 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center space-x-3">
-                        <i class="fas fa-chart-line text-3xl gradient-text"></i>
-                        <h1 class="text-2xl font-bold gradient-text">수익형 블로그</h1>
+                        <i class="fas fa-coins text-3xl gradient-text"></i>
+                        <h1 class="text-2xl font-bold gradient-text">Wealth Hub</h1>
                     </div>
                     <nav class="hidden md:flex space-x-6">
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="all">전체</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="금융/투자">금융/투자</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="암호화폐">암호화폐</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="부동산">부동산</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="온라인 비즈니스">온라인 비즈니스</a>
-                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="건강/의료">건강/의료</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="all">All</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Insurance">Insurance</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Finance">Finance</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Cryptocurrency">Crypto</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Legal">Legal</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="Web Hosting">Hosting</a>
+                        <a href="#" class="text-gray-600 hover:text-purple-600 transition" data-category="VPN">VPN</a>
                     </nav>
                     <div class="flex items-center space-x-3">
                         <button id="searchBtn" class="text-gray-600 hover:text-purple-600">
@@ -245,7 +246,7 @@ app.get('/', (c) => {
                 <!-- Search Bar (Hidden by default) -->
                 <div id="searchBar" class="hidden mt-4">
                     <div class="relative">
-                        <input type="text" id="searchInput" placeholder="검색어를 입력하세요..." 
+                        <input type="text" id="searchInput" placeholder="Search articles..." 
                                class="w-full px-4 py-3 pl-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
                         <i class="fas fa-search absolute left-4 top-4 text-gray-400"></i>
                     </div>
@@ -255,7 +256,7 @@ app.get('/', (c) => {
             <!-- AdSense Banner Placeholder -->
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
                 <div class="adsense-placeholder h-24">
-                    <span>Google AdSense 배너 광고 위치 (728x90 또는 반응형)</span>
+                    <span>Google AdSense Banner Ad (728x90 or Responsive)</span>
                 </div>
             </div>
         </header>
@@ -279,7 +280,7 @@ app.get('/', (c) => {
                     
                     <!-- AdSense In-feed Ad -->
                     <div class="adsense-placeholder h-32">
-                        <span>Google AdSense 인피드 광고 (반응형)</span>
+                        <span>Google AdSense In-feed Ad (Responsive)</span>
                     </div>
                     
                     <!-- Posts Grid -->
@@ -304,14 +305,14 @@ app.get('/', (c) => {
                     <!-- AdSense Sidebar Ad -->
                     <div class="sticky top-24">
                         <div class="adsense-placeholder h-64 mb-6">
-                            <span>Google AdSense<br>사이드바 광고<br>(300x250)</span>
+                            <span>Google AdSense<br>Sidebar Ad<br>(300x250)</span>
                         </div>
                         
                         <!-- Popular Posts -->
                         <div class="bg-white rounded-xl shadow-md p-6">
                             <h3 class="text-xl font-bold mb-4 flex items-center">
                                 <i class="fas fa-fire text-orange-500 mr-2"></i>
-                                인기 글
+                                Trending Now
                             </h3>
                             <div id="popularPosts" class="space-y-4">
                                 <!-- Loading -->
@@ -327,7 +328,7 @@ app.get('/', (c) => {
                         <div class="bg-white rounded-xl shadow-md p-6 mt-6">
                             <h3 class="text-xl font-bold mb-4 flex items-center">
                                 <i class="fas fa-folder text-blue-500 mr-2"></i>
-                                카테고리
+                                Categories
                             </h3>
                             <div id="categories" class="space-y-2">
                                 <!-- Loading -->
@@ -341,7 +342,7 @@ app.get('/', (c) => {
                         
                         <!-- Another AdSense Ad -->
                         <div class="adsense-placeholder h-64 mt-6">
-                            <span>Google AdSense<br>사이드바 광고 2<br>(300x250)</span>
+                            <span>Google AdSense<br>Sidebar Ad 2<br>(300x250)</span>
                         </div>
                     </div>
                 </div>
@@ -353,19 +354,19 @@ app.get('/', (c) => {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
-                        <h4 class="text-lg font-bold mb-4">수익형 블로그</h4>
-                        <p class="text-gray-400">금융, 투자, 재테크 전문 정보를 제공합니다.</p>
+                        <h4 class="text-lg font-bold mb-4">Wealth Hub</h4>
+                        <p class="text-gray-400">Expert guides on finance, investing, and wealth building.</p>
                     </div>
                     <div>
-                        <h4 class="text-lg font-bold mb-4">카테고리</h4>
+                        <h4 class="text-lg font-bold mb-4">Categories</h4>
                         <ul class="space-y-2 text-gray-400">
-                            <li><a href="#" class="hover:text-white transition">금융/투자</a></li>
-                            <li><a href="#" class="hover:text-white transition">암호화폐</a></li>
-                            <li><a href="#" class="hover:text-white transition">부동산</a></li>
+                            <li><a href="#" class="hover:text-white transition">Insurance</a></li>
+                            <li><a href="#" class="hover:text-white transition">Cryptocurrency</a></li>
+                            <li><a href="#" class="hover:text-white transition">Finance</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-lg font-bold mb-4">소셜 미디어</h4>
+                        <h4 class="text-lg font-bold mb-4">Follow Us</h4>
                         <div class="flex space-x-4">
                             <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook text-2xl"></i></a>
                             <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter text-2xl"></i></a>
@@ -374,14 +375,14 @@ app.get('/', (c) => {
                     </div>
                 </div>
                 <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-                    <p>&copy; 2025 수익형 블로그. All rights reserved.</p>
+                    <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
                 </div>
             </div>
         </footer>
         
         <!-- AdSense Anchor Ad Placeholder (Fixed Bottom) -->
         <div class="fixed bottom-0 left-0 right-0 z-40 adsense-placeholder h-16">
-            <span>Google AdSense 앵커 광고 (하단 고정)</span>
+            <span>Google AdSense Anchor Ad (Fixed Bottom)</span>
         </div>
 
         <!-- Axios -->
@@ -422,7 +423,7 @@ app.get('/', (c) => {
                                 <p class="text-gray-600 mb-4 line-clamp-2">\${post.excerpt}</p>
                                 <div class="flex items-center justify-between text-sm text-gray-500">
                                     <span><i class="fas fa-user mr-1"></i> \${post.author}</span>
-                                    <span><i class="fas fa-calendar mr-1"></i> \${new Date(post.created_at).toLocaleDateString('ko-KR')}</span>
+                                    <span><i class="fas fa-calendar mr-1"></i> \${new Date(post.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
                                 </div>
                             </div>
                         </article>
@@ -443,7 +444,7 @@ app.get('/', (c) => {
                                     <div class="flex items-center space-x-4 text-sm text-gray-500">
                                         <span><i class="fas fa-user mr-1"></i> \${featured.author}</span>
                                         <span><i class="fas fa-eye mr-1"></i> \${featured.views.toLocaleString()}</span>
-                                        <span><i class="fas fa-calendar mr-1"></i> \${new Date(featured.created_at).toLocaleDateString('ko-KR')}</span>
+                                        <span><i class="fas fa-calendar mr-1"></i> \${new Date(featured.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
                                     </div>
                                 </div>
                             </div>
@@ -585,7 +586,7 @@ app.get('/post/:slug', async (c) => {
     
     return c.html(`
       <!DOCTYPE html>
-      <html lang="ko">
+      <html lang="en">
       <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -606,11 +607,11 @@ app.get('/post/:slug', async (c) => {
           <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
           
           <!-- Google Fonts -->
-          <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
           
           <style>
               body {
-                  font-family: 'Noto Sans KR', sans-serif;
+                  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
               }
               .adsense-placeholder {
                   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -649,14 +650,14 @@ app.get('/post/:slug', async (c) => {
               <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                   <a href="/" class="flex items-center space-x-3 hover:opacity-80 transition">
                       <i class="fas fa-arrow-left text-purple-600"></i>
-                      <span class="text-lg font-medium">홈으로 돌아가기</span>
+                      <span class="text-lg font-medium">Back to Home</span>
                   </a>
               </div>
               
               <!-- AdSense Banner -->
               <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
                   <div class="adsense-placeholder h-24">
-                      <span>Google AdSense 배너 광고 (728x90)</span>
+                      <span>Google AdSense Banner Ad (728x90)</span>
                   </div>
               </div>
           </header>
@@ -685,7 +686,7 @@ app.get('/post/:slug', async (c) => {
                       
                       <!-- Share Buttons -->
                       <div class="flex items-center space-x-3 mb-8 pb-8 border-b">
-                          <span class="text-gray-600 font-medium">공유하기:</span>
+                          <span class="text-gray-600 font-medium">Share:</span>
                           <a href="#" class="text-blue-600 hover:text-blue-700"><i class="fab fa-facebook text-2xl"></i></a>
                           <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter text-2xl"></i></a>
                           <a href="#" class="text-green-600 hover:text-green-700"><i class="fab fa-whatsapp text-2xl"></i></a>
@@ -693,7 +694,7 @@ app.get('/post/:slug', async (c) => {
                       
                       <!-- AdSense In-Content Ad 1 -->
                       <div class="adsense-placeholder h-32 mb-8">
-                          <span>Google AdSense 본문 상단 광고 (반응형)</span>
+                          <span>Google AdSense In-Content Ad (Responsive)</span>
                       </div>
                       
                       <!-- Content -->
@@ -703,13 +704,13 @@ app.get('/post/:slug', async (c) => {
                       
                       <!-- AdSense In-Content Ad 2 -->
                       <div class="adsense-placeholder h-32 my-8">
-                          <span>Google AdSense 본문 중간 광고 (반응형)</span>
+                          <span>Google AdSense In-Content Ad (Responsive)</span>
                       </div>
                       
                       <!-- Tags -->
                       ${post.tags ? `
                       <div class="mt-8 pt-8 border-t">
-                          <h3 class="text-lg font-bold mb-4">태그</h3>
+                          <h3 class="text-lg font-bold mb-4">Tags</h3>
                           <div class="flex flex-wrap gap-2">
                               ${post.tags.split(',').map(tag => `
                                   <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
@@ -722,14 +723,14 @@ app.get('/post/:slug', async (c) => {
                       
                       <!-- AdSense In-Content Ad 3 -->
                       <div class="adsense-placeholder h-32 my-8">
-                          <span>Google AdSense 본문 하단 광고 (반응형)</span>
+                          <span>Google AdSense In-Content Ad (Responsive)</span>
                       </div>
                   </div>
               </article>
               
               <!-- Related Posts -->
               <div class="mt-12">
-                  <h2 class="text-2xl font-bold mb-6">관련 글</h2>
+                  <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
                   <div id="relatedPosts" class="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <!-- Will be loaded by JS -->
                   </div>
@@ -739,13 +740,13 @@ app.get('/post/:slug', async (c) => {
           <!-- Footer -->
           <footer class="bg-gray-800 text-white mt-16 py-8">
               <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                  <p>&copy; 2025 수익형 블로그. All rights reserved.</p>
+                  <p>&copy; 2025 Wealth Hub. All rights reserved.</p>
               </div>
           </footer>
           
           <!-- AdSense Anchor Ad -->
           <div class="fixed bottom-0 left-0 right-0 z-40 adsense-placeholder h-16">
-              <span>Google AdSense 앵커 광고 (하단 고정)</span>
+              <span>Google AdSense Anchor Ad (Fixed Bottom)</span>
           </div>
 
           <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
