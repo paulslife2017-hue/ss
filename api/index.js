@@ -1,13 +1,13 @@
-import { Hono } from 'hono';
-import { handle } from 'hono/vercel';
-import { createClient } from '@supabase/supabase-js';
+const { Hono } = require('hono');
+const { handle } = require('hono/vercel');
+const { createClient } = require('@supabase/supabase-js');
 
 const app = new Hono().basePath('/');
 
 // Supabase client initialization
 const getSupabase = () => {
   const supabaseUrl = process.env.SUPABASE_URL || 'https://wvofyxbwsmtmbfnlygsx.supabase.co';
-  const supabaseKey = process.env.SUPABASE_KEY || 'sb_publishable_-pnnplLethVKdhvo7-Zo4g_FN1HtgSm';
+  const supabaseKey = process.env.SUPABASE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind2b2Z5eGJ3c210bWJmbmx5Z3N4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIxODUwNDUsImV4cCI6MjA0Nzc2MTA0NX0.vR_dqhCHEqU7bGwJdHOtYZzE1I-vPPiXNXAa3xAkG7Q';
   return createClient(supabaseUrl, supabaseKey);
 };
 
@@ -46,7 +46,7 @@ app.get('/api/posts', async (c) => {
     });
   } catch (error) {
     console.error('Error fetching posts:', error);
-    return c.json({ error: 'Failed to fetch posts' }, 500);
+    return c.json({ error: 'Failed to fetch posts', details: error.message }, 500);
   }
 });
 
@@ -100,7 +100,7 @@ app.get('/api/categories', async (c) => {
     return c.json(data);
   } catch (error) {
     console.error('Error fetching categories:', error);
-    return c.json({ error: 'Failed to fetch categories' }, 500);
+    return c.json({ error: 'Failed to fetch categories', details: error.message }, 500);
   }
 });
 
@@ -174,6 +174,10 @@ app.get('/', (c) => {
             <div id="posts-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
             <div id="loading" class="text-center py-8">
                 <i class="fas fa-spinner fa-spin text-4xl text-blue-600"></i>
+                <p class="mt-4 text-gray-600">Loading amazing content...</p>
+            </div>
+            <div id="error" class="hidden text-center py-8">
+                <p class="text-red-600 text-lg">Failed to load content. Please refresh the page.</p>
             </div>
         </div>
 
@@ -218,7 +222,9 @@ app.get('/', (c) => {
         <script>
             async function loadCategories() {
                 try {
+                    console.log('Fetching categories...');
                     const response = await axios.get('/api/categories');
+                    console.log('Categories response:', response.data);
                     const categories = response.data;
                     const container = document.getElementById('categories');
                     
@@ -228,29 +234,39 @@ app.get('/', (c) => {
                         ).join('');
                 } catch (error) {
                     console.error('Error loading categories:', error);
+                    document.getElementById('error').classList.remove('hidden');
                 }
             }
 
             async function loadPosts(category = null) {
                 try {
+                    console.log('Fetching posts...');
                     document.getElementById('loading').style.display = 'block';
                     document.getElementById('posts-grid').innerHTML = '';
+                    document.getElementById('error').classList.add('hidden');
                     
                     const url = category ? \`/api/posts?category=\${category}&limit=12\` : '/api/posts?limit=12';
+                    console.log('Fetching from:', url);
                     const response = await axios.get(url);
+                    console.log('Posts response:', response.data);
                     const posts = response.data.posts;
+                    
+                    if (!posts || posts.length === 0) {
+                        document.getElementById('loading').innerHTML = '<p class="text-gray-600">No posts found</p>';
+                        return;
+                    }
                     
                     const grid = document.getElementById('posts-grid');
                     grid.innerHTML = posts.map(post => \`
                         <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-                            <img src="\${post.featured_image}" alt="\${post.title}" class="w-full h-48 object-cover">
+                            <img src="\${post.featured_image}" alt="\${post.title}" class="w-full h-48 object-cover" onerror="this.src='https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200'">
                             <div class="p-6">
                                 <span class="text-sm text-blue-600 font-semibold">\${post.category}</span>
                                 <h3 class="text-xl font-bold mt-2 mb-3">\${post.title}</h3>
                                 <p class="text-gray-600 mb-4">\${post.excerpt}</p>
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm text-gray-500">
-                                        <i class="fas fa-eye mr-1"></i>\${post.views.toLocaleString()} views
+                                        <i class="fas fa-eye mr-1"></i>\${post.views ? post.views.toLocaleString() : '0'} views
                                     </span>
                                     <a href="/post/\${post.slug}" class="text-blue-600 hover:text-blue-800 font-semibold">
                                         Read More <i class="fas fa-arrow-right ml-1"></i>
@@ -263,10 +279,12 @@ app.get('/', (c) => {
                     document.getElementById('loading').style.display = 'none';
                 } catch (error) {
                     console.error('Error loading posts:', error);
-                    document.getElementById('loading').innerHTML = '<p class="text-red-600">Failed to load posts</p>';
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('error').classList.remove('hidden');
                 }
             }
 
+            console.log('Initializing...');
             loadCategories();
             loadPosts();
         </script>
@@ -382,4 +400,4 @@ app.get('/terms', (c) => {
   `);
 });
 
-export default handle(app);
+module.exports = handle(app);
