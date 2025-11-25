@@ -8,7 +8,14 @@
 
 **🔗 Development URL**: https://8080-itgwlk06w8elo2htf5vz2-5185f4aa.sandbox.novita.ai
 
-⚠️ **Ready to Deploy?** See [DEPLOYMENT.md](./DEPLOYMENT.md) for easy deployment to Render.com, Railway.app, Vercel, or Cloudflare Pages!
+## 🚀 One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/paulslife2017-hue/ss)
+
+Or use this direct deploy link:
+https://api.vercel.com/v1/integrations/deploy/prj_0BEcotK4C5qSlsO5Sj7XYGgVDk2L/sLrH1fWxmN
+
+⚠️ **More Deploy Options?** See [DEPLOYMENT.md](./DEPLOYMENT.md) for Railway.app, Render.com, and Cloudflare Pages!
 
 ## ✅ AdSense 승인 체크리스트
 
