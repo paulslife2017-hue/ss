@@ -218,7 +218,9 @@ app.get('/post/:slug', (c) => {
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Post Not Found</title>
-          <script src="https://cdn.tailwindcss.com"></script>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
       </head>
       <body class="bg-gray-50">
           <div class="max-w-4xl mx-auto px-4 py-12">
@@ -242,6 +244,8 @@ app.get('/post/:slug', (c) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>${post.title}</title>
         <meta name="description" content="${post.excerpt}">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
         <style>
@@ -357,6 +361,8 @@ app.get('/', (c) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>High-Revenue Blog - Insurance, Finance, Crypto & More</title>
         <meta name="description" content="Expert guides on insurance, finance, cryptocurrency, legal services, and web hosting. Maximize your knowledge and savings with our comprehensive reviews.">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
         <style>
@@ -518,6 +524,8 @@ app.get('/about', (c) => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Us - Expert Reviews & Guides</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
@@ -543,6 +551,8 @@ app.get('/contact', (c) => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact Us - Expert Reviews</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
@@ -569,6 +579,8 @@ app.get('/privacy', (c) => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Privacy Policy - Expert Reviews</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
@@ -599,6 +611,8 @@ app.get('/terms', (c) => {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Terms of Service - Expert Reviews</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+             crossorigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
