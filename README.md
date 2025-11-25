@@ -6,7 +6,9 @@
 
 ## 🌐 Live Demo
 
-**🔗 URL**: https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai
+**🔗 Development URL**: https://8080-itgwlk06w8elo2htf5vz2-5185f4aa.sandbox.novita.ai
+
+⚠️ **Ready to Deploy?** See [DEPLOYMENT.md](./DEPLOYMENT.md) for easy deployment to Render.com, Railway.app, Vercel, or Cloudflare Pages!
 
 ## ✅ AdSense 승인 체크리스트
 
