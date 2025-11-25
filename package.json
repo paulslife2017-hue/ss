@@ -18,9 +18,11 @@
     "test": "curl http://localhost:3000"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.84.0",
     "hono": "^4.10.6"
   },
   "devDependencies": {
+    "@hono/node-server": "^1.19.6",
     "@hono/vite-build": "^1.2.0",
     "@hono/vite-dev-server": "^0.18.2",
     "vercel": "^48.10.11",
