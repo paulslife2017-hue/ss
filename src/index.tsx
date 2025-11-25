@@ -472,10 +472,14 @@ app.get('/', (c) => {
                     const grid = document.getElementById('posts-grid');
                     grid.innerHTML = posts.map(post => \`
                         <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
-                            <img src="\${post.featured_image}" alt="\${post.title}" class="w-full h-48 object-cover">
+                            <a href="/post/\${post.slug}">
+                                <img src="\${post.featured_image}" alt="\${post.title}" class="w-full h-48 object-cover">
+                            </a>
                             <div class="p-6">
                                 <span class="text-sm text-blue-600 font-semibold">\${post.category}</span>
-                                <h3 class="text-xl font-bold mt-2 mb-3">\${post.title}</h3>
+                                <h3 class="text-xl font-bold mt-2 mb-3">
+                                    <a href="/post/\${post.slug}" class="hover:text-blue-600">\${post.title}</a>
+                                </h3>
                                 <p class="text-gray-600 mb-4">\${post.excerpt}</p>
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm text-gray-500">

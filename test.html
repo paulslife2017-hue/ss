@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Test</title>
+</head>
+<body>
+    <h1>Testing Links</h1>
+    <div id="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+    <script>
+        async function test() {
+            const response = await axios.get('http://localhost:8080/api/posts?limit=3');
+            const posts = response.data.posts;
+            const div = document.getElementById('content');
+            div.innerHTML = posts.map(post => `
+                <div style="border: 1px solid #ccc; margin: 10px; padding: 10px;">
+                    <h2><a href="/post/${post.slug}">${post.title}</a></h2>
+                    <p>${post.excerpt}</p>
+                    <a href="/post/${post.slug}">Read More</a>
+                </div>
+            `).join('');
+        }
+        test();
+    </script>
+</body>
+</html>
