@@ -1,10 +1,7 @@
 import { Hono } from 'hono'
-import { cors } from 'hono/cors'
+import { serve } from '@hono/node-server'
 
 const app = new Hono()
-
-// Enable CORS
-app.use('/api/*', cors())
 
 // Mock Data - Categories
 const categories = [
@@ -22,10 +19,10 @@ const posts = [
     id: 1,
     title: 'Best Car Insurance Companies 2025: Complete Comparison Guide',
     slug: 'best-car-insurance-companies-2025-guide',
-    content: '<h2>Finding the Right Car Insurance</h2><p>Choosing the right car insurance can save you thousands of dollars annually while providing comprehensive coverage. This guide compares the top insurance providers in 2025.</p><h3>1. State Farm - Best Overall Coverage</h3><p>State Farm offers competitive rates with exceptional customer service. Average annual premium: $1,200-1,800. Excellent claim processing with 98% satisfaction rate.</p><h3>2. Geico - Best for Budget-Conscious Drivers</h3><p>Geico provides affordable premiums starting at $900/year. Perfect for drivers with clean records looking to minimize costs without sacrificing essential coverage.</p>',
-    excerpt: 'Discover the best car insurance companies in 2025. Compare rates, coverage options, and save up to 40% on premiums with our comprehensive guide.',
+    content: '<h2>Finding the Right Car Insurance</h2><p>Choosing the right car insurance can save you thousands of dollars annually while providing comprehensive coverage.</p>',
+    excerpt: 'Discover the best car insurance companies in 2025. Compare rates, coverage options, and save up to 40% on premiums.',
     category: 'Insurance',
-    tags: 'car insurance,auto insurance,insurance comparison,best insurance,cheap car insurance',
+    tags: 'car insurance,auto insurance,insurance comparison',
     featured_image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200',
     views: 15420,
     published: true,
@@ -35,10 +32,10 @@ const posts = [
     id: 2,
     title: 'Cryptocurrency Investment Guide 2025: Bitcoin, Ethereum & Altcoins',
     slug: 'cryptocurrency-investment-guide-2025',
-    content: '<h2>The Complete Crypto Investment Strategy</h2><p>Cryptocurrency has evolved from speculative asset to mainstream investment. This comprehensive guide covers everything from Bitcoin basics to advanced trading strategies.</p><h3>1. Bitcoin - Digital Gold Standard</h3><p>Bitcoin remains the most stable cryptocurrency with $1.2 trillion market cap. Long-term holding (HODL) strategy has proven successful with 200%+ annual returns historically.</p>',
-    excerpt: 'Master cryptocurrency investment in 2025. Learn Bitcoin, Ethereum, and altcoin strategies. Comprehensive guide to building a profitable crypto portfolio.',
+    content: '<h2>The Complete Crypto Investment Strategy</h2><p>Comprehensive guide to cryptocurrency investment.</p>',
+    excerpt: 'Master cryptocurrency investment in 2025. Learn Bitcoin, Ethereum, and altcoin strategies.',
     category: 'Cryptocurrency',
-    tags: 'cryptocurrency,bitcoin,ethereum,crypto investment,blockchain,altcoins',
+    tags: 'cryptocurrency,bitcoin,ethereum,crypto investment',
     featured_image: 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200',
     views: 28350,
     published: true,
@@ -48,10 +45,10 @@ const posts = [
     id: 3,
     title: 'Best VPN Services 2025: Privacy, Security & Speed Comparison',
     slug: 'best-vpn-services-2025-comparison',
-    content: '<h2>Choosing the Right VPN Service</h2><p>Online privacy is more critical than ever. This guide compares the top VPN services for security, speed, and value in 2025.</p><h3>1. NordVPN - Best Overall VPN</h3><p>NordVPN leads with military-grade encryption, 5,500+ servers in 60 countries, and blazing speeds.</p>',
-    excerpt: 'Find the best VPN service for 2025. Compare NordVPN, ExpressVPN, Surfshark, and more. Expert reviews, speed tests, and privacy comparisons.',
+    content: '<h2>Choosing the Right VPN Service</h2><p>Compare top VPN services for security and speed.</p>',
+    excerpt: 'Find the best VPN service for 2025. Compare NordVPN, ExpressVPN, Surfshark, and more.',
     category: 'VPN',
-    tags: 'vpn,best vpn,vpn service,online privacy,cybersecurity,vpn comparison',
+    tags: 'vpn,best vpn,vpn service,online privacy',
     featured_image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200',
     views: 19870,
     published: true,
@@ -61,10 +58,10 @@ const posts = [
     id: 4,
     title: 'Personal Injury Lawyer Guide 2025: How to Win Your Case',
     slug: 'personal-injury-lawyer-guide-2025',
-    content: '<h2>Understanding Personal Injury Claims</h2><p>Personal injury cases can result in substantial compensation when handled correctly. This guide explains everything you need to know about hiring a lawyer and winning your case.</p>',
-    excerpt: 'Complete guide to personal injury lawyers and claims. Learn how to choose an attorney, maximize settlements, and win your case.',
+    content: '<h2>Understanding Personal Injury Claims</h2><p>Everything you need to know about personal injury lawyers.</p>',
+    excerpt: 'Complete guide to personal injury lawyers and claims. Learn how to choose an attorney.',
     category: 'Legal',
-    tags: 'personal injury lawyer,attorney,legal advice,injury claim,lawsuit,compensation',
+    tags: 'personal injury lawyer,attorney,legal advice',
     featured_image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200',
     views: 12450,
     published: true,
@@ -72,12 +69,12 @@ const posts = [
   },
   {
     id: 5,
-    title: 'Best Web Hosting 2025: Complete Guide for Beginners & Businesses',
+    title: 'Best Web Hosting 2025: Complete Guide',
     slug: 'best-web-hosting-2025-guide',
-    content: '<h2>Choosing the Perfect Web Hosting Service</h2><p>Web hosting is the foundation of your online presence. This comprehensive guide compares the best hosting providers for speed, reliability, and value in 2025.</p>',
-    excerpt: 'Find the best web hosting service for 2025. Compare Bluehost, SiteGround, HostGator, and more. Expert reviews, speed tests, and pricing comparison.',
+    content: '<h2>Choosing the Perfect Web Hosting Service</h2><p>Compare the best hosting providers.</p>',
+    excerpt: 'Find the best web hosting service for 2025. Compare Bluehost, SiteGround, HostGator.',
     category: 'Web Hosting',
-    tags: 'web hosting,best hosting,wordpress hosting,hosting comparison,cheap hosting',
+    tags: 'web hosting,best hosting,wordpress hosting',
     featured_image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200',
     views: 22100,
     published: true,
@@ -85,12 +82,12 @@ const posts = [
   },
   {
     id: 6,
-    title: 'How to Invest in Real Estate 2025: Complete Beginner Guide',
+    title: 'Real Estate Investing 2025: Complete Beginner Guide',
     slug: 'how-to-invest-real-estate-2025-guide',
-    content: '<h2>Real Estate Investment Strategies</h2><p>Real estate remains one of the most reliable wealth-building strategies. This guide covers proven methods to start investing with any budget level.</p>',
-    excerpt: 'Learn how to invest in real estate in 2025. Proven strategies for beginners including rental properties, REITs, house flipping, and Airbnb arbitrage.',
+    content: '<h2>Real Estate Investment Strategies</h2><p>Proven methods to start investing.</p>',
+    excerpt: 'Learn how to invest in real estate in 2025. Rental properties, REITs, and more.',
     category: 'Finance',
-    tags: 'real estate,real estate investing,property investment,rental property,REITs',
+    tags: 'real estate,real estate investing,property investment',
     featured_image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200',
     views: 31200,
     published: true,
@@ -98,12 +95,12 @@ const posts = [
   },
   {
     id: 7,
-    title: 'Life Insurance Guide 2025: Term vs Whole Life Explained',
+    title: 'Life Insurance Guide 2025: Term vs Whole Life',
     slug: 'life-insurance-guide-2025',
-    content: '<h2>Understanding Life Insurance</h2><p>Life insurance protects your family financially. Term life offers affordable coverage for specific periods. Whole life provides lifetime protection with cash value accumulation.</p>',
-    excerpt: 'Compare term vs whole life insurance. Find the best rates and coverage for your family in 2025.',
+    content: '<h2>Understanding Life Insurance</h2><p>Compare term vs whole life insurance.</p>',
+    excerpt: 'Compare term vs whole life insurance. Find the best rates for your family.',
     category: 'Insurance',
-    tags: 'life insurance,term life,whole life,insurance quotes',
+    tags: 'life insurance,term life,whole life',
     featured_image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200',
     views: 8900,
     published: true,
@@ -111,10 +108,10 @@ const posts = [
   },
   {
     id: 8,
-    title: 'Business Loan Guide 2025: SBA Loans vs Traditional Banks',
+    title: 'Business Loan Guide 2025',
     slug: 'business-loan-guide-2025',
-    content: '<h2>Financing Your Business</h2><p>Business loans fuel growth. SBA loans offer favorable terms with government backing. Traditional banks provide fast approval.</p>',
-    excerpt: 'Compare business loan options. SBA loans vs traditional banks. Find the best financing for your business.',
+    content: '<h2>Financing Your Business</h2><p>SBA loans vs traditional banks.</p>',
+    excerpt: 'Compare business loan options. SBA loans vs traditional banks.',
     category: 'Finance',
     tags: 'business loans,SBA loans,small business financing',
     featured_image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200',
@@ -124,12 +121,12 @@ const posts = [
   },
   {
     id: 9,
-    title: 'Bitcoin ETF Guide 2025: How to Invest Safely',
+    title: 'Bitcoin ETF Guide 2025',
     slug: 'bitcoin-etf-guide-2025',
-    content: '<h2>Bitcoin ETF Investing</h2><p>Bitcoin ETFs provide regulated crypto exposure. No wallet required. Trade like stocks. Top ETFs: BlackRock iShares, Fidelity, Grayscale.</p>',
-    excerpt: 'Complete Bitcoin ETF guide. Learn how to invest in cryptocurrency through regulated funds.',
+    content: '<h2>Bitcoin ETF Investing</h2><p>Invest safely in crypto through regulated funds.</p>',
+    excerpt: 'Complete Bitcoin ETF guide. Invest in cryptocurrency through regulated funds.',
     category: 'Cryptocurrency',
-    tags: 'bitcoin ETF,crypto investing,bitcoin,cryptocurrency',
+    tags: 'bitcoin ETF,crypto investing,bitcoin',
     featured_image: 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200',
     views: 18700,
     published: true,
@@ -137,12 +134,12 @@ const posts = [
   },
   {
     id: 10,
-    title: 'Divorce Lawyer Cost 2025: What to Expect',
+    title: 'Divorce Lawyer Cost 2025',
     slug: 'divorce-lawyer-cost-2025',
-    content: '<h2>Divorce Legal Costs</h2><p>Average divorce lawyer costs $200-500/hour. Uncontested divorce: $1,000-5,000. Contested: $15,000-30,000+.</p>',
-    excerpt: 'Complete divorce lawyer cost guide. Understand fees, processes, and how to save money.',
+    content: '<h2>Divorce Legal Costs</h2><p>Understand lawyer fees and save money.</p>',
+    excerpt: 'Complete divorce lawyer cost guide. Understand fees and processes.',
     category: 'Legal',
-    tags: 'divorce lawyer,divorce cost,family law,legal fees',
+    tags: 'divorce lawyer,divorce cost,family law',
     featured_image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200',
     views: 9800,
     published: true,
@@ -151,58 +148,62 @@ const posts = [
 ]
 
 // API Routes
-
-// Get all posts (paginated)
-app.get('/api/posts', async (c) => {
+app.get('/api/posts', (c) => {
   const page = parseInt(c.req.query('page') || '1')
   const limit = parseInt(c.req.query('limit') || '10')
   const category = c.req.query('category')
   const offset = (page - 1) * limit
 
-  try {
-    let filteredPosts = posts.filter(p => p.published)
-    
-    if (category) {
-      filteredPosts = filteredPosts.filter(p => p.category === category)
-    }
-
-    const total = filteredPosts.length
-    const paginatedPosts = filteredPosts.slice(offset, offset + limit)
-
-    return c.json({
-      posts: paginatedPosts,
-      pagination: {
-        page,
-        limit,
-        total,
-        totalPages: Math.ceil(total / limit)
-      }
-    })
-  } catch (error) {
-    console.error('Error fetching posts:', error)
-    return c.json({ error: 'Failed to fetch posts' }, 500)
+  let filteredPosts = posts.filter(p => p.published)
+  
+  if (category) {
+    filteredPosts = filteredPosts.filter(p => p.category === category)
   }
+
+  const total = filteredPosts.length
+  const paginatedPosts = filteredPosts.slice(offset, offset + limit)
+
+  return c.json({
+    posts: paginatedPosts,
+    pagination: {
+      page,
+      limit,
+      total,
+      totalPages: Math.ceil(total / limit)
+    }
+  })
 })
 
-// Get single post by slug
-app.get('/api/posts/:slug', async (c) => {
+app.get('/api/categories', (c) => {
+  const sortedCategories = [...categories].sort((a, b) => a.name.localeCompare(b.name))
+  return c.json(sortedCategories)
+})
+
+app.get('/api/posts/popular/top', (c) => {
+  const limit = parseInt(c.req.query('limit') || '5')
+  const popularPosts = posts
+    .filter(p => p.published)
+    .sort((a, b) => b.views - a.views)
+    .slice(0, limit)
+    .map(p => ({
+      id: p.id,
+      title: p.title,
+      slug: p.slug,
+      excerpt: p.excerpt,
+      views: p.views,
+      category: p.category
+    }))
+  return c.json(popularPosts)
+})
+
+app.get('/api/posts/:slug', (c) => {
   const slug = c.req.param('slug')
-
-  try {
-    const post = posts.find(p => p.slug === slug && p.published)
-
-    if (!post) {
-      return c.json({ error: 'Post not found' }, 404)
-    }
-
-    // Increment view count (in-memory)
-    post.views += 1
-
-    return c.json(post)
-  } catch (error) {
-    console.error('Error fetching post:', error)
-    return c.json({ error: 'Failed to fetch post' }, 500)
+  const post = posts.find(p => p.slug === slug && p.published)
+  if (!post) {
+    return c.json({ error: 'Post not found' }, 404)
   }
+  post.views += 1
+  return c.json(post)
 })
 
 // Individual post page
@@ -250,6 +251,7 @@ app.get('/post/:slug', (c) => {
         </style>
     </head>
     <body class="bg-gray-50">
+        <!-- Header -->
         <header class="bg-white shadow-sm border-b sticky top-0 z-50">
             <div class="max-w-7xl mx-auto px-4 py-4">
                 <div class="flex justify-between items-center">
@@ -266,9 +268,12 @@ app.get('/post/:slug', (c) => {
             </div>
         </header>
 
+        <!-- Article -->
         <article class="max-w-4xl mx-auto px-4 py-12">
+            <!-- Featured Image -->
             <img src="${post.featured_image}" alt="${post.title}" class="w-full h-96 object-cover rounded-lg shadow-lg mb-8">
             
+            <!-- Article Header -->
             <div class="mb-8">
                 <span class="inline-block px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
                     ${post.category}
@@ -280,10 +285,12 @@ app.get('/post/:slug', (c) => {
                 </div>
             </div>
 
+            <!-- Article Content -->
             <div class="prose prose-lg max-w-none bg-white rounded-lg shadow-md p-8 mb-8">
                 ${post.content}
             </div>
 
+            <!-- Tags -->
             <div class="mb-8">
                 <h3 class="text-lg font-semibold mb-3">Tags:</h3>
                 <div class="flex flex-wrap gap-2">
@@ -293,6 +300,7 @@ app.get('/post/:slug', (c) => {
                 </div>
             </div>
 
+            <!-- Back to Home -->
             <div class="mt-12">
                 <a href="/" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold">
                     <i class="fas fa-arrow-left mr-2"></i>
@@ -300,108 +308,6 @@ app.get('/post/:slug', (c) => {
                 </a>
             </div>
         </article>
-
-        <footer class="bg-gray-900 text-white py-12 mt-12">
-            <div class="max-w-7xl mx-auto px-4 text-center text-gray-400">
-                <p>&copy; 2025 Expert Reviews. All rights reserved.</p>
-            </div>
-        </footer>
-    </body>
-    </html>
-  `)
-})
-
-// Get categories
-app.get('/api/categories', async (c) => {
-  try {
-    const sortedCategories = [...categories].sort((a, b) => a.name.localeCompare(b.name))
-    return c.json(sortedCategories)
-  } catch (error) {
-    console.error('Error fetching categories:', error)
-    return c.json({ error: 'Failed to fetch categories' }, 500)
-  }
-})
-
-// Get popular posts
-app.get('/api/posts/popular/top', async (c) => {
-  const limit = parseInt(c.req.query('limit') || '5')
-
-  try {
-    const popularPosts = posts
-      .filter(p => p.published)
-      .sort((a, b) => b.views - a.views)
-      .slice(0, limit)
-      .map(p => ({
-        id: p.id,
-        title: p.title,
-        slug: p.slug,
-        excerpt: p.excerpt,
-        views: p.views,
-        category: p.category
-      }))
-
-    return c.json(popularPosts)
-  } catch (error) {
-    console.error('Error fetching popular posts:', error)
-    return c.json({ error: 'Failed to fetch popular posts' }, 500)
-  }
-})
-
-// Default route - Blog Homepage
-app.get('/', (c) => {
-  return c.html(`
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>High-Revenue Blog - Insurance, Finance, Crypto & More</title>
-        <meta name="description" content="Expert guides on insurance, finance, cryptocurrency, legal services, and web hosting. Maximize your knowledge and savings with our comprehensive reviews.">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-            body { font-family: 'Inter', sans-serif; }
-        </style>
-    </head>
-    <body class="bg-gray-50">
-        <!-- Header -->
-        <header class="bg-white shadow-sm border-b sticky top-0 z-50">
-            <div class="max-w-7xl mx-auto px-4 py-4">
-                <div class="flex justify-between items-center">
-                    <h1 class="text-2xl font-bold text-gray-900">
-                        <i class="fas fa-newspaper text-blue-600 mr-2"></i>
-                        Expert Reviews
-                    </h1>
-                    <nav class="hidden md:flex space-x-6">
-                        <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
-                        <a href="/about" class="text-gray-600 hover:text-blue-600">About</a>
-                        <a href="/contact" class="text-gray-600 hover:text-blue-600">Contact</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
-        <!-- Hero Section -->
-        <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12">
-            <div class="max-w-7xl mx-auto px-4 text-center">
-                <h2 class="text-4xl font-bold mb-4">Expert Guides & Reviews</h2>
-                <p class="text-xl opacity-90">Insurance, Finance, Crypto, Legal, Hosting & VPN</p>
-            </div>
-        </div>
-
-        <!-- Categories -->
-        <div class="max-w-7xl mx-auto px-4 py-8">
-            <div id="categories" class="flex flex-wrap gap-3 mb-8"></div>
-        </div>
-
-        <!-- Posts Grid -->
-        <div class="max-w-7xl mx-auto px-4 pb-12">
-            <div id="posts-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-            <div id="loading" class="text-center py-8">
-                <i class="fas fa-spinner fa-spin text-4xl text-blue-600"></i>
-            </div>
-        </div>
 
         <!-- Footer -->
         <footer class="bg-gray-900 text-white py-12 mt-12">
@@ -414,24 +320,24 @@ app.get('/', (c) => {
                     <div>
                         <h4 class="font-semibold mb-4">Categories</h4>
                         <ul class="space-y-2 text-gray-400">
-                            <li><a href="/?category=Insurance">Insurance</a></li>
-                            <li><a href="/?category=Finance">Finance</a></li>
-                            <li><a href="/?category=Cryptocurrency">Cryptocurrency</a></li>
+                            <li><a href="/?category=Insurance" class="hover:text-white">Insurance</a></li>
+                            <li><a href="/?category=Finance" class="hover:text-white">Finance</a></li>
+                            <li><a href="/?category=Cryptocurrency" class="hover:text-white">Cryptocurrency</a></li>
                         </ul>
                     </div>
                     <div>
                         <h4 class="font-semibold mb-4">Company</h4>
                         <ul class="space-y-2 text-gray-400">
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/about" class="hover:text-white">About Us</a></li>
+                            <li><a href="/contact" class="hover:text-white">Contact</a></li>
+                            <li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div>
                         <h4 class="font-semibold mb-4">Legal</h4>
                         <ul class="space-y-2 text-gray-400">
-                            <li><a href="/terms">Terms of Service</a></li>
-                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/terms" class="hover:text-white">Terms of Service</a></li>
+                            <li><a href="/privacy" class="hover:text-white">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -440,26 +346,70 @@ app.get('/', (c) => {
                 </div>
             </div>
         </footer>
+    </body>
+    </html>
+  `)
+})
+
+// Homepage
+app.get('/', (c) => {
+  return c.html(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>High-Revenue Blog - Insurance, Finance, Crypto & More</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-50">
+        <header class="bg-white shadow-sm border-b sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-bold text-gray-900">
+                        <i class="fas fa-newspaper text-blue-600 mr-2"></i>
+                        Expert Reviews
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-4">Expert Guides & Reviews</h2>
+                <p class="text-xl opacity-90">Insurance, Finance, Crypto, Legal, Hosting & VPN</p>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 py-8">
+            <div id="categories" class="flex flex-wrap gap-3 mb-8"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 pb-12">
+            <div id="posts-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+            <div id="loading" class="text-center py-8">
+                <i class="fas fa-spinner fa-spin text-4xl text-blue-600"></i>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
         <script>
-            // Fetch and display categories
             async function loadCategories() {
                 try {
                     const response = await axios.get('/api/categories');
                     const categories = response.data;
                     const container = document.getElementById('categories');
                     
-                    container.innerHTML = '<button onclick="loadPosts()" class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">All</button>' +
+                    container.innerHTML = '<button onclick="loadPosts()" class="px-4 py-2 bg-blue-600 text-white rounded-full">All</button>' +
                         categories.map(cat => 
-                            \`<button onclick="loadPosts('\${cat.name}')" class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 border">\${cat.name}</button>\`
+                            \`<button onclick="loadPosts('\${cat.name}')" class="px-4 py-2 bg-white text-gray-700 rounded-full border">\${cat.name}</button>\`
                         ).join('');
                 } catch (error) {
                     console.error('Error loading categories:', error);
                 }
             }
 
-            // Fetch and display posts
             async function loadPosts(category = null) {
                 try {
                     document.getElementById('loading').style.display = 'block';
@@ -481,9 +431,6 @@ app.get('/', (c) => {
                                     <span class="text-sm text-gray-500">
                                         <i class="fas fa-eye mr-1"></i>\${post.views.toLocaleString()} views
                                     </span>
-                                    <a href="/post/\${post.slug}" class="text-blue-600 hover:text-blue-800 font-semibold">
-                                        Read More <i class="fas fa-arrow-right ml-1"></i>
-                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -492,11 +439,10 @@ app.get('/', (c) => {
                     document.getElementById('loading').style.display = 'none';
                 } catch (error) {
                     console.error('Error loading posts:', error);
-                    document.getElementById('loading').innerHTML = '<p class="text-red-600">Failed to load posts</p>';
+                    document.getElementById('loading').innerHTML = '<p class="text-red-600">Failed to load content. Please refresh the page.</p>';
                 }
             }
 
-            // Initialize
             loadCategories();
             loadPosts();
         </script>
@@ -517,6 +463,11 @@ app.get('/about', (c) => {
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <a href="/" class="text-2xl font-bold text-gray-900 hover:text-blue-600">Expert Reviews</a>
+            </div>
+        </header>
         <div class="max-w-4xl mx-auto px-4 py-12">
             <h1 class="text-4xl font-bold mb-6">About Us</h1>
             <div class="bg-white rounded-lg shadow-md p-8 prose max-w-none">
@@ -542,6 +493,11 @@ app.get('/contact', (c) => {
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <a href="/" class="text-2xl font-bold text-gray-900 hover:text-blue-600">Expert Reviews</a>
+            </div>
+        </header>
         <div class="max-w-4xl mx-auto px-4 py-12">
             <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
             <div class="bg-white rounded-lg shadow-md p-8">
@@ -568,6 +524,11 @@ app.get('/privacy', (c) => {
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <a href="/" class="text-2xl font-bold text-gray-900 hover:text-blue-600">Expert Reviews</a>
+            </div>
+        </header>
         <div class="max-w-4xl mx-auto px-4 py-12">
             <h1 class="text-4xl font-bold mb-6">Privacy Policy</h1>
             <div class="bg-white rounded-lg shadow-md p-8 prose max-w-none">
@@ -598,6 +559,11 @@ app.get('/terms', (c) => {
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-gray-50">
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 py-4">
+                <a href="/" class="text-2xl font-bold text-gray-900 hover:text-blue-600">Expert Reviews</a>
+            </div>
+        </header>
         <div class="max-w-4xl mx-auto px-4 py-12">
             <h1 class="text-4xl font-bold mb-6">Terms of Service</h1>
             <div class="bg-white rounded-lg shadow-md p-8 prose max-w-none">
@@ -616,4 +582,10 @@ app.get('/terms', (c) => {
   `)
 })
 
-export default app
+const port = 8080
+console.log(`Server is running on http://localhost:${port}`)
+
+serve({
+  fetch: app.fetch,
+  port
+})
