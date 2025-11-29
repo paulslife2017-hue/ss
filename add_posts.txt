@@ -1,0 +1,9 @@
+// Add these entries before ]; in posts array (line 1962):
+
+  require('./article_9_head_spa_gangnam.js'),
+  require('./article_10_bb_glow.js'),
+  require('./article_11_eyebrow_tattoo.js'),
+  require('./article_12_anti_aging.js'),
+  require('./article_13_skincare_routine.js'),
+  require('./article_14_couple_spa.js'),
+  require('./article_15_foot_massage.js')
