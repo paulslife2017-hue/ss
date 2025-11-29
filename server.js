@@ -2057,6 +2057,14 @@ Allow: /`;
   return c.body(robots);
 });
 
+// ads.txt - Required for Google AdSense
+app.get('/ads.txt', (c) => {
+  const adsTxt = `google.com, pub-6943282483618134, DIRECT, f08c47fec0942fa0`;
+  
+  c.header('Content-Type', 'text/plain');
+  return c.body(adsTxt);
+});
+
 // ==========================================
 // HTML GENERATORS
 // ==========================================
@@ -2915,6 +2923,7 @@ console.log(`
 💰 Google AdSense fully integrated (ca-pub-6943282483618134)
 🗺️  Sitemap.xml: /sitemap.xml
 🤖 Robots.txt: /robots.txt
+📢 Ads.txt: /ads.txt (AdSense verification)
 📱 Mobile responsive & SEO optimized
 
 🎯 Progress: 33% complete (5/15 articles for AdSense)
