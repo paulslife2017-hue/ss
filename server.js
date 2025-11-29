@@ -1447,7 +1447,7 @@ const posts = [
             <li><strong>Additional Services:</strong> Scrubbing (₩20K-₩35K), massage (₩40K-₩80K)</li>
             <li><strong>Age:</strong> All ages welcome (family-friendly)</li>
             <li><strong>Duration:</strong> 2 hours minimum, stay overnight possible</li>
-            <li><strong>Best Booking:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul.co.kr</a> for premium jjimjilbangs</li>
+            <li><strong>Note:</strong> Walk-ins accepted at most locations</li>
           </ul>
         </div>
 
@@ -1558,7 +1558,7 @@ const posts = [
           <li>Oxygen room, ice room, jade room, charcoal room</li>
         </ul>
         <p><strong>Best For:</strong> First-timers, families, English-speakers, overnight stays<br>
-        <strong>Booking:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Reserve scrubbing service in advance</a></p>
+        <strong>Tip:</strong> Visit during weekdays for less crowds</p>
 
         <h3>2. Siloam Spa - Seoul Station (Most Convenient)</h3>
         <p><strong>Price:</strong> ₩14,000 (adults, 12hr) | ₩4,000 extra 12-24hr<br>
@@ -1590,7 +1590,7 @@ const posts = [
           <li>Stricter quiet hours enforcement</li>
         </ul>
         <p><strong>Best For:</strong> Couples, quality over price, quieter experience<br>
-        <strong>Booking:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Advance booking recommended on weekends</a></p>
+        <strong>Tip:</strong> Advance booking recommended on weekends</p>
 
         <h3>4. Yeongdeungpo Hangang Jjimjilbang (Budget-Friendly)</h3>
         <p><strong>Price:</strong> ₩10,000 (adults, 24hr)<br>
@@ -1622,12 +1622,11 @@ const posts = [
           <li>Great for nervous first-timers</li>
         </ul>
         <p><strong>Best For:</strong> International visitors, English speakers, small groups<br>
-        <strong>Booking:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book scrubbing service online</a></p>
+        <strong>Tip:</strong> Ask about scrubbing services at front desk</p>
 
-        <div class="cta-box">
-          <h3>Book Premium Jjimjilbang Experiences</h3>
-          <p>Reserve scrubbing services, massage treatments, and private rooms at Seoul's best jjimjilbangs. English booking with instant confirmation.</p>
-          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Explore Jjimjilbang Options →</a>
+        <div class="info-box" style="background: #f8f9fa; padding: 20px; border-left: 4px solid #6a11cb; margin: 30px 0;">
+          <h3>💆 Looking for Professional Spa & Massage?</h3>
+          <p>While jjimjilbang offers self-service relaxation, you might also enjoy professional Korean spa treatments. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow">Browse massage and facial services</a> with English support and instant booking.</p>
         </div>
 
         <h2>Korean Body Scrub (때밀이 - Ttaemilgi)</h2>
@@ -1853,7 +1852,7 @@ const posts = [
         <p>Yes, very safe! People commonly sleep overnight. Your belongings are in locked lockers. Just bring earplugs - snoring is common!</p>
 
         <h3>Do I need to book in advance?</h3>
-        <p>Usually no - most jjimjilbangs accept walk-ins. However, book scrubbing services in advance through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul</a> to avoid waiting.</p>
+        <p>Usually no - most jjimjilbangs accept walk-ins. Ask about scrubbing services at the front desk upon arrival.</p>
 
         <h2>Best Time to Visit</h2>
 
@@ -1886,10 +1885,9 @@ const posts = [
 
         <p>Yes, the nudity might feel awkward for the first 5 minutes, but it becomes completely normal almost immediately. Every visitor who was nervous beforehand says it ended up being a highlight of their Seoul trip.</p>
 
-        <div class="cta-box">
-          <h3>Enhance Your Jjimjilbang Experience</h3>
-          <p>Book scrubbing services, massage treatments, and premium jjimjilbang packages in advance. Skip the wait and guarantee English-speaking staff.</p>
-          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Jjimjilbang Services →</a>
+        <div class="info-box" style="background: #f8f9fa; padding: 20px; border-left: 4px solid #6a11cb; margin: 30px 0;">
+          <h3>💆 Explore Professional Korean Spa Treatments</h3>
+          <p>After experiencing traditional jjimjilbang, discover professional Korean massage, facials, and head spa services. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow">Browse spa services</a> with instant booking and English support.</p>
         </div>
 
         <p><em>Last Updated: January 2025 | Prices and information verified and accurate at time of publication</em></p>
@@ -2458,21 +2456,57 @@ function getStyles() {
         }
 
         :root {
-            --primary: #FF6B9D;
-            --primary-dark: #E55A8A;
-            --secondary: #C44569;
-            --dark: #2C3E50;
-            --light: #ECF0F1;
+            --primary: #ff6b9d;
+            --primary-light: #ff8fb3;
+            --secondary: #a855f7;
+            --accent: #fbbf24;
+            --dark: #0f172a;
+            --dark-light: #1e293b;
+            --light: #f1f5f9;
             --white: #FFFFFF;
-            --gray: #7F8C8D;
-            --border: #DDD;
+            --gray: #64748b;
+            --gray-light: #cbd5e1;
+            --border: #e2e8f0;
+            --gradient-primary: linear-gradient(135deg, #ff6b9d 0%, #ff8fb3 50%, #fbbf24 100%);
+            --gradient-secondary: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+            --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            --gradient-card: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            --shadow-sm: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+            --shadow-color: 0 25px 50px -12px rgba(255,107,157,0.25);
         }
 
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap');
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
             color: var(--dark);
-            background: var(--white);
+            background: linear-gradient(180deg, #ffffff 0%, #fdf4ff 50%, #fff7ed 100%);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255, 107, 157, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .container, .header, .hero, .section, .footer {
+            position: relative;
+            z-index: 1;
         }
 
         .container {
@@ -2481,86 +2515,184 @@ function getStyles() {
             padding: 0 20px;
         }
 
-        /* Header */
+        /* Header - Premium K-Beauty Design */
         .header {
-            background: var(--white);
-            border-bottom: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 107, 157, 0.1);
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 30px rgba(255, 107, 157, 0.08);
+            transition: all 0.3s ease;
         }
 
         .header-content {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1rem 0;
+            padding: 1.2rem 0;
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--primary);
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             text-decoration: none;
+            letter-spacing: -0.5px;
+            transition: transform 0.3s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
         }
 
         .nav {
             display: flex;
-            gap: 2rem;
+            gap: 2.5rem;
             align-items: center;
         }
 
         .nav a {
             text-decoration: none;
             color: var(--dark);
-            font-weight: 500;
-            transition: color 0.3s;
+            font-weight: 600;
+            font-size: 0.95rem;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-primary);
+            transition: width 0.3s ease;
         }
 
         .nav a:hover {
             color: var(--primary);
         }
+        
+        .nav a:hover::after {
+            width: 100%;
+        }
 
         .nav-cta {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: var(--gradient-primary);
             color: var(--white) !important;
-            padding: 0.5rem 1.5rem;
-            border-radius: 25px;
-            transition: transform 0.3s;
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .nav-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
         }
 
         .nav-cta:hover {
             transform: translateY(-2px);
+            box-shadow: var(--shadow-color);
+        }
+        
+        .nav-cta:hover::before {
+            left: 100%;
+        }
+        
+        .nav-cta::after {
+            display: none;
         }
 
-        /* Hero */
+        /* Hero - Premium K-Beauty Design */
         .hero {
-            background: linear-gradient(135deg, #FFE4E1 0%, #FFB6C1 100%);
-            padding: 80px 20px;
+            background: var(--gradient-hero);
+            padding: 120px 20px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            background-position: 0 0, 25px 25px;
+            animation: float 20s linear infinite;
+            opacity: 0.3;
+        }
+        
+        @keyframes float {
+            0% { transform: translate(0, 0) rotate(0deg); }
+            100% { transform: translate(50px, 50px) rotate(360deg); }
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to top, var(--white), transparent);
         }
 
         .hero-content h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: var(--dark);
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            color: var(--white);
+            text-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+            letter-spacing: -1px;
+            line-height: 1.2;
         }
 
         .gradient-text {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: linear-gradient(135deg, #fff 0%, #ffe4f0 50%, #fff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            display: inline-block;
         }
 
         .hero-content p {
-            font-size: 1.25rem;
-            margin-bottom: 2rem;
-            color: var(--gray);
-            max-width: 600px;
+            font-size: 1.35rem;
+            margin-bottom: 2.5rem;
+            color: rgba(255, 255, 255, 0.95);
+            max-width: 700px;
             margin-left: auto;
             margin-right: auto;
+            font-weight: 400;
+            position: relative;
+            z-index: 1;
+            line-height: 1.8;
         }
 
         .hero-cta {
@@ -2570,135 +2702,253 @@ function getStyles() {
         }
 
         .cta-button, .cta-button-secondary {
-            padding: 1rem 2rem;
-            border-radius: 30px;
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
             text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s;
+            font-weight: 700;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             display: inline-block;
+            position: relative;
+            overflow: hidden;
+            letter-spacing: 0.5px;
         }
 
         .cta-button {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: var(--gradient-primary);
             color: var(--white);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .cta-button:hover::before {
+            width: 300px;
+            height: 300px;
         }
 
         .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(255, 107, 157, 0.3);
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: var(--shadow-color);
         }
 
         .cta-button-secondary {
             background: var(--white);
             color: var(--primary);
             border: 2px solid var(--primary);
+            box-shadow: var(--shadow-md);
         }
 
         .cta-button-secondary:hover {
             background: var(--primary);
             color: var(--white);
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: var(--shadow-color);
         }
 
-        /* Sections */
+        /* Sections - Enhanced Typography */
         .section {
-            padding: 60px 0;
+            padding: 80px 0;
         }
 
         .section-title {
-            font-size: 2rem;
-            margin-bottom: 2rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin-bottom: 3rem;
             text-align: center;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            letter-spacing: -0.5px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: var(--gradient-primary);
+            border-radius: 2px;
         }
 
-        /* Post Grid */
+        /* Post Grid - Premium Card Design */
         .posts-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
         }
 
         .post-card {
             background: var(--white);
-            border-radius: 15px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: var(--shadow-md);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 107, 157, 0.08);
+            position: relative;
+        }
+        
+        .post-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
         }
 
         .post-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: var(--shadow-color);
+            border-color: rgba(255, 107, 157, 0.2);
+        }
+        
+        .post-card:hover::before {
+            transform: scaleX(1);
         }
 
         .post-card-link {
             text-decoration: none;
             color: inherit;
+            display: block;
         }
 
         .post-card-image {
             width: 100%;
-            height: 200px;
+            height: 220px;
             object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .post-card:hover .post-card-image {
+            transform: scale(1.1);
         }
 
         .post-card-content {
-            padding: 1.5rem;
+            padding: 2rem;
         }
 
         .post-card-category {
             display: inline-block;
-            background: var(--primary);
+            background: var(--gradient-primary);
             color: var(--white);
-            padding: 0.25rem 0.75rem;
-            border-radius: 15px;
-            font-size: 0.85rem;
-            margin-bottom: 0.5rem;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            box-shadow: var(--shadow-sm);
         }
 
         .post-card-title {
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
+            font-size: 1.35rem;
+            margin-bottom: 0.75rem;
             color: var(--dark);
+            font-weight: 700;
+            line-height: 1.4;
+            transition: color 0.3s ease;
+        }
+        
+        .post-card:hover .post-card-title {
+            color: var(--primary);
         }
 
         .post-card-excerpt {
             color: var(--gray);
-            margin-bottom: 1rem;
-            line-height: 1.5;
+            margin-bottom: 1.25rem;
+            line-height: 1.7;
+            font-size: 0.95rem;
         }
 
         .post-card-meta {
             display: flex;
             justify-content: space-between;
-            font-size: 0.9rem;
-            color: var(--gray);
+            font-size: 0.875rem;
+            color: var(--gray-light);
+            font-weight: 500;
         }
 
-        /* Categories Grid */
+        /* Categories Grid - Premium Design */
         .categories-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
         }
 
         .category-card {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: var(--white);
-            padding: 2rem;
-            border-radius: 15px;
+            background: var(--white);
+            background-image: var(--gradient-card);
+            color: var(--dark);
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
             text-align: center;
             text-decoration: none;
-            transition: transform 0.3s;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: var(--shadow-md);
+            border: 2px solid rgba(255, 107, 157, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.3), transparent 70%);
+            transform: scale(0);
+            transition: transform 0.5s ease;
         }
 
         .category-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: var(--shadow-color);
+            border-color: var(--primary);
+        }
+        
+        .category-card:hover::before {
+            transform: scale(1);
         }
 
         .category-card h3 {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .category-card p {
+            position: relative;
+            z-index: 1;
+            font-weight: 600;
+            opacity: 0.8;
         }
 
         /* Article Page */
@@ -2719,18 +2969,23 @@ function getStyles() {
         }
 
         .article-title {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
             line-height: 1.2;
+            color: var(--dark);
+            letter-spacing: -0.5px;
         }
 
         .article-meta {
             display: flex;
-            gap: 1.5rem;
-            margin-bottom: 1rem;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
             color: var(--gray);
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             flex-wrap: wrap;
+            font-weight: 500;
         }
 
         .article-tags {
@@ -2804,45 +3059,92 @@ function getStyles() {
         }
 
         .info-box {
-            background: #FFF4F4;
-            border-left: 4px solid var(--primary);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 5px;
+            background: linear-gradient(135deg, #fff5f7 0%, #fef3c7 100%);
+            border-left: 5px solid var(--primary);
+            padding: 2rem;
+            margin: 3rem 0;
+            border-radius: 15px;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .info-box::before {
+            content: '💡';
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 2rem;
+            opacity: 0.2;
         }
 
         .info-box h3 {
             margin-top: 0;
             color: var(--primary);
+            font-weight: 700;
+            font-size: 1.3rem;
         }
 
         .cta-box {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: var(--gradient-hero);
             color: var(--white);
-            padding: 2rem;
-            border-radius: 15px;
+            padding: 3rem 2rem;
+            border-radius: 25px;
             text-align: center;
-            margin: 3rem 0;
+            margin: 4rem 0;
+            box-shadow: var(--shadow-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            background-position: 0 0, 25px 25px;
+            animation: float 20s linear infinite;
         }
 
         .cta-box h3 {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             color: var(--white);
+            font-size: 2rem;
+            font-weight: 800;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-box p {
+            position: relative;
+            z-index: 1;
         }
 
         .cta-box .cta-link {
             color: var(--white);
             border-bottom: 2px solid var(--white);
+            font-weight: 700;
         }
 
         .cta-box .cta-button {
             background: var(--white);
             color: var(--primary);
-            margin-top: 1rem;
+            margin-top: 1.5rem;
+            font-size: 1.1rem;
+            padding: 1.2rem 3rem;
+            position: relative;
+            z-index: 1;
         }
 
         .cta-box .cta-button:hover {
-            background: var(--light);
+            background: rgba(255,255,255,0.95);
+            transform: translateY(-4px) scale(1.05);
         }
 
         .related-posts {
@@ -2851,45 +3153,105 @@ function getStyles() {
             border-top: 2px solid var(--border);
         }
 
-        /* CTA Section */
+        /* CTA Section - Premium Design */
         .cta-section {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: var(--gradient-hero);
             color: var(--white);
-            padding: 60px 20px;
+            padding: 100px 20px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px),
+                radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 60px 60px;
+            background-position: 0 0, 30px 30px;
+            animation: float 25s linear infinite;
         }
 
         .cta-section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.2);
         }
 
         .cta-section p {
-            font-size: 1.25rem;
-            margin-bottom: 2rem;
+            font-size: 1.35rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+            font-weight: 400;
         }
 
         .cta-section .cta-button {
             background: var(--white);
             color: var(--primary);
+            font-size: 1.1rem;
+            padding: 1.2rem 3rem;
+            font-weight: 700;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-section .cta-button:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
         }
 
-        /* Footer */
+        /* Footer - Premium Design */
         .footer {
-            background: var(--dark);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: var(--white);
-            padding: 3rem 0 1rem;
+            padding: 4rem 0 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,107,157,0.3), transparent);
         }
 
         .footer-content {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
+            gap: 3rem;
+            margin-bottom: 3rem;
         }
 
         .footer-section h3 {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .footer-section p {
+            opacity: 0.8;
+            line-height: 1.8;
         }
 
         .footer-section ul {
@@ -2897,52 +3259,150 @@ function getStyles() {
         }
 
         .footer-section ul li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
         }
 
         .footer-section a {
             color: var(--white);
             text-decoration: none;
-            opacity: 0.8;
-            transition: opacity 0.3s;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+            display: inline-block;
         }
 
         .footer-section a:hover {
             opacity: 1;
+            color: var(--primary);
+            transform: translateX(3px);
         }
 
         .footer-cta {
             display: inline-block;
-            background: var(--primary);
-            padding: 0.75rem 1.5rem;
-            border-radius: 25px;
+            background: var(--gradient-primary);
+            padding: 1rem 2rem;
+            border-radius: 30px;
             margin-top: 1rem;
+            font-weight: 700;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+        }
+        
+        .footer-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-color);
+            opacity: 1 !important;
         }
 
         .footer-bottom {
             text-align: center;
-            padding-top: 2rem;
+            padding-top: 2.5rem;
             border-top: 1px solid rgba(255,255,255,0.1);
-            opacity: 0.7;
+            opacity: 0.6;
+            font-size: 0.9rem;
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
+        /* Responsive Design - Mobile Optimized */
+        @media (max-width: 968px) {
             .hero-content h1 {
-                font-size: 2rem;
+                font-size: 3rem;
+            }
+            
+            .section-title {
+                font-size: 2.25rem;
+            }
+            
+            .posts-grid {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 80px 20px;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.25rem;
+            }
+            
+            .hero-content p {
+                font-size: 1.1rem;
             }
 
             .posts-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .categories-grid {
                 grid-template-columns: 1fr;
             }
 
             .nav {
                 gap: 1rem;
-                font-size: 0.9rem;
+                font-size: 0.85rem;
+            }
+            
+            .nav-cta {
+                padding: 0.6rem 1.5rem;
+                font-size: 0.85rem;
             }
 
             .article-title {
                 font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.85rem;
+            }
+            
+            .section {
+                padding: 50px 0;
+            }
+            
+            .cta-section {
+                padding: 60px 20px;
+            }
+            
+            .cta-section h2 {
+                font-size: 2rem;
+            }
+            
+            .cta-section p {
+                font-size: 1.1rem;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .post-card-content {
+                padding: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-content h1 {
+                font-size: 1.75rem;
+            }
+            
+            .logo {
+                font-size: 1.35rem;
+            }
+            
+            .nav {
+                gap: 0.75rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .cta-button, .cta-button-secondary {
+                padding: 1rem 2rem;
+                font-size: 0.95rem;
             }
         }
     </style>
