@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+Allow: /post/*
+Allow: /category/*
+
+Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+
+# Disallow admin or private paths (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

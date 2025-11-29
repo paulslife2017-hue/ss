@@ -1011,6 +1011,91 @@ app.get('/post/:slug', (c) => {
   return c.html(html);
 });
 
+// Sitemap.xml
+app.get('/sitemap.xml', (c) => {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-skincare-guide-seoul-2025</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-massage-types-pricing-guide</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/post/seoul-beauty-tourism-guide-2025</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/skincare</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/massage</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/travel</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/head-spa</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/nail-art</loc>
+    <lastmod>2025-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>`;
+  
+  c.header('Content-Type', 'application/xml');
+  return c.body(sitemap);
+});
+
+// Robots.txt
+app.get('/robots.txt', (c) => {
+  const robots = `User-agent: *
+Allow: /
+Allow: /post/*
+Allow: /category/*
+
+Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+
+Crawl-delay: 0
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /`;
+  
+  c.header('Content-Type', 'text/plain');
+  return c.body(robots);
+});
+
 // ==========================================
 // HTML GENERATORS
 // ==========================================
