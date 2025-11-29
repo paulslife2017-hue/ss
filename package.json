@@ -1,7 +1,12 @@
 {
-  "name": "webapp",
+  "name": "seoul-beauty-guide",
+  "version": "1.0.0",
+  "description": "K-Beauty blog for backlinks and AdSense revenue",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "node server.js",
+    "dev": "node server.js",
     "build": "echo 'No build needed'",
     "deploy": "vercel --prod"
   },
@@ -12,5 +17,8 @@
   },
   "devDependencies": {
     "vercel": "^48.10.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

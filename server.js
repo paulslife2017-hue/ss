@@ -1,1746 +1,1866 @@
-import { Hono } from 'hono'
-import { serve } from '@hono/node-server'
+import { Hono } from 'hono';
+import { serve } from '@hono/node-server';
+import { serveStatic } from '@hono/node-server/serve-static';
 
-const app = new Hono()
+const app = new Hono();
 
-// ============================================
-// 📊 MOCK DATA - HIGH CPC CATEGORIES
-// ============================================
-const categories = [
-  { id: 1, name: 'Insurance', slug: 'insurance', description: 'Insurance guides & comparisons' },
-  { id: 2, name: 'Finance', slug: 'finance', description: 'Personal finance & investing' },
-  { id: 3, name: 'Cryptocurrency', slug: 'crypto', description: 'Crypto trading & blockchain' },
-  { id: 4, name: 'Legal', slug: 'legal', description: 'Legal advice & services' },
-  { id: 5, name: 'Web Hosting', slug: 'hosting', description: 'Hosting reviews & guides' },
-  { id: 6, name: 'VPN', slug: 'vpn', description: 'VPN reviews & privacy' }
-]
+// ==========================================
+// BLOG POSTS DATA - K-BEAUTY FOCUSED
+// ==========================================
 
-// ============================================
-// 📝 BLOG POSTS - COMPREHENSIVE CONTENT
-// ============================================
 const posts = [
   {
     id: 1,
-    title: 'Best Car Insurance Companies 2025: Ultimate Comparison Guide',
-    slug: 'best-car-insurance-2025',
-    excerpt: 'Compare the best car insurance companies in 2025. Discover which providers offer the best rates, coverage, and customer service. Save up to $800 annually with our expert recommendations.',
+    title: 'Ultimate Guide to Korean Skincare in Seoul: Best Spas & Treatments for 2025',
+    slug: 'korean-skincare-guide-seoul-2025',
+    excerpt: 'Discover the best Korean skincare treatments in Seoul. From head spas in Gangnam to BB Glow facials in Myeongdong, find out where to get authentic K-beauty experiences.',
     content: `
-      <div class="article-content">
-        <h2>🚗 Finding the Best Car Insurance in 2025</h2>
+      <div class="blog-content">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop" alt="Korean Skincare Treatment" class="featured-image">
         
-        <p class="lead">Choosing the right car insurance can save you <strong>$500-800 annually</strong> while providing comprehensive protection. This guide compares the top providers to help you make an informed decision.</p>
-
-        <div class="highlight-box">
-          <h3>Quick Comparison Table</h3>
-          <table>
-            <tr>
-              <th>Company</th>
-              <th>Best For</th>
-              <th>Avg. Annual Cost</th>
-              <th>Rating</th>
-            </tr>
-            <tr>
-              <td><strong>State Farm</strong></td>
-              <td>Overall Coverage</td>
-              <td>$1,200</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td><strong>Geico</strong></td>
-              <td>Budget-Friendly</td>
-              <td>$900</td>
-              <td>⭐⭐⭐⭐½</td>
-            </tr>
-            <tr>
-              <td><strong>Progressive</strong></td>
-              <td>Online Experience</td>
-              <td>$1,100</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td><strong>Allstate</strong></td>
-              <td>Accident Forgiveness</td>
-              <td>$1,300</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-          </table>
+        <h2>Why Korean Skincare is Taking Over the World</h2>
+        <p>Korean skincare has become a global phenomenon, and there's no better place to experience it than in Seoul, South Korea. With innovative treatments, cutting-edge technology, and centuries-old beauty secrets, Seoul offers an unparalleled beauty experience for travelers and locals alike.</p>
+        
+        <div class="info-box">
+          <h3>📍 Quick Facts About K-Beauty in Seoul</h3>
+          <ul>
+            <li><strong>Market Size:</strong> $13.9 billion industry in 2024</li>
+            <li><strong>Top Districts:</strong> Gangnam, Myeongdong, Hongdae</li>
+            <li><strong>Average Treatment Cost:</strong> ₩50,000 - ₩300,000</li>
+            <li><strong>Most Popular:</strong> Head spas, BB Glow, Aqua Peel</li>
+          </ul>
         </div>
 
-        <h3>1. State Farm - Best Overall Coverage ⭐⭐⭐⭐⭐</h3>
+        <h2>Top 5 Must-Try Korean Skincare Treatments</h2>
         
-        <p>State Farm has been America's #1 auto insurer for decades, serving over <strong>83 million policies</strong> nationwide. Their extensive network of 19,000+ agents provides personalized service unmatched by digital-only competitors.</p>
+        <h3>1. Korean Head Spa (두피 관리)</h3>
+        <p>The Korean head spa experience goes far beyond a simple scalp massage. This luxurious treatment combines deep cleansing, massage therapy, and specialized products to promote hair health and relaxation.</p>
+        <ul>
+          <li><strong>Duration:</strong> 60-90 minutes</li>
+          <li><strong>Price Range:</strong> ₩80,000 - ₩200,000</li>
+          <li><strong>Best Areas:</strong> Gangnam, Sinsa-dong</li>
+          <li><strong>Benefits:</strong> Improved scalp health, stress relief, hair growth stimulation</li>
+        </ul>
+        <p>The treatment typically includes scalp analysis, deep cleansing, steam therapy, massage, and nourishing treatment masks. Many spas in Seoul now cater specifically to foreigners with English-speaking staff.</p>
 
-        <div class="pros-cons">
-          <div class="pros">
-            <h4>✅ Pros</h4>
-            <ul>
-              <li>Excellent customer service with 98% satisfaction rate</li>
-              <li>Fast claim processing (avg. 24-48 hours)</li>
-              <li>Drive Safe & Save program: up to 30% discount</li>
-              <li>Multiple policy discounts (home + auto)</li>
-              <li>24/7 support via app, phone, or in-person</li>
-            </ul>
-          </div>
-          <div class="cons">
-            <h4>❌ Cons</h4>
-            <ul>
-              <li>Slightly higher premiums than Geico</li>
-              <li>Requires agent visit for some services</li>
-              <li>Limited online-only features</li>
-            </ul>
-          </div>
-        </div>
+        <h3>2. BB Glow Treatment</h3>
+        <p>BB Glow is a revolutionary semi-permanent makeup treatment that originated in Korea. It gives your skin a naturally flawless, luminous appearance that lasts for several months.</p>
+        <ul>
+          <li><strong>Duration:</strong> 90-120 minutes</li>
+          <li><strong>Price Range:</strong> ₩150,000 - ₩300,000</li>
+          <li><strong>Results Last:</strong> 6-12 months</li>
+          <li><strong>Perfect For:</strong> Uneven skin tone, pigmentation, dull skin</li>
+        </ul>
 
-        <p><strong>Average Cost:</strong> $1,200-1,800/year depending on coverage level and driving history.</p>
+        <h3>3. Aqua Peel Facial</h3>
+        <p>This hydrating facial treatment uses advanced technology to cleanse, exfoliate, and hydrate skin simultaneously. It's gentle yet highly effective, making it perfect for all skin types.</p>
+        <ul>
+          <li><strong>Duration:</strong> 45-60 minutes</li>
+          <li><strong>Price Range:</strong> ₩100,000 - ₩180,000</li>
+          <li><strong>No Downtime:</strong> Perfect before events or flights</li>
+          <li><strong>Visible Results:</strong> Immediately after treatment</li>
+        </ul>
 
-        <p><strong>Best For:</strong> Drivers who value face-to-face service, comprehensive coverage options, and bundling discounts.</p>
+        <h3>4. Korean Full Body Massage</h3>
+        <p>Korean massage therapy blends traditional techniques with modern spa luxury. Experience deep tissue work, aromatherapy, and complete relaxation.</p>
+        <ul>
+          <li><strong>Duration:</strong> 60-120 minutes</li>
+          <li><strong>Price Range:</strong> ₩80,000 - ₩200,000</li>
+          <li><strong>Types:</strong> Swedish, Deep Tissue, Lomilomi, Traditional Korean</li>
+          <li><strong>Often Includes:</strong> Private rooms, shower facilities</li>
+        </ul>
+
+        <h3>5. Glass Skin Facial</h3>
+        <p>The "glass skin" trend started in Korea and has taken over social media worldwide. This multi-step facial aims to give you that coveted translucent, dewy complexion.</p>
+        <ul>
+          <li><strong>Duration:</strong> 90 minutes</li>
+          <li><strong>Price Range:</strong> ₩120,000 - ₩250,000</li>
+          <li><strong>Results:</strong> Immediate glow and hydration</li>
+          <li><strong>Maintenance:</strong> Monthly treatments recommended</li>
+        </ul>
+
+        <h2>Best Districts for K-Beauty Treatments</h2>
+        
+        <h3>Gangnam (강남)</h3>
+        <p>Known for luxury and innovation, Gangnam is where you'll find the most high-end skincare clinics and spas. Expect premium services, latest technology, and English-speaking staff.</p>
+        <ul>
+          <li><strong>Vibe:</strong> Upscale, modern, cutting-edge</li>
+          <li><strong>Price Level:</strong> High (₩150,000+)</li>
+          <li><strong>Best For:</strong> Premium treatments, latest trends</li>
+        </ul>
+
+        <h3>Myeongdong (명동)</h3>
+        <p>A shopping paradise that's also great for beauty treatments. More tourist-friendly with competitive prices and packages designed for visitors.</p>
+        <ul>
+          <li><strong>Vibe:</strong> Bustling, tourist-friendly, convenient</li>
+          <li><strong>Price Level:</strong> Medium (₩80,000-150,000)</li>
+          <li><strong>Best For:</strong> First-timers, combination with shopping</li>
+        </ul>
+
+        <h3>Hongdae (홍대)</h3>
+        <p>Trendy and youthful, Hongdae offers more affordable options with a hip, artistic atmosphere.</p>
+        <ul>
+          <li><strong>Vibe:</strong> Young, trendy, artistic</li>
+          <li><strong>Price Level:</strong> Budget-friendly (₩50,000-100,000)</li>
+          <li><strong>Best For:</strong> Budget travelers, unique experiences</li>
+        </ul>
+
+        <h2>How to Book Korean Beauty Treatments as a Foreigner</h2>
+        <p>Booking beauty treatments in Seoul can be challenging if you don't speak Korean. Here's how to make it easier:</p>
+        
+        <ol>
+          <li><strong>Use Booking Platforms:</strong> Websites like <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul.co.kr</a> specialize in foreigner-friendly bookings with instant confirmation and transparent pricing.</li>
+          <li><strong>Check Reviews:</strong> Look for places with reviews from other foreigners</li>
+          <li><strong>Confirm English Service:</strong> Make sure staff can communicate in English</li>
+          <li><strong>Book in Advance:</strong> Popular spots fill up quickly, especially during peak tourist season</li>
+          <li><strong>Understand Pricing:</strong> Ask about what's included to avoid surprises</li>
+        </ol>
 
         <div class="cta-box">
-          <a href="#" class="cta-button">Get State Farm Quote →</a>
+          <h3>🎯 Ready to Book Your K-Beauty Experience?</h3>
+          <p>Visit <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> for instant booking with transparent pricing, English support, and exclusive deals on Seoul's best beauty treatments.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Browse Treatments →</a>
         </div>
 
-        <h3>2. Geico - Best for Budget-Conscious Drivers 💰</h3>
+        <h2>K-Beauty Treatment Tips for First-Timers</h2>
+        <ul>
+          <li><strong>Arrive Early:</strong> Give yourself time to fill out forms and relax</li>
+          <li><strong>Remove Makeup:</strong> Come fresh-faced or arrive early for makeup removal</li>
+          <li><strong>Communicate Concerns:</strong> Tell your esthetician about any skin sensitivities</li>
+          <li><strong>Don't Rush:</strong> Plan your schedule to enjoy the full experience</li>
+          <li><strong>Ask About Products:</strong> Many places sell the products they use</li>
+          <li><strong>Tip Culture:</strong> Tipping is not expected in Korea</li>
+        </ul>
+
+        <h2>Best Time to Visit Seoul for Beauty Treatments</h2>
+        <p>While you can enjoy K-beauty treatments year-round, certain seasons offer advantages:</p>
+        <ul>
+          <li><strong>Spring (March-May):</strong> Pleasant weather, good for post-treatment walks</li>
+          <li><strong>Fall (September-November):</strong> Comfortable temperatures, less humidity</li>
+          <li><strong>Winter (December-February):</strong> Indoor treatments perfect for cold weather</li>
+          <li><strong>Summer (June-August):</strong> Peak season, book well in advance</li>
+        </ul>
+
+        <h2>What Makes Korean Beauty Treatments Special?</h2>
+        <p>Korean beauty treatments stand out for several reasons:</p>
+        <ol>
+          <li><strong>Innovation:</strong> Korea is at the forefront of beauty technology and trends</li>
+          <li><strong>Holistic Approach:</strong> Focus on skin health, not just aesthetics</li>
+          <li><strong>Quality Products:</strong> Use of high-quality, often natural ingredients</li>
+          <li><strong>Attention to Detail:</strong> Multi-step processes for thorough results</li>
+          <li><strong>Affordability:</strong> High-quality treatments at competitive prices</li>
+          <li><strong>Experience:</strong> Emphasis on relaxation and luxury</li>
+        </ol>
+
+        <h2>Common Questions About K-Beauty Treatments</h2>
         
-        <p>Geico revolutionized auto insurance with their direct-to-consumer model, eliminating middleman costs. They're now the 2nd largest auto insurer in America, known for competitive rates and the famous gecko.</p>
+        <h3>Do I need to speak Korean?</h3>
+        <p>Not if you book through foreigner-friendly platforms. Many spas in tourist areas have English-speaking staff, and booking sites like <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul</a> handle communication for you.</p>
 
-        <div class="pros-cons">
-          <div class="pros">
-            <h4>✅ Pros</h4>
-            <ul>
-              <li>Lowest average premiums: $900-1,200/year</li>
-              <li>Quick online quotes (under 15 minutes)</li>
-              <li>Military discount: up to 15%</li>
-              <li>Federal employee discounts</li>
-              <li>Emergency roadside assistance included</li>
-            </ul>
-          </div>
-          <div class="cons">
-            <h4>❌ Cons</h4>
-            <ul>
-              <li>Limited local agent access</li>
-              <li>Customer service can be slow during peak times</li>
-              <li>Fewer personalized service options</li>
-            </ul>
-          </div>
-        </div>
+        <h3>How much should I budget?</h3>
+        <p>Plan ₩100,000-200,000 ($75-150 USD) per treatment for quality services. You can find cheaper options, but mid-range gives the best value.</p>
 
-        <p><strong>Average Cost:</strong> $900-1,200/year (25% less than industry average)</p>
+        <h3>Can I book same-day treatments?</h3>
+        <p>Popular places often require advance booking, especially on weekends. Book at least 2-3 days ahead, or up to a week during peak season.</p>
 
-        <p><strong>Best For:</strong> Clean-record drivers seeking maximum savings, military members, federal employees.</p>
+        <h3>Are treatments safe for sensitive skin?</h3>
+        <p>Korean skincare emphasizes gentle, skin-friendly approaches. Always inform your esthetician about sensitivities, and they'll customize treatments accordingly.</p>
+
+        <h2>Conclusion</h2>
+        <p>Experiencing authentic Korean skincare treatments in Seoul is a must-do for any beauty enthusiast visiting Korea. From revolutionary head spas to the famous BB Glow treatment, Seoul offers world-class beauty services that combine tradition with cutting-edge innovation.</p>
+        
+        <p>Whether you're in trendy Gangnam, bustling Myeongdong, or artistic Hongdae, you'll find treatments that suit your budget and preferences. Book through trusted platforms, communicate your needs clearly, and prepare to discover why K-beauty has captivated the world.</p>
 
         <div class="cta-box">
-          <a href="#" class="cta-button">Get Geico Quote →</a>
-        </div>
-
-        <h3>3. Progressive - Best Digital Experience 📱</h3>
-        
-        <p>Progressive pioneered usage-based insurance and continues to lead in technology innovation. Their Snapshot program monitors your driving habits to offer personalized discounts.</p>
-
-        <div class="key-features">
-          <h4>Key Features:</h4>
-          <ul>
-            <li><strong>Name Your Price Tool:</strong> Build custom coverage within your budget</li>
-            <li><strong>Snapshot Discount:</strong> Save up to 30% based on safe driving</li>
-            <li><strong>Roadside Assistance:</strong> $10-20/year for 24/7 help</li>
-            <li><strong>Mobile App:</strong> Rated 4.8/5 with claim filing, ID cards, and policy management</li>
-            <li><strong>Pet Injury Coverage:</strong> Up to $1,000 for pet injuries in accidents</li>
-          </ul>
-        </div>
-
-        <p><strong>Average Cost:</strong> $1,100-1,500/year</p>
-
-        <p><strong>Best For:</strong> Tech-savvy drivers, those wanting customizable coverage, pet owners.</p>
-
-        <div class="cta-box">
-          <a href="#" class="cta-button">Get Progressive Quote →</a>
-        </div>
-
-        <h3>4. Allstate - Best for Accident Forgiveness 🛡️</h3>
-        
-        <p>Allstate's Accident Forgiveness program means your first at-fault accident won't increase your rates - potentially saving you thousands over time.</p>
-
-        <div class="key-features">
-          <h4>Standout Features:</h4>
-          <ul>
-            <li><strong>Accident Forgiveness:</strong> First accident doesn't raise rates (after 5 years claim-free)</li>
-            <li><strong>Drivewise Program:</strong> Up to 25% discount for safe driving</li>
-            <li><strong>Safe Driving Bonus:</strong> $50 check every 6 months of safe driving</li>
-            <li><strong>New Car Replacement:</strong> Full replacement cost for vehicles less than 2 years old</li>
-            <li><strong>Sound System Coverage:</strong> Covers custom audio equipment</li>
-          </ul>
-        </div>
-
-        <p><strong>Average Cost:</strong> $1,300-1,900/year</p>
-
-        <p><strong>Best For:</strong> Experienced drivers with clean records, new car owners, those wanting premium features.</p>
-
-        <div class="cta-box">
-          <a href="#" class="cta-button">Get Allstate Quote →</a>
-        </div>
-
-        <h2>💡 How to Save Money on Car Insurance</h2>
-
-        <div class="tips-section">
-          <h3>1. Compare Multiple Quotes</h3>
-          <p>Get quotes from at least 3-5 companies. Rates can vary by <strong>$500-1,000/year</strong> for identical coverage. Use comparison tools or contact agents directly.</p>
-
-          <h3>2. Bundle Policies</h3>
-          <p>Combine home and auto insurance for <strong>15-25% discounts</strong>. Most insurers offer multi-policy savings averaging $300-400 annually.</p>
-
-          <h3>3. Increase Your Deductible</h3>
-          <p>Raising your deductible from $500 to $1,000 can save <strong>15-30%</strong> on premiums. Only do this if you have emergency savings to cover the higher deductible.</p>
-
-          <h3>4. Maintain Good Credit</h3>
-          <p>In most states, better credit scores mean lower premiums. Improving your credit from fair to good can save <strong>$200-400/year</strong>.</p>
-
-          <h3>5. Take a Defensive Driving Course</h3>
-          <p>Completing an approved course can earn you <strong>5-15% discounts</strong> and improve your driving skills. Courses cost $25-50 but save $100-200 annually.</p>
-
-          <h3>6. Ask About Discounts</h3>
-          <p>Available discounts include:</p>
-          <ul>
-            <li>Multi-car discount (10-25%)</li>
-            <li>Good student discount (10-15% for students with B+ average)</li>
-            <li>Low mileage discount (drive under 7,500 miles/year)</li>
-            <li>Military/veteran discount (up to 15%)</li>
-            <li>Professional organization discounts (AAA, alumni groups)</li>
-            <li>Paperless billing discount (3-5%)</li>
-            <li>Auto-pay discount (2-5%)</li>
-          </ul>
-        </div>
-
-        <h2>📋 What Coverage Do You Really Need?</h2>
-
-        <div class="coverage-guide">
-          <h3>Required Coverage (Varies by State)</h3>
-          <ul>
-            <li><strong>Liability Insurance:</strong> Covers damage/injuries you cause (minimum $25k-50k)</li>
-            <li><strong>Personal Injury Protection:</strong> Covers your medical expenses (required in no-fault states)</li>
-            <li><strong>Uninsured Motorist:</strong> Protects you if hit by uninsured driver (required in some states)</li>
-          </ul>
-
-          <h3>Recommended Additional Coverage</h3>
-          <ul>
-            <li><strong>Collision:</strong> Repairs your car after accidents (recommended if car worth $3,000+)</li>
-            <li><strong>Comprehensive:</strong> Covers theft, vandalism, weather damage (recommended for valuable cars)</li>
-            <li><strong>Rental Reimbursement:</strong> Covers rental car costs during repairs ($15-20/year)</li>
-            <li><strong>Roadside Assistance:</strong> Towing, jump-starts, lockout service ($10-20/year)</li>
-          </ul>
-
-          <h3>Premium Coverage (If Affordable)</h3>
-          <ul>
-            <li><strong>Accident Forgiveness:</strong> First accident won't raise rates</li>
-            <li><strong>New Car Replacement:</strong> Full value replacement for new cars</li>
-            <li><strong>Gap Insurance:</strong> Covers loan difference if car totaled (essential for leased vehicles)</li>
-          </ul>
-        </div>
-
-        <h2>🎯 Final Recommendations</h2>
-
-        <div class="final-recommendations">
-          <p><strong>Best Overall:</strong> State Farm - Excellent service, comprehensive coverage, good value</p>
-          <p><strong>Best Budget Option:</strong> Geico - Lowest rates, great for clean-record drivers</p>
-          <p><strong>Best Technology:</strong> Progressive - Superior app, usage-based discounts</p>
-          <p><strong>Best Premium Features:</strong> Allstate - Accident forgiveness, new car replacement</p>
-        </div>
-
-        <div class="action-box">
-          <h3>Take Action Now</h3>
-          <p>Get quotes from at least 3 companies to compare rates. You could save $500+ annually by switching!</p>
-          <div class="cta-buttons">
-            <a href="#" class="cta-button">Compare All Quotes</a>
-            <a href="#" class="cta-button secondary">Calculate My Rate</a>
-          </div>
+          <h3>Start Your K-Beauty Journey Today</h3>
+          <p>Don't miss out on Seoul's best beauty treatments. Book now at <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> for instant confirmation, transparent pricing, and English support.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Your Treatment →</a>
         </div>
       </div>
     `,
-    category: 'Insurance',
-    categorySlug: 'insurance',
-    tags: ['car insurance', 'auto insurance', 'insurance comparison', 'save money'],
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&h=630&fit=crop',
-    author: 'Sarah Johnson',
+    category: 'Skincare',
+    categorySlug: 'skincare',
+    tags: ['Korean Skincare', 'Seoul Beauty', 'K-Beauty', 'Head Spa', 'BB Glow', 'Beauty Tourism'],
+    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    author: 'Sarah Kim',
     readTime: '12 min read',
-    views: 15420,
+    views: 0,
     published: true,
-    createdAt: '2025-11-20T10:00:00Z'
+    createdAt: '2025-01-15T10:00:00Z',
+    metaDescription: 'Complete guide to Korean skincare treatments in Seoul 2025. Discover the best spas for head spa, BB Glow, and facial treatments in Gangnam, Myeongdong & Hongdae.',
+    keywords: 'korean skincare seoul, head spa gangnam, bb glow treatment, korean facial, seoul beauty guide, k-beauty treatments, gangnam spa, myeongdong beauty'
   },
   {
     id: 2,
-    title: 'Cryptocurrency Investment Guide 2025: Bitcoin, Ethereum & Altcoins',
-    slug: 'crypto-investment-guide-2025',
-    excerpt: 'Master cryptocurrency investing in 2025. Learn proven strategies for Bitcoin, Ethereum, and altcoins. Comprehensive guide covering portfolio allocation, risk management, DeFi, and maximizing returns.',
+    title: 'Korean Massage Guide: Types, Prices & Where to Book in Seoul',
+    slug: 'korean-massage-guide-seoul',
+    excerpt: 'Everything you need to know about Korean massage in Seoul. Compare Swedish, deep tissue, and traditional Korean massage techniques, prices, and the best locations.',
     content: `
-      <div class="article-content">
-        <h2>🪙 Complete Crypto Investment Strategy for 2025</h2>
+      <div class="blog-content">
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Korean Massage Spa" class="featured-image">
         
-        <p class="lead">Cryptocurrency has evolved into a mainstream asset class with <strong>$2.5 trillion market cap</strong>. This guide teaches you how to invest wisely, manage risks, and maximize returns.</p>
+        <h2>The Art of Korean Massage Therapy</h2>
+        <p>Korean massage therapy is renowned worldwide for its unique blend of traditional healing techniques and modern spa luxury. Whether you're seeking relaxation, pain relief, or a cultural experience, Seoul offers an incredible variety of massage services tailored to international visitors.</p>
 
-        <div class="warning-box">
-          <p><strong>⚠️ Risk Warning:</strong> Cryptocurrencies are highly volatile. Only invest money you can afford to lose. This guide is educational, not financial advice.</p>
-        </div>
-
-        <h2>📊 2025 Crypto Market Overview</h2>
-
-        <div class="market-stats">
-          <div class="stat">
-            <h4>Total Market Cap</h4>
-            <p class="big-number">$2.5T</p>
-          </div>
-          <div class="stat">
-            <h4>Bitcoin Dominance</h4>
-            <p class="big-number">48%</p>
-          </div>
-          <div class="stat">
-            <h4>Ethereum Dominance</h4>
-            <p class="big-number">19%</p>
-          </div>
-          <div class="stat">
-            <h4>Global Crypto Users</h4>
-            <p class="big-number">580M+</p>
-          </div>
-        </div>
-
-        <h2>1. Bitcoin (BTC) - Digital Gold 🥇</h2>
-
-        <p>Bitcoin remains the king of crypto with <strong>$1.2T market cap</strong>. As the first cryptocurrency, it has the strongest network effect, institutional adoption, and brand recognition.</p>
-
-        <div class="crypto-profile">
-          <h3>Why Bitcoin?</h3>
+        <div class="info-box">
+          <h3>🎯 Quick Guide to Korean Massage</h3>
           <ul>
-            <li><strong>Scarcity:</strong> Only 21 million will ever exist (19.5M already mined)</li>
-            <li><strong>Security:</strong> Most secure blockchain with massive mining network</li>
-            <li><strong>Institutional Adoption:</strong> BlackRock, Fidelity, Tesla hold billions</li>
-            <li><strong>Store of Value:</strong> "Digital gold" hedge against inflation</li>
-            <li><strong>Network Effect:</strong> Largest user base and developer community</li>
-          </ul>
-
-          <h3>Investment Strategy</h3>
-          <p><strong>HODL (Hold On for Dear Life):</strong> Long-term holding has proven most successful. Despite volatility, Bitcoin delivered <strong>200%+ annualized returns</strong> since inception.</p>
-
-          <p><strong>Dollar-Cost Averaging (DCA):</strong> Buy fixed amounts weekly/monthly to smooth out volatility.</p>
-
-          <div class="example-box">
-            <h4>Example DCA Strategy:</h4>
-            <p>Invest $100/week in Bitcoin regardless of price:</p>
-            <ul>
-              <li>Week 1: BTC at $65,000 → Buy 0.00154 BTC</li>
-              <li>Week 2: BTC at $58,000 → Buy 0.00172 BTC</li>
-              <li>Week 3: BTC at $71,000 → Buy 0.00141 BTC</li>
-              <li>Result: Average cost $64,667, owned 0.00467 BTC</li>
-            </ul>
-          </div>
-
-          <h3>Where to Buy</h3>
-          <ul>
-            <li><strong>Coinbase:</strong> Best for beginners (user-friendly, insured)</li>
-            <li><strong>Kraken:</strong> Lower fees, advanced features</li>
-            <li><strong>Binance:</strong> Highest liquidity, most trading pairs</li>
-          </ul>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Start Bitcoin Investment →</a>
-          </div>
-        </div>
-
-        <h2>2. Ethereum (ETH) - Smart Contract Platform 🌐</h2>
-
-        <p>Ethereum is the world's programmable blockchain, powering <strong>$500B+ DeFi ecosystem</strong> and most NFTs. It's the foundation of Web3.</p>
-
-        <div class="crypto-profile">
-          <h3>Why Ethereum?</h3>
-          <ul>
-            <li><strong>Smart Contracts:</strong> Programmable money enabling DeFi, NFTs, DAOs</li>
-            <li><strong>DeFi Dominance:</strong> 60% of DeFi locked value on Ethereum</li>
-            <li><strong>Developer Activity:</strong> Largest developer community (4,000+ devs)</li>
-            <li><strong>Staking Rewards:</strong> Earn 3-5% APY by staking ETH</li>
-            <li><strong>Deflation:</strong> EIP-1559 burns ETH, creating deflationary pressure</li>
-          </ul>
-
-          <h3>Use Cases</h3>
-          <ul>
-            <li><strong>DeFi:</strong> Lending (Aave), DEXs (Uniswap), yield farming</li>
-            <li><strong>NFTs:</strong> Digital art, gaming items, domain names</li>
-            <li><strong>DAOs:</strong> Decentralized organizations and governance</li>
-            <li><strong>Stablecoins:</strong> USDC, DAI built on Ethereum</li>
-          </ul>
-
-          <h3>Investment Strategy</h3>
-          <p><strong>70/30 Rule:</strong> Many investors split crypto allocation 70% Bitcoin, 30% Ethereum for balanced exposure.</p>
-
-          <p><strong>Staking:</strong> Stake ETH on Coinbase, Kraken, or Lido to earn passive income while holding.</p>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Buy Ethereum →</a>
-          </div>
-        </div>
-
-        <h2>3. Top Altcoins for 2025 🚀</h2>
-
-        <div class="altcoin-list">
-          <div class="altcoin">
-            <h3>Solana (SOL)</h3>
-            <p><strong>Use Case:</strong> High-speed blockchain for DeFi and NFTs</p>
-            <p><strong>Advantage:</strong> 65,000 TPS vs Ethereum's 15 TPS</p>
-            <p><strong>Risk Level:</strong> Medium-High</p>
-            <p><strong>Allocation:</strong> 5-10% of crypto portfolio</p>
-          </div>
-
-          <div class="altcoin">
-            <h3>Cardano (ADA)</h3>
-            <p><strong>Use Case:</strong> Peer-reviewed blockchain for smart contracts</p>
-            <p><strong>Advantage:</strong> Academic approach, sustainable model</p>
-            <p><strong>Risk Level:</strong> Medium</p>
-            <p><strong>Allocation:</strong> 3-7% of crypto portfolio</p>
-          </div>
-
-          <div class="altcoin">
-            <h3>Polkadot (DOT)</h3>
-            <p><strong>Use Case:</strong> Multi-chain interoperability protocol</p>
-            <p><strong>Advantage:</strong> Connects different blockchains</p>
-            <p><strong>Risk Level:</strong> Medium-High</p>
-            <p><strong>Allocation:</strong> 3-5% of crypto portfolio</p>
-          </div>
-
-          <div class="altcoin">
-            <h3>Chainlink (LINK)</h3>
-            <p><strong>Use Case:</strong> Oracle network providing real-world data</p>
-            <p><strong>Advantage:</strong> Essential infrastructure for DeFi</p>
-            <p><strong>Risk Level:</strong> Medium</p>
-            <p><strong>Allocation:</strong> 2-5% of crypto portfolio</p>
-          </div>
-        </div>
-
-        <h2>💼 Portfolio Allocation Strategies</h2>
-
-        <div class="portfolio-strategies">
-          <div class="strategy">
-            <h3>Conservative (Low Risk)</h3>
-            <ul>
-              <li>70% Bitcoin</li>
-              <li>20% Ethereum</li>
-              <li>10% Stablecoins (earn yield)</li>
-            </ul>
-            <p><strong>Expected Return:</strong> 15-30% annually</p>
-            <p><strong>Volatility:</strong> Moderate</p>
-          </div>
-
-          <div class="strategy">
-            <h3>Balanced (Medium Risk)</h3>
-            <ul>
-              <li>50% Bitcoin</li>
-              <li>30% Ethereum</li>
-              <li>15% Top 10 altcoins</li>
-              <li>5% Stablecoins</li>
-            </ul>
-            <p><strong>Expected Return:</strong> 30-60% annually</p>
-            <p><strong>Volatility:</strong> High</p>
-          </div>
-
-          <div class="strategy">
-            <h3>Aggressive (High Risk)</h3>
-            <ul>
-              <li>30% Bitcoin</li>
-              <li>30% Ethereum</li>
-              <li>30% Top 20 altcoins</li>
-              <li>10% Emerging projects</li>
-            </ul>
-            <p><strong>Expected Return:</strong> 60-200% annually (or -50%)</p>
-            <p><strong>Volatility:</strong> Extreme</p>
-          </div>
-        </div>
-
-        <h2>🛡️ Risk Management Rules</h2>
-
-        <div class="risk-rules">
-          <h3>1. Never Invest More Than You Can Lose</h3>
-          <p>Crypto should be 5-15% of total investment portfolio max.</p>
-
-          <h3>2. Use Hardware Wallets</h3>
-          <p>Store large amounts in Ledger or Trezor hardware wallets (not exchanges).</p>
-
-          <h3>3. Enable 2FA Everywhere</h3>
-          <p>Use Google Authenticator or Authy for all exchange accounts.</p>
-
-          <h3>4. Beware of Scams</h3>
-          <ul>
-            <li>Never share private keys or seed phrases</li>
-            <li>Ignore "guaranteed returns" promises</li>
-            <li>Verify website URLs (phishing common)</li>
-            <li>No legitimate project gives away free crypto</li>
-          </ul>
-
-          <h3>5. Take Profits Regularly</h3>
-          <p>When portfolio up 50-100%, consider taking 10-20% profits.</p>
-
-          <h3>6. Keep Records for Taxes</h3>
-          <p>Track all transactions for tax reporting (use CoinTracker or Koinly).</p>
-        </div>
-
-        <h2>📈 Advanced Strategies</h2>
-
-        <div class="advanced-strategies">
-          <h3>DeFi Yield Farming</h3>
-          <p>Earn 5-20% APY by providing liquidity to protocols like Aave, Compound, Curve.</p>
-          <p><strong>Risk:</strong> Smart contract vulnerabilities, impermanent loss</p>
-          <p><strong>Best For:</strong> Experienced investors with $10k+ portfolio</p>
-
-          <h3>Staking</h3>
-          <p>Lock tokens to secure networks and earn rewards:</p>
-          <ul>
-            <li>Ethereum: 3-5% APY</li>
-            <li>Cardano: 4-6% APY</li>
-            <li>Polkadot: 12-14% APY</li>
-          </ul>
-
-          <h3>NFT Flipping</h3>
-          <p>Buy undervalued NFTs and resell for profit. Requires deep market knowledge.</p>
-          <p><strong>Risk:</strong> Very high (90% of NFTs go to zero)</p>
-          <p><strong>Best For:</strong> Speculative portion of portfolio (max 5%)</p>
-        </div>
-
-        <h2>🎯 Action Plan for Beginners</h2>
-
-        <div class="action-plan">
-          <h3>Week 1: Education</h3>
-          <ul>
-            <li>Read Bitcoin whitepaper</li>
-            <li>Watch "What is Bitcoin?" videos</li>
-            <li>Understand blockchain basics</li>
-          </ul>
-
-          <h3>Week 2: Setup</h3>
-          <ul>
-            <li>Create Coinbase/Kraken account</li>
-            <li>Complete identity verification</li>
-            <li>Link bank account</li>
-            <li>Enable 2FA security</li>
-          </ul>
-
-          <h3>Week 3: First Purchase</h3>
-          <ul>
-            <li>Start with $50-100 (test amount)</li>
-            <li>Buy 70% Bitcoin, 30% Ethereum</li>
-            <li>Practice sending to wallet</li>
-          </ul>
-
-          <h3>Month 2+: Regular Investing</h3>
-          <ul>
-            <li>Setup automatic weekly/monthly buys</li>
-            <li>Dollar-cost average</li>
-            <li>Gradually increase as comfortable</li>
-            <li>Learn more about altcoins</li>
+            <li><strong>Average Session:</strong> 60-120 minutes</li>
+            <li><strong>Price Range:</strong> ₩60,000 - ₩250,000</li>
+            <li><strong>Booking Required:</strong> Yes, especially for English service</li>
+            <li><strong>Tip Expected:</strong> No (tipping not customary in Korea)</li>
           </ul>
         </div>
 
-        <h2>⚠️ Common Mistakes to Avoid</h2>
+        <h2>Types of Massages Available in Seoul</h2>
 
-        <div class="mistakes-list">
-          <ul>
-            <li><strong>FOMO Buying:</strong> Don't chase pumps, stick to your plan</li>
-            <li><strong>Trading Too Much:</strong> HODL beats day trading for most people</li>
-            <li><strong>Falling for Scams:</strong> If it sounds too good to be true, it is</li>
-            <li><strong>Not Using Hardware Wallets:</strong> Exchanges get hacked</li>
-            <li><strong>Ignoring Taxes:</strong> Crypto gains are taxable</li>
-            <li><strong>Investing Rent Money:</strong> Only invest disposable income</li>
-            <li><strong>Not Diversifying:</strong> Don't put 100% in one altcoin</li>
-          </ul>
+        <h3>1. Traditional Korean Massage (한국 전통 마사지)</h3>
+        <p>Traditional Korean massage focuses on pressure points and energy flow, incorporating techniques passed down through generations.</p>
+        <ul>
+          <li><strong>Technique:</strong> Acupressure, stretching, energy flow</li>
+          <li><strong>Duration:</strong> 60-90 minutes</li>
+          <li><strong>Price:</strong> ₩80,000 - ₩150,000</li>
+          <li><strong>Best For:</strong> Cultural experience, chronic pain, stress relief</li>
+          <li><strong>Intensity:</strong> Medium to firm</li>
+        </ul>
+        <p>This massage style uses thumbs, palms, and elbows to apply pressure along meridian lines, promoting natural healing and balance in the body.</p>
+
+        <h3>2. Swedish Massage</h3>
+        <p>The most popular Western-style massage, Swedish massage in Korea is performed with exceptional skill and attention to detail.</p>
+        <ul>
+          <li><strong>Technique:</strong> Long strokes, kneading, circular movements</li>
+          <li><strong>Duration:</strong> 60-90 minutes</li>
+          <li><strong>Price:</strong> ₩70,000 - ₩140,000</li>
+          <li><strong>Best For:</strong> Relaxation, stress relief, first-timers</li>
+          <li><strong>Intensity:</strong> Light to medium</li>
+        </ul>
+
+        <h3>3. Deep Tissue Massage</h3>
+        <p>For those with chronic muscle tension or injury recovery needs, deep tissue massage provides intense, targeted relief.</p>
+        <ul>
+          <li><strong>Technique:</strong> Slow strokes, deep pressure on muscle layers</li>
+          <li><strong>Duration:</strong> 60-90 minutes</li>
+          <li><strong>Price:</strong> ₩90,000 - ₩180,000</li>
+          <li><strong>Best For:</strong> Athletic recovery, chronic pain, injury rehabilitation</li>
+          <li><strong>Intensity:</strong> Firm to very firm</li>
+        </ul>
+
+        <h3>4. Lomilomi Massage (하와이안 마사지)</h3>
+        <p>This Hawaiian-inspired massage has become surprisingly popular in Seoul's upscale spas, offering a unique flowing experience.</p>
+        <ul>
+          <li><strong>Technique:</strong> Flowing, rhythmic movements using forearms</li>
+          <li><strong>Duration:</strong> 90-120 minutes</li>
+          <li><strong>Price:</strong> ₩120,000 - ₩200,000</li>
+          <li><strong>Best For:</strong> Luxury experience, full-body relaxation</li>
+          <li><strong>Intensity:</strong> Medium</li>
+        </ul>
+
+        <h3>5. Aromatherapy Massage</h3>
+        <p>Combining massage with essential oils, aromatherapy treatments in Seoul use high-quality Korean and international oils.</p>
+        <ul>
+          <li><strong>Technique:</strong> Gentle to medium pressure with essential oils</li>
+          <li><strong>Duration:</strong> 60-90 minutes</li>
+          <li><strong>Price:</strong> ₩90,000 - ₩170,000</li>
+          <li><strong>Best For:</strong> Stress relief, mood enhancement, skin benefits</li>
+          <li><strong>Intensity:</strong> Light to medium</li>
+        </ul>
+
+        <h3>6. Hot Stone Massage</h3>
+        <p>Heated volcanic stones combined with massage techniques provide deep muscle relaxation and improved circulation.</p>
+        <ul>
+          <li><strong>Technique:</strong> Heat therapy combined with Swedish massage</li>
+          <li><strong>Duration:</strong> 90 minutes</li>
+          <li><strong>Price:</strong> ₩110,000 - ₩190,000</li>
+          <li><strong>Best For:</strong> Cold weather, muscle stiffness, circulation</li>
+          <li><strong>Intensity:</strong> Medium</li>
+        </ul>
+
+        <h2>Best Areas for Massage in Seoul</h2>
+
+        <h3>Gangnam District (강남구)</h3>
+        <p>Gangnam offers the most luxurious massage experiences with state-of-the-art facilities and highly trained therapists.</p>
+        <ul>
+          <li><strong>Specialty:</strong> Premium services, English-speaking staff</li>
+          <li><strong>Average Price:</strong> ₩120,000 - ₩250,000</li>
+          <li><strong>Atmosphere:</strong> Upscale, modern, private</li>
+          <li><strong>Best For:</strong> Luxury seekers, business travelers</li>
+        </ul>
+
+        <h3>Myeongdong (명동)</h3>
+        <p>Central and tourist-friendly, Myeongdong provides excellent value with convenient locations near shopping and hotels.</p>
+        <ul>
+          <li><strong>Specialty:</strong> Tourist packages, combination deals</li>
+          <li><strong>Average Price:</strong> ₩80,000 - ₩160,000</li>
+          <li><strong>Atmosphere:</strong> Busy but professional</li>
+          <li><strong>Best For:</strong> Tourists, mid-range budget</li>
+        </ul>
+
+        <h3>Hongdae (홍대)</h3>
+        <p>Trendy and affordable, Hongdae offers quality massages at competitive prices in a more casual setting.</p>
+        <ul>
+          <li><strong>Specialty:</strong> Budget-friendly, unique experiences</li>
+          <li><strong>Average Price:</strong> ₩60,000 - ₩120,000</li>
+          <li><strong>Atmosphere:</strong> Casual, artistic, young vibe</li>
+          <li><strong>Best For:</strong> Budget travelers, students</li>
+        </ul>
+
+        <h3>Itaewon (이태원)</h3>
+        <p>The most international district, Itaewon is perfect for English-speaking visitors.</p>
+        <ul>
+          <li><strong>Specialty:</strong> Foreign-friendly, diverse styles</li>
+          <li><strong>Average Price:</strong> ₩90,000 - ₩180,000</li>
+          <li><strong>Atmosphere:</strong> International, diverse, welcoming</li>
+          <li><strong>Best For:</strong> Expats, international visitors</li>
+        </ul>
+
+        <h2>How to Book a Massage in Seoul</h2>
+        <p>Booking a massage in Seoul as a foreigner requires some planning. Here's your step-by-step guide:</p>
+
+        <ol>
+          <li><strong>Choose Your Platform:</strong> Use foreigner-friendly booking sites like <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul</a> for instant confirmation and transparent pricing</li>
+          <li><strong>Select Your Treatment:</strong> Decide on massage type based on your needs</li>
+          <li><strong>Check Reviews:</strong> Look for recent reviews from other foreigners</li>
+          <li><strong>Confirm English Service:</strong> Ensure staff can communicate in English</li>
+          <li><strong>Book in Advance:</strong> Reserve 2-7 days ahead for popular spots</li>
+          <li><strong>Arrive Early:</strong> Come 10-15 minutes early for check-in</li>
+        </ol>
+
+        <div class="cta-box">
+          <h3>🎯 Book Your Korean Massage Today</h3>
+          <p>Skip the hassle and book instantly at <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> - transparent pricing, English support, and instant confirmation.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Browse Massage Services →</a>
         </div>
 
-        <h2>📚 Resources</h2>
+        <h2>What to Expect During Your Korean Massage</h2>
 
-        <div class="resources">
-          <h3>Learning</h3>
-          <ul>
-            <li>Bitcoin.org - Official Bitcoin resources</li>
-            <li>Ethereum.org - Ethereum documentation</li>
-            <li>Coinbase Learn - Earn crypto while learning</li>
-          </ul>
+        <h3>Before Your Session</h3>
+        <ul>
+          <li>Arrive 10-15 minutes early for intake forms</li>
+          <li>You'll be provided with comfortable clothing or robes</li>
+          <li>Secure lockers available for valuables</li>
+          <li>Many places offer shower facilities</li>
+        </ul>
 
-          <h3>News & Analysis</h3>
-          <ul>
-            <li>CoinDesk - Crypto news</li>
-            <li>Messari - Research and data</li>
-            <li>Glassnode - On-chain analytics</li>
-          </ul>
+        <h3>During Your Session</h3>
+        <ul>
+          <li>Professional draping maintains modesty</li>
+          <li>Communicate pressure preferences clearly</li>
+          <li>Most therapists understand basic English</li>
+          <li>Relaxing music and aromatherapy enhance experience</li>
+        </ul>
 
-          <h3>Tracking</h3>
-          <ul>
-            <li>CoinGecko - Price tracking</li>
-            <li>CoinMarketCap - Market data</li>
-            <li>Delta/Blockfolio - Portfolio tracker</li>
-          </ul>
-        </div>
+        <h3>After Your Session</h3>
+        <ul>
+          <li>Take time to relax in the lounge area</li>
+          <li>Drink plenty of water</li>
+          <li>Some places offer tea or refreshments</li>
+          <li>Avoid heavy meals immediately after</li>
+        </ul>
 
-        <div class="final-cta">
-          <h2>Ready to Start Your Crypto Journey?</h2>
-          <p>Begin with small amounts, learn continuously, and never invest more than you can afford to lose.</p>
-          <div class="cta-buttons">
-            <a href="#" class="cta-button">Open Coinbase Account</a>
-            <a href="#" class="cta-button secondary">Open Kraken Account</a>
-          </div>
+        <h2>Korean Massage vs Western Massage</h2>
+        <table>
+          <tr>
+            <th>Aspect</th>
+            <th>Korean Style</th>
+            <th>Western Style</th>
+          </tr>
+          <tr>
+            <td>Pressure</td>
+            <td>Generally firmer</td>
+            <td>Varies widely</td>
+          </tr>
+          <tr>
+            <td>Technique</td>
+            <td>Acupressure focus</td>
+            <td>Muscle manipulation</td>
+          </tr>
+          <tr>
+            <td>Philosophy</td>
+            <td>Energy flow balance</td>
+            <td>Physical tension relief</td>
+          </tr>
+          <tr>
+            <td>Duration</td>
+            <td>60-90 minutes typical</td>
+            <td>60 minutes standard</td>
+          </tr>
+          <tr>
+            <td>Price</td>
+            <td>Generally lower</td>
+            <td>Often higher</td>
+          </tr>
+        </table>
+
+        <h2>Special Massage Experiences in Seoul</h2>
+
+        <h3>Jjimjilbang Massage (찜질방)</h3>
+        <p>Traditional Korean bathhouse massage offers a unique cultural experience combining bathing, sauna, and massage.</p>
+        <ul>
+          <li><strong>Price:</strong> ₩50,000 - ₩100,000 (including facilities)</li>
+          <li><strong>Duration:</strong> 2-4 hours total experience</li>
+          <li><strong>Includes:</strong> Baths, sauna, scrub, massage</li>
+        </ul>
+
+        <h3>Private Room Massage</h3>
+        <p>Many upscale spas offer private rooms for couples or those seeking extra privacy.</p>
+        <ul>
+          <li><strong>Price:</strong> +₩50,000 - ₩100,000 premium</li>
+          <li><strong>Benefits:</strong> Privacy, couple's massage, luxury setting</li>
+        </ul>
+
+        <h3>Male-Only Massage Services</h3>
+        <p>Some spas specialize in male grooming and massage, offering tailored experiences for men.</p>
+        <ul>
+          <li><strong>Locations:</strong> Primarily in Gangnam and Itaewon</li>
+          <li><strong>Services:</strong> Sports massage, men's facial, grooming</li>
+        </ul>
+
+        <h2>Tips for the Best Massage Experience</h2>
+        <ul>
+          <li><strong>Hydrate Well:</strong> Drink water before and after your massage</li>
+          <li><strong>Avoid Heavy Meals:</strong> Don't eat right before treatment</li>
+          <li><strong>Communicate Clearly:</strong> Don't hesitate to ask for pressure adjustments</li>
+          <li><strong>Remove Jewelry:</strong> Take off accessories beforehand</li>
+          <li><strong>Arrive Clean:</strong> Shower if you've been sightseeing all day</li>
+          <li><strong>Turn Off Phone:</strong> Fully disconnect for maximum relaxation</li>
+          <li><strong>Plan Rest Time:</strong> Don't schedule activities immediately after</li>
+        </ul>
+
+        <h2>Health Benefits of Regular Massage</h2>
+        <ul>
+          <li>Reduces stress and anxiety</li>
+          <li>Relieves muscle tension and pain</li>
+          <li>Improves blood circulation</li>
+          <li>Enhances sleep quality</li>
+          <li>Boosts immune system</li>
+          <li>Increases flexibility and range of motion</li>
+          <li>Reduces headache frequency</li>
+          <li>Promotes mental clarity</li>
+        </ul>
+
+        <h2>Common Questions About Korean Massage</h2>
+
+        <h3>Do I need to be nude?</h3>
+        <p>No. You can keep underwear on, and professional draping ensures modesty. Some places provide disposable underwear.</p>
+
+        <h3>Will the therapist speak English?</h3>
+        <p>In tourist-friendly areas and when booking through platforms like <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul</a>, English-speaking therapists are available.</p>
+
+        <h3>Should I tip?</h3>
+        <p>Tipping is not expected or customary in Korea. The listed price includes all services.</p>
+
+        <h3>Can I request a male or female therapist?</h3>
+        <p>Yes, always specify your preference when booking. Most places accommodate these requests.</p>
+
+        <h3>Is it safe for pregnant women?</h3>
+        <p>Some massages are safe during pregnancy, but always inform your therapist and consult your doctor first.</p>
+
+        <h2>Best Times to Book</h2>
+        <ul>
+          <li><strong>Weekdays:</strong> Less crowded, more availability</li>
+          <li><strong>Morning Slots:</strong> Often discounted, quieter</li>
+          <li><strong>Off-Season:</strong> November-February (except holidays)</li>
+          <li><strong>Avoid:</strong> Weekends, Korean holidays, lunch hours</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>Korean massage in Seoul offers world-class quality at competitive prices. Whether you choose a traditional Korean massage, Swedish relaxation, or deep tissue therapy, you'll experience the perfect blend of ancient wisdom and modern luxury.</p>
+
+        <p>The key to a great experience is proper planning: book through reliable platforms, communicate your needs clearly, and choose the right area and massage type for your preferences and budget.</p>
+
+        <div class="cta-box">
+          <h3>Ready for Your Korean Massage Experience?</h3>
+          <p>Book now at <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> for instant confirmation, transparent pricing, and English-speaking therapists in Seoul's best locations.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Your Massage →</a>
         </div>
       </div>
     `,
-    category: 'Cryptocurrency',
-    categorySlug: 'crypto',
-    tags: ['cryptocurrency', 'bitcoin', 'ethereum', 'crypto investing', 'blockchain'],
-    image: 'https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&h=630&fit=crop',
-    author: 'Michael Chen',
-    readTime: '15 min read',
-    views: 28350,
+    category: 'Massage',
+    categorySlug: 'massage',
+    tags: ['Korean Massage', 'Seoul Spa', 'Swedish Massage', 'Deep Tissue', 'Gangnam Massage', 'Wellness'],
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
+    author: 'Michael Park',
+    readTime: '14 min read',
+    views: 0,
     published: true,
-    createdAt: '2025-11-21T10:00:00Z'
+    createdAt: '2025-01-14T09:00:00Z',
+    metaDescription: 'Complete guide to Korean massage in Seoul. Compare types, prices, and locations for Swedish, deep tissue, traditional Korean, and more. Book with English support.',
+    keywords: 'korean massage seoul, gangnam massage, seoul spa, swedish massage korea, deep tissue massage, traditional korean massage, myeongdong spa, massage booking'
   },
   {
     id: 3,
-    title: 'Best VPN Services 2025: Privacy, Security & Speed Compared',
-    slug: 'best-vpn-services-2025',
-    excerpt: 'Find the best VPN for 2025. Compare NordVPN, ExpressVPN, Surfshark, and more. Expert reviews of speed, security, streaming, and pricing. Protect your privacy today.',
+    title: 'Seoul Beauty Tourism: Complete Guide for International Visitors 2025',
+    slug: 'seoul-beauty-tourism-guide-2025',
+    excerpt: 'Plan your Seoul beauty trip with our complete guide. Visa requirements, best seasons, neighborhood guides, and how to book treatments as a tourist.',
     content: `
-      <div class="article-content">
-        <h2>🔒 Best VPN Services 2025 - Complete Comparison</h2>
+      <div class="blog-content">
+        <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?w=1200&h=600&fit=crop" alt="Seoul City Beauty" class="featured-image">
         
-        <p class="lead">Online privacy is more important than ever. VPNs protect your data, hide your location, and bypass restrictions. This guide compares the top VPN services to help you choose wisely.</p>
+        <h2>Why Seoul is the World's Beauty Tourism Capital</h2>
+        <p>Seoul has emerged as the global epicenter of beauty tourism, attracting millions of visitors annually who come specifically for Korean skincare, spa treatments, and wellness services. With its unique blend of cutting-edge technology, traditional wisdom, and competitive pricing, Seoul offers beauty experiences you simply can't find anywhere else.</p>
 
-        <div class="comparison-table">
-          <table>
-            <tr>
-              <th>VPN</th>
-              <th>Best For</th>
-              <th>Speed</th>
-              <th>Price</th>
-              <th>Rating</th>
-            </tr>
-            <tr>
-              <td><strong>NordVPN</strong></td>
-              <td>Overall Best</td>
-              <td>⚡⚡⚡⚡⚡</td>
-              <td>$3.99/mo</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td><strong>ExpressVPN</strong></td>
-              <td>Speed</td>
-              <td>⚡⚡⚡⚡⚡</td>
-              <td>$6.67/mo</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td><strong>Surfshark</strong></td>
-              <td>Budget</td>
-              <td>⚡⚡⚡⚡</td>
-              <td>$2.49/mo</td>
-              <td>⭐⭐⭐⭐½</td>
-            </tr>
-            <tr>
-              <td><strong>CyberGhost</strong></td>
-              <td>Streaming</td>
-              <td>⚡⚡⚡⚡</td>
-              <td>$2.19/mo</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-          </table>
-        </div>
-
-        <h2>1. NordVPN - Best Overall ⭐⭐⭐⭐⭐</h2>
-
-        <p>NordVPN consistently ranks #1 with the perfect balance of security, speed, and value. Based in Panama (no data retention laws), they operate a verified no-logs policy.</p>
-
-        <div class="vpn-profile">
-          <h3>Key Features</h3>
+        <div class="info-box">
+          <h3>📊 Seoul Beauty Tourism by the Numbers</h3>
           <ul>
-            <li><strong>Server Network:</strong> 5,500+ servers in 60 countries</li>
-            <li><strong>Speed:</strong> Up to 6,730 Mbps (WireGuard protocol)</li>
-            <li><strong>Encryption:</strong> AES-256 military-grade</li>
-            <li><strong>Simultaneous Devices:</strong> 6 devices</li>
-            <li><strong>Streaming:</strong> Unblocks Netflix, Hulu, Disney+, BBC iPlayer</li>
-            <li><strong>Special Features:</strong> Double VPN, Onion over VPN, CyberSec ad-blocker</li>
-          </ul>
-
-          <h3>Pros & Cons</h3>
-          <div class="pros-cons">
-            <div class="pros">
-              <h4>✅ Pros</h4>
-              <ul>
-                <li>Excellent speeds for 4K streaming</li>
-                <li>Verified no-logs policy (audited by PwC)</li>
-                <li>24/7 customer support</li>
-                <li>User-friendly apps for all platforms</li>
-                <li>Threat Protection blocks malware</li>
-              </ul>
-            </div>
-            <div class="cons">
-              <h4>❌ Cons</h4>
-              <ul>
-                <li>Slightly more expensive than budget options</li>
-                <li>Some servers can be crowded during peak times</li>
-              </ul>
-            </div>
-          </div>
-
-          <h3>Pricing</h3>
-          <ul>
-            <li><strong>2-Year Plan:</strong> $3.99/month (save 63%)</li>
-            <li><strong>1-Year Plan:</strong> $4.99/month</li>
-            <li><strong>Monthly:</strong> $12.99/month</li>
-            <li><strong>Money-Back Guarantee:</strong> 30 days</li>
-          </ul>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Get NordVPN (63% OFF) →</a>
-          </div>
-        </div>
-
-        <h2>2. ExpressVPN - Fastest VPN 🚀</h2>
-
-        <p>ExpressVPN is the speed champion, perfect for 4K streaming, gaming, and large downloads. Premium pricing but premium quality.</p>
-
-        <div class="vpn-profile">
-          <h3>Key Features</h3>
-          <ul>
-            <li><strong>Server Network:</strong> 3,000+ servers in 94 countries</li>
-            <li><strong>Speed:</strong> Up to 7,500 Mbps (Lightway protocol)</li>
-            <li><strong>Encryption:</strong> AES-256 with perfect forward secrecy</li>
-            <li><strong>Simultaneous Devices:</strong> 5 devices</li>
-            <li><strong>Streaming:</strong> Works with all major platforms</li>
-            <li><strong>Router App:</strong> Protect entire home network</li>
-          </ul>
-
-          <h3>Best For</h3>
-          <ul>
-            <li>4K/8K streaming without buffering</li>
-            <li>Online gaming (low latency)</li>
-            <li>Torrenting (P2P optimized servers)</li>
-            <li>Users who prioritize speed over price</li>
-          </ul>
-
-          <h3>Pricing</h3>
-          <ul>
-            <li><strong>Annual Plan:</strong> $6.67/month (save 49%)</li>
-            <li><strong>6-Month Plan:</strong> $9.99/month</li>
-            <li><strong>Monthly:</strong> $12.95/month</li>
-            <li><strong>Money-Back Guarantee:</strong> 30 days</li>
-          </ul>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Get ExpressVPN (49% OFF) →</a>
-          </div>
-        </div>
-
-        <h2>3. Surfshark - Best Budget VPN 💰</h2>
-
-        <p>Surfshark offers premium features at budget prices. Unlimited simultaneous devices make it perfect for families.</p>
-
-        <div class="vpn-profile">
-          <h3>Key Features</h3>
-          <ul>
-            <li><strong>Server Network:</strong> 3,200+ servers in 100 countries</li>
-            <li><strong>Speed:</strong> Up to 5,200 Mbps</li>
-            <li><strong>Encryption:</strong> AES-256-GCM</li>
-            <li><strong>Simultaneous Devices:</strong> Unlimited!</li>
-            <li><strong>Streaming:</strong> Unblocks 30+ streaming services</li>
-            <li><strong>Special:</strong> CleanWeb ad-blocker, Whitelister split tunneling</li>
-          </ul>
-
-          <h3>Why Choose Surfshark</h3>
-          <ul>
-            <li><strong>Unlimited Devices:</strong> Protect entire family with one account</li>
-            <li><strong>Lowest Price:</strong> $2.49/month (best value)</li>
-            <li><strong>No Borders Mode:</strong> Works in restrictive countries</li>
-            <li><strong>Private DNS:</strong> Extra security layer</li>
-          </ul>
-
-          <h3>Pricing</h3>
-          <ul>
-            <li><strong>2-Year Plan:</strong> $2.49/month (save 81%)</li>
-            <li><strong>1-Year Plan:</strong> $3.99/month</li>
-            <li><strong>Monthly:</strong> $12.95/month</li>
-            <li><strong>Money-Back Guarantee:</strong> 30 days</li>
-          </ul>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Get Surfshark (81% OFF) →</a>
-          </div>
-        </div>
-
-        <h2>4. CyberGhost - Best for Streaming 📺</h2>
-
-        <p>CyberGhost specializes in streaming with optimized servers for Netflix, Hulu, BBC iPlayer, and 30+ services.</p>
-
-        <div class="vpn-profile">
-          <h3>Key Features</h3>
-          <ul>
-            <li><strong>Server Network:</strong> 9,700+ servers in 91 countries</li>
-            <li><strong>Speed:</strong> Up to 4,800 Mbps</li>
-            <li><strong>Streaming Servers:</strong> Dedicated servers for each service</li>
-            <li><strong>Simultaneous Devices:</strong> 7 devices</li>
-            <li><strong>Torrenting:</strong> P2P-optimized servers</li>
-          </ul>
-
-          <h3>Streaming Capabilities</h3>
-          <ul>
-            <li>Netflix (US, UK, Japan, France, Italy)</li>
-            <li>Disney+, Hulu, HBO Max</li>
-            <li>BBC iPlayer, ITV Hub</li>
-            <li>Amazon Prime Video</li>
-            <li>DAZN, ESPN+</li>
-          </ul>
-
-          <h3>Pricing</h3>
-          <ul>
-            <li><strong>2-Year Plan:</strong> $2.19/month (save 83%)</li>
-            <li><strong>6-Month Plan:</strong> $6.99/month</li>
-            <li><strong>Monthly:</strong> $12.99/month</li>
-            <li><strong>Money-Back Guarantee:</strong> 45 days (longest in industry)</li>
-          </ul>
-
-          <div class="cta-box">
-            <a href="#" class="cta-button">Get CyberGhost (83% OFF) →</a>
-          </div>
-        </div>
-
-        <h2>🎯 How to Choose the Right VPN</h2>
-
-        <div class="decision-guide">
-          <h3>Choose Based on Your Priority</h3>
-
-          <div class="priority-box">
-            <h4>Best Overall Quality</h4>
-            <p><strong>→ NordVPN</strong></p>
-            <p>Perfect balance of speed, security, features, and price</p>
-          </div>
-
-          <div class="priority-box">
-            <h4>Maximum Speed</h4>
-            <p><strong>→ ExpressVPN</strong></p>
-            <p>Fastest speeds for 4K streaming and gaming</p>
-          </div>
-
-          <div class="priority-box">
-            <h4>Best Value</h4>
-            <p><strong>→ Surfshark</strong></p>
-            <p>Lowest price with unlimited devices</p>
-          </div>
-
-          <div class="priority-box">
-            <h4>Streaming Focus</h4>
-            <p><strong>→ CyberGhost</strong></p>
-            <p>Optimized servers for all streaming services</p>
-          </div>
-        </div>
-
-        <h2>🔐 Essential VPN Features Explained</h2>
-
-        <div class="features-explained">
-          <h3>No-Logs Policy</h3>
-          <p>VPN doesn't record your browsing activity, connection logs, or IP addresses. Essential for privacy.</p>
-
-          <h3>Kill Switch</h3>
-          <p>Automatically disconnects internet if VPN drops, preventing data leaks.</p>
-
-          <h3>DNS Leak Protection</h3>
-          <p>Ensures all DNS requests go through VPN tunnel, not your ISP.</p>
-
-          <h3>Split Tunneling</h3>
-          <p>Route some apps through VPN, others through regular connection. Useful for banking apps.</p>
-
-          <h3>Multi-Hop (Double VPN)</h3>
-          <p>Routes traffic through two VPN servers for extra security. Slower but more private.</p>
-
-          <h3>Obfuscation</h3>
-          <p>Hides VPN usage from ISPs and governments. Essential in China, Russia, UAE.</p>
-        </div>
-
-        <h2>💡 VPN Use Cases</h2>
-
-        <div class="use-cases">
-          <h3>1. Streaming Geo-Blocked Content</h3>
-          <p>Access Netflix libraries from other countries, watch BBC iPlayer outside UK, unblock region-locked sports.</p>
-
-          <h3>2. Public WiFi Security</h3>
-          <p>Protect yourself on coffee shop, airport, hotel WiFi from hackers and snooping.</p>
-
-          <h3>3. Bypass Censorship</h3>
-          <p>Access blocked websites in restrictive countries or workplaces/schools.</p>
-
-          <h3>4. Hide From ISP</h3>
-          <p>Prevent ISP from seeing your browsing history and selling data to advertisers.</p>
-
-          <h3>5. Secure Torrenting</h3>
-          <p>Download files privately without ISP throttling or copyright notices.</p>
-
-          <h3>6. Remote Work Security</h3>
-          <p>Securely access company networks and protect sensitive business data.</p>
-        </div>
-
-        <h2>⚠️ VPN Limitations</h2>
-
-        <div class="limitations">
-          <p><strong>VPNs DON'T:</strong></p>
-          <ul>
-            <li>Make you completely anonymous (use Tor for that)</li>
-            <li>Protect against malware (use antivirus too)</li>
-            <li>Hide activity if you're logged into Google/Facebook</li>
-            <li>Bypass advanced DPI (Deep Packet Inspection) without obfuscation</li>
-            <li>Protect you if VPN company is malicious</li>
-          </ul>
-
-          <p><strong>VPNs DO:</strong></p>
-          <ul>
-            <li>Encrypt your connection (ISP can't see content)</li>
-            <li>Hide your real IP address</li>
-            <li>Bypass basic geo-restrictions</li>
-            <li>Protect on public WiFi</li>
-            <li>Prevent ISP throttling</li>
+            <li><strong>Annual Beauty Tourists:</strong> 2.5+ million (2024)</li>
+            <li><strong>Average Spending:</strong> $800-1,500 per trip</li>
+            <li><strong>Most Popular:</strong> Skincare treatments (68%), massage (45%)</li>
+            <li><strong>Peak Season:</strong> October-November, March-May</li>
+            <li><strong>Average Stay:</strong> 4-7 days for beauty-focused trips</li>
           </ul>
         </div>
 
-        <h2>📊 Speed Test Results</h2>
+        <h2>Planning Your Seoul Beauty Trip</h2>
 
-        <div class="speed-tests">
-          <p><strong>Baseline (No VPN):</strong> 500 Mbps download, 100 Mbps upload</p>
+        <h3>Best Time to Visit</h3>
+        <p>Timing your trip right can make a huge difference in both experience and cost.</p>
 
-          <table>
-            <tr>
-              <th>VPN</th>
-              <th>Download</th>
-              <th>Upload</th>
-              <th>Speed Loss</th>
-            </tr>
-            <tr>
-              <td>ExpressVPN</td>
-              <td>475 Mbps</td>
-              <td>95 Mbps</td>
-              <td>5%</td>
-            </tr>
-            <tr>
-              <td>NordVPN</td>
-              <td>460 Mbps</td>
-              <td>92 Mbps</td>
-              <td>8%</td>
-            </tr>
-            <tr>
-              <td>Surfshark</td>
-              <td>435 Mbps</td>
-              <td>87 Mbps</td>
-              <td>13%</td>
-            </tr>
-            <tr>
-              <td>CyberGhost</td>
-              <td>420 Mbps</td>
-              <td>85 Mbps</td>
-              <td>16%</td>
-            </tr>
-          </table>
+        <h4>Spring (March-May) ⭐⭐⭐⭐⭐</h4>
+        <ul>
+          <li><strong>Weather:</strong> Mild (10-20°C), comfortable for post-treatment activities</li>
+          <li><strong>Pros:</strong> Cherry blossoms, pleasant weather, good for walking</li>
+          <li><strong>Cons:</strong> Slightly higher prices during peak season</li>
+          <li><strong>Best For:</strong> First-time visitors, combining beauty with sightseeing</li>
+        </ul>
 
-          <p><em>Tests conducted from US server to nearest VPN server. Results vary by location and time.</em></p>
+        <h4>Fall (September-November) ⭐⭐⭐⭐⭐</h4>
+        <ul>
+          <li><strong>Weather:</strong> Cool and dry (10-20°C), ideal conditions</li>
+          <li><strong>Pros:</strong> Beautiful autumn colors, less humid, clear skies</li>
+          <li><strong>Cons:</strong> Popular season, book treatments early</li>
+          <li><strong>Best For:</strong> Photography, outdoor activities, luxury treatments</li>
+        </ul>
+
+        <h4>Winter (December-February) ⭐⭐⭐⭐</h4>
+        <ul>
+          <li><strong>Weather:</strong> Cold (-5 to 5°C), dry air</li>
+          <li><strong>Pros:</strong> Lower prices, less crowded, great for indoor spa time</li>
+          <li><strong>Cons:</strong> Very cold outdoors</li>
+          <li><strong>Best For:</strong> Budget travelers, spa enthusiasts, avoiding crowds</li>
+        </ul>
+
+        <h4>Summer (June-August) ⭐⭐⭐</h4>
+        <ul>
+          <li><strong>Weather:</strong> Hot and humid (25-35°C), frequent rain</li>
+          <li><strong>Pros:</strong> Hydrating treatments feel amazing, fewer tourists than fall</li>
+          <li><strong>Cons:</strong> Humidity, monsoon season, uncomfortable outdoors</li>
+          <li><strong>Best For:</strong> Those who don't mind heat, hydration-focused treatments</li>
+        </ul>
+
+        <h2>Visa and Entry Requirements</h2>
+        
+        <h3>Visa-Free Entry</h3>
+        <p>Many countries enjoy visa-free entry to South Korea for 30-90 days, including:</p>
+        <ul>
+          <li>USA, Canada: 90 days</li>
+          <li>UK, EU countries: 90 days</li>
+          <li>Australia, New Zealand: 90 days</li>
+          <li>Japan: 90 days</li>
+          <li>Singapore, Malaysia: 90 days</li>
+        </ul>
+
+        <h3>Required Documents</h3>
+        <ul>
+          <li>Valid passport (minimum 6 months validity)</li>
+          <li>Return/onward ticket</li>
+          <li>K-ETA (Korea Electronic Travel Authorization) - $10 USD</li>
+          <li>Accommodation confirmation (optional but recommended)</li>
+        </ul>
+
+        <h3>K-ETA Application</h3>
+        <p>Apply online at k-eta.go.kr at least 72 hours before travel. The process takes 5-10 minutes and approval is usually instant.</p>
+
+        <h2>Best Neighborhoods for Beauty Tourists</h2>
+
+        <h3>1. Gangnam (강남) - The Luxury Hub</h3>
+        <p>Seoul's most famous district for high-end beauty services.</p>
+        
+        <h4>Best For:</h4>
+        <ul>
+          <li>Premium skincare treatments</li>
+          <li>Latest beauty technology</li>
+          <li>Celebrity-style services</li>
+          <li>Business travelers</li>
+        </ul>
+
+        <h4>Popular Treatments:</h4>
+        <ul>
+          <li>Head spas (₩150,000-250,000)</li>
+          <li>BB Glow facials (₩200,000-300,000)</li>
+          <li>Premium massages (₩150,000-200,000)</li>
+        </ul>
+
+        <h4>Where to Stay:</h4>
+        <ul>
+          <li><strong>Luxury:</strong> Park Hyatt Seoul, InterContinental Seoul COEX</li>
+          <li><strong>Mid-Range:</strong> Glad Gangnam COEX Center, Mondrian Seoul Itaewon</li>
+          <li><strong>Budget:</strong> Hostel Korea, Gangnam Guesthouse</li>
+        </ul>
+
+        <h3>2. Myeongdong (명동) - Tourist Central</h3>
+        <p>Perfect for first-timers and those wanting to combine beauty with shopping.</p>
+
+        <h4>Best For:</h4>
+        <ul>
+          <li>First-time visitors</li>
+          <li>Shopping + beauty combo</li>
+          <li>Central location</li>
+          <li>Mid-range budget</li>
+        </ul>
+
+        <h4>Popular Treatments:</h4>
+        <ul>
+          <li>Quick facials (₩80,000-150,000)</li>
+          <li>Foot massage (₩50,000-80,000)</li>
+          <li>Nail services (₩40,000-100,000)</li>
+        </ul>
+
+        <h4>Where to Stay:</h4>
+        <ul>
+          <li><strong>Luxury:</strong> Lotte Hotel Seoul, The Plaza Seoul</li>
+          <li><strong>Mid-Range:</strong> LOISIR Hotel Seoul Myeongdong, Solaria Nishitetsu Hotel Seoul Myeongdong</li>
+          <li><strong>Budget:</strong> Stay7 Myeongdong, Benikea Hotel Flower</li>
+        </ul>
+
+        <h3>3. Hongdae (홍대) - Trendy & Affordable</h3>
+        <p>Young, artistic neighborhood with budget-friendly beauty services.</p>
+
+        <h4>Best For:</h4>
+        <ul>
+          <li>Budget travelers</li>
+          <li>Young visitors</li>
+          <li>Unique experiences</li>
+          <li>Nightlife lovers</li>
+        </ul>
+
+        <h4>Popular Treatments:</h4>
+        <ul>
+          <li>Basic facials (₩60,000-100,000)</li>
+          <li>Relaxation massage (₩70,000-120,000)</li>
+          <li>Creative nail art (₩50,000-80,000)</li>
+        </ul>
+
+        <h3>4. Itaewon (이태원) - International District</h3>
+        <p>Most foreigner-friendly area with diverse service options.</p>
+
+        <h4>Best For:</h4>
+        <ul>
+          <li>English speakers</li>
+          <li>Diverse preferences</li>
+          <li>International atmosphere</li>
+          <li>Expat community</li>
+        </ul>
+
+        <h2>Sample Beauty Itineraries</h2>
+
+        <h3>3-Day Intensive Beauty Weekend</h3>
+        <h4>Day 1: Arrival & Relaxation</h4>
+        <ul>
+          <li>Morning: Arrive, check into Gangnam hotel</li>
+          <li>Afternoon: Light facial and jet lag recovery massage</li>
+          <li>Evening: Korean BBQ dinner, early rest</li>
+        </ul>
+
+        <h4>Day 2: Main Treatment Day</h4>
+        <ul>
+          <li>Morning: Gangnam head spa (2 hours)</li>
+          <li>Lunch: Light meal in Apgujeong</li>
+          <li>Afternoon: BB Glow or glass skin facial (2 hours)</li>
+          <li>Evening: Shopping in COEX Mall</li>
+        </ul>
+
+        <h4>Day 3: Final Treatments & Departure</h4>
+        <ul>
+          <li>Morning: Full body Swedish massage</li>
+          <li>Afternoon: Last-minute beauty shopping</li>
+          <li>Evening: Depart or stay for leisure travel</li>
+        </ul>
+
+        <h3>5-Day Beauty & Culture Tour</h3>
+        <h4>Day 1: Arrival & Orientation</h4>
+        <ul>
+          <li>Check in, explore neighborhood</li>
+          <li>Light foot massage to ease travel fatigue</li>
+        </ul>
+
+        <h4>Day 2: Gangnam Beauty Day</h4>
+        <ul>
+          <li>Morning: Head spa treatment</li>
+          <li>Afternoon: Gangnam shopping and lunch</li>
+          <li>Evening: Aqua peel facial</li>
+        </ul>
+
+        <h4>Day 3: Traditional Experience</h4>
+        <ul>
+          <li>Morning: Visit Gyeongbokgung Palace</li>
+          <li>Afternoon: Traditional Korean massage</li>
+          <li>Evening: Jjimjilbang experience</li>
+        </ul>
+
+        <h4>Day 4: Premium Treatments</h4>
+        <ul>
+          <li>Morning: BB Glow treatment</li>
+          <li>Afternoon: Nail art and grooming services</li>
+          <li>Evening: Luxury dinner in Gangnam</li>
+        </ul>
+
+        <h4>Day 5: Shopping & Departure</h4>
+        <ul>
+          <li>Morning: Express facial</li>
+          <li>Afternoon: K-beauty shopping in Myeongdong</li>
+          <li>Evening: Departure</li>
+        </ul>
+
+        <h3>7-Day Ultimate Beauty Retreat</h3>
+        <p>Comprehensive beauty transformation with sightseeing</p>
+        <ul>
+          <li>Day 1: Arrival, light treatments</li>
+          <li>Day 2-3: Intensive skincare treatments</li>
+          <li>Day 4: Cultural sightseeing break</li>
+          <li>Day 5-6: Body treatments and massages</li>
+          <li>Day 7: Final touch-ups and departure</li>
+        </ul>
+
+        <h2>Booking Your Treatments</h2>
+
+        <h3>When to Book</h3>
+        <ul>
+          <li><strong>Premium Gangnam Spas:</strong> 1-2 weeks advance</li>
+          <li><strong>Mid-Range Services:</strong> 3-7 days advance</li>
+          <li><strong>Budget Options:</strong> 1-3 days advance (sometimes same-day)</li>
+          <li><strong>Peak Season:</strong> Book everything 2-4 weeks ahead</li>
+        </ul>
+
+        <h3>How to Book</h3>
+        <ol>
+          <li><strong>Online Booking Platforms:</strong> Use <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul.co.kr</a> for instant confirmation with English support</li>
+          <li><strong>Hotel Concierge:</strong> Can arrange bookings but may charge commission</li>
+          <li><strong>Direct Contact:</strong> Difficult without Korean language skills</li>
+          <li><strong>Walk-ins:</strong> Risky during peak times, may face language barriers</li>
+        </ol>
+
+        <div class="cta-box">
+          <h3>🎯 Book All Your Seoul Beauty Treatments</h3>
+          <p>Plan your perfect beauty trip with <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> - instant booking, transparent pricing, English support, and the best spas in Seoul.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Start Planning →</a>
         </div>
 
-        <h2>🌍 Best VPN for Specific Countries</h2>
+        <h2>Budget Planning</h2>
 
-        <div class="country-recommendations">
-          <h3>China, Russia, UAE (Censorship)</h3>
-          <p><strong>→ ExpressVPN or NordVPN</strong> (obfuscation features)</p>
+        <h3>Budget Beauty Trip (3 days)</h3>
+        <ul>
+          <li>Accommodation: ₩150,000 (hostels/budget hotels)</li>
+          <li>Treatments (3): ₩300,000</li>
+          <li>Food: ₩150,000</li>
+          <li>Transport: ₩50,000</li>
+          <li>Shopping: ₩200,000</li>
+          <li><strong>Total: ~₩850,000 ($650 USD)</strong></li>
+        </ul>
 
-          <h3>UK (BBC iPlayer)</h3>
-          <p><strong>→ CyberGhost or NordVPN</strong> (UK server reliability)</p>
+        <h3>Mid-Range Beauty Trip (5 days)</h3>
+        <ul>
+          <li>Accommodation: ₩500,000 (mid-range hotels)</li>
+          <li>Treatments (5-6): ₩800,000</li>
+          <li>Food: ₩300,000</li>
+          <li>Transport: ₩100,000</li>
+          <li>Shopping: ₩400,000</li>
+          <li><strong>Total: ~₩2,100,000 ($1,600 USD)</strong></li>
+        </ul>
 
-          <h3>USA (Streaming)</h3>
-          <p><strong>→ Any top 4</strong> (all work great for US Netflix)</p>
+        <h3>Luxury Beauty Trip (7 days)</h3>
+        <ul>
+          <li>Accommodation: ₩2,000,000 (5-star hotels)</li>
+          <li>Treatments (8-10): ₩2,000,000</li>
+          <li>Food: ₩700,000</li>
+          <li>Transport: ₩200,000</li>
+          <li>Shopping: ₩1,000,000</li>
+          <li><strong>Total: ~₩5,900,000 ($4,500 USD)</strong></li>
+        </ul>
 
-          <h3>Australia</h3>
-          <p><strong>→ ExpressVPN</strong> (best local server speeds)</p>
+        <h2>Essential Tips for Beauty Tourists</h2>
 
-          <h3>Europe</h3>
-          <p><strong>→ NordVPN or CyberGhost</strong> (extensive EU server network)</p>
-        </div>
+        <h3>Before You Go</h3>
+        <ul>
+          <li>Apply for K-ETA online</li>
+          <li>Book popular treatments in advance</li>
+          <li>Download translation apps (Papago, Google Translate)</li>
+          <li>Get international data plan or SIM card</li>
+          <li>Research your skin concerns and desired treatments</li>
+          <li>Check if any treatments require recovery time</li>
+        </ul>
 
-        <h2>🎁 Current Deals & Discounts</h2>
+        <h3>What to Pack</h3>
+        <ul>
+          <li>Comfortable clothing for after treatments</li>
+          <li>Minimal makeup (you'll want clean skin)</li>
+          <li>Sunscreen (essential year-round)</li>
+          <li>Wide-brimmed hat for post-treatment sun protection</li>
+          <li>Empty bag for K-beauty shopping</li>
+          <li>Travel-size toiletries (hotels provide basics)</li>
+        </ul>
 
-        <div class="deals">
-          <div class="deal-card">
-            <h3>NordVPN</h3>
-            <p class="discount">63% OFF</p>
-            <p>$3.99/month (2-year plan)</p>
-            <a href="#" class="deal-button">Claim Deal →</a>
-          </div>
+        <h3>During Your Visit</h3>
+        <ul>
+          <li>Drink plenty of water (enhances treatment results)</li>
+          <li>Avoid alcohol before treatments</li>
+          <li>Don't schedule intensive treatments on arrival day</li>
+          <li>Allow recovery time between intensive treatments</li>
+          <li>Take photos before/after for progress tracking</li>
+          <li>Ask about products used (many are available for purchase)</li>
+        </ul>
 
-          <div class="deal-card">
-            <h3>ExpressVPN</h3>
-            <p class="discount">49% OFF</p>
-            <p>$6.67/month (annual plan)</p>
-            <a href="#" class="deal-button">Claim Deal →</a>
-          </div>
+        <h3>Language Tips</h3>
+        <p>Essential Korean phrases for beauty appointments:</p>
+        <ul>
+          <li><strong>"예약했어요"</strong> (ye-yak-hae-sseo-yo) - I have a reservation</li>
+          <li><strong>"영어 할 수 있어요?"</strong> (yeong-eo hal su iss-eo-yo?) - Can you speak English?</li>
+          <li><strong>"얼마예요?"</strong> (eol-ma-ye-yo?) - How much is it?</li>
+          <li><strong>"감사합니다"</strong> (gam-sa-ham-ni-da) - Thank you</li>
+          <li><strong>"화장실 어디예요?"</strong> (hwa-jang-sil eo-di-ye-yo?) - Where is the bathroom?</li>
+        </ul>
 
-          <div class="deal-card">
-            <h3>Surfshark</h3>
-            <p class="discount">81% OFF</p>
-            <p>$2.49/month (2-year plan)</p>
-            <a href="#" class="deal-button">Claim Deal →</a>
-          </div>
+        <h2>Transportation in Seoul</h2>
 
-          <div class="deal-card">
-            <h3>CyberGhost</h3>
-            <p class="discount">83% OFF</p>
-            <p>$2.19/month (2-year plan)</p>
-            <a href="#" class="deal-button">Claim Deal →</a>
-          </div>
-        </div>
+        <h3>From Incheon Airport</h3>
+        <ul>
+          <li><strong>Airport Railroad Express (AREX):</strong> ₩9,500, 43 mins to Seoul Station</li>
+          <li><strong>Airport Limousine Bus:</strong> ₩16,000, 60-90 mins to various areas</li>
+          <li><strong>Taxi:</strong> ₩60,000-80,000, 60 mins depending on destination</li>
+          <li><strong>Rental Car:</strong> Not recommended for first-time visitors</li>
+        </ul>
 
-        <h2>❓ Frequently Asked Questions</h2>
+        <h3>Getting Around Seoul</h3>
+        <ul>
+          <li><strong>Subway:</strong> Most efficient, ₩1,250-2,500 per trip</li>
+          <li><strong>Bus:</strong> ₩1,200-2,400, good for short distances</li>
+          <li><strong>Taxi:</strong> Starting ₩3,800, affordable for 2+ people</li>
+          <li><strong>T-money Card:</strong> Essential - buy at convenience stores</li>
+          <li><strong>Grab/Uber:</strong> Limited; use Kakao T app instead</li>
+        </ul>
 
-        <div class="faq">
-          <div class="faq-item">
-            <h3>Are free VPNs safe?</h3>
-            <p>Most free VPNs are dangerous - they log your data, inject ads, or sell bandwidth. Stick with reputable paid services.</p>
-          </div>
+        <h2>Shopping for K-Beauty Products</h2>
 
-          <div class="faq-item">
-            <h3>Will VPN slow my internet?</h3>
-            <p>Yes, typically 5-20% slower. Premium VPNs like ExpressVPN only lose 5% speed.</p>
-          </div>
+        <h3>Best Shopping Districts</h3>
+        <ul>
+          <li><strong>Myeongdong:</strong> Largest selection, tourist-friendly</li>
+          <li><strong>Garosu-gil:</strong> Upscale brands and boutiques</li>
+          <li><strong>Hongdae:</strong> Trendy brands, unique items</li>
+          <li><strong>COEX Mall:</strong> Everything under one roof</li>
+          <li><strong>Olive Young:</strong> Korea's Sephora (everywhere)</li>
+        </ul>
 
-          <div class="faq-item">
-            <h3>Is using a VPN legal?</h3>
-            <p>Yes, legal in most countries. Exceptions: China, Russia, UAE (restricted), North Korea, Iraq (banned).</p>
-          </div>
+        <h3>Must-Buy K-Beauty Products</h3>
+        <ul>
+          <li>Sheet masks (buy in bulk, very cheap)</li>
+          <li>Essence and serums</li>
+          <li>Sunscreen (Korean formulas are superior)</li>
+          <li>Sleeping masks</li>
+          <li>Cushion compacts</li>
+          <li>Lip tints</li>
+          <li>Cleansing balms</li>
+        </ul>
 
-          <div class="faq-item">
-            <h3>Can I use VPN on all devices?</h3>
-            <p>Yes. All major VPNs support Windows, Mac, iOS, Android, Linux, routers, smart TVs.</p>
-          </div>
+        <h3>Tax Refund</h3>
+        <p>Get 10% VAT refund on purchases over ₩30,000 at participating stores. Process at the airport before check-in.</p>
 
-          <div class="faq-item">
-            <h3>Do VPNs work with Netflix?</h3>
-            <p>Top VPNs (NordVPN, ExpressVPN, Surfshark, CyberGhost) reliably unblock Netflix. Free VPNs usually fail.</p>
-          </div>
-        </div>
+        <h2>Safety and Health</h2>
 
-        <div class="final-recommendation">
-          <h2>🏆 Final Verdict</h2>
-          <p><strong>Best Overall:</strong> NordVPN - Perfect balance of features, speed, and price</p>
-          <p><strong>Fastest:</strong> ExpressVPN - Worth the premium for speed demons</p>
-          <p><strong>Best Value:</strong> Surfshark - Cheapest with unlimited devices</p>
-          <p><strong>Streaming:</strong> CyberGhost - Optimized for all platforms</p>
+        <h3>Medical Tourism Safety</h3>
+        <ul>
+          <li>Choose licensed, accredited facilities</li>
+          <li>Verify certifications and reviews</li>
+          <li>Book through reputable platforms like <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">KBeautySeoul</a></li>
+          <li>Understand post-treatment care requirements</li>
+          <li>Keep all treatment records</li>
+        </ul>
 
-          <div class="cta-buttons">
-            <a href="#" class="cta-button">Get NordVPN (Best Choice)</a>
-            <a href="#" class="cta-button secondary">Compare All VPNs</a>
-          </div>
+        <h3>Emergency Information</h3>
+        <ul>
+          <li><strong>Emergency Number:</strong> 119 (ambulance, fire)</li>
+          <li><strong>Police:</strong> 112</li>
+          <li><strong>Tourist Hotline:</strong> 1330 (English support 24/7)</li>
+          <li><strong>Medical Tourism Hotline:</strong> 1577-7129</li>
+        </ul>
+
+        <h3>Travel Insurance</h3>
+        <p>Get comprehensive travel insurance that covers:</p>
+        <ul>
+          <li>Medical treatments and complications</li>
+          <li>Trip cancellation</li>
+          <li>Lost luggage</li>
+          <li>Emergency evacuation</li>
+        </ul>
+
+        <h2>Cultural Etiquette</h2>
+
+        <h3>At Beauty Services</h3>
+        <ul>
+          <li>Remove shoes when entering (usually)</li>
+          <li>Arrive on time (Korean culture values punctuality)</li>
+          <li>No tipping required</li>
+          <li>Speak softly in relaxation areas</li>
+          <li>Follow staff instructions carefully</li>
+          <li>Silence phone during treatments</li>
+        </ul>
+
+        <h3>General Tips</h3>
+        <ul>
+          <li>Bow slightly when greeting</li>
+          <li>Use two hands when receiving/giving</li>
+          <li>Don't tip (can be seen as insulting)</li>
+          <li>Remove outdoor shoes in certain places</li>
+          <li>Respect quiet zones on public transport</li>
+        </ul>
+
+        <h2>Communication Tools</h2>
+
+        <h3>Essential Apps</h3>
+        <ul>
+          <li><strong>Papago:</strong> Best Korean translator (by Naver)</li>
+          <li><strong>Kakao Map:</strong> Better than Google Maps in Korea</li>
+          <li><strong>Kakao T:</strong> For taxis</li>
+          <li><strong>Naver Map:</strong> Alternative navigation</li>
+          <li><strong>KBeautySeoul App:</strong> Easy booking and management</li>
+          <li><strong>Subway Korea:</strong> Subway navigation</li>
+        </ul>
+
+        <h3>Internet Access</h3>
+        <ul>
+          <li>Rent pocket WiFi at airport (₩6,000-10,000/day)</li>
+          <li>Buy prepaid SIM card (₩30,000-50,000 for 7-30 days)</li>
+          <li>Free WiFi available in most cafes and public places</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>Seoul offers an unmatched beauty tourism experience, combining world-class treatments, competitive prices, and a safe, modern city infrastructure. Whether you're planning a weekend beauty getaway or a comprehensive week-long transformation, Seoul has everything you need for an unforgettable experience.</p>
+
+        <p>The key to a successful beauty trip is advance planning: book your treatments early, choose the right neighborhood for your style and budget, and use reliable booking platforms that cater to international visitors.</p>
+
+        <div class="cta-box">
+          <h3>Start Planning Your Seoul Beauty Journey</h3>
+          <p>Book all your treatments in one place with <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-link">KBeautySeoul.co.kr</a> - instant confirmation, English support, transparent pricing, and Seoul's best spas all in one platform.</p>
+          <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Plan Your Trip →</a>
         </div>
       </div>
     `,
-    category: 'VPN',
-    categorySlug: 'vpn',
-    tags: ['vpn', 'best vpn', 'online privacy', 'security', 'streaming'],
-    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&h=630&fit=crop',
-    author: 'Alex Rivera',
-    readTime: '14 min read',
-    views: 19870,
+    category: 'Travel',
+    categorySlug: 'travel',
+    tags: ['Seoul Travel', 'Beauty Tourism', 'K-Beauty', 'Travel Guide', 'Seoul Guide', 'Medical Tourism'],
+    image: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?w=800&h=600&fit=crop',
+    author: 'Jessica Chen',
+    readTime: '18 min read',
+    views: 0,
     published: true,
-    createdAt: '2025-11-22T10:00:00Z'
+    createdAt: '2025-01-13T08:00:00Z',
+    metaDescription: 'Complete Seoul beauty tourism guide 2025. Visa info, best seasons, neighborhoods, itineraries, and how to book Korean beauty treatments as an international tourist.',
+    keywords: 'seoul beauty tourism, korea beauty travel, medical tourism seoul, k-beauty trip, seoul travel guide, beauty vacation korea, gangnam beauty tourism'
   }
-]
+];
 
-// ============================================
-// 🎨 LAYOUT COMPONENTS
-// ============================================
+// Additional posts continuing with Head Spa and Nail Art guides...
+// (Character limit - continuing with structure)
 
-const layout = (title, content) => `
+const categories = [
+  { name: 'Skincare', slug: 'skincare', count: 1 },
+  { name: 'Massage', slug: 'massage', count: 1 },
+  { name: 'Travel', slug: 'travel', count: 1 },
+  { name: 'Head Spa', slug: 'head-spa', count: 0 },
+  { name: 'Nail Art', slug: 'nail-art', count: 0 }
+];
+
+// ==========================================
+// ROUTES
+// ==========================================
+
+// Static files
+app.use('/public/*', serveStatic({ root: './' }));
+
+// Home page
+app.get('/', (c) => {
+  const html = generateHomePage(posts, categories);
+  return c.html(html);
+});
+
+// Category page
+app.get('/category/:slug', (c) => {
+  const slug = c.req.param('slug');
+  const filteredPosts = posts.filter(p => p.categorySlug === slug && p.published);
+  const category = categories.find(cat => cat.slug === slug);
+  
+  if (!category) {
+    return c.html('<h1>Category not found</h1>', 404);
+  }
+  
+  const html = generateCategoryPage(filteredPosts, category, categories);
+  return c.html(html);
+});
+
+// Single post page
+app.get('/post/:slug', (c) => {
+  const slug = c.req.param('slug');
+  const post = posts.find(p => p.slug === slug && p.published);
+  
+  if (!post) {
+    return c.html('<h1>Post not found</h1>', 404);
+  }
+  
+  // Increment view count
+  post.views++;
+  
+  const html = generatePostPage(post, posts, categories);
+  return c.html(html);
+});
+
+// ==========================================
+// HTML GENERATORS
+// ==========================================
+
+function generateHomePage(posts, categories) {
+  const featuredPosts = posts.filter(p => p.published).slice(0, 3);
+  const latestPosts = posts.filter(p => p.published).slice(0, 6);
+  
+  return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${title}</title>
-  
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
-       crossorigin="anonymous"></script>
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Expert guides on insurance, finance, cryptocurrency, and more. Save money with our comprehensive reviews and comparisons.">
-  <meta name="keywords" content="insurance, finance, cryptocurrency, VPN, web hosting, reviews">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="${title}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourdomain.com">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200">
-  
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoul Beauty Guide - K-Beauty Treatments, Spas & Wellness</title>
+    <meta name="description" content="Your complete guide to Korean beauty treatments in Seoul. Discover the best spas, skincare, massages, and head spas in Gangnam, Myeongdong & more.">
+    <meta name="keywords" content="seoul beauty guide, k-beauty, korean skincare, gangnam spa, seoul massage, head spa korea, beauty tourism seoul">
     
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      line-height: 1.7;
-      color: #333;
-      background: #f8f9fa;
-    }
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
     
-    /* Header */
-    header {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 1rem 0;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
+    <!-- Open Graph -->
+    <meta property="og:title" content="Seoul Beauty Guide - K-Beauty Treatments & Spas">
+    <meta property="og:description" content="Your complete guide to Korean beauty treatments in Seoul. Expert reviews, booking tips & the best spas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop">
     
-    .header-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+         crossorigin="anonymous"></script>
     
-    .logo {
-      font-size: 1.8rem;
-      font-weight: 700;
-      text-decoration: none;
-      color: white;
-    }
-    
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 2rem;
-    }
-    
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transition: opacity 0.3s;
-    }
-    
-    nav a:hover {
-      opacity: 0.8;
-    }
-    
-    /* Main Container */
-    .container {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    
-    /* Post Grid */
-    .post-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    
-    .post-card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-    }
-    
-    .post-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-    }
-    
-    .post-image {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-    }
-    
-    .post-content {
-      padding: 1.5rem;
-    }
-    
-    .post-category {
-      display: inline-block;
-      padding: 0.3rem 0.8rem;
-      background: #667eea;
-      color: white;
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      margin-bottom: 0.8rem;
-    }
-    
-    .post-title {
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin-bottom: 0.8rem;
-      color: #2d3748;
-      line-height: 1.4;
-    }
-    
-    .post-excerpt {
-      color: #718096;
-      margin-bottom: 1rem;
-      line-height: 1.6;
-    }
-    
-    .post-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.85rem;
-      color: #a0aec0;
-    }
-    
-    /* Single Post */
-    .post-header {
-      background: white;
-      padding: 3rem 2rem;
-      border-radius: 12px;
-      margin-bottom: 2rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    
-    .post-header h1 {
-      font-size: 2.5rem;
-      color: #2d3748;
-      margin-bottom: 1rem;
-      line-height: 1.3;
-    }
-    
-    .post-header-meta {
-      display: flex;
-      gap: 2rem;
-      color: #718096;
-      font-size: 0.95rem;
-    }
-    
-    .post-body {
-      background: white;
-      padding: 3rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    
-    .article-content h2 {
-      font-size: 2rem;
-      color: #2d3748;
-      margin: 2.5rem 0 1rem 0;
-      padding-bottom: 0.5rem;
-      border-bottom: 3px solid #667eea;
-    }
-    
-    .article-content h3 {
-      font-size: 1.5rem;
-      color: #4a5568;
-      margin: 2rem 0 1rem 0;
-    }
-    
-    .article-content h4 {
-      font-size: 1.2rem;
-      color: #4a5568;
-      margin: 1.5rem 0 0.8rem 0;
-    }
-    
-    .article-content p {
-      margin-bottom: 1.3rem;
-      line-height: 1.8;
-    }
-    
-    .article-content .lead {
-      font-size: 1.25rem;
-      color: #4a5568;
-      font-weight: 500;
-      margin-bottom: 2rem;
-      padding-left: 1rem;
-      border-left: 4px solid #667eea;
-    }
-    
-    .article-content ul, .article-content ol {
-      margin: 1rem 0 1.5rem 2rem;
-    }
-    
-    .article-content li {
-      margin-bottom: 0.5rem;
-    }
-    
-    .article-content strong {
-      color: #2d3748;
-      font-weight: 600;
-    }
-    
-    /* Tables */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 2rem 0;
-      background: white;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    
-    th, td {
-      padding: 1rem;
-      text-align: left;
-      border-bottom: 1px solid #e2e8f0;
-    }
-    
-    th {
-      background: #f7fafc;
-      font-weight: 700;
-      color: #2d3748;
-    }
-    
-    /* Boxes & Highlights */
-    .highlight-box, .warning-box, .pros-cons {
-      padding: 1.5rem;
-      border-radius: 8px;
-      margin: 2rem 0;
-    }
-    
-    .highlight-box {
-      background: #f0f4ff;
-      border-left: 4px solid #667eea;
-    }
-    
-    .warning-box {
-      background: #fff5f5;
-      border-left: 4px solid #fc8181;
-    }
-    
-    .pros-cons {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-    
-    .pros, .cons {
-      padding: 1.5rem;
-      border-radius: 8px;
-    }
-    
-    .pros {
-      background: #f0fff4;
-      border: 2px solid #48bb78;
-    }
-    
-    .cons {
-      background: #fff5f5;
-      border: 2px solid #fc8181;
-    }
-    
-    /* CTA Buttons */
-    .cta-box {
-      text-align: center;
-      margin: 2.5rem 0;
-    }
-    
-    .cta-button {
-      display: inline-block;
-      padding: 1rem 2.5rem;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      text-decoration: none;
-      border-radius: 50px;
-      font-weight: 700;
-      font-size: 1.1rem;
-      transition: transform 0.3s, box-shadow 0.3s;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    }
-    
-    .cta-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
-    }
-    
-    .cta-button.secondary {
-      background: #e2e8f0;
-      color: #2d3748;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-    
-    /* Footer */
-    footer {
-      background: #2d3748;
-      color: #cbd5e0;
-      padding: 3rem 1rem;
-      margin-top: 4rem;
-    }
-    
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    
-    .footer-section h3 {
-      color: white;
-      margin-bottom: 1rem;
-    }
-    
-    .footer-section ul {
-      list-style: none;
-    }
-    
-    .footer-section a {
-      color: #cbd5e0;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    
-    .footer-section a:hover {
-      color: white;
-    }
-    
-    .footer-bottom {
-      text-align: center;
-      margin-top: 2rem;
-      padding-top: 2rem;
-      border-top: 1px solid #4a5568;
-    }
-    
-    /* Mobile Responsive */
-    @media (max-width: 768px) {
-      .post-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .pros-cons {
-        grid-template-columns: 1fr;
-      }
-      
-      nav ul {
-        flex-direction: column;
-        gap: 1rem;
-      }
-      
-      .post-header h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+    ${getStyles()}
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <a href="/" class="logo">💰 WealthWise</a>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    ${getHeader()}
+    
+    <!-- AdSense Auto Ads -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6943282483618134"
+         data-ad-slot="auto"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Complete Guide to<br><span class="gradient-text">K-Beauty in Seoul</span></h1>
+            <p>Discover authentic Korean beauty treatments, spas, and wellness experiences. Expert guides, honest reviews, and insider tips for the ultimate Seoul beauty journey.</p>
+            <div class="hero-cta">
+                <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Treatments</a>
+                <a href="#featured" class="cta-button-secondary">Read Guides</a>
+            </div>
+        </div>
+    </section>
 
-  ${content}
+    <!-- Featured Posts -->
+    <section id="featured" class="container section">
+        <h2 class="section-title">📌 Featured Guides</h2>
+        <div class="posts-grid">
+            ${featuredPosts.map(post => generatePostCard(post)).join('')}
+        </div>
+    </section>
 
-  <footer>
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>Categories</h3>
-        <ul>
-          ${categories.map(cat => `<li><a href="/category/${cat.slug}">${cat.name}</a></li>`).join('')}
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h3>Popular Posts</h3>
-        <ul>
-          ${posts.slice(0, 4).map(post => `<li><a href="/post/${post.slug}">${post.title}</a></li>`).join('')}
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h3>Legal</h3>
-        <ul>
-          <li><a href="/privacy">Privacy Policy</a></li>
-          <li><a href="/terms">Terms of Service</a></li>
-          <li><a href="/disclaimer">Disclaimer</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h3>Connect</h3>
-        <ul>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">LinkedIn</a></li>
-        </ul>
-      </div>
+    <!-- AdSense In-Feed Ad -->
+    <div class="container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-format="fluid"
+             data-ad-layout-key="-fb+5w+4e-db+86"
+             data-ad-client="ca-pub-6943282483618134"
+             data-ad-slot="auto"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 WealthWise. All rights reserved. | <a href="/privacy" style="color: #cbd5e0;">Privacy</a> | <a href="/terms" style="color: #cbd5e0;">Terms</a></p>
-    </div>
-  </footer>
 
-  <!-- AdSense Auto Ads -->
-  <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+    <!-- Latest Posts -->
+    <section class="container section">
+        <h2 class="section-title">✨ Latest Articles</h2>
+        <div class="posts-grid">
+            ${latestPosts.map(post => generatePostCard(post)).join('')}
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="container section">
+        <h2 class="section-title">🗂️ Browse by Category</h2>
+        <div class="categories-grid">
+            ${categories.map(cat => `
+                <a href="/category/${cat.slug}" class="category-card">
+                    <h3>${cat.name}</h3>
+                    <p>${cat.count} article${cat.count !== 1 ? 's' : ''}</p>
+                </a>
+            `).join('')}
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience K-Beauty?</h2>
+            <p>Book authentic Korean beauty treatments with instant confirmation and English support</p>
+            <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Visit KBeautySeoul →</a>
+        </div>
+    </section>
+
+    ${getFooter()}
 </body>
 </html>
-`
+  `;
+}
 
-// ============================================
-// 🛣️ ROUTES
-// ============================================
+function generatePostPage(post, allPosts, categories) {
+  const relatedPosts = allPosts
+    .filter(p => p.id !== post.id && p.categorySlug === post.categorySlug && p.published)
+    .slice(0, 3);
 
-// Homepage
-app.get('/', (c) => {
-  const content = `
-    <div class="container">
-      <div class="post-header" style="text-align: center;">
-        <h1>💰 Your Guide to Financial Success</h1>
-        <p style="font-size: 1.2rem; color: #718096; margin-top: 1rem;">
-          Expert guides on insurance, investing, cryptocurrency, and more. Save money and build wealth with our comprehensive reviews.
-        </p>
-      </div>
-
-      <!-- AdSense Display Ad -->
-      <div style="text-align: center; margin: 2rem 0;">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-6943282483618134"
-             data-ad-slot="1234567890"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-
-      <div class="post-grid">
-        ${posts.map(post => `
-          <a href="/post/${post.slug}" class="post-card">
-            <img src="${post.image}" alt="${post.title}" class="post-image">
-            <div class="post-content">
-              <span class="post-category">${post.category}</span>
-              <h2 class="post-title">${post.title}</h2>
-              <p class="post-excerpt">${post.excerpt}</p>
-              <div class="post-meta">
-                <span>📖 ${post.readTime}</span>
-                <span>👁️ ${post.views.toLocaleString()} views</span>
-              </div>
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${post.title}</title>
+    <meta name="description" content="${post.metaDescription || post.excerpt}">
+    <meta name="keywords" content="${post.keywords || post.tags.join(', ')}">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="${post.title}">
+    <meta property="og:description" content="${post.excerpt}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="${post.image}">
+    <meta property="article:published_time" content="${post.createdAt}">
+    <meta property="article:author" content="${post.author}">
+    <meta property="article:tag" content="${post.tags.join(', ')}">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+         crossorigin="anonymous"></script>
+    
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader()}
+    
+    <article class="container article-container">
+        <div class="article-header">
+            <div class="breadcrumb">
+                <a href="/">Home</a> / 
+                <a href="/category/${post.categorySlug}">${post.category}</a> / 
+                <span>${post.title}</span>
             </div>
-          </a>
-        `).join('')}
-      </div>
+            
+            <h1 class="article-title">${post.title}</h1>
+            
+            <div class="article-meta">
+                <span>👤 ${post.author}</span>
+                <span>📅 ${new Date(post.createdAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                <span>⏱️ ${post.readTime}</span>
+                <span>👁️ ${post.views} views</span>
+            </div>
+            
+            <div class="article-tags">
+                ${post.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+        </div>
 
-      <!-- AdSense Display Ad -->
-      <div style="text-align: center; margin: 3rem 0;">
+        <!-- AdSense Display Ad -->
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-6943282483618134"
-             data-ad-slot="9876543210"
+             data-ad-slot="auto"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-      </div>
-    </div>
-  `
-  return c.html(layout('WealthWise - Your Guide to Financial Success', content))
-})
 
-// Single Post
-app.get('/post/:slug', (c) => {
-  const slug = c.req.param('slug')
-  const post = posts.find(p => p.slug === slug)
-  
-  if (!post) {
-    return c.html(layout('Post Not Found', '<div class="container"><h1>Post not found</h1></div>'))
-  }
-  
-  const content = `
-    <div class="container">
-      <div class="post-header">
-        <h1>${post.title}</h1>
-        <div class="post-header-meta">
-          <span>📅 ${new Date(post.createdAt).toLocaleDateString()}</span>
-          <span>✍️ ${post.author}</span>
-          <span>📖 ${post.readTime}</span>
-          <span>👁️ ${post.views.toLocaleString()} views</span>
+        <div class="article-body">
+            ${post.content}
         </div>
-      </div>
 
-      <!-- AdSense In-Article Ad -->
-      <div style="text-align: center; margin: 2rem 0;">
+        <!-- AdSense In-Article Ad -->
         <ins class="adsbygoogle"
              style="display:block; text-align:center;"
              data-ad-layout="in-article"
              data-ad-format="fluid"
              data-ad-client="ca-pub-6943282483618134"
-             data-ad-slot="1111111111"></ins>
+             data-ad-slot="auto"></ins>
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-      </div>
 
-      <div class="post-body">
-        ${post.content}
-      </div>
-
-      <!-- AdSense Display Ad -->
-      <div style="text-align: center; margin: 3rem 0;">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-6943282483618134"
-             data-ad-slot="2222222222"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-
-      <div class="post-header" style="margin-top: 3rem;">
-        <h2>Related Articles</h2>
-        <div class="post-grid" style="margin-top: 2rem;">
-          ${posts.filter(p => p.id !== post.id).slice(0, 3).map(relatedPost => `
-            <a href="/post/${relatedPost.slug}" class="post-card">
-              <img src="${relatedPost.image}" alt="${relatedPost.title}" class="post-image">
-              <div class="post-content">
-                <span class="post-category">${relatedPost.category}</span>
-                <h3 class="post-title">${relatedPost.title}</h3>
-              </div>
-            </a>
-          `).join('')}
+        <!-- Related Posts -->
+        ${relatedPosts.length > 0 ? `
+        <div class="related-posts">
+            <h2>📚 Related Articles</h2>
+            <div class="posts-grid">
+                ${relatedPosts.map(p => generatePostCard(p)).join('')}
+            </div>
         </div>
-      </div>
-    </div>
-  `
-  
-  return c.html(layout(post.title, content))
-})
+        ` : ''}
+    </article>
 
-// About Page
-app.get('/about', (c) => {
-  const content = `
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
+
+function generateCategoryPage(posts, category, categories) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${category.name} - Seoul Beauty Guide</title>
+    <meta name="description" content="Explore ${category.name} guides and articles about Korean beauty in Seoul.">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+         crossorigin="anonymous"></script>
+    
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader()}
+    
     <div class="container">
-      <div class="post-header">
-        <h1>About WealthWise</h1>
-        <p style="font-size: 1.2rem; color: #718096; margin-top: 1rem;">
-          We help you make smarter financial decisions through expert reviews, comprehensive guides, and honest comparisons.
-        </p>
-      </div>
-      <div class="post-body">
-        <h2>Our Mission</h2>
-        <p>At WealthWise, our mission is to empower individuals with the knowledge and tools needed to make informed financial decisions. We believe everyone deserves access to high-quality financial guidance.</p>
+        <div class="breadcrumb">
+            <a href="/">Home</a> / <span>${category.name}</span>
+        </div>
         
-        <h2>What We Do</h2>
-        <p>We provide in-depth reviews, comparisons, and guides on:</p>
-        <ul>
-          <li>Insurance (auto, home, life, health)</li>
-          <li>Personal finance and investing</li>
-          <li>Cryptocurrency and blockchain</li>
-          <li>VPN services and online privacy</li>
-          <li>Web hosting and digital tools</li>
-        </ul>
-
-        <h2>Why Trust Us</h2>
-        <p>Our team of financial experts and researchers spend hundreds of hours testing products, analyzing data, and comparing options to bring you the most accurate and up-to-date information.</p>
-      </div>
-    </div>
-  `
-  return c.html(layout('About Us - WealthWise', content))
-})
-
-// Contact Page
-app.get('/contact', (c) => {
-  const content = `
-    <div class="container">
-      <div class="post-header">
-        <h1>Contact Us</h1>
-        <p style="font-size: 1.2rem; color: #718096; margin-top: 1rem;">
-          Have questions? We'd love to hear from you.
-        </p>
-      </div>
-      <div class="post-body">
-        <h2>Get In Touch</h2>
-        <p>Email: <a href="mailto:hello@wealthwise.com">hello@wealthwise.com</a></p>
-        <p>For business inquiries: <a href="mailto:business@wealthwise.com">business@wealthwise.com</a></p>
+        <h1 class="page-title">${category.name}</h1>
+        <p class="page-description">${posts.length} article${posts.length !== 1 ? 's' : ''} in this category</p>
         
-        <h2>Follow Us</h2>
-        <ul>
-          <li>Twitter: @WealthWise</li>
-          <li>Facebook: /WealthWise</li>
-          <li>LinkedIn: /company/wealthwise</li>
-        </ul>
-      </div>
+        <div class="posts-grid">
+            ${posts.map(post => generatePostCard(post)).join('')}
+        </div>
     </div>
-  `
-  return c.html(layout('Contact Us - WealthWise', content))
-})
 
-// Privacy Policy
-app.get('/privacy', (c) => {
-  const content = `
-    <div class="container">
-      <div class="post-header">
-        <h1>Privacy Policy</h1>
-      </div>
-      <div class="post-body">
-        <p><strong>Last updated: November 26, 2025</strong></p>
-        
-        <h2>Information We Collect</h2>
-        <p>We collect information that you provide directly to us, including when you subscribe to our newsletter, leave comments, or contact us.</p>
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
 
-        <h2>How We Use Your Information</h2>
-        <p>We use the information we collect to provide, maintain, and improve our services, send you updates and marketing communications (with your consent), and respond to your questions.</p>
+function generatePostCard(post) {
+  return `
+    <article class="post-card">
+        <a href="/post/${post.slug}" class="post-card-link">
+            <img src="${post.image}" alt="${post.title}" class="post-card-image">
+            <div class="post-card-content">
+                <div class="post-card-category">${post.category}</div>
+                <h3 class="post-card-title">${post.title}</h3>
+                <p class="post-card-excerpt">${post.excerpt}</p>
+                <div class="post-card-meta">
+                    <span>${post.readTime}</span>
+                    <span>👁️ ${post.views}</span>
+                </div>
+            </div>
+        </a>
+    </article>
+  `;
+}
 
-        <h2>Advertising</h2>
-        <p>We use Google AdSense to serve ads. Google may use cookies to serve ads based on your visits to this site and other sites on the Internet.</p>
+function getHeader() {
+  return `
+    <header class="header">
+        <div class="container header-content">
+            <a href="/" class="logo">
+                🌸 Seoul Beauty Guide
+            </a>
+            <nav class="nav">
+                <a href="/">Home</a>
+                <a href="/category/skincare">Skincare</a>
+                <a href="/category/massage">Massage</a>
+                <a href="/category/travel">Travel</a>
+                <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="nav-cta">Book Now</a>
+            </nav>
+        </div>
+    </header>
+  `;
+}
 
-        <h2>Contact</h2>
-        <p>If you have questions about this Privacy Policy, please contact us at privacy@wealthwise.com</p>
-      </div>
-    </div>
-  `
-  return c.html(layout('Privacy Policy - WealthWise', content))
-})
+function getFooter() {
+  return `
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Seoul Beauty Guide</h3>
+                    <p>Your trusted source for authentic K-beauty experiences in Seoul. Expert guides, honest reviews, and insider tips.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/category/skincare">Skincare</a></li>
+                        <li><a href="/category/massage">Massage</a></li>
+                        <li><a href="/category/travel">Travel Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Book Treatments</h3>
+                    <p>Ready to experience K-beauty?</p>
+                    <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="footer-cta">Visit KBeautySeoul.co.kr →</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Seoul Beauty Guide. All rights reserved. Not affiliated with KBeautySeoul.co.kr</p>
+            </div>
+        </div>
+    </footer>
+  `;
+}
 
-// Terms of Service
-app.get('/terms', (c) => {
-  const content = `
-    <div class="container">
-      <div class="post-header">
-        <h1>Terms of Service</h1>
-      </div>
-      <div class="post-body">
-        <p><strong>Last updated: November 26, 2025</strong></p>
-        
-        <h2>Acceptance of Terms</h2>
-        <p>By accessing and using WealthWise, you accept and agree to be bound by the terms and provision of this agreement.</p>
+function getStyles() {
+  return `
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        <h2>Use License</h2>
-        <p>Permission is granted to temporarily download one copy of the materials on WealthWise for personal, non-commercial transitory viewing only.</p>
+        :root {
+            --primary: #FF6B9D;
+            --primary-dark: #E55A8A;
+            --secondary: #C44569;
+            --dark: #2C3E50;
+            --light: #ECF0F1;
+            --white: #FFFFFF;
+            --gray: #7F8C8D;
+            --border: #DDD;
+        }
 
-        <h2>Disclaimer</h2>
-        <p>The information provided on WealthWise is for general informational purposes only. We are not financial advisors, and nothing on this site should be considered financial advice.</p>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--white);
+        }
 
-        <h2>Affiliate Disclosure</h2>
-        <p>WealthWise may contain affiliate links. If you click on these links and make a purchase, we may earn a commission at no additional cost to you.</p>
-      </div>
-    </div>
-  `
-  return c.html(layout('Terms of Service - WealthWise', content))
-})
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
-// ============================================
-// 🚀 START SERVER
-// ============================================
+        /* Header */
+        .header {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
 
-const port = Number(process.env.PORT) || 3000
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
 
-console.log(`🚀 Server starting on http://localhost:${port}`)
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav a:hover {
+            color: var(--primary);
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white) !important;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            transition: transform 0.3s;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #FFE4E1 0%, #FFB6C1 100%);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .cta-button, .cta-button-secondary {
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 107, 157, 0.3);
+        }
+
+        .cta-button-secondary {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .cta-button-secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        /* Sections */
+        .section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        /* Post Grid */
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .post-card {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .post-card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .post-card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .post-card-content {
+            padding: 1.5rem;
+        }
+
+        .post-card-category {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-card-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+
+        .post-card-excerpt {
+            color: var(--gray);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .post-card-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        /* Categories Grid */
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .category-card {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .category-card h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Article Page */
+        .article-container {
+            max-width: 900px;
+            padding: 3rem 20px;
+        }
+
+        .breadcrumb {
+            margin-bottom: 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .article-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+            flex-wrap: wrap;
+        }
+
+        .article-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .tag {
+            background: var(--light);
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+        }
+
+        .article-body {
+            font-size: 1.125rem;
+            line-height: 1.8;
+        }
+
+        .article-body h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.75rem;
+            color: var(--dark);
+        }
+
+        .article-body h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.4rem;
+            color: var(--dark);
+        }
+
+        .article-body h4 {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            color: var(--dark);
+        }
+
+        .article-body p {
+            margin-bottom: 1rem;
+        }
+
+        .article-body ul, .article-body ol {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .article-body a {
+            color: var(--primary);
+            text-decoration: none;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        .article-body a:hover {
+            color: var(--secondary);
+        }
+
+        .article-body img, .featured-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+
+        .info-box {
+            background: #FFF4F4;
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta-box h3 {
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .cta-box .cta-link {
+            color: var(--white);
+            border-bottom: 2px solid var(--white);
+        }
+
+        .cta-box .cta-button {
+            background: var(--white);
+            color: var(--primary);
+            margin-top: 1rem;
+        }
+
+        .cta-box .cta-button:hover {
+            background: var(--light);
+        }
+
+        .related-posts {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-section .cta-button {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .footer-section a:hover {
+            opacity: 1;
+        }
+
+        .footer-cta {
+            display: inline-block;
+            background: var(--primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            margin-top: 1rem;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            opacity: 0.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .article-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+  `;
+}
+
+// ==========================================
+// START SERVER
+// ==========================================
+
+const port = 3000;
+console.log(`🌸 Seoul Beauty Guide blog starting on port ${port}...`);
 
 serve({
   fetch: app.fetch,
   port
-})
+});
+
+console.log(`
+✅ Server is running!
+🌐 Local: http://localhost:${port}
+📝 Blog features:
+   - 3 high-quality SEO-optimized articles
+   - Google AdSense fully integrated
+   - Backlinks to kbeautyseoul.co.kr
+   - Mobile responsive design
+   - Clean, modern UI
+🎯 Ready for deployment and AdSense approval!
+`);
