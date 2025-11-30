@@ -1,0 +1,8 @@
+Quick Fix Plan:
+1. Articles 1-5: Complete ✅
+2. Articles 6-8: Placeholder (set published: false until integrated)
+3. Articles 9-15: Complete ✅  
+4. Articles 16-20: Missing (will add as published: false)
+
+This way homepage will show only complete articles (1-5, 9-15 = 12 articles)
+Users won't see incomplete content
