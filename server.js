@@ -5405,6 +5405,34 @@ app.get('/ads.txt', (c) => {
 });
 
 // ==========================================
+// LEGAL PAGES (Required for AdSense)
+// ==========================================
+
+// Privacy Policy
+app.get('/privacy-policy', (c) => {
+  const html = generatePrivacyPolicyPage(categories);
+  return c.html(html);
+});
+
+// Terms of Service
+app.get('/terms-of-service', (c) => {
+  const html = generateTermsOfServicePage(categories);
+  return c.html(html);
+});
+
+// Contact Us
+app.get('/contact', (c) => {
+  const html = generateContactPage(categories);
+  return c.html(html);
+});
+
+// About Us
+app.get('/about', (c) => {
+  const html = generateAboutPage(categories);
+  return c.html(html);
+});
+
+// ==========================================
 // HTML GENERATORS
 // ==========================================
 
@@ -5724,9 +5752,24 @@ function getFooter() {
                     <p>Ready to experience K-beauty?</p>
                     <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="footer-cta">Visit KBeautySeoul.co.kr →</a>
                 </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/about">About Us</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Seoul Beauty Guide. All rights reserved. Not affiliated with KBeautySeoul.co.kr</p>
+                <p style="margin-top: 10px; font-size: 0.9em;">
+                    <a href="/privacy-policy" style="color: #ccc; margin: 0 10px;">Privacy</a> | 
+                    <a href="/terms-of-service" style="color: #ccc; margin: 0 10px;">Terms</a> | 
+                    <a href="/contact" style="color: #ccc; margin: 0 10px;">Contact</a> | 
+                    <a href="/about" style="color: #ccc; margin: 0 10px;">About</a>
+                </p>
             </div>
         </div>
     </footer>
@@ -6740,3 +6783,687 @@ console.log(`
 🎯 Progress: 100% complete (15/15 articles for AdSense) ✅
 🚀 Ready for Vercel deployment!
 `);
+
+// ==========================================
+// LEGAL PAGE GENERATORS
+// ==========================================
+
+function generatePrivacyPolicyPage(categories) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Seoul Beauty Guide</title>
+    <meta name="description" content="Seoul Beauty Guide Privacy Policy. Learn how we collect, use, and protect your personal information.">
+    <meta name="robots" content="index, follow">
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader(categories)}
+    
+    <main class="container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <article class="legal-page">
+            <h1 style="font-size: 2.5em; margin-bottom: 10px; color: #ff6b9d;">Privacy Policy</h1>
+            <p style="color: #666; margin-bottom: 30px;"><strong>Last Updated:</strong> January 30, 2025</p>
+            
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">1. Introduction</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Welcome to Seoul Beauty Guide ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a>.
+                </p>
+                <p style="line-height: 1.8; color: #555;">
+                    By using our website, you consent to the data practices described in this policy. If you do not agree with the terms of this privacy policy, please do not access the site.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">2. Information We Collect</h2>
+                
+                <h3 style="color: #555; font-size: 1.4em; margin-top: 20px; margin-bottom: 10px;">2.1 Automatically Collected Information</h3>
+                <p style="line-height: 1.8; color: #555;">When you visit our website, we automatically collect certain information about your device, including:</p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Browser type and version</li>
+                    <li>Operating system</li>
+                    <li>IP address</li>
+                    <li>Pages visited and time spent on pages</li>
+                    <li>Referring website addresses</li>
+                    <li>Date and time of visits</li>
+                </ul>
+
+                <h3 style="color: #555; font-size: 1.4em; margin-top: 20px; margin-bottom: 10px;">2.2 Cookies and Tracking Technologies</h3>
+                <p style="line-height: 1.8; color: #555;">
+                    We use cookies and similar tracking technologies to track activity on our website and store certain information. Cookies are files with small amounts of data that are sent to your browser from a website and stored on your device.
+                </p>
+                <p style="line-height: 1.8; color: #555;"><strong>Types of cookies we use:</strong></p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li><strong>Essential Cookies:</strong> Required for the website to function properly</li>
+                    <li><strong>Analytics Cookies:</strong> Help us understand how visitors use our website (Google Analytics)</li>
+                    <li><strong>Advertising Cookies:</strong> Used to deliver relevant advertisements (Google AdSense)</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">3. How We Use Your Information</h2>
+                <p style="line-height: 1.8; color: #555;">We use the collected information for various purposes:</p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>To provide and maintain our website</li>
+                    <li>To improve user experience and website performance</li>
+                    <li>To analyze usage patterns and trends</li>
+                    <li>To detect and prevent technical issues</li>
+                    <li>To serve relevant advertisements through Google AdSense</li>
+                    <li>To comply with legal obligations</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">4. Google AdSense and Advertising</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    We use Google AdSense to serve advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ads Settings</a>.
+                </p>
+                <p style="line-height: 1.8; color: #555;">
+                    Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website. Google's use of advertising cookies enables it and its partners to serve ads based on visits to our site and/or other sites on the Internet.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">5. Google Analytics</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    We use Google Analytics to analyze website traffic and usage. Google Analytics collects information anonymously and reports website trends without identifying individual visitors. You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics opt-out browser add-on</a>.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">6. Third-Party Links</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Our website contains links to third-party websites, including <a href="https://kbeautyseoul.co.kr">kbeautyseoul.co.kr</a> and other beauty service providers. We are not responsible for the privacy practices of these external sites. We encourage you to read the privacy policies of any third-party sites you visit.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">7. Data Security</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    We implement reasonable security measures to protect your information. However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">8. Children's Privacy</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Our website is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">9. Your Rights</h2>
+                <p style="line-height: 1.8; color: #555;">Depending on your location, you may have the following rights:</p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li><strong>Access:</strong> Request access to your personal information</li>
+                    <li><strong>Correction:</strong> Request correction of inaccurate information</li>
+                    <li><strong>Deletion:</strong> Request deletion of your personal information</li>
+                    <li><strong>Opt-out:</strong> Opt out of certain data collection and use</li>
+                    <li><strong>Cookie Control:</strong> Manage cookie preferences through your browser settings</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">10. International Data Transfers</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that are different from the laws of your country.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">11. Changes to This Privacy Policy</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. We encourage you to review this Privacy Policy periodically for any changes.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">12. Contact Us</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    If you have any questions about this Privacy Policy, please contact us at:
+                </p>
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 5px 0;"><strong>Seoul Beauty Guide</strong></p>
+                    <p style="margin: 5px 0;">Email: <a href="mailto:contact@seoul-beauty-guide.com">contact@seoul-beauty-guide.com</a></p>
+                    <p style="margin: 5px 0;">Website: <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a></p>
+                </div>
+            </section>
+
+            <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #f0f0f0;">
+                <p style="text-align: center; color: #666;">
+                    <a href="/terms-of-service" style="color: #ff6b9d; margin: 0 15px;">Terms of Service</a> | 
+                    <a href="/contact" style="color: #ff6b9d; margin: 0 15px;">Contact Us</a> | 
+                    <a href="/about" style="color: #ff6b9d; margin: 0 15px;">About Us</a> | 
+                    <a href="/" style="color: #ff6b9d; margin: 0 15px;">Home</a>
+                </p>
+            </div>
+        </article>
+    </main>
+
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
+
+function generateTermsOfServicePage(categories) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Seoul Beauty Guide</title>
+    <meta name="description" content="Seoul Beauty Guide Terms of Service. Read our terms and conditions for using our website.">
+    <meta name="robots" content="index, follow">
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader(categories)}
+    
+    <main class="container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <article class="legal-page">
+            <h1 style="font-size: 2.5em; margin-bottom: 10px; color: #ff6b9d;">Terms of Service</h1>
+            <p style="color: #666; margin-bottom: 30px;"><strong>Last Updated:</strong> January 30, 2025</p>
+            
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">1. Acceptance of Terms</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Welcome to Seoul Beauty Guide. By accessing and using this website (<a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a>), you accept and agree to be bound by the terms and provision of this agreement.
+                </p>
+                <p style="line-height: 1.8; color: #555;">
+                    If you do not agree to these Terms of Service, you should not use this website. We reserve the right to modify these terms at any time, and your continued use of the site constitutes acceptance of those changes.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">2. Description of Service</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Seoul Beauty Guide is an informational website providing guides, reviews, and recommendations about Korean beauty treatments, spas, salons, and wellness services in Seoul, South Korea. Our content includes:
+                </p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Beauty treatment guides and tutorials</li>
+                    <li>Spa and salon recommendations</li>
+                    <li>Pricing information and booking tips</li>
+                    <li>Korean beauty trends and news</li>
+                    <li>Links to third-party service providers</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">3. Use of Website</h2>
+                
+                <h3 style="color: #555; font-size: 1.4em; margin-top: 20px; margin-bottom: 10px;">3.1 Permitted Use</h3>
+                <p style="line-height: 1.8; color: #555;">You may use our website for:</p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Personal, non-commercial information purposes</li>
+                    <li>Research about Korean beauty services</li>
+                    <li>Reading and sharing our content (with proper attribution)</li>
+                </ul>
+
+                <h3 style="color: #555; font-size: 1.4em; margin-top: 20px; margin-bottom: 10px;">3.2 Prohibited Use</h3>
+                <p style="line-height: 1.8; color: #555;">You agree NOT to:</p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Copy, reproduce, or distribute our content without permission</li>
+                    <li>Use automated systems (bots, scrapers) to access the website</li>
+                    <li>Attempt to hack, disrupt, or damage the website</li>
+                    <li>Post malicious code, viruses, or harmful content</li>
+                    <li>Impersonate Seoul Beauty Guide or its representatives</li>
+                    <li>Use the website for any illegal purposes</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">4. Intellectual Property Rights</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    All content on Seoul Beauty Guide, including text, graphics, logos, images, and software, is the property of Seoul Beauty Guide or its content suppliers and is protected by international copyright laws.
+                </p>
+                <p style="line-height: 1.8; color: #555;">
+                    You may not reproduce, distribute, modify, create derivative works, publicly display, or exploit any of our content without our express written permission.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">5. Third-Party Links and Services</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Our website contains links to third-party websites and services, including beauty salons, spas, and service providers like <a href="https://kbeautyseoul.co.kr">kbeautyseoul.co.kr</a>. These links are provided for your convenience only.
+                </p>
+                <p style="line-height: 1.8; color: #555;">
+                    We do not endorse, control, or assume responsibility for the content, privacy policies, or practices of any third-party websites. You acknowledge and agree that Seoul Beauty Guide shall not be liable for any damage or loss caused by your use of third-party services.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">6. Disclaimer of Warranties</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    <strong>THE WEBSITE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.</strong> We do not warrant that:
+                </p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>The website will be available at all times</li>
+                    <li>The information provided is accurate, complete, or current</li>
+                    <li>The website will be free from errors, viruses, or harmful components</li>
+                    <li>Third-party services recommended will meet your expectations</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">7. Limitation of Liability</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    To the fullest extent permitted by law, Seoul Beauty Guide shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from:
+                </p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Your use or inability to use the website</li>
+                    <li>Any errors or omissions in website content</li>
+                    <li>Services obtained through links on our website</li>
+                    <li>Unauthorized access to or alteration of your data</li>
+                    <li>Any other matter related to the website</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">8. User Responsibility</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    You acknowledge that:
+                </p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Information on our website is for general guidance only</li>
+                    <li>You should verify all information before making decisions</li>
+                    <li>Prices, services, and availability may change without notice</li>
+                    <li>You are responsible for evaluating service providers</li>
+                    <li>You should consult professionals for medical/beauty advice</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">9. Advertising and Monetization</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Seoul Beauty Guide displays advertisements through Google AdSense and may contain affiliate links. We may receive compensation when you click on ads or make purchases through our links. This does not affect the price you pay or our editorial independence.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">10. Privacy Policy</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    Your use of the website is also governed by our <a href="/privacy-policy" style="color: #ff6b9d;">Privacy Policy</a>. Please review our Privacy Policy to understand our practices regarding your personal information.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">11. Indemnification</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    You agree to indemnify and hold harmless Seoul Beauty Guide, its owners, employees, and partners from any claims, losses, damages, liabilities, and expenses (including legal fees) arising from:
+                </p>
+                <ul style="line-height: 1.8; color: #555; margin-left: 20px;">
+                    <li>Your use of the website</li>
+                    <li>Your violation of these Terms of Service</li>
+                    <li>Your violation of any rights of another party</li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">12. Modifications to Service</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    We reserve the right to modify or discontinue the website (or any part thereof) at any time, with or without notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuance of the website.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">13. Governing Law</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    These Terms of Service shall be governed by and construed in accordance with the laws of South Korea, without regard to its conflict of law provisions.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">14. Severability</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">15. Contact Information</h2>
+                <p style="line-height: 1.8; color: #555;">
+                    For questions about these Terms of Service, please contact us:
+                </p>
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px;">
+                    <p style="margin: 5px 0;"><strong>Seoul Beauty Guide</strong></p>
+                    <p style="margin: 5px 0;">Email: <a href="mailto:contact@seoul-beauty-guide.com">contact@seoul-beauty-guide.com</a></p>
+                    <p style="margin: 5px 0;">Website: <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a></p>
+                </div>
+            </section>
+
+            <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #f0f0f0;">
+                <p style="text-align: center; color: #666;">
+                    <a href="/privacy-policy" style="color: #ff6b9d; margin: 0 15px;">Privacy Policy</a> | 
+                    <a href="/contact" style="color: #ff6b9d; margin: 0 15px;">Contact Us</a> | 
+                    <a href="/about" style="color: #ff6b9d; margin: 0 15px;">About Us</a> | 
+                    <a href="/" style="color: #ff6b9d; margin: 0 15px;">Home</a>
+                </p>
+            </div>
+        </article>
+    </main>
+
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
+
+function generateContactPage(categories) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Seoul Beauty Guide</title>
+    <meta name="description" content="Contact Seoul Beauty Guide. Get in touch with us for questions, feedback, or partnership inquiries.">
+    <meta name="robots" content="index, follow">
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader(categories)}
+    
+    <main class="container" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+        <article class="legal-page">
+            <h1 style="font-size: 2.5em; margin-bottom: 10px; color: #ff6b9d; text-align: center;">Contact Us</h1>
+            <p style="color: #666; margin-bottom: 40px; text-align: center;">We'd love to hear from you! Get in touch with Seoul Beauty Guide.</p>
+            
+            <div style="background: linear-gradient(135deg, #fff5f8 0%, #ffe4ef 100%); padding: 40px; border-radius: 20px; margin-bottom: 40px;">
+                <h2 style="color: #ff6b9d; font-size: 1.8em; margin-bottom: 20px;">Get in Touch</h2>
+                <p style="line-height: 1.8; color: #555; margin-bottom: 30px;">
+                    Have questions about Korean beauty treatments? Need recommendations for spas in Seoul? Want to partner with us? We're here to help!
+                </p>
+
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(255,107,157,0.1);">
+                    <h3 style="color: #333; font-size: 1.5em; margin-bottom: 20px;">Contact Information</h3>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <p style="margin: 10px 0;"><strong style="color: #ff6b9d;">📧 Email:</strong></p>
+                        <p style="margin: 5px 0 5px 20px;">General Inquiries: <a href="mailto:contact@seoul-beauty-guide.com" style="color: #a855f7;">contact@seoul-beauty-guide.com</a></p>
+                        <p style="margin: 5px 0 5px 20px;">Partnership: <a href="mailto:partner@seoul-beauty-guide.com" style="color: #a855f7;">partner@seoul-beauty-guide.com</a></p>
+                        <p style="margin: 5px 0 5px 20px;">Press: <a href="mailto:press@seoul-beauty-guide.com" style="color: #a855f7;">press@seoul-beauty-guide.com</a></p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <p style="margin: 10px 0;"><strong style="color: #ff6b9d;">🌐 Website:</strong></p>
+                        <p style="margin: 5px 0 5px 20px;"><a href="https://seoul-beauty-guide.vercel.app" style="color: #a855f7;">seoul-beauty-guide.vercel.app</a></p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <p style="margin: 10px 0;"><strong style="color: #ff6b9d;">🕐 Response Time:</strong></p>
+                        <p style="margin: 5px 0 5px 20px;">We typically respond within 24-48 hours on business days</p>
+                    </div>
+                </div>
+            </div>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 20px;">What We Can Help With</h2>
+                
+                <div style="display: grid; gap: 20px; margin-top: 20px;">
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #ff6b9d;">
+                        <h3 style="color: #ff6b9d; margin-bottom: 10px;">💬 General Questions</h3>
+                        <p style="color: #555; line-height: 1.6;">Questions about our content, Korean beauty treatments, or recommendations</p>
+                    </div>
+
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #a855f7;">
+                        <h3 style="color: #a855f7; margin-bottom: 10px;">🤝 Business Partnerships</h3>
+                        <p style="color: #555; line-height: 1.6;">Collaboration opportunities, sponsorships, or advertising inquiries</p>
+                    </div>
+
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #fbbf24;">
+                        <h3 style="color: #fbbf24; margin-bottom: 10px;">📝 Content Feedback</h3>
+                        <p style="color: #555; line-height: 1.6;">Suggestions, corrections, or feedback about our articles and guides</p>
+                    </div>
+
+                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #10b981;">
+                        <h3 style="color: #10b981; margin-bottom: 10px;">📰 Press & Media</h3>
+                        <p style="color: #555; line-height: 1.6;">Media inquiries, interview requests, or press kit requests</p>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 20px;">Frequently Asked Questions</h2>
+                
+                <div style="background: white; border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden;">
+                    <div style="padding: 20px; border-bottom: 1px solid #e5e7eb;">
+                        <h3 style="color: #555; font-size: 1.2em; margin-bottom: 10px;">How can I contribute content to Seoul Beauty Guide?</h3>
+                        <p style="color: #666; line-height: 1.6;">We welcome guest contributions! Email us at <a href="mailto:contact@seoul-beauty-guide.com" style="color: #ff6b9d;">contact@seoul-beauty-guide.com</a> with your pitch and writing samples.</p>
+                    </div>
+
+                    <div style="padding: 20px; border-bottom: 1px solid #e5e7eb;">
+                        <h3 style="color: #555; font-size: 1.2em; margin-bottom: 10px;">Do you offer advertising opportunities?</h3>
+                        <p style="color: #666; line-height: 1.6;">Yes! We offer various advertising and sponsorship options. Contact <a href="mailto:partner@seoul-beauty-guide.com" style="color: #ff6b9d;">partner@seoul-beauty-guide.com</a> for our media kit.</p>
+                    </div>
+
+                    <div style="padding: 20px; border-bottom: 1px solid #e5e7eb;">
+                        <h3 style="color: #555; font-size: 1.2em; margin-bottom: 10px;">Can you recommend specific salons or spas?</h3>
+                        <p style="color: #666; line-height: 1.6;">Check our comprehensive guides for detailed recommendations. For personalized advice, email us with your specific needs and budget.</p>
+                    </div>
+
+                    <div style="padding: 20px;">
+                        <h3 style="color: #555; font-size: 1.2em; margin-bottom: 10px;">How do I report an error on your website?</h3>
+                        <p style="color: #666; line-height: 1.6;">We appreciate your help! Please email <a href="mailto:contact@seoul-beauty-guide.com" style="color: #ff6b9d;">contact@seoul-beauty-guide.com</a> with the article URL and details of the error.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 40px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 20px;">Connect With Us</h2>
+                <p style="color: #555; line-height: 1.8; margin-bottom: 20px;">
+                    Stay updated with the latest Korean beauty trends, tips, and guides! Follow our content and share your experiences.
+                </p>
+                <div style="background: linear-gradient(135deg, #a855f7 0%, #ff6b9d 100%); padding: 30px; border-radius: 15px; text-align: center; color: white;">
+                    <p style="font-size: 1.2em; margin-bottom: 15px;">📱 Share your K-beauty journey with us!</p>
+                    <p style="opacity: 0.9;">We love hearing about your experiences at Seoul's spas and salons.</p>
+                </div>
+            </section>
+
+            <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #f0f0f0;">
+                <p style="text-align: center; color: #666;">
+                    <a href="/privacy-policy" style="color: #ff6b9d; margin: 0 15px;">Privacy Policy</a> | 
+                    <a href="/terms-of-service" style="color: #ff6b9d; margin: 0 15px;">Terms of Service</a> | 
+                    <a href="/about" style="color: #ff6b9d; margin: 0 15px;">About Us</a> | 
+                    <a href="/" style="color: #ff6b9d; margin: 0 15px;">Home</a>
+                </p>
+            </div>
+        </article>
+    </main>
+
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
+
+function generateAboutPage(categories) {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Seoul Beauty Guide</title>
+    <meta name="description" content="About Seoul Beauty Guide. Learn about our mission to share the best Korean beauty experiences and wellness traditions.">
+    <meta name="robots" content="index, follow">
+    ${getStyles()}
+</head>
+<body>
+    ${getHeader(categories)}
+    
+    <main class="container" style="max-width: 900px; margin: 40px auto; padding: 0 20px;">
+        <article class="legal-page">
+            <h1 style="font-size: 2.5em; margin-bottom: 10px; color: #ff6b9d; text-align: center;">About Seoul Beauty Guide</h1>
+            <p style="color: #666; margin-bottom: 40px; text-align: center; font-size: 1.2em;">Your Trusted Source for Korean Beauty & Wellness</p>
+            
+            <section style="margin-bottom: 50px;">
+                <div style="background: linear-gradient(135deg, #fff5f8 0%, #ffe4ef 100%); padding: 40px; border-radius: 20px;">
+                    <h2 style="color: #ff6b9d; font-size: 2em; margin-bottom: 20px;">Our Mission</h2>
+                    <p style="line-height: 1.8; color: #555; font-size: 1.1em;">
+                        Seoul Beauty Guide is dedicated to helping locals and travelers discover the best Korean beauty treatments, spas, and wellness experiences in Seoul. We provide comprehensive, honest, and practical guides to help you make informed decisions about your K-beauty journey.
+                    </p>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 50px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 25px;">What We Do</h2>
+                
+                <div style="display: grid; gap: 25px;">
+                    <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #ff6b9d;">
+                        <h3 style="color: #ff6b9d; font-size: 1.5em; margin-bottom: 15px;">📚 Comprehensive Guides</h3>
+                        <p style="color: #555; line-height: 1.8;">
+                            We create in-depth guides covering everything from traditional Korean spa experiences (jjimjilbang) to modern dermatology treatments. Each guide includes detailed pricing, location information, and insider tips.
+                        </p>
+                    </div>
+
+                    <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #a855f7;">
+                        <h3 style="color: #a855f7; font-size: 1.5em; margin-bottom: 15px;">⭐ Honest Reviews</h3>
+                        <p style="color: #555; line-height: 1.8;">
+                            Our recommendations are based on thorough research and real experiences. We highlight both the best services and what to watch out for, so you can make confident choices.
+                        </p>
+                    </div>
+
+                    <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #fbbf24;">
+                        <h3 style="color: #fbbf24; font-size: 1.5em; margin-bottom: 15px;">💡 Expert Tips</h3>
+                        <p style="color: #555; line-height: 1.8;">
+                            From booking appointments to understanding Korean beauty etiquette, we share practical tips that help you navigate Seoul's beauty scene like a local.
+                        </p>
+                    </div>
+
+                    <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #10b981;">
+                        <h3 style="color: #10b981; font-size: 1.5em; margin-bottom: 15px;">🔄 Regular Updates</h3>
+                        <p style="color: #555; line-height: 1.8;">
+                            Seoul's beauty scene evolves constantly. We regularly update our content with the latest trends, new services, and current pricing information.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 50px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 25px;">What We Cover</h2>
+                
+                <div style="background: #f8f9fa; padding: 30px; border-radius: 15px;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                        <div>
+                            <h4 style="color: #ff6b9d; margin-bottom: 10px;">🧴 Skincare</h4>
+                            <ul style="color: #555; line-height: 1.8; margin-left: 20px;">
+                                <li>Korean skincare routines</li>
+                                <li>Facial treatments</li>
+                                <li>Dermatology clinics</li>
+                                <li>Sheet masks & products</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 style="color: #a855f7; margin-bottom: 10px;">💆 Spa & Massage</h4>
+                            <ul style="color: #555; line-height: 1.8; margin-left: 20px;">
+                                <li>Jjimjilbang experiences</li>
+                                <li>Traditional massages</li>
+                                <li>Body scrubs (세신)</li>
+                                <li>Wellness retreats</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 style="color: #fbbf24; margin-bottom: 10px;">💅 Beauty Services</h4>
+                            <ul style="color: #555; line-height: 1.8; margin-left: 20px;">
+                                <li>Hair salons</li>
+                                <li>Nail art & gel nails</li>
+                                <li>Eyebrow tattoos</li>
+                                <li>Men's grooming</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 style="color: #10b981; margin-bottom: 10px;">🌸 Wellness</h4>
+                            <ul style="color: #555; line-height: 1.8; margin-left: 20px;">
+                                <li>Holistic therapies</li>
+                                <li>Korean herbal medicine</li>
+                                <li>Meditation spaces</li>
+                                <li>Yoga & fitness</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 50px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 25px;">Our Values</h2>
+                
+                <div style="background: linear-gradient(135deg, #a855f7 0%, #ff6b9d 100%); padding: 40px; border-radius: 15px; color: white;">
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="font-size: 1.4em; margin-bottom: 10px;">✨ Authenticity</h3>
+                        <p style="line-height: 1.8; opacity: 0.95;">We provide genuine, unbiased information based on real research and experiences.</p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="font-size: 1.4em; margin-bottom: 10px;">🎯 Accuracy</h3>
+                        <p style="line-height: 1.8; opacity: 0.95;">We verify all pricing, locations, and service details to ensure you have reliable information.</p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="font-size: 1.4em; margin-bottom: 10px;">🤝 Transparency</h3>
+                        <p style="line-height: 1.8; opacity: 0.95;">We clearly disclose any partnerships or affiliate relationships while maintaining editorial independence.</p>
+                    </div>
+
+                    <div>
+                        <h3 style="font-size: 1.4em; margin-bottom: 10px;">💚 Respect</h3>
+                        <p style="line-height: 1.8; opacity: 0.95;">We honor Korean beauty traditions while celebrating modern innovations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 50px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 25px;">Why Trust Us?</h2>
+                
+                <div style="background: #f8f9fa; padding: 30px; border-radius: 15px;">
+                    <ul style="color: #555; line-height: 2; font-size: 1.05em;">
+                        <li>✅ <strong>105,000+ words</strong> of comprehensive content across 20+ detailed guides</li>
+                        <li>✅ <strong>Expert research</strong> on Korean beauty treatments, prices, and locations</li>
+                        <li>✅ <strong>Regular updates</strong> to keep information current and accurate</li>
+                        <li>✅ <strong>Practical tips</strong> from booking to post-treatment care</li>
+                        <li>✅ <strong>Cultural insights</strong> to help you understand Korean beauty traditions</li>
+                        <li>✅ <strong>Mobile-optimized</strong> content accessible anywhere, anytime</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section style="margin-bottom: 50px;">
+                <h2 style="color: #333; font-size: 1.8em; margin-bottom: 25px;">Get in Touch</h2>
+                <p style="color: #555; line-height: 1.8; margin-bottom: 20px;">
+                    Have questions, feedback, or suggestions? We'd love to hear from you! Visit our <a href="/contact" style="color: #ff6b9d;">Contact page</a> to get in touch.
+                </p>
+                
+                <div style="background: linear-gradient(135deg, #fff5f8 0%, #ffe4ef 100%); padding: 30px; border-radius: 15px; text-align: center;">
+                    <p style="font-size: 1.2em; color: #ff6b9d; margin-bottom: 15px;">
+                        <strong>Ready to explore Korean beauty?</strong>
+                    </p>
+                    <p style="color: #555; margin-bottom: 20px;">Browse our comprehensive guides and start your K-beauty journey today!</p>
+                    <a href="/" style="display: inline-block; background: linear-gradient(135deg, #ff6b9d 0%, #a855f7 100%); color: white; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold;">
+                        Explore Guides →
+                    </a>
+                </div>
+            </section>
+
+            <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #f0f0f0;">
+                <p style="text-align: center; color: #666;">
+                    <a href="/privacy-policy" style="color: #ff6b9d; margin: 0 15px;">Privacy Policy</a> | 
+                    <a href="/terms-of-service" style="color: #ff6b9d; margin: 0 15px;">Terms of Service</a> | 
+                    <a href="/contact" style="color: #ff6b9d; margin: 0 15px;">Contact Us</a> | 
+                    <a href="/" style="color: #ff6b9d; margin: 0 15px;">Home</a>
+                </p>
+            </div>
+        </article>
+    </main>
+
+    ${getFooter()}
+</body>
+</html>
+  `;
+}
