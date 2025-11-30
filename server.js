@@ -5717,7 +5717,12 @@ function getHeader() {
             <a href="/" class="logo">
                 🌸 Seoul Beauty Guide
             </a>
-            <nav class="nav">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="mainNav">
                 <a href="/">Home</a>
                 <a href="/category/skincare">Skincare</a>
                 <a href="/category/massage">Massage</a>
@@ -5726,6 +5731,36 @@ function getHeader() {
             </nav>
         </div>
     </header>
+    <script>
+      function toggleMobileMenu() {
+        const nav = document.getElementById('mainNav');
+        const toggle = document.querySelector('.mobile-menu-toggle');
+        nav.classList.toggle('active');
+        toggle.classList.toggle('active');
+      }
+      
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', function(event) {
+        const nav = document.getElementById('mainNav');
+        const toggle = document.querySelector('.mobile-menu-toggle');
+        const isClickInside = nav.contains(event.target) || toggle.contains(event.target);
+        
+        if (!isClickInside && nav.classList.contains('active')) {
+          nav.classList.remove('active');
+          toggle.classList.remove('active');
+        }
+      });
+      
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('.nav a').forEach(link => {
+        link.addEventListener('click', () => {
+          const nav = document.getElementById('mainNav');
+          const toggle = document.querySelector('.mobile-menu-toggle');
+          nav.classList.remove('active');
+          toggle.classList.remove('active');
+        });
+      });
+    </script>
   `;
 }
 
@@ -6631,108 +6666,428 @@ function getStyles() {
             font-size: 0.9rem;
         }
 
+        /* Mobile Menu Toggle Button */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu-toggle span {
+            width: 28px;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+        
+        .mobile-menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+        
+        .mobile-menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
         /* Responsive Design - Mobile Optimized */
         @media (max-width: 968px) {
+            .container {
+                padding: 0 16px;
+            }
+            
             .hero-content h1 {
-                font-size: 3rem;
+                font-size: 2.75rem;
+                line-height: 1.2;
             }
             
             .section-title {
-                font-size: 2.25rem;
+                font-size: 2rem;
             }
             
             .posts-grid {
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-                gap: 2rem;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .hero-cta {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .hero-cta a {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
             }
         }
         
         @media (max-width: 768px) {
+            /* Mobile-First Optimizations */
+            body {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+            
+            /* Header Mobile */
+            .header-content {
+                padding: 1rem 0;
+            }
+            
+            .logo {
+                font-size: 1.4rem;
+            }
+            
+            .mobile-menu-toggle {
+                display: flex;
+            }
+            
+            .nav {
+                position: fixed;
+                top: 70px;
+                right: -100%;
+                width: 280px;
+                height: calc(100vh - 70px);
+                background: rgba(255, 255, 255, 0.98);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                padding: 2rem 1.5rem;
+                gap: 0;
+                align-items: flex-start;
+                box-shadow: -5px 0 30px rgba(0,0,0,0.1);
+                transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                z-index: 999;
+                overflow-y: auto;
+            }
+            
+            .nav.active {
+                right: 0;
+            }
+            
+            .nav a {
+                width: 100%;
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--border);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            
+            .nav a::after {
+                display: none;
+            }
+            
+            .nav-cta {
+                margin-top: 1.5rem;
+                padding: 1rem 2rem;
+                text-align: center;
+                width: 100%;
+                border-bottom: none;
+            }
+            
+            /* Hero Mobile */
             .hero {
-                padding: 80px 20px;
+                padding: 60px 20px;
             }
             
             .hero-content h1 {
-                font-size: 2.25rem;
+                font-size: 2rem;
+                line-height: 1.2;
+                margin-bottom: 1rem;
+            }
+            
+            .hero-content h1 .gradient-text {
+                display: block;
+                margin-top: 0.5rem;
             }
             
             .hero-content p {
-                font-size: 1.1rem;
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+            
+            .hero-cta {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .cta-button, .cta-button-secondary {
+                width: 100%;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+                text-align: center;
             }
 
+            /* Content Mobile */
+            .section {
+                padding: 40px 0;
+            }
+            
+            .section-title {
+                font-size: 1.75rem;
+                margin-bottom: 2rem;
+            }
+            
             .posts-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
             
+            .post-card {
+                border-radius: 16px;
+            }
+            
+            .post-card-image {
+                height: 200px;
+            }
+            
+            .post-card-content {
+                padding: 1.25rem;
+            }
+            
+            .post-card-title {
+                font-size: 1.25rem;
+                line-height: 1.4;
+            }
+            
+            .post-card-excerpt {
+                font-size: 0.95rem;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            
+            .post-card-meta {
+                font-size: 0.85rem;
+                flex-wrap: wrap;
+            }
+            
             .categories-grid {
                 grid-template-columns: 1fr;
-            }
-
-            .nav {
                 gap: 1rem;
-                font-size: 0.85rem;
             }
             
-            .nav-cta {
-                padding: 0.6rem 1.5rem;
-                font-size: 0.85rem;
+            .category-card {
+                padding: 1.5rem;
             }
 
+            /* Article Mobile */
+            .article-header {
+                padding: 2rem 0;
+            }
+            
             .article-title {
-                font-size: 2rem;
+                font-size: 1.75rem;
+                line-height: 1.3;
             }
             
-            .section-title {
-                font-size: 1.85rem;
+            .article-meta {
+                flex-wrap: wrap;
+                gap: 0.75rem;
+                font-size: 0.85rem;
             }
             
-            .section {
-                padding: 50px 0;
+            .blog-content {
+                font-size: 1.05rem;
+                line-height: 1.7;
             }
             
+            .blog-content h2 {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .blog-content h3 {
+                font-size: 1.25rem;
+                margin-top: 1.5rem;
+            }
+            
+            .blog-content img {
+                border-radius: 12px;
+                margin: 1.5rem 0;
+            }
+            
+            .blog-content ul, .blog-content ol {
+                padding-left: 1.5rem;
+            }
+            
+            .info-box {
+                padding: 1.25rem;
+                margin: 1.5rem 0;
+                border-radius: 12px;
+            }
+            
+            /* CTA Section Mobile */
             .cta-section {
-                padding: 60px 20px;
+                padding: 50px 20px;
             }
             
             .cta-section h2 {
-                font-size: 2rem;
+                font-size: 1.75rem;
+                margin-bottom: 1rem;
             }
             
             .cta-section p {
-                font-size: 1.1rem;
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+            
+            /* Footer Mobile */
+            .footer {
+                padding: 3rem 0 2rem;
             }
             
             .footer-content {
                 grid-template-columns: 1fr;
-                gap: 2rem;
+                gap: 2.5rem;
             }
             
-            .post-card-content {
-                padding: 1.5rem;
+            .footer-section h3 {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+            
+            .footer-section {
+                text-align: left;
+            }
+            
+            .footer-cta {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+            
+            .footer-bottom {
+                font-size: 0.85rem;
+                padding-top: 2rem;
             }
         }
         
         @media (max-width: 480px) {
-            .hero-content h1 {
-                font-size: 1.75rem;
+            /* Extra Small Mobile Optimization */
+            .container {
+                padding: 0 12px;
             }
             
             .logo {
-                font-size: 1.35rem;
+                font-size: 1.25rem;
+            }
+            
+            .mobile-menu-toggle span {
+                width: 24px;
             }
             
             .nav {
-                gap: 0.75rem;
+                width: 100%;
+                top: 65px;
+                height: calc(100vh - 65px);
+                padding: 1.5rem 1rem;
+            }
+            
+            .nav a {
+                font-size: 1rem;
+                padding: 0.875rem 0;
+            }
+            
+            .nav-cta {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+            
+            .hero {
+                padding: 50px 16px;
+            }
+            
+            .hero-content h1 {
+                font-size: 1.65rem;
+                line-height: 1.25;
+            }
+            
+            .hero-content p {
+                font-size: 0.95rem;
+            }
+            
+            .cta-button, .cta-button-secondary {
+                padding: 0.875rem 1.5rem;
+                font-size: 0.95rem;
+            }
+            
+            .section {
+                padding: 30px 0;
             }
             
             .section-title {
                 font-size: 1.5rem;
+                margin-bottom: 1.5rem;
             }
             
-            .cta-button, .cta-button-secondary {
-                padding: 1rem 2rem;
+            .post-card-image {
+                height: 180px;
+            }
+            
+            .post-card-content {
+                padding: 1rem;
+            }
+            
+            .post-card-title {
+                font-size: 1.15rem;
+            }
+            
+            .post-card-excerpt {
+                font-size: 0.9rem;
+            }
+            
+            .post-card-meta {
+                font-size: 0.8rem;
+            }
+            
+            .article-title {
+                font-size: 1.5rem;
+            }
+            
+            .blog-content {
+                font-size: 1rem;
+            }
+            
+            .blog-content h2 {
+                font-size: 1.35rem;
+            }
+            
+            .blog-content h3 {
+                font-size: 1.15rem;
+            }
+            
+            .info-box {
+                padding: 1rem;
                 font-size: 0.95rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 1.5rem;
+            }
+            
+            .cta-section p {
+                font-size: 0.95rem;
+            }
+            
+            .footer {
+                padding: 2.5rem 0 1.5rem;
+            }
+            
+            .footer-section h3 {
+                font-size: 1.15rem;
+            }
+            
+            .footer-section {
+                font-size: 0.9rem;
             }
         }
     </style>
