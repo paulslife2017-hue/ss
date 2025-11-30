@@ -50,7 +50,7 @@
 7. **배포 완료 확인**
    - 배포 로그 확인
    - 배포 상태: "Ready" 또는 "Success"
-   - Production URL 확인: `https://seoul-beauty-guide.vercel.app`
+   - Production URL 확인: `https://seoulzen.com`
 
 ---
 
@@ -105,23 +105,23 @@ vercel
 ### 1. URL 접속 테스트
 ```bash
 # 홈페이지 확인
-curl -I https://seoul-beauty-guide.vercel.app/
+curl -I https://seoulzen.com/
 
 # 기사 페이지 확인
-curl -I https://seoul-beauty-guide.vercel.app/post/korean-skincare-guide-seoul-2025
+curl -I https://seoulzen.com/post/korean-skincare-guide-seoul-2025
 
 # 법적 페이지 확인
-curl -I https://seoul-beauty-guide.vercel.app/privacy-policy
-curl -I https://seoul-beauty-guide.vercel.app/terms-of-service
-curl -I https://seoul-beauty-guide.vercel.app/contact
-curl -I https://seoul-beauty-guide.vercel.app/about
+curl -I https://seoulzen.com/privacy-policy
+curl -I https://seoulzen.com/terms-of-service
+curl -I https://seoulzen.com/contact
+curl -I https://seoulzen.com/about
 
 # 사이트맵 확인
-curl -I https://seoul-beauty-guide.vercel.app/sitemap.xml
+curl -I https://seoulzen.com/sitemap.xml
 ```
 
 ### 2. 브라우저에서 직접 확인
-- 홈페이지: https://seoul-beauty-guide.vercel.app/
+- 홈페이지: https://seoulzen.com/
 - 법적 페이지들 확인
 - 모바일 반응형 확인
 - 로딩 속도 확인
@@ -230,7 +230,7 @@ node server.js
 ### 1. Google Search Console 등록 (즉시)
 ```
 1. https://search.google.com/search-console 접속
-2. 속성 추가: seoul-beauty-guide.vercel.app
+2. 속성 추가: seoulzen.com
 3. 소유권 확인 (HTML 태그 이미 추가됨)
 4. 사이트맵 제출: sitemap.xml
 ```
@@ -239,7 +239,7 @@ node server.js
 
 ### 2. 사이트맵 제출
 ```
-- URL: https://seoul-beauty-guide.vercel.app/sitemap.xml
+- URL: https://seoulzen.com/sitemap.xml
 - 총 URL: 28개
 - 상태: "성공" 확인
 ```

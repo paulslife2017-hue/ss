@@ -3,7 +3,7 @@
 ## ⚠️ 현재 상태
 
 **오류:** `DEPLOYMENT_NOT_FOUND` (404)  
-**URL:** https://seoul-beauty-guide.vercel.app/  
+**URL:** https://seoulzen.com/  
 **GitHub:** https://github.com/paulslife2017-hue/ss  
 **최신 커밋:** `8917c32`
 

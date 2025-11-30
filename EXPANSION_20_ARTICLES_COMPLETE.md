@@ -148,7 +148,7 @@
 - ✅ **블로그 포스트:** 20개
 - ✅ **최종 수정일:** 2025-01-30
 
-**Sitemap URL:** https://seoul-beauty-guide.vercel.app/sitemap.xml
+**Sitemap URL:** https://seoulzen.com/sitemap.xml
 
 ---
 

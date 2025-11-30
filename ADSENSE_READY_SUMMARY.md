@@ -240,9 +240,9 @@
 - ✅ 글로벌 CDN 자동 적용
 
 ### Live URLs (After Deployment)
-- **Main Site**: `https://seoul-beauty-guide.vercel.app` (예상)
-- **Sitemap**: `https://seoul-beauty-guide.vercel.app/sitemap.xml`
-- **Robots**: `https://seoul-beauty-guide.vercel.app/robots.txt`
+- **Main Site**: `https://seoulzen.com` (예상)
+- **Sitemap**: `https://seoulzen.com/sitemap.xml`
+- **Robots**: `https://seoulzen.com/robots.txt`
 
 ---
 

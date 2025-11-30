@@ -334,10 +334,10 @@
 - ✅ Build Time: ~30-60 seconds
 
 ### Live Site
-- **Expected URL**: https://seoul-beauty-guide.vercel.app
-- **Sitemap**: https://seoul-beauty-guide.vercel.app/sitemap.xml
-- **Robots.txt**: https://seoul-beauty-guide.vercel.app/robots.txt
-- **Ads.txt**: https://seoul-beauty-guide.vercel.app/ads.txt
+- **Expected URL**: https://seoulzen.com
+- **Sitemap**: https://seoulzen.com/sitemap.xml
+- **Robots.txt**: https://seoulzen.com/robots.txt
+- **Ads.txt**: https://seoulzen.com/ads.txt
 - **Status**: 🟢 Deployed (check Vercel dashboard for actual URL)
 
 ---
@@ -502,7 +502,7 @@ Platform: Vercel
 Auto-deploy: Enabled
 Build: Successful
 Status: Live
-Expected URL: seoul-beauty-guide.vercel.app
+Expected URL: seoulzen.com
 ```
 
 ---

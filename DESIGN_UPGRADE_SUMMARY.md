@@ -3,7 +3,7 @@
 **Date**: 2025-01-29  
 **Commit**: `e490382`  
 **Status**: ✅ Deployed to GitHub & Vercel  
-**Site**: https://seoul-beauty-guide.vercel.app
+**Site**: https://seoulzen.com
 
 ---
 
@@ -195,7 +195,7 @@ Planned topics:
 - **Commit Message**: "design: Premium K-Beauty theme upgrade & fix invalid Jjimjilbang backlinks"
 
 ### Vercel
-- **URL**: https://seoul-beauty-guide.vercel.app
+- **URL**: https://seoulzen.com
 - **Auto-deploy**: ✅ Enabled (deploys on push to main)
 - **Status**: Deployed
 

@@ -47,12 +47,12 @@ The deployment has been triggered via the webhook. Vercel is now:
 ### Vercel Project Details
 - **Project ID**: `prj_Yq02SncVH6CRUJqK4KpG5mTNfC5I`
 - **Deploy Hook**: `HBO2quUoYG`
-- **Expected URL**: https://seoul-beauty-guide.vercel.app
+- **Expected URL**: https://seoulzen.com
 
 ### Deployment Check Commands
 ```bash
 # Check deployment status
-curl -I https://seoul-beauty-guide.vercel.app/
+curl -I https://seoulzen.com/
 
 # Trigger deployment manually
 curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_Yq02SncVH6CRUJqK4KpG5mTNfC5I/HBO2quUoYG"
@@ -143,11 +143,11 @@ vercel --prod
 
 Once deployment completes, verify:
 
-- [ ] Homepage loads: https://seoul-beauty-guide.vercel.app/
-- [ ] Articles load: https://seoul-beauty-guide.vercel.app/post/korean-skincare-guide-seoul-2025
-- [ ] Categories work: https://seoul-beauty-guide.vercel.app/category/skincare
-- [ ] Sitemap accessible: https://seoul-beauty-guide.vercel.app/sitemap.xml
-- [ ] Robots.txt accessible: https://seoul-beauty-guide.vercel.app/robots.txt
+- [ ] Homepage loads: https://seoulzen.com/
+- [ ] Articles load: https://seoulzen.com/post/korean-skincare-guide-seoul-2025
+- [ ] Categories work: https://seoulzen.com/category/skincare
+- [ ] Sitemap accessible: https://seoulzen.com/sitemap.xml
+- [ ] Robots.txt accessible: https://seoulzen.com/robots.txt
 - [ ] Mobile responsive (test on phone)
 - [ ] All design improvements visible
 - [ ] No console errors
@@ -180,7 +180,7 @@ Once deployment completes, verify:
 ## 🎯 Next Steps After Deployment
 
 1. **Verify Deployment**
-   - Visit https://seoul-beauty-guide.vercel.app/
+   - Visit https://seoulzen.com/
    - Test all routes and features
    - Check mobile responsiveness
 
@@ -212,12 +212,12 @@ Once deployment completes, verify:
 ✅ **Code Status**: All changes committed to GitHub  
 🔄 **Deployment Status**: Triggered via webhook, building  
 ⏳ **Expected Time**: 2-5 minutes  
-🌐 **Target URL**: https://seoul-beauty-guide.vercel.app  
+🌐 **Target URL**: https://seoulzen.com  
 ✨ **Features**: Premium design, 89 accurate backlinks, 8 articles  
 
 **What to Do Now**:
 1. Wait 2-5 minutes for deployment to complete
-2. Visit https://seoul-beauty-guide.vercel.app/
+2. Visit https://seoulzen.com/
 3. If 404 persists, check Vercel dashboard or re-trigger deployment
 
 ---

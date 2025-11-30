@@ -6,7 +6,7 @@
 **GitHub Repository:** https://github.com/paulslife2017-hue/ss  
 **Latest Commit:** `03aa93a` - feat: Complete 100% - Add 7 comprehensive articles (9-15)  
 **Vercel Deployment Hook:** https://api.vercel.com/v1/integrations/deploy/prj_Yq02SncVH6CRUJqK4KpG5mTNfC5I/HBO2quUoYG  
-**Intended Live URL:** https://seoul-beauty-guide.vercel.app/
+**Intended Live URL:** https://seoulzen.com/
 
 ---
 
@@ -213,7 +213,7 @@ The Vercel deployment is returning `404 - DEPLOYMENT_NOT_FOUND` errors. This ind
 
 2. 🟡 **Submit Sitemap to Google Search Console**
    - Once deployment is live
-   - URL: https://seoul-beauty-guide.vercel.app/sitemap.xml
+   - URL: https://seoulzen.com/sitemap.xml
 
 3. 🟡 **Google AdSense Approval**
    - Wait for site to be live
@@ -285,7 +285,7 @@ As per your instructions, here are the key steps to complete after deployment:
 - Share access with team members if needed
 
 ### 3. Sitemap Submission
-✅ **Sitemap URL:** https://seoul-beauty-guide.vercel.app/sitemap.xml
+✅ **Sitemap URL:** https://seoulzen.com/sitemap.xml
 - Submit in Search Console → Sitemaps section
 - Wait for Google to crawl (1-7 days typically)
 
@@ -326,4 +326,4 @@ As per your instructions, here are the key steps to complete after deployment:
 
 *Last Updated: 2025-11-29 23:55 UTC*  
 *Created by: AI Assistant*  
-*Project: Seoul Beauty Guide (seoul-beauty-guide.vercel.app)*
+*Project: Seoul Beauty Guide (seoulzen.com)*

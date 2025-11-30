@@ -3,7 +3,7 @@
 **완료 날짜**: 2025-01-29  
 **최종 커밋**: `03aa93a`  
 **배포 상태**: ✅ GitHub 푸시 완료, Vercel 배포 진행 중  
-**사이트**: https://seoul-beauty-guide.vercel.app
+**사이트**: https://seoulzen.com
 
 ---
 
@@ -126,7 +126,7 @@
 - **파일 변경**: 15 files, 16,594 insertions
 
 ### Vercel
-- **URL**: https://seoul-beauty-guide.vercel.app
+- **URL**: https://seoulzen.com
 - **배포 Job ID**: `DV5uWq8f2Avh5nsunBOb`
 - **상태**: PENDING → BUILDING → READY (예상 2-5분)
 - **자동 배포**: ✅ GitHub push 시 자동
@@ -143,7 +143,7 @@
 ### 다음 단계
 1. **Sitemap 제출**:
    - Google Search Console → Sitemaps
-   - URL 입력: `https://seoul-beauty-guide.vercel.app/sitemap.xml`
+   - URL 입력: `https://seoulzen.com/sitemap.xml`
    - Submit
 
 2. **색인 요청**:
@@ -310,7 +310,7 @@ Message Type: `[WNC-376106]`
 1. **Sitemap 제출**:
    ```
    Google Search Console → Sitemaps
-   Add sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+   Add sitemap: https://seoulzen.com/sitemap.xml
    ```
 
 2. **URL Inspection**:

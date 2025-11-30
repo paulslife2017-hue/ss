@@ -54,7 +54,7 @@
 
 ### 현재 문제
 - **오류 코드:** `DEPLOYMENT_NOT_FOUND` (404)
-- **URL:** https://seoul-beauty-guide.vercel.app/
+- **URL:** https://seoulzen.com/
 - **원인:** Vercel 프로젝트가 GitHub 리포지토리와 연결되지 않음
 
 ### 배포 시도 기록

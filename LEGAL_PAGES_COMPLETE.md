@@ -107,10 +107,10 @@ app.get('/about', (c) => {
 **Total URLs:** 28 (was 24)
 
 Added 4 legal page URLs:
-- `https://seoul-beauty-guide.vercel.app/privacy-policy` (priority 0.6)
-- `https://seoul-beauty-guide.vercel.app/terms-of-service` (priority 0.6)
-- `https://seoul-beauty-guide.vercel.app/contact` (priority 0.7)
-- `https://seoul-beauty-guide.vercel.app/about` (priority 0.7)
+- `https://seoulzen.com/privacy-policy` (priority 0.6)
+- `https://seoulzen.com/terms-of-service` (priority 0.6)
+- `https://seoulzen.com/contact` (priority 0.7)
+- `https://seoulzen.com/about` (priority 0.7)
 
 ### ✅ Footer Navigation Updated
 Added new "Legal" section to footer:
@@ -322,7 +322,7 @@ Legal pages implementation is **100% complete** and production-ready!
 **Seoul Beauty Guide**
 - Email: contact@seoul-beauty-guide.com
 - Location: Seoul, South Korea
-- Website: https://seoul-beauty-guide.vercel.app
+- Website: https://seoulzen.com
 
 **Legal Pages:**
 - Privacy Policy: /privacy-policy

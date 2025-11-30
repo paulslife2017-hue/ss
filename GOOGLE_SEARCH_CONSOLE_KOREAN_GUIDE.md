@@ -13,8 +13,8 @@ Google Search Console에 Seoul Beauty Guide를 등록하고 사이트맵을 제�
 ## ✅ 사전 준비사항
 
 ### 필요한 정보
-- ✅ **웹사이트 URL:** `https://seoul-beauty-guide.vercel.app`
-- ✅ **사이트맵 URL:** `https://seoul-beauty-guide.vercel.app/sitemap.xml`
+- ✅ **웹사이트 URL:** `https://seoulzen.com`
+- ✅ **사이트맵 URL:** `https://seoulzen.com/sitemap.xml`
 - ✅ **Google 계정** (Gmail 계정)
 - ✅ **사이트 소유권 확인 방법** (HTML 태그 또는 파일)
 
@@ -37,7 +37,7 @@ Google Search Console에 Seoul Beauty Guide를 등록하고 사이트맵을 제�
 1. **"시작하기"** 또는 **"속성 추가"** 버튼 클릭
 2. 속성 유형 선택:
    - **도메인** (권장) 또는 **URL 접두어** 선택
-   - **URL 접두어 선택 권장:** `https://seoul-beauty-guide.vercel.app`
+   - **URL 접두어 선택 권장:** `https://seoulzen.com`
 3. URL 입력 후 **"계속"** 클릭
 
 ---
@@ -72,7 +72,7 @@ Google Search Console에서 제공하는 메타 태그를 복사합니다:
 1. Google이 제공하는 HTML 파일 다운로드 (예: `google1234567890.html`)
 2. 파일을 프로젝트 루트 디렉토리에 업로드
 3. Vercel에 배포
-4. `https://seoul-beauty-guide.vercel.app/google1234567890.html` 접속 가능 확인
+4. `https://seoulzen.com/google1234567890.html` 접속 가능 확인
 5. Google Search Console에서 **"확인"** 클릭
 
 ---
@@ -80,7 +80,7 @@ Google Search Console에서 제공하는 메타 태그를 복사합니다:
 ## 📋 Step 3: 사이트맵 제출
 
 ### 3.1 사이트맵 정보
-- **사이트맵 URL:** `https://seoul-beauty-guide.vercel.app/sitemap.xml`
+- **사이트맵 URL:** `https://seoulzen.com/sitemap.xml`
 - **총 URL 수:** 28개
 - **포함된 페이지:**
   - 홈페이지 (1개)
@@ -97,7 +97,7 @@ Google Search Console에서 제공하는 메타 태그를 복사합니다:
 4. 사이트맵 URL 입력: `sitemap.xml`
    - 전체 URL 아님! 도메인 이후 부분만 입력
    - 예: `sitemap.xml` (O)
-   - 예: `https://seoul-beauty-guide.vercel.app/sitemap.xml` (X)
+   - 예: `https://seoulzen.com/sitemap.xml` (X)
 5. **"제출"** 버튼 클릭
 6. ✅ "성공" 상태 확인
 
@@ -130,7 +130,7 @@ Google Search Console에서 제공하는 메타 태그를 복사합니다:
 주요 페이지가 Google에 색인되었는지 확인:
 
 1. 상단 검색창에 URL 입력
-   - 예: `https://seoul-beauty-guide.vercel.app/`
+   - 예: `https://seoulzen.com/`
 2. **"Enter"** 키 입력
 3. 색인 상태 확인:
    - ✅ **"URL이 Google에 등록되어 있음"**
@@ -148,7 +148,7 @@ Robots.txt 파일이 올바르게 설정되었는지 확인:
 
 1. **"설정" → "크롤링 통계"** 클릭
 2. **"robots.txt 테스터"** 선택 (구 Search Console에서)
-3. 또는 직접 확인: `https://seoul-beauty-guide.vercel.app/robots.txt`
+3. 또는 직접 확인: `https://seoulzen.com/robots.txt`
 
 **현재 robots.txt 내용:** ✅
 ```
@@ -159,7 +159,7 @@ Allow: /category/*
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+Sitemap: https://seoulzen.com/sitemap.xml
 ```
 
 ---
@@ -217,7 +217,7 @@ Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
 - XML 문법 오류
 
 **해결 방법:**
-1. 사이트맵 URL 직접 접속: `https://seoul-beauty-guide.vercel.app/sitemap.xml`
+1. 사이트맵 URL 직접 접속: `https://seoulzen.com/sitemap.xml`
 2. XML 형식 확인
 3. 브라우저에서 오류 없이 표시되는지 확인
 4. 문제 없으면 Google에 다시 제출
@@ -375,7 +375,7 @@ Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
 
 ### Seoul Beauty Guide 문의
 - **이메일:** contact@seoul-beauty-guide.com
-- **웹사이트:** https://seoul-beauty-guide.vercel.app/contact
+- **웹사이트:** https://seoulzen.com/contact
 - **영업 시간:** 월-금 9AM-6PM (KST)
 
 ---
@@ -386,7 +386,7 @@ Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
 
 ### Google Search Console 설정
 - [ ] Google Search Console 계정 생성
-- [ ] 속성 추가 (seoul-beauty-guide.vercel.app)
+- [ ] 속성 추가 (seoulzen.com)
 - [ ] 소유권 확인 (HTML 태그 방법)
 - [ ] 사이트맵 제출 (sitemap.xml)
 - [ ] 사이트맵 상태 "성공" 확인

@@ -23,7 +23,7 @@
 1. https://search.google.com/search-console 접속
 2. "속성 추가" 클릭
 3. "도메인" 선택
-4. 도메인 입력: seoul-beauty-guide.vercel.app
+4. 도메인 입력: seoulzen.com
 5. DNS 레코드로 소유권 확인 (Vercel에서 설정)
 ```
 
@@ -34,7 +34,7 @@
 1. https://search.google.com/search-console 접속
 2. "속성 추가" 클릭
 3. "URL 접두어" 선택
-4. URL 입력: https://seoul-beauty-guide.vercel.app
+4. URL 입력: https://seoulzen.com
 5. "HTML 태그" 방법 선택
 ```
 
@@ -49,7 +49,7 @@
 
 #### 사이트맵 URL:
 ```
-https://seoul-beauty-guide.vercel.app/sitemap.xml
+https://seoulzen.com/sitemap.xml
 ```
 
 #### 제출 방법:
@@ -74,10 +74,10 @@ https://seoul-beauty-guide.vercel.app/sitemap.xml
 http, https, www, 비www 변형이 있다면 각각 추가:
 
 ```
-- https://seoul-beauty-guide.vercel.app
-- https://www.seoul-beauty-guide.vercel.app
-- http://seoul-beauty-guide.vercel.app (리디렉션 확인)
-- http://www.seoul-beauty-guide.vercel.app (리디렉션 확인)
+- https://seoulzen.com
+- https://www.seoulzen.com
+- http://seoulzen.com (리디렉션 확인)
+- http://www.seoulzen.com (리디렉션 확인)
 ```
 
 **참고:** Vercel은 자동으로 https로 리디렉션하므로 https만 관리하면 됩니다.
@@ -360,8 +360,8 @@ http, https, www, 비www 변형이 있다면 각각 추가:
 ## ✅ 최종 체크리스트
 
 ### 배포 전 확인
-- ✅ sitemap.xml 접근 가능: https://seoul-beauty-guide.vercel.app/sitemap.xml
-- ✅ robots.txt 접근 가능: https://seoul-beauty-guide.vercel.app/robots.txt
+- ✅ sitemap.xml 접근 가능: https://seoulzen.com/sitemap.xml
+- ✅ robots.txt 접근 가능: https://seoulzen.com/robots.txt
 - ✅ 모든 페이지 정상 작동
 - ✅ 메타 태그 확인
 - ✅ 모바일 반응형 확인

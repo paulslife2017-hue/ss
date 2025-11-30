@@ -3,7 +3,7 @@ Allow: /
 Allow: /post/*
 Allow: /category/*
 
-Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+Sitemap: https://seoulzen.com/sitemap.xml
 
 # Disallow admin or private paths (if any in future)
 Disallow: /admin/

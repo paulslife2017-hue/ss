@@ -5304,67 +5304,67 @@ app.get('/sitemap.xml', (c) => {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/</loc>
+    <loc>https://seoulzen.com/</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-skincare-guide-seoul-2025</loc>
+    <loc>https://seoulzen.com/post/korean-skincare-guide-seoul-2025</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-massage-types-pricing-guide</loc>
+    <loc>https://seoulzen.com/post/korean-massage-types-pricing-guide</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/seoul-beauty-tourism-guide-2025</loc>
+    <loc>https://seoulzen.com/post/seoul-beauty-tourism-guide-2025</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/aqua-peel-facial-seoul-guide-2025</loc>
+    <loc>https://seoulzen.com/post/aqua-peel-facial-seoul-guide-2025</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/seoul-jjimjilbang-korean-spa-guide</loc>
+    <loc>https://seoulzen.com/post/seoul-jjimjilbang-korean-spa-guide</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/skincare</loc>
+    <loc>https://seoulzen.com/category/skincare</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/massage</loc>
+    <loc>https://seoulzen.com/category/massage</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/travel</loc>
+    <loc>https://seoulzen.com/category/travel</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/head-spa</loc>
+    <loc>https://seoulzen.com/category/head-spa</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/nail-art</loc>
+    <loc>https://seoulzen.com/category/nail-art</loc>
     <lastmod>2025-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -5382,7 +5382,7 @@ Allow: /
 Allow: /post/*
 Allow: /category/*
 
-Sitemap: https://seoul-beauty-guide.vercel.app/sitemap.xml
+Sitemap: https://seoulzen.com/sitemap.xml
 
 Crawl-delay: 0
 
@@ -6811,7 +6811,7 @@ function generatePrivacyPolicyPage(categories) {
             <section style="margin-bottom: 40px;">
                 <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">1. Introduction</h2>
                 <p style="line-height: 1.8; color: #555;">
-                    Welcome to Seoul Beauty Guide ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a>.
+                    Welcome to Seoul Beauty Guide ("we," "our," or "us"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://seoulzen.com">seoulzen.com</a>.
                 </p>
                 <p style="line-height: 1.8; color: #555;">
                     By using our website, you consent to the data practices described in this policy. If you do not agree with the terms of this privacy policy, please do not access the site.
@@ -6929,7 +6929,7 @@ function generatePrivacyPolicyPage(categories) {
                 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px;">
                     <p style="margin: 5px 0;"><strong>Seoul Beauty Guide</strong></p>
                     <p style="margin: 5px 0;">Email: <a href="mailto:contact@seoul-beauty-guide.com">contact@seoul-beauty-guide.com</a></p>
-                    <p style="margin: 5px 0;">Website: <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a></p>
+                    <p style="margin: 5px 0;">Website: <a href="https://seoulzen.com">seoulzen.com</a></p>
                 </div>
             </section>
 
@@ -6973,7 +6973,7 @@ function generateTermsOfServicePage(categories) {
             <section style="margin-bottom: 40px;">
                 <h2 style="color: #333; font-size: 1.8em; margin-top: 30px; margin-bottom: 15px;">1. Acceptance of Terms</h2>
                 <p style="line-height: 1.8; color: #555;">
-                    Welcome to Seoul Beauty Guide. By accessing and using this website (<a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a>), you accept and agree to be bound by the terms and provision of this agreement.
+                    Welcome to Seoul Beauty Guide. By accessing and using this website (<a href="https://seoulzen.com">seoulzen.com</a>), you accept and agree to be bound by the terms and provision of this agreement.
                 </p>
                 <p style="line-height: 1.8; color: #555;">
                     If you do not agree to these Terms of Service, you should not use this website. We reserve the right to modify these terms at any time, and your continued use of the site constitutes acceptance of those changes.
@@ -7133,7 +7133,7 @@ function generateTermsOfServicePage(categories) {
                 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px;">
                     <p style="margin: 5px 0;"><strong>Seoul Beauty Guide</strong></p>
                     <p style="margin: 5px 0;">Email: <a href="mailto:contact@seoul-beauty-guide.com">contact@seoul-beauty-guide.com</a></p>
-                    <p style="margin: 5px 0;">Website: <a href="https://seoul-beauty-guide.vercel.app">seoul-beauty-guide.vercel.app</a></p>
+                    <p style="margin: 5px 0;">Website: <a href="https://seoulzen.com">seoulzen.com</a></p>
                 </div>
             </section>
 
@@ -7192,7 +7192,7 @@ function generateContactPage(categories) {
 
                     <div style="margin-bottom: 20px;">
                         <p style="margin: 10px 0;"><strong style="color: #ff6b9d;">🌐 Website:</strong></p>
-                        <p style="margin: 5px 0 5px 20px;"><a href="https://seoul-beauty-guide.vercel.app" style="color: #a855f7;">seoul-beauty-guide.vercel.app</a></p>
+                        <p style="margin: 5px 0 5px 20px;"><a href="https://seoulzen.com" style="color: #a855f7;">seoulzen.com</a></p>
                     </div>
 
                     <div style="margin-bottom: 20px;">

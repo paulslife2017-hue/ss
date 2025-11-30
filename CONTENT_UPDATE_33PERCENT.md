@@ -248,9 +248,9 @@
 - ✅ Build 및 Deploy 자동 완료
 
 ### Live Site
-- **Expected URL**: https://seoul-beauty-guide.vercel.app
-- **Sitemap**: https://seoul-beauty-guide.vercel.app/sitemap.xml
-- **Robots.txt**: https://seoul-beauty-guide.vercel.app/robots.txt
+- **Expected URL**: https://seoulzen.com
+- **Sitemap**: https://seoulzen.com/sitemap.xml
+- **Robots.txt**: https://seoulzen.com/robots.txt
 
 ---
 

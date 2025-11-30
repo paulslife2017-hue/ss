@@ -143,10 +143,10 @@
 - **4 Legal pages (priority 0.6-0.7)** 🆕
 
 ### Legal Page URLs:
-1. `https://seoul-beauty-guide.vercel.app/privacy-policy`
-2. `https://seoul-beauty-guide.vercel.app/terms-of-service`
-3. `https://seoul-beauty-guide.vercel.app/contact`
-4. `https://seoul-beauty-guide.vercel.app/about`
+1. `https://seoulzen.com/privacy-policy`
+2. `https://seoulzen.com/terms-of-service`
+3. `https://seoulzen.com/contact`
+4. `https://seoulzen.com/about`
 
 ---
 
@@ -233,7 +233,7 @@
 **Application Process:**
 1. Go to [Google AdSense](https://www.google.com/adsense/)
 2. Sign up with your Google account
-3. Enter website URL: `https://seoul-beauty-guide.vercel.app`
+3. Enter website URL: `https://seoulzen.com`
 4. Provide contact information
 5. Verify website ownership (AdSense code already integrated)
 6. Wait for approval (typically 1-2 weeks)
@@ -437,7 +437,7 @@ google.com, pub-6943282483618134, DIRECT, f08c47fec0942fa0
 ## 📞 Contact & Support
 
 ### Website Information
-- **Domain:** seoul-beauty-guide.vercel.app
+- **Domain:** seoulzen.com
 - **Email:** contact@seoul-beauty-guide.com
 - **Location:** Seoul, South Korea
 - **Business Hours:** Mon-Fri 9AM-6PM (KST)
