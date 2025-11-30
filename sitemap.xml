@@ -1,178 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <!-- Homepage -->
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Blog Posts -->
+  <!-- Category Pages -->
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-skincare-guide-seoul-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/category/skincare</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/massage</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/category/travel</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Articles 1-5 -->
+  <url>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-skincare-routine-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-massage-types-pricing-guide</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-massage-types-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/seoul-beauty-tourism-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/best-head-spas-gangnam-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/aqua-peel-facial-treatment-seoul-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/bb-glow-treatment-seoul-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/jjimjilbang-korean-spa-guide-seoul-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-vs-thai-vs-swedish-massage-comparison</loc>
-    <lastmod>2025-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/aqua-peel-facial-seoul-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/seoul-jjimjilbang-korean-spa-guide</loc>
-    <lastmod>2025-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <!-- Articles 6-10 -->
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/korean-gel-nails-nail-art-seoul-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/myeongdong-beauty-shopping-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/mens-grooming-seoul-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/best-head-spas-gangnam-seoul-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/bb-glow-treatment-seoul-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Articles 11-15 -->
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-eyebrow-tattoo-microblading-seoul-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-eyebrow-tattoo-microblading-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/korean-anti-aging-treatments-seoul-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-10-step-skincare-routine-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-skincare-routine-10-steps-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://seoul-beauty-guide.vercel.app/post/seoul-couple-spa-packages-guide-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/post/korean-foot-massage-reflexology-seoul-2025</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-foot-massage-reflexology-seoul-guide</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Category Pages -->
+  <!-- Articles 16-20 (NEW) -->
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/skincare</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-body-scrub-seshin-jjimjilbang-seoul-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/massage</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/best-korean-sheet-masks-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/travel</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/best-korean-hair-salons-seoul-guide-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/head-spa</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/best-korean-dermatology-clinics-seoul-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://seoul-beauty-guide.vercel.app/category/beauty</loc>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://seoul-beauty-guide.vercel.app/post/korean-wellness-holistic-spa-seoul-2025</loc>
+    <lastmod>2025-01-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
 
 </urlset>
