@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | K-Beauty Seoul</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            background: #f7f7f7;
+            color: #222;
+        }
+        
+        /* Header */
+        .admin-header {
+            background: #fff;
+            padding: 20px 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .admin-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FF385C;
+        }
+        
+        .admin-user {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        /* Sidebar */
+        .admin-container {
+            display: flex;
+            min-height: calc(100vh - 80px);
+        }
+        
+        .sidebar {
+            width: 260px;
+            background: #fff;
+            padding: 24px;
+            box-shadow: 2px 0 4px rgba(0,0,0,0.05);
+        }
+        
+        .sidebar-nav {
+            list-style: none;
+        }
+        
+        .sidebar-nav li {
+            margin-bottom: 8px;
+        }
+        
+        .sidebar-nav a {
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            color: #717171;
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .sidebar-nav a:hover,
+        .sidebar-nav a.active {
+            background: #FFE8EC;
+            color: #FF385C;
+        }
+        
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 40px;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #222;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, #E61E4D, #BD1E59);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(230, 30, 77, 0.3);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #222;
+            border: 1px solid #ddd;
+        }
+        
+        .btn-secondary:hover {
+            background: #f7f7f7;
+        }
+        
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+        
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #717171;
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: #222;
+        }
+        
+        .stat-change {
+            font-size: 12px;
+            color: #10b981;
+            margin-top: 8px;
+        }
+        
+        /* Content Cards */
+        .content-grid {
+            display: grid;
+            gap: 24px;
+        }
+        
+        .content-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .content-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .content-card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #222;
+        }
+        
+        .content-card-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 14px;
+            color: #717171;
+        }
+        
+        .content-card-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        /* Form */
+        .form-group {
+            margin-bottom: 24px;
+        }
+        
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #222;
+        }
+        
+        .form-input,
+        .form-textarea,
+        .form-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+        
+        .form-input:focus,
+        .form-textarea:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: #FF385C;
+        }
+        
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .tab {
+            padding: 12px 24px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            color: #717171;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        
+        .tab.active {
+            color: #222;
+            border-bottom-color: #FF385C;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 32px;
+            border-radius: 12px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        
+        .modal-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #222;
+        }
+        
+        .close-modal {
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #717171;
+            background: none;
+            border: none;
+        }
+        
+        .close-modal:hover {
+            color: #222;
+        }
+        
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        
+        .badge-warning {
+            background: #fed7aa;
+            color: #92400e;
+        }
+        
+        .badge-danger {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .admin-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+            }
+            
+            .main-content {
+                padding: 24px 16px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="admin-header">
+        <h1 class="admin-title">K-Beauty Seoul Admin</h1>
+        <div class="admin-user">
+            <span>Admin User</span>
+            <button class="btn btn-secondary btn-sm">Logout</button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul class="sidebar-nav">
+                <li><a href="#dashboard" class="active" onclick="showSection('dashboard')">📊 Dashboard</a></li>
+                <li><a href="#beauty" onclick="showSection('beauty')">💆 Beauty Services</a></li>
+                <li><a href="#tour" onclick="showSection('tour')">🗺️ Tours</a></li>
+                <li><a href="#shop" onclick="showSection('shop')">🛍️ Shop</a></li>
+                <li><a href="#bookings" onclick="showSection('bookings')">📅 Bookings</a></li>
+                <li><a href="#settings" onclick="showSection('settings')">⚙️ Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <div id="dashboard" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Dashboard</h2>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Total Bookings</div>
+                        <div class="stat-value">247</div>
+                        <div class="stat-change">↑ 12% from last month</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-label">Revenue (This Month)</div>
+                        <div class="stat-value">₩45.2M</div>
+                        <div class="stat-change">↑ 23% from last month</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-label">Active Services</div>
+                        <div class="stat-value">18</div>
+                        <div class="stat-change">3 Beauty, 6 Tours, 9 Products</div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-label">Customer Satisfaction</div>
+                        <div class="stat-value">4.9★</div>
+                        <div class="stat-change">Based on 156 reviews</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beauty Services Section -->
+            <div id="beauty" class="content-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Beauty Services Management</h2>
+                    <button class="btn btn-primary" onclick="openModal('add-service')">+ Add New Service</button>
+                </div>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Gangnam Head Spa</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>📍 Gangnam</span>
+                            <span>💰 ₩150,000</span>
+                            <span>⏱️ 90 min</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Premium scalp treatment combining deep cleansing, massage therapy...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Details</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Korean Lip Tattoo</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>📍 Apgujeong</span>
+                            <span>💰 ₩300,000</span>
+                            <span>⏱️ 120 min</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Semi-permanent lip blushing with natural gradient effect...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Details</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Glass Skin Facial</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>📍 Cheongdam</span>
+                            <span>💰 ₩180,000</span>
+                            <span>⏱️ 60 min</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Achieve the coveted Korean glass skin look with our signature facial...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Details</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tour Section -->
+            <div id="tour" class="content-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Tour Management</h2>
+                    <button class="btn btn-primary" onclick="openModal('add-tour')">+ Add New Tour</button>
+                </div>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Gangnam Beauty Day</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>⏱️ 8 hours</span>
+                            <span>💰 ₩450,000/person</span>
+                            <span>👥 Max 6 people</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Full-day experience including head spa, lunch at trendy café...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Bookings</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">K-Beauty Shopping Tour</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>⏱️ 4 hours</span>
+                            <span>💰 ₩180,000/person</span>
+                            <span>👥 Max 8 people</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Guided tour through Myeongdong & Hongdae with personal beauty consultant...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Bookings</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Traditional Meets Modern</h3>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>⏱️ 6 hours</span>
+                            <span>💰 ₩350,000/person</span>
+                            <span>👥 Max 8 people</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Visit Bukchon Hanok Village, traditional Korean spa experience...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Bookings</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shop Section -->
+            <div id="shop" class="content-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Shop Management</h2>
+                    <button class="btn btn-primary" onclick="openModal('add-product')">+ Add New Product</button>
+                </div>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Premium Skincare Set</h3>
+                            <span class="badge badge-success">In Stock</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>💰 ₩250,000</span>
+                            <span>📦 45 in stock</span>
+                            <span>⭐ 4.8 (124 reviews)</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Complete 10-step Korean skincare routine including cleanser, toner...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Orders</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Sheet Mask Collection</h3>
+                            <span class="badge badge-success">In Stock</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>💰 ₩80,000</span>
+                            <span>📦 128 in stock</span>
+                            <span>⭐ 4.9 (256 reviews)</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">30-piece collection featuring bestselling Korean sheet masks...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Orders</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">K-Beauty Travel Kit</h3>
+                            <span class="badge badge-warning">Low Stock</span>
+                        </div>
+                        <div class="content-card-meta">
+                            <span>💰 ₩60,000</span>
+                            <span>📦 8 in stock</span>
+                            <span>⭐ 4.7 (89 reviews)</span>
+                        </div>
+                        <p style="margin-top: 12px; color: #717171;">Travel-sized essentials perfect for trying Korean skincare...</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-secondary">Edit</button>
+                            <button class="btn btn-secondary">View Orders</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookings Section -->
+            <div id="bookings" class="content-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Bookings & Reservations</h2>
+                </div>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Upcoming Bookings (12)</h3>
+                        </div>
+                        <p style="color: #717171;">View and manage all upcoming customer bookings for beauty services and tours.</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-primary">View All Bookings</button>
+                        </div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="content-card-header">
+                            <h3 class="content-card-title">Today's Schedule</h3>
+                        </div>
+                        <p style="color: #717171;">5 appointments today. Next: Head Spa at 2:00 PM</p>
+                        <div class="content-card-actions">
+                            <button class="btn btn-primary">View Schedule</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div id="settings" class="content-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Settings</h2>
+                </div>
+                
+                <div class="content-card">
+                    <h3 style="margin-bottom: 24px;">General Settings</h3>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Business Name</label>
+                        <input type="text" class="form-input" value="K-Beauty Seoul">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Contact Email</label>
+                        <input type="email" class="form-input" value="info@kbeautyseoul.co.kr">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Default Language</label>
+                        <select class="form-select">
+                            <option value="en">English</option>
+                            <option value="ja">日本語</option>
+                            <option value="zh">繁體中文</option>
+                        </select>
+                    </div>
+                    
+                    <button class="btn btn-primary">Save Settings</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Add Service Modal -->
+    <div id="add-service" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Add New Service</h2>
+                <button class="close-modal" onclick="closeModal('add-service')">&times;</button>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Service Name</label>
+                    <input type="text" class="form-input" placeholder="e.g., Korean Head Spa">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-textarea" placeholder="Describe the service..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Price (KRW)</label>
+                    <input type="number" class="form-input" placeholder="150000">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Duration (minutes)</label>
+                    <input type="number" class="form-input" placeholder="90">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Location</label>
+                    <input type="text" class="form-input" placeholder="Gangnam">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Video URL</label>
+                    <input type="url" class="form-input" placeholder="https://...">
+                </div>
+                
+                <div style="display: flex; gap: 12px; margin-top: 24px;">
+                    <button type="submit" class="btn btn-primary">Add Service</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('add-service')">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Tour Modal -->
+    <div id="add-tour" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Add New Tour</h2>
+                <button class="close-modal" onclick="closeModal('add-tour')">&times;</button>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Tour Name</label>
+                    <input type="text" class="form-input" placeholder="e.g., Gangnam Beauty Day">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-textarea" placeholder="Describe the tour..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Price per Person (KRW)</label>
+                    <input type="number" class="form-input" placeholder="450000">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Duration (hours)</label>
+                    <input type="number" class="form-input" placeholder="8">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Max Participants</label>
+                    <input type="number" class="form-input" placeholder="6">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Video URL</label>
+                    <input type="url" class="form-input" placeholder="https://...">
+                </div>
+                
+                <div style="display: flex; gap: 12px; margin-top: 24px;">
+                    <button type="submit" class="btn btn-primary">Add Tour</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('add-tour')">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Product Modal -->
+    <div id="add-product" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Add New Product</h2>
+                <button class="close-modal" onclick="closeModal('add-product')">&times;</button>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Product Name</label>
+                    <input type="text" class="form-input" placeholder="e.g., Premium Skincare Set">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-textarea" placeholder="Describe the product..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Price (KRW)</label>
+                    <input type="number" class="form-input" placeholder="250000">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Stock Quantity</label>
+                    <input type="number" class="form-input" placeholder="50">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Category</label>
+                    <select class="form-select">
+                        <option value="skincare">Skincare</option>
+                        <option value="makeup">Makeup</option>
+                        <option value="masks">Sheet Masks</option>
+                        <option value="sets">Gift Sets</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Video URL</label>
+                    <input type="url" class="form-input" placeholder="https://...">
+                </div>
+                
+                <div style="display: flex; gap: 12px; margin-top: 24px;">
+                    <button type="submit" class="btn btn-primary">Add Product</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('add-product')">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Section navigation
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).style.display = 'block';
+            
+            // Update active nav link
+            document.querySelectorAll('.sidebar-nav a').forEach(link => {
+                link.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+        
+        // Modal management
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'block';
+        }
+        
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+        
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
