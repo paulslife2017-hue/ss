@@ -10,7 +10,7 @@ let orders = [];
 let orderIdCounter = 1;
 
 // Simple admin password (change in production!)
-const ADMIN_PASSWORD = 'admin123';
+const ADMIN_PASSWORD = '0907';
 
 // Serve static files
 app.use('/static/*', serveStatic({ root: './' }));
@@ -223,7 +223,7 @@ app.get('/', (c) => {
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <a href="/">🌸 SeoulZen</a>
+                <a href="/" id="brand-logo" style="cursor: pointer;">🌸 SeoulZen</a>
             </div>
             <div class="nav-links">
                 <a href="/">Home</a>
@@ -234,7 +234,6 @@ app.get('/', (c) => {
                 <a href="/cart" class="cart-icon">
                     🛒 Cart <span class="cart-count">0</span>
                 </a>
-                <a href="/admin" class="admin-link">Admin</a>
             </div>
         </div>
     </nav>
@@ -309,11 +308,6 @@ app.get('/', (c) => {
                     <div class="feature-icon">📦</div>
                     <h3>Fast Delivery</h3>
                     <p>7-14 days tracked shipping</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💝</div>
-                    <h3>Free Samples</h3>
-                    <p>With every order</p>
                 </div>
             </div>
         </div>
@@ -397,6 +391,28 @@ app.get('/', (c) => {
         // Initialize
         loadFeaturedProducts();
         updateCartCount();
+        
+        // Secret admin access: triple-click logo within 2 seconds
+        let logoClickCount = 0;
+        let logoClickTimer = null;
+        document.getElementById('brand-logo').addEventListener('click', (e) => {
+            e.preventDefault();
+            logoClickCount++;
+            
+            if (logoClickTimer) clearTimeout(logoClickTimer);
+            
+            if (logoClickCount === 3) {
+                window.location.href = '/admin';
+                logoClickCount = 0;
+            } else {
+                logoClickTimer = setTimeout(() => {
+                    if (logoClickCount < 3) {
+                        window.location.href = '/';
+                    }
+                    logoClickCount = 0;
+                }, 2000); // 2 seconds
+            }
+        });
     </script>
 </body>
 </html>
@@ -1345,7 +1361,7 @@ app.get('/admin', (c) => {
                 </div>
                 <button type="submit" class="btn">Login</button>
                 <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
-                    Default password: <strong>admin123</strong>
+                    Hint: Special date 🔐
                 </p>
             </form>
         </div>
