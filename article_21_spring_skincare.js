@@ -565,7 +565,9 @@ const article21 = {
           <li><strong>Cherry Blossom Glow:</strong> Korean Facial + Sheet Mask Set - ₩100,000 ($77)</li>
         </ul>
 
-        <a href="https://kbeautyseoul.co.kr" class="cta-button" target="_blank" rel="noopener">Book Spring Treatment Now →</a>
+        <div class="note-box">
+          <p><strong>💡 Shopping Tip:</strong> Visit Olive Young or Chicor for these products at duty-free prices. Most clinics in Gangnam, Myeongdong, and Hongdae offer spring beauty packages.</p>
+        </div>
         
         <p class="small-text">*Prices subject to change. Book in advance during cherry blossom season (March-April) as clinics get busy.</p>
       </div>

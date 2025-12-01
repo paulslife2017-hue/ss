@@ -167,7 +167,7 @@ module.exports = {
     <h3>Step-by-Step Application Guide</h3>
 
     <ol>
-      <li><strong>Cleanse Thoroughly:</strong> Remove all makeup and impurities with <a href="https://kbeautyseoul.co.kr">double cleansing method</a></li>
+      <li><strong>Cleanse Thoroughly:</strong> Remove all makeup and impurities with the Korean double cleansing method</li>
       <li><strong>Tone (Optional):</strong> Apply toner to prep skin for better absorption</li>
       <li><strong>Open Carefully:</strong> Unfold mask gently to avoid tearing</li>
       <li><strong>Apply Precisely:</strong> Align with eyes, nose, and mouth, smooth out air bubbles</li>
@@ -250,7 +250,7 @@ module.exports = {
     <h2>Korean Sheet Mask Trends 2025</h2>
 
     <h3>1. Sustainable & Eco-Friendly Materials</h3>
-    <p>Biodegradable bamboo and eucalyptus sheets are replacing traditional materials. Brands like <a href="https://kbeautyseoul.co.kr">Innisfree</a> lead with zero-waste packaging.</p>
+    <p>Biodegradable bamboo and eucalyptus sheets are replacing traditional materials. Brands like Innisfree lead with zero-waste packaging.</p>
 
     <h3>2. Customizable Mask Experiences</h3>
     <p>Mix-and-match serums with reusable silicone masks allow personalized treatments. Popular in Gangnam beauty clinics.</p>
@@ -388,7 +388,7 @@ module.exports = {
 
     <h2>Conclusion: Mastering Korean Sheet Mask Routine</h2>
 
-    <p>Korean sheet masks offer an accessible, effective, and enjoyable way to achieve healthy, glowing skin. Whether you're shopping at <a href="https://kbeautyseoul.co.kr">Seoul's best beauty stores</a> or ordering online, the key to success lies in:</p>
+    <p>Korean sheet masks offer an accessible, effective, and enjoyable way to achieve healthy, glowing skin. Whether you're shopping at Seoul's Olive Young, Chicor, or ordering online, the key to success lies in:</p>
 
     <ul>
       <li><strong>Choosing the Right Mask:</strong> Match ingredients to your specific skin concerns</li>
@@ -401,12 +401,12 @@ module.exports = {
 
     <p>Visit Myeongdong's Olive Young flagship store or browse any of Seoul's countless beauty shops to experience the incredible variety of Korean sheet masks. Don't forget to take advantage of promotional deals (1+1, 2+1) commonly offered at Korean drugstores!</p>
 
-    <p><strong>Pro Tip:</strong> Pair your sheet mask routine with other <a href="https://kbeautyseoul.co.kr">Korean beauty treatments</a> like facial massages, LED therapy, or professional spa services for a complete K-beauty transformation.</p>
+    <p><strong>Pro Tip:</strong> Pair your sheet mask routine with other Korean beauty practices like facial massages, gua sha, or jade rolling for a complete K-beauty transformation.</p>
 
     <div class="cta-box">
       <h3>Ready to Experience K-Beauty Sheet Masks?</h3>
-      <p>Explore Seoul's best beauty destinations and discover authentic Korean skincare products!</p>
-      <a href="https://kbeautyseoul.co.kr" class="cta-button">Discover Korean Beauty →</a>
+      <p>Visit Olive Young, Chicor, or any Korean beauty store for an amazing selection. Most stores offer tourist discounts and free samples!</p>
+      <p><strong>📦 Pro Tip:</strong> Buy in bulk for better prices - many stores offer "10+1" deals!</p>
     </div>
   `,
   metaDescription: 'Complete guide to Korean sheet masks 2025. Top 15 brands (Mediheal, Dr. Jart+, Laneige), ingredients, benefits, application tips. Where to buy in Seoul (₩1,000-15,000). Expert advice!',

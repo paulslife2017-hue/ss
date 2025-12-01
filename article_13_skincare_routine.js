@@ -68,8 +68,8 @@ module.exports = {
 
 <div class="cta-box">
 <h3>🛍️ Shop Authentic Korean Skincare</h3>
-<p>Get genuine K-beauty products during your Seoul visit. Expert recommendations and testing at top beauty stores.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Beauty Shopping Guide →</a>
+<p>Get genuine K-beauty products at Olive Young, Chicor, and official brand stores. Test products before buying and get samples!</p>
+<p class="note">💡 <strong>Tip:</strong> Download the Olive Young app for exclusive discounts and tourist coupons.</p>
 </div>
 
 <h3>Step 3: Exfoliator (각질 제거제)</h3>
@@ -130,7 +130,7 @@ module.exports = {
 <li><strong>Purito Centella Green Level Buffet Serum (₩19,000):</strong> Calming</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Get Personalized Product Recommendations</strong></a></p>
+<p><strong>→ Tip: Ask for product samples at stores to test before committing!</strong></p>
 
 <h3>Step 6: Serum/Ampoule (세럼/앰플)</h3>
 <p><strong>Purpose:</strong> Target specific concerns (wrinkles, dark spots, acne)<br>
@@ -244,7 +244,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Build Your Perfect Routine</h3>
 <p>Get expert skincare consultation in Seoul. Skin analysis, product testing, and personalized K-beauty routine.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Skincare Consultation →</a>
+<p class="highlight">💡 <strong>Pro Tip:</strong> Many Korean skincare brands offer free skin analysis at their flagship stores!</p>
 </div>
 
 <h2>⏰ Timing & Routine Variations</h2>
@@ -410,7 +410,7 @@ module.exports = {
 <li><strong>Garosu-gil:</strong> Luxury K-beauty boutiques</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Beauty Shopping Tour with Expert Guide</strong></a></p>
+<p><strong>→ Shopping Tip: Visit Myeongdong or Hongdae for the best selection and tourist discounts!</strong></p>
 
 <h3>Popular Store Chains:</h3>
 <ul>
@@ -422,7 +422,7 @@ module.exports = {
 
 <p>The Korean 10-step skincare routine isn't just about products—it's a ritual of self-care that has kept Korean women looking youthful for generations. Start small, stay consistent, and enjoy the journey to your best skin ever!</p>
 
-<p>Ready to start your K-beauty journey? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book a personalized skincare consultation in Seoul</strong></a> and get expert guidance on building your perfect routine!</p>
+<p>Ready to start your K-beauty journey? Visit Olive Young, Chicor, or brand stores in Seoul to get expert guidance and free samples for building your perfect routine!</p>
   `,
   metaDescription: "Complete Korean 10-step skincare routine guide 2025. Product recommendations, order, timing, and tips for achieving glass skin. Master K-beauty skincare!",
   keywords: "korean skincare routine, 10 step skincare, glass skin routine, k-beauty routine, korean beauty routine, skincare order, korean skincare products, how to get glass skin",
