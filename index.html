@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Beauty Seoul | Premium Beauty Services, Tours & Shopping</title>
+    <meta name="description" content="Experience authentic Korean beauty services, exclusive Seoul tours, and premium K-beauty shopping. Book your perfect Seoul beauty experience today.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="Korean beauty, Seoul spa, K-beauty tour, Gangnam head spa, Korean skincare, Seoul shopping, beauty services Seoul">
+    <meta property="og:title" content="K-Beauty Seoul | Premium Beauty, Tours & Shopping">
+    <meta property="og:description" content="Experience authentic Korean beauty services, exclusive tours, and premium shopping in Seoul">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kbeautyseoul.co.kr">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #fff;
+        }
+        
+        /* Header Navigation */
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 16px 24px;
+        }
+        
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FF385C;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #FF385C;
+        }
+        
+        .lang-selector {
+            display: flex;
+            gap: 8px;
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            border-radius: 24px;
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+        }
+        
+        .lang-selector:hover {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+        }
+        
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            position: relative;
+            height: 70vh;
+            min-height: 500px;
+            overflow: hidden;
+        }
+        
+        .hero-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 24px;
+        }
+        
+        .hero-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 32px;
+            max-width: 600px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        /* Section Container */
+        .section {
+            padding: 80px 24px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #222;
+        }
+        
+        .section-description {
+            font-size: 18px;
+            color: #717171;
+            margin-bottom: 48px;
+            max-width: 800px;
+        }
+        
+        /* Service Cards */
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        
+        .service-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+        
+        .service-video {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+        
+        .service-content {
+            padding: 24px;
+        }
+        
+        .service-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #222;
+        }
+        
+        .service-text {
+            font-size: 15px;
+            color: #717171;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        
+        .service-price {
+            font-size: 18px;
+            font-weight: 600;
+            color: #FF385C;
+            margin-bottom: 16px;
+        }
+        
+        /* Language Tabs */
+        .lang-tabs {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        
+        .lang-tab {
+            padding: 12px 24px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            color: #717171;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .lang-tab.active {
+            color: #222;
+            border-bottom-color: #FF385C;
+        }
+        
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
+        /* Button */
+        .btn-primary {
+            display: inline-block;
+            padding: 14px 32px;
+            background: linear-gradient(to right, #E61E4D, #BD1E59);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(230, 30, 77, 0.3);
+        }
+        
+        .btn-secondary {
+            display: inline-block;
+            padding: 14px 32px;
+            background: white;
+            color: #222;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            border: 1px solid #222;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .btn-secondary:hover {
+            background: #f7f7f7;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #f7f7f7;
+            padding: 48px 24px 24px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+        
+        .footer-section h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-section ul li a {
+            color: #717171;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .footer-section ul li a:hover {
+            color: #222;
+        }
+        
+        .footer-bottom {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 14px;
+            color: #717171;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 32px;
+            }
+            
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            
+            .section {
+                padding: 48px 16px;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .service-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .nav-links {
+                gap: 16px;
+            }
+            
+            .nav-links a {
+                font-size: 12px;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        /* Booking Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 32px;
+            border-radius: 12px;
+            max-width: 500px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        }
+        
+        .close-modal {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #717171;
+        }
+        
+        .close-modal:hover {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/" class="logo">K-Beauty Seoul</a>
+            <div class="nav-links">
+                <a href="#beauty">Beauty</a>
+                <a href="#tour">Tour</a>
+                <a href="#shop">Shop</a>
+                <div class="lang-selector" onclick="toggleLangMenu()">
+                    <span>🌐</span>
+                    <span id="currentLang">EN</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+        <div class="hero-overlay">
+            <h1 class="hero-title">Experience Authentic K-Beauty in Seoul</h1>
+            <p class="hero-subtitle">Premium beauty services, exclusive tours, and curated K-beauty products</p>
+            <a href="#beauty" class="btn-primary">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Beauty Services Section -->
+    <section id="beauty" class="section">
+        <h2 class="section-title">Beauty Services</h2>
+        <p class="section-description">Experience world-class Korean beauty treatments with expert care and premium products</p>
+        
+        <!-- Language Tabs -->
+        <div class="lang-tabs">
+            <button class="lang-tab active" onclick="switchLang('beauty', 'en')">English</button>
+            <button class="lang-tab" onclick="switchLang('beauty', 'ja')">日本語</button>
+            <button class="lang-tab" onclick="switchLang('beauty', 'zh')">繁體中文</button>
+        </div>
+        
+        <!-- English Content -->
+        <div id="beauty-en" class="lang-content active">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Gangnam Head Spa</h3>
+                        <p class="service-text">Premium scalp treatment combining deep cleansing, massage therapy, and nourishing care. Experience ultimate relaxation in luxury Gangnam spas.</p>
+                        <p class="service-price">From ₩150,000 ($115 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Korean Lip Tattoo</h3>
+                        <p class="service-text">Semi-permanent lip blushing with natural gradient effect. Get that perfect Korean lip color that lasts 1-2 years.</p>
+                        <p class="service-price">From ₩300,000 ($230 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Glass Skin Facial</h3>
+                        <p class="service-text">Achieve the coveted Korean glass skin look with our signature facial treatment. Includes deep hydration, LED therapy, and premium serums.</p>
+                        <p class="service-price">From ₩180,000 ($140 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Japanese Content -->
+        <div id="beauty-ja" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">江南ヘッドスパ</h3>
+                        <p class="service-text">ディープクレンジング、マッサージセラピー、栄養ケアを組み合わせたプレミアム頭皮トリートメント。高級江南スパで究極のリラクゼーションを体験してください。</p>
+                        <p class="service-price">₩150,000〜（¥16,500〜）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ予約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">韓国リップタトゥー</h3>
+                        <p class="service-text">自然なグラデーション効果の半永久リップブラッシング。1〜2年持続する完璧な韓国風リップカラーを手に入れましょう。</p>
+                        <p class="service-price">₩300,000〜（¥33,000〜）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ予約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">ガラス肌フェイシャル</h3>
+                        <p class="service-text">憧れの韓国ガラス肌ルックを私たちのシグネチャーフェイシャルトリートメントで実現。ディープハイドレーション、LED治療、プレミアム美容液を含みます。</p>
+                        <p class="service-price">₩180,000〜（¥19,800〜）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ予約</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Traditional Chinese Content -->
+        <div id="beauty-zh" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">江南頭皮護理</h3>
+                        <p class="service-text">結合深層清潔、按摩療法和滋養護理的頂級頭皮療程。在奢華的江南水療中心體驗終極放鬆。</p>
+                        <p class="service-price">₩150,000起（NT$3,600起）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即預約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">韓式唇部紋繡</h3>
+                        <p class="service-text">具有自然漸層效果的半永久唇部上色。獲得可持續1-2年的完美韓式唇色。</p>
+                        <p class="service-price">₩300,000起（NT$7,200起）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即預約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">玻璃肌膚護理</h3>
+                        <p class="service-text">透過我們的招牌護膚療程打造令人嚮往的韓式玻璃肌。包含深層保濕、LED光療和頂級精華液。</p>
+                        <p class="service-price">₩180,000起（NT$4,320起）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即預約</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Section -->
+    <section id="tour" class="section" style="background: #f7f7f7;">
+        <h2 class="section-title">Seoul Beauty Tours</h2>
+        <p class="section-description">Curated experiences combining beauty treatments, shopping, and Seoul's best attractions</p>
+        
+        <!-- Language Tabs -->
+        <div class="lang-tabs">
+            <button class="lang-tab active" onclick="switchLang('tour', 'en')">English</button>
+            <button class="lang-tab" onclick="switchLang('tour', 'ja')">日本語</button>
+            <button class="lang-tab" onclick="switchLang('tour', 'zh')">繁體中文</button>
+        </div>
+        
+        <!-- English Content -->
+        <div id="tour-en" class="lang-content active">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Gangnam Beauty Day</h3>
+                        <p class="service-text">Full-day experience including head spa, lunch at trendy café, K-beauty shopping in Gangnam, and professional photo session.</p>
+                        <p class="service-price">₩450,000 ($345 USD) / person</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Tour</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-Beauty Shopping Tour</h3>
+                        <p class="service-text">Guided tour through Myeongdong & Hongdae with personal beauty consultant. Includes skin analysis and customized product recommendations.</p>
+                        <p class="service-price">₩180,000 ($140 USD) / person</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Tour</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Traditional Meets Modern</h3>
+                        <p class="service-text">Visit Bukchon Hanok Village, traditional Korean spa experience, and modern K-beauty clinic. Perfect blend of old and new Seoul.</p>
+                        <p class="service-price">₩350,000 ($270 USD) / person</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Book Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Japanese Content -->
+        <div id="tour-ja" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">江南ビューティーデイ</h3>
+                        <p class="service-text">ヘッドスパ、トレンディなカフェでのランチ、江南でのK-beautyショッピング、プロの写真撮影を含む終日体験。</p>
+                        <p class="service-price">₩450,000（¥49,500）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">ツアー予約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-beautyショッピングツアー</h3>
+                        <p class="service-text">パーソナルビューティーコンサルタントと明洞と弘大を巡るガイド付きツアー。肌分析とカスタマイズされた製品推奨を含みます。</p>
+                        <p class="service-price">₩180,000（¥19,800）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">ツアー予約</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">伝統と現代の融合</h3>
+                        <p class="service-text">北村韓屋村を訪問し、伝統的な韓国スパ体験と最新のK-beautyクリニック。新旧ソウルの完璧なブレンド。</p>
+                        <p class="service-price">₩350,000（¥38,500）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">ツアー予約</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Traditional Chinese Content -->
+        <div id="tour-zh" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">江南美容一日遊</h3>
+                        <p class="service-text">包含頭皮護理、時尚咖啡廳午餐、江南K-beauty購物和專業攝影的全天體驗。</p>
+                        <p class="service-price">₩450,000（NT$10,800）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">預約行程</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-beauty購物之旅</h3>
+                        <p class="service-text">由個人美容顧問導覽明洞和弘大。包含肌膚分析和客製化產品推薦。</p>
+                        <p class="service-price">₩180,000（NT$4,320）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">預約行程</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">傳統與現代的碰撞</h3>
+                        <p class="service-text">參觀北村韓屋村、傳統韓式水療體驗和現代K-beauty診所。完美結合首爾新舊風貌。</p>
+                        <p class="service-price">₩350,000（NT$8,400）/人</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">預約行程</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section">
+        <h2 class="section-title">K-Beauty Shop</h2>
+        <p class="section-description">Premium Korean beauty products carefully selected by our experts</p>
+        
+        <!-- Language Tabs -->
+        <div class="lang-tabs">
+            <button class="lang-tab active" onclick="switchLang('shop', 'en')">English</button>
+            <button class="lang-tab" onclick="switchLang('shop', 'ja')">日本語</button>
+            <button class="lang-tab" onclick="switchLang('shop', 'zh')">繁體中文</button>
+        </div>
+        
+        <!-- English Content -->
+        <div id="shop-en" class="lang-content active">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Premium Skincare Set</h3>
+                        <p class="service-text">Complete 10-step Korean skincare routine including cleanser, toner, essence, serum, moisturizer, and sunscreen from top brands.</p>
+                        <p class="service-price">₩250,000 ($190 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Shop Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">Sheet Mask Collection</h3>
+                        <p class="service-text">30-piece collection featuring bestselling Korean sheet masks. Perfect variety for all skin concerns and types.</p>
+                        <p class="service-price">₩80,000 ($60 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Shop Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-Beauty Travel Kit</h3>
+                        <p class="service-text">Travel-sized essentials perfect for trying Korean skincare or taking on trips. All TSA-approved sizes.</p>
+                        <p class="service-price">₩60,000 ($45 USD)</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Japanese Content -->
+        <div id="shop-ja" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">プレミアムスキンケアセット</h3>
+                        <p class="service-text">クレンザー、トナー、エッセンス、セラム、モイスチャライザー、日焼け止めを含む、トップブランドによる完全な10ステップ韓国スキンケアルーティン。</p>
+                        <p class="service-price">₩250,000（¥27,500）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ購入</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">シートマスクコレクション</h3>
+                        <p class="service-text">ベストセラーの韓国シートマスクを含む30枚セット。すべての肌タイプとお悩みに対応した完璧なバラエティ。</p>
+                        <p class="service-price">₩80,000（¥8,800）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ購入</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-beautyトラベルキット</h3>
+                        <p class="service-text">韓国スキンケアを試すのに、または旅行に持っていくのに最適なトラベルサイズの必需品。すべてTSA承認サイズ。</p>
+                        <p class="service-price">₩60,000（¥6,600）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">今すぐ購入</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Traditional Chinese Content -->
+        <div id="shop-zh" class="lang-content">
+            <div class="service-grid">
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
+                        <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">頂級護膚套裝</h3>
+                        <p class="service-text">包含洗面乳、化妝水、精華液、乳液、面霜和防曬的完整10步驟韓式護膚程序，來自頂級品牌。</p>
+                        <p class="service-price">₩250,000（NT$6,000）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即購買</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
+                        <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">面膜精選組合</h3>
+                        <p class="service-text">30片裝，包含韓國暢銷面膜。完美適合所有膚質和肌膚問題的多樣化選擇。</p>
+                        <p class="service-price">₩80,000（NT$1,920）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即購買</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
+                        <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
+                    </video>
+                    <div class="service-content">
+                        <h3 class="service-title">K-beauty旅行組</h3>
+                        <p class="service-text">旅行尺寸必需品，非常適合嘗試韓式護膚或攜帶旅行。所有產品均符合TSA規定尺寸。</p>
+                        <p class="service-price">₩60,000（NT$1,440）</p>
+                        <a href="https://kbeautyseoul.co.kr" class="btn-primary" target="_blank">立即購買</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Beauty Services</h3>
+                <ul>
+                    <li><a href="https://kbeautyseoul.co.kr">Head Spa</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Lip Tattoo</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Glass Skin Facial</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">All Services</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Tours</h3>
+                <ul>
+                    <li><a href="https://kbeautyseoul.co.kr">Gangnam Tour</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Shopping Tour</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Traditional Tour</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Custom Tours</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="https://kbeautyseoul.co.kr">Skincare</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Makeup</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Sheet Masks</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Gift Sets</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="https://kbeautyseoul.co.kr">Book Appointment</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">Contact Us</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">FAQ</a></li>
+                    <li><a href="https://kbeautyseoul.co.kr">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 K-Beauty Seoul. All rights reserved.</p>
+            <p>Seoul, South Korea | <a href="https://kbeautyseoul.co.kr" style="color: #FF385C;">kbeautyseoul.co.kr</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Language switching
+        function switchLang(section, lang) {
+            // Hide all content for this section
+            const contents = document.querySelectorAll(`#${section}-en, #${section}-ja, #${section}-zh`);
+            contents.forEach(content => content.classList.remove('active'));
+            
+            // Remove active from all tabs in this section
+            const tabs = document.querySelectorAll(`#${section} .lang-tab`);
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected content
+            document.getElementById(`${section}-${lang}`).classList.add('active');
+            
+            // Activate clicked tab
+            event.target.classList.add('active');
+        }
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Language selector toggle (placeholder for future implementation)
+        function toggleLangMenu() {
+            alert('Language: English | 日本語 | 繁體中文');
+        }
+    </script>
+</body>
+</html>
