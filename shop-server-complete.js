@@ -337,11 +337,10 @@ app.get('/', (c) => {
                 <a href="/">Home</a>
                 <a href="/shop">Shop</a>
                 <a href="https://www.seoulzen.com">Blog</a>
+                <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
             </div>
             <div class="nav-actions">
-                <a href="/cart" class="cart-icon">
-                    🛒 Cart <span class="cart-count">0</span>
-                </a>
+                <!-- Cart hidden for affiliate model -->
             </div>
         </div>
     </nav>
@@ -458,42 +457,21 @@ app.get('/', (c) => {
                             </div>
                         </a>
                         <div class="product-info">
-                            <button class="btn btn-secondary btn-add-cart" onclick="addToCart(\${product.id}, event)">
-                                Add to Cart
-                            </button>
+                            \${product.amazonUrl ? \`
+                                <a href="\${product.amazonUrl}" target="_blank" class="btn btn-primary btn-add-cart" style="display: block; text-align: center; text-decoration: none;">
+                                    🛒 Buy on Amazon
+                                </a>
+                            \` : \`
+                                <a href="/product/\${product.id}" class="btn btn-secondary btn-add-cart" style="display: block; text-align: center; text-decoration: none;">
+                                    View Details
+                                </a>
+                            \`}
                         </div>
                     </div>
                 \`).join('');
             } catch (error) {
                 console.error('Failed to load products:', error);
             }
-        }
-
-        // Add to cart
-        function addToCart(productId, event) {
-            event.preventDefault();
-            event.stopPropagation();
-            
-            let cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const existing = cart.find(item => item.id === productId);
-            
-            if (existing) {
-                existing.quantity++;
-            } else {
-                cart.push({ id: productId, quantity: 1 });
-            }
-            
-            localStorage.setItem('cart', JSON.stringify(cart));
-            updateCartCount();
-            
-            alert('✅ Added to cart!');
-        }
-
-        // Update cart count
-        function updateCartCount() {
-            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const count = cart.reduce((sum, item) => sum + item.quantity, 0);
-            document.querySelector('.cart-count').textContent = count;
         }
 
         // Initialize
@@ -593,11 +571,10 @@ app.get('/shop', (c) => {
                 <a href="/">Home</a>
                 <a href="/shop">Shop</a>
                 <a href="https://www.seoulzen.com">Blog</a>
+                <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
             </div>
             <div class="nav-actions">
-                <a href="/cart" class="cart-icon">
-                    🛒 Cart <span class="cart-count">0</span>
-                </a>
+                <!-- Cart hidden for affiliate model -->
             </div>
         </div>
     </nav>
@@ -693,9 +670,15 @@ app.get('/shop', (c) => {
                         </div>
                     </a>
                     <div class="product-info">
-                        <button class="btn btn-secondary" onclick="addToCart(\${product.id}, event)">
-                            Add to Cart
-                        </button>
+                        \${product.amazonUrl ? \`
+                            <a href="\${product.amazonUrl}" target="_blank" class="btn btn-primary" style="display: block; text-align: center; text-decoration: none;">
+                                🛒 Buy on Amazon
+                            </a>
+                        \` : \`
+                            <a href="/product/\${product.id}" class="btn btn-secondary" style="display: block; text-align: center; text-decoration: none;">
+                                View Details
+                            </a>
+                        \`}
                     </div>
                 </div>
             \`).join('');
@@ -729,32 +712,7 @@ app.get('/shop', (c) => {
             renderProducts(sorted);
         });
         
-        function addToCart(productId, event) {
-            event.preventDefault();
-            event.stopPropagation();
-            
-            let cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const existing = cart.find(item => item.id === productId);
-            
-            if (existing) {
-                existing.quantity++;
-            } else {
-                cart.push({ id: productId, quantity: 1 });
-            }
-            
-            localStorage.setItem('cart', JSON.stringify(cart));
-            updateCartCount();
-            alert('✅ Added to cart!');
-        }
-        
-        function updateCartCount() {
-            const cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            const count = cart.reduce((sum, item) => sum + item.quantity, 0);
-            document.querySelector('.cart-count').textContent = count;
-        }
-        
         loadProducts();
-        updateCartCount();
     </script>
 </body>
 </html>

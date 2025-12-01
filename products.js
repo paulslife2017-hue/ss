@@ -9,6 +9,7 @@ export const products = [
     category: "serum",
     price: 28.99,
     originalPrice: 35.00,
+    amazonUrl: "https://www.amazon.com/COSRX-Advanced-Snail-Mucin-Essence/dp/B00PBX3L7K",
     image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
     images: [
       "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
