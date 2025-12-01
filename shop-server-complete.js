@@ -1,13 +1,15 @@
 import { Hono } from 'hono';
 import { serve } from '@hono/node-server';
 import { serveStatic } from '@hono/node-server/serve-static';
-import { products } from './products.js';
+import { products as importedProducts } from './products.js';
 
 const app = new Hono();
 
-// In-memory storage for orders (replace with database later)
+// In-memory storage (replace with database later)
+let products = [...importedProducts]; // Make mutable copy for admin editing
 let orders = [];
 let orderIdCounter = 1;
+let productIdCounter = products.length > 0 ? Math.max(...products.map(p => p.id)) + 1 : 1;
 
 // Simple admin password (change in production!)
 const ADMIN_PASSWORD = '0907';
@@ -129,14 +131,120 @@ app.get('/api/admin/stats', (c) => {
   const totalRevenue = orders.reduce((sum, order) => sum + order.total, 0);
   const pendingOrders = orders.filter(o => o.status === 'pending').length;
   const completedOrders = orders.filter(o => o.status === 'completed').length;
+  const totalProducts = products.length;
+  const lowStockProducts = products.filter(p => p.stock < 10).length;
   
   return c.json({
     totalOrders,
     totalRevenue,
     pendingOrders,
     completedOrders,
+    totalProducts,
+    lowStockProducts,
     recentOrders: orders.slice(-5).reverse()
   });
+});
+
+// Get all products (admin)
+app.get('/api/admin/products', (c) => {
+  const password = c.req.query('password');
+  if (password !== ADMIN_PASSWORD) {
+    return c.json({ error: 'Unauthorized' }, 401);
+  }
+  return c.json(products);
+});
+
+// Add new product (admin)
+app.post('/api/admin/products', async (c) => {
+  try {
+    const password = c.req.query('password');
+    if (password !== ADMIN_PASSWORD) {
+      return c.json({ error: 'Unauthorized' }, 401);
+    }
+    
+    const body = await c.req.json();
+    
+    const newProduct = {
+      id: productIdCounter++,
+      name: body.name,
+      brand: body.brand,
+      category: body.category,
+      price: parseFloat(body.price),
+      originalPrice: body.originalPrice ? parseFloat(body.originalPrice) : null,
+      image: body.image,
+      images: body.images || [body.image],
+      description: body.description,
+      keyBenefits: body.keyBenefits || [],
+      howToUse: body.howToUse || '',
+      ingredients: body.ingredients || '',
+      inStock: body.inStock !== false,
+      stock: parseInt(body.stock) || 100,
+      rating: parseFloat(body.rating) || 4.5,
+      reviews: parseInt(body.reviews) || 0,
+      tags: body.tags || [],
+      featured: body.featured || false
+    };
+    
+    products.push(newProduct);
+    
+    return c.json({ success: true, product: newProduct });
+  } catch (error) {
+    return c.json({ error: 'Failed to create product' }, 500);
+  }
+});
+
+// Update product (admin)
+app.patch('/api/admin/products/:id', async (c) => {
+  try {
+    const password = c.req.query('password');
+    if (password !== ADMIN_PASSWORD) {
+      return c.json({ error: 'Unauthorized' }, 401);
+    }
+    
+    const id = parseInt(c.req.param('id'));
+    const body = await c.req.json();
+    
+    const productIndex = products.findIndex(p => p.id === id);
+    if (productIndex === -1) {
+      return c.json({ error: 'Product not found' }, 404);
+    }
+    
+    // Update product fields
+    const product = products[productIndex];
+    if (body.name) product.name = body.name;
+    if (body.brand) product.brand = body.brand;
+    if (body.category) product.category = body.category;
+    if (body.price) product.price = parseFloat(body.price);
+    if (body.originalPrice !== undefined) product.originalPrice = body.originalPrice ? parseFloat(body.originalPrice) : null;
+    if (body.image) product.image = body.image;
+    if (body.description) product.description = body.description;
+    if (body.stock !== undefined) product.stock = parseInt(body.stock);
+    if (body.inStock !== undefined) product.inStock = body.inStock;
+    if (body.featured !== undefined) product.featured = body.featured;
+    
+    return c.json({ success: true, product });
+  } catch (error) {
+    return c.json({ error: 'Failed to update product' }, 500);
+  }
+});
+
+// Delete product (admin)
+app.delete('/api/admin/products/:id', (c) => {
+  const password = c.req.query('password');
+  if (password !== ADMIN_PASSWORD) {
+    return c.json({ error: 'Unauthorized' }, 401);
+  }
+  
+  const id = parseInt(c.req.param('id'));
+  const productIndex = products.findIndex(p => p.id === id);
+  
+  if (productIndex === -1) {
+    return c.json({ error: 'Product not found' }, 404);
+  }
+  
+  const deletedProduct = products.splice(productIndex, 1)[0];
+  
+  return c.json({ success: true, product: deletedProduct });
 });
 
 // ==========================================
