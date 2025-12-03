@@ -1,0 +1,246 @@
+// Additional AdSense-Optimized Blog Articles (Articles 8-11)
+// To be appended to blog-articles.js
+
+export const adsenseBlogArticles = [
+  // Article 8: Seoul Beauty Shopping Guide
+  {
+    id: 'seoul-beauty-shopping-guide-2025',
+    title: {
+      ko: '서울 뷰티 쇼핑 완벽 가이드 2025',
+      en: 'Seoul Beauty Shopping Guide 2025: Best Places to Buy K-Beauty Products',
+      ja: 'ソウル美容ショッピングガイド2025',
+      zh: '首爾美容購物完整指南2025'
+    },
+    slug: 'seoul-beauty-shopping-guide-2025',
+    excerpt: {
+      ko: '서울 최고의 K-뷰티 쇼핑 장소. 명동, 강남, 홍대 쇼핑 가이드와 꿀팁.',
+      en: 'Best places to shop for K-beauty in Seoul. Myeongdong, Gangnam, Hongdae shopping guide with insider tips.',
+      ja: 'ソウルでK-ビューティを買うのに最適な場所。明洞、江南、弘大ショッピングガイドとインサイダーのヒント。',
+      zh: '首爾購買K-美容產品的最佳地點。明洞、江南、弘大購物指南和內幕貼士。'
+    },
+    content: {
+      en: `
+<h2>Seoul Beauty Shopping Guide 2025: Where to Buy Authentic K-Beauty</h2>
+<img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop" alt="Seoul Beauty Shopping" />
+
+<p>Seoul is a paradise for beauty enthusiasts, offering everything from luxury department stores to street-side cosmetic shops packed with the latest K-beauty innovations. Whether you're hunting for cult-favorite products or discovering new brands, this comprehensive guide will help you navigate Seoul's best beauty shopping destinations.</p>
+
+<h2>Top Seoul Beauty Shopping Districts</h2>
+
+<h3>1. Myeongdong: Tourist Beauty Haven</h3>
+<img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&h=600&fit=crop" alt="Myeongdong Shopping" />
+
+<p><strong>Why Shop in Myeongdong?</strong></p>
+<ul>
+  <li>🏬 <strong>100+ Beauty Stores:</strong> Highest concentration of cosmetic shops</li>
+  <li>🎁 <strong>Free Samples Galore:</strong> Every purchase comes with generous samples</li>
+  <li>💰 <strong>Tourist Discounts:</strong> Tax-free shopping available</li>
+  <li>🗣️ <strong>English Speaking Staff:</strong> Easy communication for foreigners</li>
+  <li>🚇 <strong>Convenient Location:</strong> Myeongdong Station (Line 4)</li>
+</ul>
+
+<p><strong>Must-Visit Stores in Myeongdong:</strong></p>
+<ol>
+  <li><strong>Olive Young Flagship:</strong> Korea's #1 health & beauty chain with 5 floors</li>
+  <li><strong>Innisfree Flagship:</strong> Jeju Island-inspired beauty products</li>
+  <li><strong>Etude House:</strong> Playful, princess-themed cosmetics</li>
+  <li><strong>The Face Shop:</strong> Natural ingredient skincare</li>
+  <li><strong>Tony Moly:</strong> Cute packaging, effective products</li>
+  <li><strong>Missha:</strong> Affordable luxury K-beauty</li>
+  <li><strong>Nature Republic:</strong> Aloe vera specialists</li>
+</ol>
+
+<p><strong>Shopping Tips for Myeongdong:</strong></p>
+<ul>
+  <li>💳 <strong>Bring Passport:</strong> Required for tax-free shopping (save 10%)</li>
+  <li>⏰ <strong>Best Time:</strong> Weekday mornings (10 AM - 12 PM) for less crowds</li>
+  <li>🎒 <strong>Bring Shopping Bag:</strong> Stores charge for plastic bags</li>
+  <li>💵 <strong>Cash vs Card:</strong> Both widely accepted, some small discounts for cash</li>
+  <li>📱 <strong>Download Apps:</strong> Olive Young app offers exclusive coupons</li>
+</ul>
+
+<div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
+  <strong>💡 Pro Tip:</strong> Visit stores in the late afternoon when they're restocking shelves—staff are more generous with samples!
+</div>
+
+<h3>2. Gangnam: Luxury K-Beauty Shopping</h3>
+<img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" alt="Gangnam Luxury Shopping" />
+
+<p><strong>Why Shop in Gangnam?</strong></p>
+<ul>
+  <li>💎 <strong>Premium Brands:</strong> High-end Korean and international beauty</li>
+  <li>🏢 <strong>Department Stores:</strong> Hyundai, Shinsegae, Lotte luxury beauty halls</li>
+  <li>🔬 <strong>Derma Brands:</strong> Medical-grade skincare from clinics</li>
+  <li>✨ <strong>Latest Releases:</strong> New products launch here first</li>
+</ul>
+
+<p><strong>Top Shopping Spots in Gangnam:</strong></p>
+<ol>
+  <li><strong>Hyundai Department Store COEX:</strong> Luxury beauty hall, tax-free</li>
+  <li><strong>Gangnam Station Underground:</strong> Affordable beauty shops</li>
+  <li><strong>Apgujeong Rodeo Street:</strong> Trendy boutique beauty stores</li>
+  <li><strong>Cheongdam Luxury Avenue:</strong> Premium K-beauty flagship stores</li>
+</ol>
+
+<p><strong>Premium K-Beauty Brands to Try:</strong></p>
+<ul>
+  <li>🌟 <strong>Sulwhasoo:</strong> Traditional Korean herbal luxury skincare</li>
+  <li>🌹 <strong>The History of Whoo:</strong> Royal court beauty secrets</li>
+  <li>💫 <strong>Amorepacific:</strong> Green tea-based anti-aging</li>
+  <li>🏔️ <strong>Hera:</strong> K-beauty meets French elegance</li>
+  <li>🎨 <strong>Jung Saem Mool:</strong> Professional makeup artist brand</li>
+</ul>
+
+<h3>3. Hongdae: Indie & Trendy K-Beauty</h3>
+<img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800&h=600&fit=crop" alt="Hongdae Shopping" />
+
+<p><strong>Why Shop in Hongdae?</strong></p>
+<ul>
+  <li>🎨 <strong>Indie Brands:</strong> Unique Korean beauty brands not found elsewhere</li>
+  <li>💰 <strong>Budget-Friendly:</strong> 20-30% cheaper than Gangnam</li>
+  <li>🌈 <strong>Creative Packaging:</strong> Instagram-worthy products</li>
+  <li>👥 <strong>Youth Culture:</strong> Trendsetting products for Gen Z</li>
+</ul>
+
+<p><strong>Best Stores in Hongdae:</strong></p>
+<ol>
+  <li><strong>Stylenanda Pink Hotel:</strong> 3CE cosmetics flagship (5 floors of beauty heaven)</li>
+  <li><strong>Olive Young Hongdae:</strong> Student-friendly prices</li>
+  <li><strong>Aritaum:</strong> Amorepacific's affordable line</li>
+  <li><strong>A'pieu:</strong> Fun, youthful Korean beauty</li>
+</ol>
+
+<h2>Best Korean Beauty Products to Buy in Seoul</h2>
+<img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&h=600&fit=crop" alt="K-Beauty Products" />
+
+<h3>Cult-Favorite K-Beauty Products:</h3>
+
+<p><strong>Skincare Must-Haves:</strong></p>
+<ol>
+  <li><strong>COSRX Snail Mucin Essence (₩20,000 / $15):</strong> Holy grail hydration</li>
+  <li><strong>Beauty of Joseon Dynasty Cream (₩25,000 / $19):</strong> Rich moisturizer</li>
+  <li><strong>Innisfree Green Tea Seed Serum (₩28,000 / $21):</strong> Hydrating serum</li>
+  <li><strong>Klairs Supple Preparation Toner (₩18,000 / $14):</strong> pH-balancing toner</li>
+  <li><strong>Some By Mi AHA BHA PHA Toner (₩16,000 / $12):</strong> Exfoliating toner</li>
+  <li><strong>Sulwhasoo First Care Serum (₩68,000 / $52):</strong> Luxury treatment essence</li>
+</ol>
+
+<p><strong>Sheet Masks (₩1,000-3,000 / $0.75-$2.30 each):</strong></p>
+<ul>
+  <li>Mediheal N.M.F Aquaring Ampoule Mask</li>
+  <li>Innisfree My Real Squeeze Mask</li>
+  <li>Etude House 0.2mm Therapy Air Mask</li>
+  <li>Dr. Jart+ Dermask series</li>
+</ul>
+
+<p><strong>Makeup Best-Sellers:</strong></p>
+<ol>
+  <li><strong>Etude House Dear Darling Tint (₩6,000 / $4.50):</strong> Long-lasting lip tint</li>
+  <li><strong>Clio Kill Cover Cushion (₩28,000 / $21):</strong> Best-selling cushion foundation</li>
+  <li><strong>Rom&nd Juicy Lasting Tint (₩8,500 / $6.50):</strong> Viral Korean lip tint</li>
+  <li><strong>Peripera Ink Airy Velvet (₩9,000 / $7):</strong> Matte lip color</li>
+</ol>
+
+<h2>Seoul Beauty Shopping Strategies</h2>
+<img src="https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=800&h=600&fit=crop" alt="Shopping Strategy" />
+
+<h3>How to Maximize Your Seoul Beauty Shopping:</h3>
+
+<p><strong>1. Plan Your Shopping Route</strong></p>
+<ul>
+  <li>📍 <strong>Day 1 - Myeongdong:</strong> Research products, collect samples</li>
+  <li>📍 <strong>Day 2 - Gangnam:</strong> Premium products, department store beauty</li>
+  <li>📍 <strong>Day 3 - Hongdae:</strong> Budget shopping, indie brands</li>
+  <li>📍 <strong>Final Day:</strong> Return to favorites, use discount coupons</li>
+</ul>
+
+<p><strong>2. Money-Saving Tips</strong></p>
+<ul>
+  <li>💰 <strong>1+1 Deals:</strong> Buy one get one free promotions (very common)</li>
+  <li>🎟️ <strong>Membership Cards:</strong> Sign up for store loyalty programs</li>
+  <li>📱 <strong>Mobile Coupons:</strong> Download brand apps for exclusive discounts</li>
+  <li>🌙 <strong>Night Shopping:</strong> Some stores offer evening discounts (after 8 PM)</li>
+  <li>🎉 <strong>Sales Seasons:</strong> January & July mega sales (up to 70% off)</li>
+</ul>
+
+<p><strong>3. Tax-Free Shopping Guide</strong></p>
+<ol>
+  <li>Spend minimum ₩30,000 ($23) per store to qualify</li>
+  <li>Show passport at checkout</li>
+  <li>Get tax-free form stamped</li>
+  <li>Claim refund at airport before departure</li>
+  <li>Save 10% VAT on total purchase</li>
+</ol>
+
+<h2>Online K-Beauty Shopping from Seoul</h2>
+<p><strong>Can't Visit Seoul? Shop Online:</strong></p>
+<ul>
+  <li>🛒 <strong>Olive Young Global:</strong> Official international shipping</li>
+  <li>📦 <strong>Gmarket Global:</strong> Korean marketplace with worldwide delivery</li>
+  <li>🌐 <strong>YesStyle:</strong> International K-beauty retailer</li>
+  <li>🎁 <strong>Stylevana:</strong> Discounted K-beauty products</li>
+</ul>
+
+<h2>Beauty Services to Try While Shopping</h2>
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop" alt="Beauty Services Seoul" />
+
+<p><strong>Enhance Your Shopping Trip with Beauty Services:</strong></p>
+<ul>
+  <li>💆 <strong>Free Skin Analysis:</strong> Available at most flagship stores</li>
+  <li>💅 <strong>Quick Nail Art:</strong> 30-minute Korean gel nails (₩35,000-50,000)</li>
+  <li>💄 <strong>Makeup Consultations:</strong> Complimentary at department store counters</li>
+  <li>🧖 <strong>Head Spa After Shopping:</strong> Relax with Gangnam head spa</li>
+</ul>
+
+<p>Book beauty services at: <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+
+<h2>Shipping K-Beauty Products Home</h2>
+<p><strong>How to Ship Your Beauty Haul:</strong></p>
+<ul>
+  <li>📫 <strong>Korea Post:</strong> Economical international shipping (2-4 weeks)</li>
+  <li>✈️ <strong>EMS:</strong> Express shipping (3-7 days)</li>
+  <li>📦 <strong>Pack-and-Ship Services:</strong> Stores in Myeongdong offer packaging & shipping</li>
+  <li>💼 <strong>Check Luggage:</strong> Most products are travel-friendly (check liquid limits)</li>
+</ul>
+
+<div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">🛍️ Plan Your Seoul Beauty Shopping Trip</h3>
+  <p style="margin-bottom: 20px;">Book beauty treatments between shopping sessions</p>
+  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Services →</a>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Q1. Is K-beauty cheaper in Seoul than online?</h3>
+<p>A. Generally yes! Prices in Seoul are 30-50% lower than international online retailers, plus you get generous free samples with every purchase.</p>
+
+<h3>Q2. Can I bargain in Seoul beauty shops?</h3>
+<p>A. Bargaining is not common in established stores. However, buying multiple items often gets you extra samples or small discounts at independent shops.</p>
+
+<h3>Q3. What should I avoid buying?</h3>
+<p>A. Avoid products with only Korean labels if you can't read Korean (check ingredients!). Also skip "tourist trap" expensive ginseng products near palaces—buy them at regular stores for better prices.</p>
+
+<h3>Q4. How much should I budget for K-beauty shopping?</h3>
+<p>A. Budget ₩200,000-500,000 ($150-380) for a good Seoul beauty haul. This gets you 20-40 products including skincare, makeup, and sheet masks.</p>
+
+<h3>Q5. When is the best time to shop for K-beauty in Seoul?</h3>
+<p>A. January and July for mega sales. Weekday mornings for fewer crowds. Friday-Sunday for special promotions and events.</p>
+
+<p><strong>Happy K-beauty shopping in Seoul!</strong> For authentic Korean beauty experiences and professional treatments, visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book consultations and services with English-speaking experts.</p>
+      `,
+      ko: '서울 뷰티 쇼핑 완벽 가이드 콘텐츠 (한국어)',
+      ja: 'ソウル美容ショッピング完全ガイドコンテンツ (日本語)'
+    },
+    category: 'shopping',
+    subcategory: 'guide',
+    publishedAt: '2025-12-03',
+    author: 'K-Beauty Seoul Shopping Team',
+    readTime: '15 min read',
+    tags: ['seoul shopping', 'k-beauty shopping', 'myeongdong', 'gangnam', 'hongdae', 'beauty products', 'korean cosmetics'],
+    metaDescription: {
+      en: 'Complete Seoul beauty shopping guide 2025. Best places to buy K-beauty: Myeongdong, Gangnam, Hongdae. Tax-free shopping tips, cult products, insider strategies.',
+      ko: '서울 뷰티 쇼핑 완벽 가이드. 명동, 강남, 홍대 최고의 K-뷰티 쇼핑 장소. 면세 쇼핑 팁, 인기 제품, 전문가 전략.',
+      ja: 'ソウル美容ショッピング完全ガイド2025。K-ビューティを買うのに最適な場所：明洞、江南、弘大。免税ショッピングのヒント、カルト製品、インサイダー戦略。'
+    }
+  }
+];

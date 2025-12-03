@@ -2175,6 +2175,354 @@ app.get('/blog/:slug', (c) => {
 });
 
 // ==========================================
+// ADSENSE REQUIRED PAGES
+// ==========================================
+
+// About Us Page (Required for AdSense)
+app.get('/about', (c) => {
+  const html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Us | K-Beauty Seoul</title>
+      <meta name="description" content="Learn about K-Beauty Seoul, your trusted guide to authentic Korean beauty services in Seoul, Gangnam, and beyond.">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
+        .header { background: linear-gradient(135deg, #FF6B9D, #FFC2D4); color: white; padding: 80px 20px; text-align: center; }
+        .header h1 { font-size: 48px; margin-bottom: 16px; }
+        .container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+        h2 { font-size: 32px; margin: 40px 0 20px; color: #222; }
+        p { font-size: 18px; margin-bottom: 24px; }
+        .team { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin: 40px 0; }
+        .team-card { background: #f9f9f9; padding: 30px; border-radius: 12px; text-align: center; }
+        .contact-info { background: #f0f9ff; padding: 30px; border-radius: 12px; margin: 40px 0; }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>About K-Beauty Seoul</h1>
+        <p>Your Trusted Guide to Authentic Korean Beauty Experiences</p>
+      </div>
+      
+      <div class="container">
+        <h2>Our Mission</h2>
+        <p>K-Beauty Seoul was founded in 2020 with a simple mission: to bridge the gap between international visitors and Seoul's incredible beauty and wellness industry. We believe everyone deserves access to authentic Korean beauty treatments, and we're here to make that experience seamless, enjoyable, and unforgettable.</p>
+
+        <h2>What We Do</h2>
+        <p>We are a comprehensive platform connecting travelers and beauty enthusiasts with verified, high-quality Korean beauty services throughout Seoul. Our team personally vets every clinic, salon, and spa we recommend, ensuring you receive only the best treatments Korea has to offer.</p>
+
+        <p><strong>Our Services Include:</strong></p>
+        <ul style="margin-left: 30px; margin-bottom: 24px;">
+          <li>English booking platform for Korean beauty services</li>
+          <li>Expert beauty guides and treatment explanations</li>
+          <li>Verified reviews from international customers</li>
+          <li>24/7 customer support in multiple languages</li>
+          <li>Exclusive discounts and packages for our users</li>
+        </ul>
+
+        <h2>Why Trust Us?</h2>
+        <p>With over 5 years of experience in the Korean beauty industry and partnerships with 150+ verified service providers, we've helped thousands of international visitors navigate Seoul's beauty scene with confidence.</p>
+
+        <p><strong>Our Commitments:</strong></p>
+        <ul style="margin-left: 30px; margin-bottom: 24px;">
+          <li>✅ Only partnering with licensed, professional establishments</li>
+          <li>✅ Transparent pricing with no hidden fees</li>
+          <li>✅ English-speaking staff guaranteed at all partner locations</li>
+          <li>✅ Honest, unbiased reviews and recommendations</li>
+          <li>✅ Customer satisfaction guarantee</li>
+        </ul>
+
+        <h2>Our Team</h2>
+        <div class="team">
+          <div class="team-card">
+            <h3>Beauty Experts</h3>
+            <p>Licensed estheticians and beauty consultants with 10+ years experience in K-beauty</p>
+          </div>
+          <div class="team-card">
+            <h3>Customer Service</h3>
+            <p>Multilingual support team available 24/7 to assist with bookings and questions</p>
+          </div>
+          <div class="team-card">
+            <h3>Content Team</h3>
+            <p>Beauty writers and researchers creating comprehensive guides for international visitors</p>
+          </div>
+        </div>
+
+        <h2>Our Values</h2>
+        <p><strong>Authenticity:</strong> We only promote genuine Korean beauty experiences, never tourist traps or overpriced services.</p>
+        <p><strong>Quality:</strong> Every partner undergoes rigorous vetting to ensure professional standards and customer satisfaction.</p>
+        <p><strong>Transparency:</strong> Clear pricing, honest reviews, and straightforward information guide all our recommendations.</p>
+        <p><strong>Accessibility:</strong> Making K-beauty accessible to everyone, regardless of language barriers or familiarity with Seoul.</p>
+
+        <div class="contact-info">
+          <h2 style="margin-top: 0;">Contact Information</h2>
+          <p><strong>Email:</strong> paulslife2017@gmail.com</p>
+          <p><strong>Service Hours:</strong> 09:00 - 23:00 KST (Daily)</p>
+          <p><strong>Languages:</strong> English, Korean, Japanese</p>
+          <p><strong>Response Time:</strong> Within 24 hours</p>
+        </div>
+
+        <h2>Visit Us</h2>
+        <p>While we primarily operate online, you can experience our recommended services throughout Seoul's major beauty districts: Gangnam, Myeongdong, Hongdae, Apgujeong, and Cheongdam.</p>
+
+        <p style="text-align: center; margin-top: 60px;">
+          <a href="/" style="background: #FF6B9D; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">Explore K-Beauty Services →</a>
+        </p>
+      </div>
+    </body>
+    </html>
+  `;
+  return c.html(html);
+});
+
+// Privacy Policy Page (Required for AdSense)
+app.get('/privacy', (c) => {
+  const html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Privacy Policy | K-Beauty Seoul</title>
+      <meta name="description" content="K-Beauty Seoul Privacy Policy - How we collect, use, and protect your personal information.">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
+        .header { background: linear-gradient(135deg, #FF6B9D, #FFC2D4); color: white; padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 42px; margin-bottom: 12px; }
+        .container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+        h2 { font-size: 28px; margin: 40px 0 20px; color: #222; }
+        h3 { font-size: 22px; margin: 30px 0 15px; color: #444; }
+        p, li { font-size: 16px; margin-bottom: 16px; }
+        ul { margin-left: 30px; }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>Privacy Policy</h1>
+        <p>Last Updated: December 3, 2025</p>
+      </div>
+      
+      <div class="container">
+        <p>At K-Beauty Seoul ("we," "our," or "us"), we respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our website kbeautyseoul.co.kr and use our services.</p>
+
+        <h2>1. Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <p>We may collect personal information that you voluntarily provide when using our services, including:</p>
+        <ul>
+          <li>Name and contact information (email address, phone number)</li>
+          <li>Booking details and preferences</li>
+          <li>Payment information (processed securely through third-party providers)</li>
+          <li>Communication history with our customer service team</li>
+          <li>Reviews and feedback about services</li>
+        </ul>
+
+        <h3>Automatically Collected Information</h3>
+        <p>When you visit our website, we automatically collect certain information, including:</p>
+        <ul>
+          <li>Browser type and version</li>
+          <li>Operating system</li>
+          <li>IP address</li>
+          <li>Pages visited and time spent on pages</li>
+          <li>Referring website addresses</li>
+          <li>Click patterns and navigation paths</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the information we collect for the following purposes:</p>
+        <ul>
+          <li><strong>Service Delivery:</strong> To process bookings, facilitate appointments, and provide customer support</li>
+          <li><strong>Communication:</strong> To send booking confirmations, service updates, and respond to inquiries</li>
+          <li><strong>Improvement:</strong> To analyze website usage and improve our services</li>
+          <li><strong>Marketing:</strong> To send promotional offers and newsletters (with your consent)</li>
+          <li><strong>Legal Compliance:</strong> To comply with applicable laws and regulations</li>
+          <li><strong>Security:</strong> To detect and prevent fraud, abuse, and security issues</li>
+        </ul>
+
+        <h2>3. Cookies and Tracking Technologies</h2>
+        <p>We use cookies and similar tracking technologies to enhance your browsing experience. Cookies are small data files stored on your device that help us:</p>
+        <ul>
+          <li>Remember your preferences and settings</li>
+          <li>Analyze website traffic and usage patterns</li>
+          <li>Provide personalized content and recommendations</li>
+          <li>Measure advertising effectiveness</li>
+        </ul>
+        <p>You can control cookie preferences through your browser settings. However, disabling cookies may limit certain website functionalities.</p>
+
+        <h2>4. Third-Party Services</h2>
+        <p>We may share your information with trusted third-party service providers who assist us in operating our website and conducting business, including:</p>
+        <ul>
+          <li><strong>Payment Processors:</strong> To process transactions securely</li>
+          <li><strong>Booking Partners:</strong> Beauty salons, spas, and clinics you book through our platform</li>
+          <li><strong>Analytics Providers:</strong> To understand website usage (e.g., Google Analytics)</li>
+          <li><strong>Email Service Providers:</strong> To send booking confirmations and newsletters</li>
+        </ul>
+        <p>These third parties are contractually obligated to protect your information and use it only for specified purposes.</p>
+
+        <h2>5. Google AdSense</h2>
+        <p>We use Google AdSense to display advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank">Google Ad Settings</a>.</p>
+
+        <h2>6. Data Security</h2>
+        <p>We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
+
+        <h2>7. Your Rights</h2>
+        <p>You have the following rights regarding your personal information:</p>
+        <ul>
+          <li><strong>Access:</strong> Request a copy of your personal data</li>
+          <li><strong>Correction:</strong> Request correction of inaccurate information</li>
+          <li><strong>Deletion:</strong> Request deletion of your personal data</li>
+          <li><strong>Objection:</strong> Object to processing of your data</li>
+          <li><strong>Portability:</strong> Request transfer of your data to another service</li>
+          <li><strong>Withdraw Consent:</strong> Withdraw consent for data processing at any time</li>
+        </ul>
+        <p>To exercise these rights, please contact us at paulslife2017@gmail.com</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us immediately.</p>
+
+        <h2>9. International Data Transfers</h2>
+        <p>Your information may be transferred to and processed in countries other than your country of residence. We ensure appropriate safeguards are in place to protect your data in compliance with applicable data protection laws.</p>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>We may update this privacy policy periodically to reflect changes in our practices or legal requirements. We will notify you of significant changes by posting the updated policy on our website with a new "Last Updated" date.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions, concerns, or requests regarding this privacy policy or our data practices, please contact us:</p>
+        <p><strong>Email:</strong> paulslife2017@gmail.com<br>
+        <strong>Response Time:</strong> Within 48 hours</p>
+
+        <p style="margin-top: 60px; padding-top: 30px; border-top: 2px solid #eee; font-size: 14px; color: #666;">
+          By using K-Beauty Seoul services, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.
+        </p>
+
+        <p style="text-align: center; margin-top: 40px;">
+          <a href="/" style="background: #FF6B9D; color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: bold;">Return to Homepage →</a>
+        </p>
+      </div>
+    </body>
+    </html>
+  `;
+  return c.html(html);
+});
+
+// Contact Page (Required for AdSense)
+app.get('/contact', (c) => {
+  const html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us | K-Beauty Seoul</title>
+      <meta name="description" content="Get in touch with K-Beauty Seoul. Email, phone, and office hours for customer support and inquiries.">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
+        .header { background: linear-gradient(135deg, #FF6B9D, #FFC2D4); color: white; padding: 80px 20px; text-align: center; }
+        .header h1 { font-size: 48px; margin-bottom: 16px; }
+        .container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        .contact-card { background: #f9f9f9; padding: 40px; border-radius: 12px; text-align: center; }
+        .contact-card h2 { font-size: 24px; margin-bottom: 20px; color: #FF6B9D; }
+        .icon { font-size: 48px; margin-bottom: 20px; }
+        .faq { margin: 60px 0; }
+        .faq h3 { font-size: 20px; margin: 30px 0 15px; color: #333; }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>Contact K-Beauty Seoul</h1>
+        <p>We're Here to Help You Experience the Best of Korean Beauty</p>
+      </div>
+      
+      <div class="container">
+        <p style="font-size: 20px; text-align: center; margin-bottom: 50px;">Have questions about bookings, services, or Korean beauty? Our multilingual team is ready to assist you!</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="icon">📧</div>
+            <h2>Email Us</h2>
+            <p><strong>paulslife2017@gmail.com</strong></p>
+            <p>Response within 24 hours</p>
+            <p style="margin-top: 20px;">For booking inquiries, service questions, and general support</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon">⏰</div>
+            <h2>Service Hours</h2>
+            <p><strong>09:00 - 23:00 KST</strong></p>
+            <p>Daily (Including Weekends)</p>
+            <p style="margin-top: 20px;">Korea Standard Time (GMT+9)</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon">🌐</div>
+            <h2>Languages</h2>
+            <p><strong>English | Korean | Japanese</strong></p>
+            <p>Multilingual Support Available</p>
+            <p style="margin-top: 20px;">We'll match you with the appropriate language specialist</p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <h2 style="font-size: 32px; text-align: center; margin-bottom: 40px;">Frequently Asked Questions</h2>
+
+          <h3>Q: How do I book a beauty service?</h3>
+          <p>A: Simply browse our services on the homepage, select your preferred treatment, choose a date and time, and complete the booking. You'll receive instant confirmation via email.</p>
+
+          <h3>Q: Can I cancel or reschedule my appointment?</h3>
+          <p>A: Yes! Contact us at least 24 hours before your appointment for free cancellation or rescheduling. Cancellations within 24 hours may incur a fee.</p>
+
+          <h3>Q: Do the service providers speak English?</h3>
+          <p>A: All our partner salons, spas, and clinics have English-speaking staff. We guarantee clear communication throughout your visit.</p>
+
+          <h3>Q: What payment methods do you accept?</h3>
+          <p>A: We accept all major credit cards (Visa, Mastercard, AMEX), PayPal, and Korean payment methods (Naver Pay, Kakao Pay).</p>
+
+          <h3>Q: Are your prices final, or are there additional fees?</h3>
+          <p>A: All prices displayed are final and include service charges. No hidden fees or surprise charges.</p>
+
+          <h3>Q: How do I know if a service provider is legitimate?</h3>
+          <p>A: We personally vet every partner. All providers are licensed professionals with verified credentials and positive customer reviews.</p>
+
+          <h3>Q: Can you help with recommendations?</h3>
+          <p>A: Absolutely! Email us with your skin type, concerns, and preferences. Our beauty experts will recommend the best treatments for your needs.</p>
+
+          <h3>Q: Do you offer packages or discounts?</h3>
+          <p>A: Yes! Check our homepage for current promotions. First-time customers often receive 10-20% discounts on select services.</p>
+        </div>
+
+        <div style="background: #f0f9ff; padding: 40px; border-radius: 12px; margin: 60px 0; text-align: center;">
+          <h2 style="margin-bottom: 20px;">Visit Our Service Areas</h2>
+          <p style="margin-bottom: 10px;"><strong>Gangnam District</strong> - Premium beauty clinics and luxury spas</p>
+          <p style="margin-bottom: 10px;"><strong>Myeongdong</strong> - Tourist-friendly beauty services</p>
+          <p style="margin-bottom: 10px;"><strong>Hongdae</strong> - Trendy and affordable beauty experiences</p>
+          <p style="margin-bottom: 10px;"><strong>Apgujeong & Cheongdam</strong> - Celebrity-favorite beauty destinations</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 40px; border-radius: 12px; color: white; text-align: center; margin: 60px 0;">
+          <h2 style="margin-bottom: 20px;">Ready to Book Your K-Beauty Experience?</h2>
+          <p style="margin-bottom: 30px; font-size: 18px;">Explore our verified beauty services and book with confidence</p>
+          <a href="/" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">Browse Services →</a>
+        </div>
+
+        <p style="text-align: center; color: #666; font-size: 14px;">
+          <strong>Business Hours:</strong> Monday-Sunday, 09:00-23:00 KST<br>
+          <strong>Emergency Support:</strong> For urgent booking changes on the day of service, email us immediately<br>
+          <strong>Average Response Time:</strong> Email inquiries answered within 12-24 hours
+        </p>
+      </div>
+    </body>
+    </html>
+  `;
+  return c.html(html);
+});
+
+// ==========================================
 // SERVER START
 // ==========================================
 
