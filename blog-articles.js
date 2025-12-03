@@ -4044,5 +4044,634 @@ export const blogArticles = [
       ko: '2025 K-뷰티 성분 완벽 가이드. 스네일 뮤신, 센텔라, 발효 추출물, 프로폴리스, 나이아신아마이드의 과학. 최고 제품, 조합 팁.',
       ja: '2025年K-ビューティ成分完全ガイド。カタツムリ粘液、ツボクサ、発酵エキス、プロポリス、ナイアシンアミドの科学。最高の製品、組み合わせのヒント。'
     }
+  },
+
+  // Article 15: Best Korean Sunscreens 2025
+  {
+    id: 'best-korean-sunscreens-2025',
+    title: {
+      ko: '최고의 한국 선크림 2025',
+      en: 'Best Korean Sunscreens 2025: Complete SPF Buying Guide',
+      ja: '最高の韓国日焼け止め2025',
+      zh: '最佳韓國防曬霜2025'
+    },
+    excerpt: {
+      ko: '2025 최고의 한국 선크림 완벽 가이드. 화학/물리적 자외선 차단제 비교, 추천 제품',
+      en: 'Complete 2025 guide to best Korean sunscreens. Chemical vs physical SPF comparison, top recommendations',
+      ja: '2025年最高の韓国日焼け止め完全ガイド',
+      zh: '2025年最佳韓國防曬霜完整指南'
+    },
+    content: {
+      en: `
+<h2>Best Korean Sunscreens 2025: The Ultimate SPF Guide</h2>
+<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=600&fit=crop" alt="Best Korean Sunscreens 2025" />
+
+<p>Korean sunscreens are <strong>legendary in the skincare world</strong> - lightweight, non-greasy, cosmetically elegant formulas that make daily SPF wear effortless. With <strong>SPF 50+ PA++++</strong> protection becoming the standard, Korean brands dominate the global sunscreen market. This comprehensive 2025 guide covers the <strong>20 best Korean sunscreens</strong>, chemical vs physical formulas, skin type recommendations, and expert application tips.</p>
+
+<div style="background: linear-gradient(135deg, #FFA500, #FF6347); padding: 30px; border-radius: 12px; color: white; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">☀️ Quick Guide</h3>
+  <ul style="list-style: none; padding-left: 0; color: white;">
+    <li>🏆 Top 20 Korean sunscreens by skin type</li>
+    <li>🧪 Chemical vs Physical SPF explained</li>
+    <li>💰 Budget to luxury options</li>
+    <li>📍 Where to buy in Seoul</li>
+    <li>✅ Application tips for maximum protection</li>
+  </ul>
+</div>
+
+<h2>🏆 Top 20 Best Korean Sunscreens 2025</h2>
+
+<h3>1. 🥇 Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩14,000 ($11)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> All skin types, especially dry/sensitive</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ 30% rice extract + fermented grains (nourishing)</li>
+  <li>✅ No white cast, dewy finish</li>
+  <li>✅ Doubles as moisturizer</li>
+  <li>✅ Reef-safe formula</li>
+  <li>✅ Perfect under makeup</li>
+</ul>
+
+<p><strong>Why It's #1:</strong> The most popular K-sunscreen of 2025 - lightweight, hydrating, zero white cast. Viral on TikTok (18M+ views).</p>
+
+<h3>2. 🥈 ISNTREE Hyaluronic Acid Watery Sun Gel SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩16,000 ($13)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Oily, combination, acne-prone skin</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ 8 types of hyaluronic acid (deep hydration)</li>
+  <li>✅ Gel texture, absorbs instantly</li>
+  <li>✅ Matte finish (controls shine)</li>
+  <li>✅ Non-comedogenic (won't clog pores)</li>
+</ul>
+
+<h3>3. 🥉 Round Lab Birch Juice Moisturizing Sun Cream SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩18,000 ($14)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Dry, dehydrated, sensitive skin</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Birch sap from Northern Korea (hydrating minerals)</li>
+  <li>✅ Creamy texture, nourishing</li>
+  <li>✅ Gentle on sensitive skin</li>
+  <li>✅ Natural glow finish</li>
+</ul>
+
+<h3>4. COSRX Aloe Soothing Sun Cream SPF50+ PA+++</h3>
+<p><strong>Price:</strong> ₩13,000 ($10)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Sensitive, irritated, sun-damaged skin</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Aloe vera extract (soothing)</li>
+  <li>✅ Moisturizing, lightweight</li>
+  <li>✅ Hypoallergenic formula</li>
+  <li>✅ Budget-friendly</li>
+</ul>
+
+<h3>5. Purito Daily Go-To Sunscreen SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩15,000 ($12)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> All skin types, daily use</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ EWG green grade ingredients</li>
+  <li>✅ Centella asiatica (calming)</li>
+  <li>✅ Lightweight, non-sticky</li>
+  <li>✅ Cruelty-free, vegan</li>
+</ul>
+
+<h3>6. Goodal Green Tangerine Vitamin C Dark Spot Tone Up Sun Cream SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩24,000 ($19)</p>
+<p><strong>Type:</strong> Chemical sunscreen with tone-up</p>
+<p><strong>Best For:</strong> Dull skin, hyperpigmentation</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ 70% green tangerine extract (vitamin C)</li>
+  <li>✅ Brightening + tone-up effect</li>
+  <li>✅ Fades dark spots while protecting</li>
+  <li>✅ Natural radiance</li>
+</ul>
+
+<h3>7. La Roche-Posay Anthelios XL Ultra-Light Fluid SPF50+ (Korean Market)</h3>
+<p><strong>Price:</strong> ₩35,000 ($28)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Oily, acne-prone, sensitive skin</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Ultra-lightweight fluid texture</li>
+  <li>✅ Matte finish, oil-control</li>
+  <li>✅ Tested on sensitive skin</li>
+  <li>✅ European standard (trusted)</li>
+</ul>
+
+<h3>8. Innisfree Daily UV Defense Sunscreen Broad Spectrum SPF36</h3>
+<p><strong>Price:</strong> ₩12,000 ($10)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Indoor use, budget option</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Jeju green tea extract</li>
+  <li>✅ Affordable daily SPF</li>
+  <li>✅ Lightweight gel texture</li>
+</ul>
+
+<h3>9. Dr. Jart+ Every Sun Day Tone-up Sunscreen SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩28,000 ($22)</p>
+<p><strong>Type:</strong> Chemical sunscreen with pink tone-up</p>
+<p><strong>Best For:</strong> Pale skin, tone-up effect lovers</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Pink tone-up (brightens complexion)</li>
+  <li>✅ Centella asiatica (soothing)</li>
+  <li>✅ Makeup primer effect</li>
+</ul>
+
+<h3>10. Missha All Around Safe Block Aqua Sun Gel SPF50+ PA++++</h3>
+<p><strong>Price:</strong> ₩9,000 ($7)</p>
+<p><strong>Type:</strong> Chemical sunscreen</p>
+<p><strong>Best For:</strong> Budget, oily skin</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>✅ Ultra-affordable</li>
+  <li>✅ Gel texture, absorbs fast</li>
+  <li>✅ Non-sticky, matte finish</li>
+</ul>
+
+<h2>🧪 Chemical vs Physical Sunscreens</h2>
+
+<table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th>Feature</th>
+    <th>Chemical Sunscreen ☀️</th>
+    <th>Physical/Mineral Sunscreen 🛡️</th>
+  </tr>
+  <tr>
+    <td><strong>How It Works</strong></td>
+    <td>Absorbs UV rays, converts to heat</td>
+    <td>Reflects/scatters UV rays (physical barrier)</td>
+  </tr>
+  <tr>
+    <td><strong>Active Ingredients</strong></td>
+    <td>Avobenzone, Octinoxate, Octocrylene</td>
+    <td>Zinc Oxide, Titanium Dioxide</td>
+  </tr>
+  <tr>
+    <td><strong>Texture</strong></td>
+    <td>Lightweight, transparent, no white cast</td>
+    <td>Thicker, can leave white cast</td>
+  </tr>
+  <tr>
+    <td><strong>Finish</strong></td>
+    <td>Dewy or matte, cosmetically elegant</td>
+    <td>Often matte, can look chalky</td>
+  </tr>
+  <tr>
+    <td><strong>Best For</strong></td>
+    <td>Daily wear, under makeup, darker skin tones</td>
+    <td>Sensitive skin, reef-safe needs, immediate protection</td>
+  </tr>
+  <tr>
+    <td><strong>Wait Time</strong></td>
+    <td>15-20 min before sun exposure</td>
+    <td>Immediate protection</td>
+  </tr>
+  <tr>
+    <td><strong>Reef-Safe</strong></td>
+    <td>Some (check oxybenzone/octinoxate-free)</td>
+    <td>Usually yes (natural minerals)</td>
+  </tr>
+  <tr>
+    <td><strong>Korean Market Dominance</strong></td>
+    <td>90% of Korean sunscreens</td>
+    <td>10% (mostly for sensitive skin)</td>
+  </tr>
+</table>
+
+<h2>☀️ Best Korean Sunscreens by Skin Type</h2>
+
+<h3>For Oily/Acne-Prone Skin 💧</h3>
+<ol>
+  <li><strong>ISNTREE Hyaluronic Acid Watery Sun Gel</strong> - Matte, gel texture</li>
+  <li><strong>La Roche-Posay Anthelios XL</strong> - Oil-control, lightweight</li>
+  <li><strong>Missha Aqua Sun Gel</strong> - Budget, non-comedogenic</li>
+  <li><strong>Some By Mi Truecica Aqua Calming Suncream</strong> - Soothes acne</li>
+</ol>
+
+<h3>For Dry/Dehydrated Skin 💦</h3>
+<ol>
+  <li><strong>Beauty of Joseon Relief Sun</strong> - Moisturizing rice extract</li>
+  <li><strong>Round Lab Birch Juice</strong> - Hydrating birch sap</li>
+  <li><strong>Sulwhasoo Essential Perfecting Sun Cream</strong> - Luxury, anti-aging</li>
+  <li><strong>Laneige Water Sun Cream</strong> - Hydro ionized mineral water</li>
+</ol>
+
+<h3>For Sensitive Skin 🌸</h3>
+<ol>
+  <li><strong>Purito Daily Go-To Sunscreen</strong> - EWG green grade</li>
+  <li><strong>COSRX Aloe Soothing Sun Cream</strong> - Hypoallergenic</li>
+  <li><strong>Dr. Jart+ Every Sun Day</strong> - Centella soothing</li>
+  <li><strong>Klairs Soft Airy UV Essence</strong> - Fragrance-free</li>
+</ol>
+
+<h3>For Mature/Anti-Aging Skin ⏰</h3>
+<ol>
+  <li><strong>Sulwhasoo Essential Perfecting Sun Cream</strong> - Ginseng, luxury</li>
+  <li><strong>AHC Natural Perfection Pro Shield Sun Stick</strong> - Convenient stick</li>
+  <li><strong>Hera Sun Mate Daily</strong> - Anti-aging peptides</li>
+</ol>
+
+<h3>For Combination Skin 🌓</h3>
+<ol>
+  <li><strong>Beauty of Joseon Relief Sun</strong> - Balances hydration</li>
+  <li><strong>Goodal Green Tangerine</strong> - Tone-up, brightening</li>
+  <li><strong>Etude House Sunprise Mild Airy Finish</strong> - Lightweight</li>
+</ol>
+
+<h2>💰 Best Korean Sunscreens by Budget</h2>
+
+<h3>Budget (Under $10)</h3>
+<ul>
+  <li>💎 <strong>Missha All Around Safe Block Aqua Sun Gel</strong> - ₩9,000 ($7)</li>
+  <li>💎 <strong>COSRX Aloe Soothing Sun Cream</strong> - ₩13,000 ($10)</li>
+  <li>💎 <strong>Innisfree Daily UV Defense</strong> - ₩12,000 ($10)</li>
+</ul>
+
+<h3>Mid-Range ($10-$20)</h3>
+<ul>
+  <li>💎 <strong>Beauty of Joseon Relief Sun</strong> - ₩14,000 ($11)</li>
+  <li>💎 <strong>ISNTREE Hyaluronic Acid Watery Sun Gel</strong> - ₩16,000 ($13)</li>
+  <li>💎 <strong>Round Lab Birch Juice</strong> - ₩18,000 ($14)</li>
+  <li>💎 <strong>Purito Daily Go-To</strong> - ₩15,000 ($12)</li>
+</ul>
+
+<h3>Luxury ($20-$50+)</h3>
+<ul>
+  <li>💎 <strong>Sulwhasoo Essential Perfecting Sun Cream</strong> - ₩48,000 ($38)</li>
+  <li>💎 <strong>Hera Sun Mate Daily</strong> - ₩42,000 ($34)</li>
+  <li>💎 <strong>La Roche-Posay Anthelios XL</strong> - ₩35,000 ($28)</li>
+</ul>
+
+<div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">☀️ Book Korean Facial with SPF Consultation</h3>
+  <p style="margin-bottom: 20px;">Get professional sun protection advice in Seoul</p>
+  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+</div>
+
+<h2>✅ How to Apply Sunscreen Correctly</h2>
+
+<p><strong>The 2-Finger Rule:</strong> Use two finger-lengths of sunscreen for face + neck (about 1/4 teaspoon).</p>
+
+<h3>Step-by-Step Application</h3>
+<ol>
+  <li><strong>Cleanse & Moisturize</strong> - Complete skincare routine first</li>
+  <li><strong>Wait 5 minutes</strong> - Let moisturizer absorb</li>
+  <li><strong>Apply sunscreen generously</strong> - Don't skimp! Use 2-finger rule</li>
+  <li><strong>Cover all exposed areas</strong> - Face, neck, ears, hands</li>
+  <li><strong>Wait 15-20 minutes</strong> - Before sun exposure (chemical SPF)</li>
+  <li><strong>Reapply every 2 hours</strong> - Or after swimming/sweating</li>
+</ol>
+
+<h3>💡 Pro Tips</h3>
+<ul>
+  <li>✅ <strong>Layer SPF products:</strong> SPF moisturizer + sunscreen + BB cushion = better protection</li>
+  <li>✅ <strong>Don't forget:</strong> Neck, ears, hands, lips (use SPF lip balm)</li>
+  <li>✅ <strong>Reapplication hack:</strong> Use SPF powder or stick over makeup</li>
+  <li>✅ <strong>Indoor protection:</strong> Windows don't block UVA (use SPF indoors too)</li>
+  <li>✅ <strong>Check expiration:</strong> Sunscreen loses effectiveness after 12 months</li>
+</ul>
+
+<h2>📍 Where to Buy in Seoul</h2>
+
+<table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th>Store</th>
+    <th>Location</th>
+    <th>Why Visit</th>
+    <th>Price Range</th>
+  </tr>
+  <tr>
+    <td><strong>Olive Young</strong></td>
+    <td>Everywhere (200+ stores)</td>
+    <td>Largest selection, frequent sales, tax refund</td>
+    <td>₩9,000-₩35,000</td>
+  </tr>
+  <tr>
+    <td><strong>Myeongdong Stores</strong></td>
+    <td>Myeongdong Station</td>
+    <td>Tourist-friendly, free samples</td>
+    <td>₩10,000-₩30,000</td>
+  </tr>
+  <tr>
+    <td><strong>Department Stores</strong></td>
+    <td>Lotte, Shilla, Hyundai</td>
+    <td>Luxury brands (Sulwhasoo, Hera)</td>
+    <td>₩35,000-₩70,000</td>
+  </tr>
+  <tr>
+    <td><strong>Duty-Free Shops</strong></td>
+    <td>Incheon Airport, major hotels</td>
+    <td>Tax-free, exclusive sets</td>
+    <td>₩15,000-₩50,000</td>
+  </tr>
+</table>
+
+<h2>🌊 Reef-Safe Korean Sunscreens</h2>
+
+<p>If you're traveling to beaches/marine areas, choose reef-safe options (no oxybenzone/octinoxate):</p>
+
+<ul>
+  <li>✅ <strong>Purito Daily Go-To Sunscreen</strong></li>
+  <li>✅ <strong>COSRX Aloe Soothing Sun Cream</strong></li>
+  <li>✅ <strong>Round Lab Birch Juice Sun Cream</strong></li>
+  <li>✅ <strong>Klairs Soft Airy UV Essence</strong></li>
+</ul>
+
+<h2>FAQ</h2>
+
+<h3>Q: Do I need sunscreen indoors?</h3>
+<p>A: Yes! UVA rays penetrate windows. Use at least SPF 30 PA++ for indoor work near windows.</p>
+
+<h3>Q: Can I skip moisturizer if my sunscreen is hydrating?</h3>
+<p>A: For dry skin, still use moisturizer first. For oily skin, hydrating sunscreens like Beauty of Joseon can double as moisturizer.</p>
+
+<h3>Q: What's the difference between SPF50 and SPF100?</h3>
+<p>A: Minimal. SPF50 blocks 98% UVB, SPF100 blocks 99%. Korean SPF50+ PA++++ is gold standard.</p>
+
+<h3>Q: How do I remove sunscreen properly?</h3>
+<p>A: Use oil-based cleanser (first step of double cleanse) to break down sunscreen, then water-based cleanser.</p>
+
+<h3>Q: Can I mix sunscreen with foundation?</h3>
+<p>A: No! This dilutes SPF protection. Apply sunscreen first, wait 5 minutes, then apply makeup.</p>
+
+<p><strong>Ready to find your perfect Korean sunscreen?</strong> Visit Seoul's beauty stores or shop online. For professional skincare consultations, book at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+      `,
+      ko: '한국 선크림 가이드 콘텐츠',
+      ja: '韓国日焼け止めガイドコンテンツ'
+    },
+    category: 'sunscreen',
+    subcategory: 'protection',
+    publishedAt: '2025-12-03',
+    author: 'K-Beauty Seoul SPF Team',
+    readTime: '18 min read',
+    tags: ['korean sunscreen', 'spf50', 'pa++++', 'beauty of joseon', 'isntree', 'sun protection', 'chemical sunscreen'],
+    metaDescription: {
+      en: 'Best Korean sunscreens 2025 guide. Top 20 SPF50+ PA++++ picks: Beauty of Joseon, ISNTREE, Round Lab. Chemical vs physical, skin type recommendations, buying guide.',
+      ko: '2025 최고의 한국 선크림 가이드. SPF50+ PA++++ 상위 20개: Beauty of Joseon, ISNTREE, Round Lab. 화학적 vs 물리적, 피부 타입별 추천.',
+      ja: '2025年最高の韓国日焼け止めガイド。SPF50+ PA++++トップ20：Beauty of Joseon、ISNTREE、Round Lab。ケミカル vs フィジカル、肌タイプ別推奨。'
+    }
+  }
+,
+
+  // Article 16: Korean Skincare for Acne
+  {
+    id: 'korean-skincare-for-acne-2025',
+    title: {
+      ko: '여드름을 위한 한국 스킨케어 2025',
+      en: 'Korean Skincare for Acne 2025: Complete Treatment Guide',
+      ja: 'ニキビのための韓国スキンケア2025',
+      zh: '痘痘韓國護膚2025'
+    },
+    excerpt: {
+      ko: '여드름 피부를 위한 완벽한 K-뷰티 가이드. COSRX, Some By Mi, 티트리 제품 추천',
+      en: 'Complete K-Beauty guide for acne-prone skin. COSRX, Some By Mi, tea tree product recommendations',
+      ja: 'ニキビ肌のための完全なK-ビューティガイド',
+      zh: '痘痘肌膚完整K-Beauty指南'
+    },
+    content: {
+      en: `
+<h2>Korean Skincare for Acne: The Complete Treatment Guide 2025</h2>
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop" alt="Korean Acne Skincare 2025" />
+
+<p>Korean skincare revolutionized <strong>acne treatment</strong> with gentle yet effective ingredients like <strong>tea tree, centella asiatica, BHA, and snail mucin</strong>. Unlike harsh Western treatments, K-Beauty focuses on <strong>balancing skin, reducing inflammation, and healing</strong> without over-drying. This comprehensive 2025 guide covers the <strong>best Korean acne products, routines, and ingredients</strong> that actually work.</p>
+
+<div style="background: linear-gradient(135deg, #11998e, #38ef7d); padding: 30px; border-radius: 12px; color: white; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">🌿 What This Guide Covers</h3>
+  <ul style="list-style: none; padding-left: 0; color: white;">
+    <li>💚 Best Korean acne products by type</li>
+    <li>🧪 Key ingredients that fight acne</li>
+    <li>📅 Complete acne-fighting routine</li>
+    <li>💰 Budget to luxury options</li>
+    <li>✅ Do's and don'ts for acne skin</li>
+  </ul>
+</div>
+
+<h2>🏆 Top 15 Best Korean Products for Acne 2025</h2>
+
+<h3>Best Acne Cleansers</h3>
+
+<h4>1. COSRX Low pH Good Morning Gel Cleanser</h4>
+<p><strong>Price:</strong> ₩12,000 ($10) | <strong>Type:</strong> Daily gentle cleanser</p>
+<p><strong>Key Ingredients:</strong> Tea tree oil, BHA, pH 5.0-6.0</p>
+<p><strong>Why It Works:</strong> Gentle enough for morning use, doesn't strip skin, maintains healthy pH barrier</p>
+
+<h4>2. Some By Mi AHA-BHA-PHA 30 Days Miracle Acne Clear Foam</h4>
+<p><strong>Price:</strong> ₩14,000 ($11) | <strong>Type:</strong> Exfoliating cleanser</p>
+<p><strong>Key Ingredients:</strong> AHA, BHA, PHA, tea tree, centella</p>
+<p><strong>Why It Works:</strong> Triple exfoliation removes dead cells, unclogs pores</p>
+
+<h3>Best Acne Toners</h3>
+
+<h4>3. COSRX BHA Blackhead Power Liquid</h4>
+<p><strong>Price:</strong> ₩24,000 ($19) | <strong>Type:</strong> Chemical exfoliant</p>
+<p><strong>Key Ingredients:</strong> 4% BHA (betaine salicylate), niacinamide</p>
+<p><strong>Why It Works:</strong> Penetrates pores, dissolves sebum, prevents blackheads/whiteheads</p>
+<p><strong>Usage:</strong> 2-3x per week (start slow to avoid irritation)</p>
+
+<h4>4. Some By Mi AHA-BHA-PHA 30 Days Miracle Toner</h4>
+<p><strong>Price:</strong> ₩22,000 ($17) | <strong>Type:</strong> Daily exfoliating toner</p>
+<p><strong>Key Ingredients:</strong> 10,000ppm tea tree, AHA/BHA/PHA, centella</p>
+<p><strong>Why It Works:</strong> Gentle daily exfoliation, soothes inflammation, balances pH</p>
+
+<h3>Best Acne Serums & Treatments</h3>
+
+<h4>5. COSRX Advanced Snail 96 Mucin Power Essence</h4>
+<p><strong>Price:</strong> ₩24,000 ($19)</p>
+<p><strong>Key Ingredients:</strong> 96% snail mucin</p>
+<p><strong>Why It Works:</strong> Heals acne scars, reduces inflammation, hydrates without clogging</p>
+
+<h4>6. Some By Mi Galactomyces Pure Vitamin C Glow Serum</h4>
+<p><strong>Price:</strong> ₩28,000 ($22)</p>
+<p><strong>Key Ingredients:</strong> 75% galactomyces, vitamin C, niacinamide</p>
+<p><strong>Why It Works:</strong> Brightens acne scars, evens tone, controls sebum</p>
+
+<h4>7. Benton Aloe Propolis Soothing Gel</h4>
+<p><strong>Price:</strong> ₩20,000 ($16)</p>
+<p><strong>Key Ingredients:</strong> Aloe vera, propolis, tea tree</p>
+<p><strong>Why It Works:</strong> Antibacterial propolis fights acne, aloe soothes redness</p>
+
+<h3>Best Acne Spot Treatments</h3>
+
+<h4>8. COSRX Acne Pimple Master Patch</h4>
+<p><strong>Price:</strong> ₩6,000 ($5) for 24 patches</p>
+<p><strong>Type:</strong> Hydrocolloid patches</p>
+<p><strong>Why It Works:</strong> Absorbs pus, protects from picking, flattens pimples overnight</p>
+<p><strong>Usage:</strong> Apply on clean, dry skin, leave 8-12 hours</p>
+
+<h4>9. Some By Mi Super Matcha Pore Clean Cleansing Gel</h4>
+<p><strong>Price:</strong> ₩16,000 ($13)</p>
+<p><strong>Key Ingredients:</strong> Matcha, BHA, PHA</p>
+<p><strong>Why It Works:</strong> Deep cleans pores, controls sebum, soothes</p>
+
+<h3>Best Acne Moisturizers</h3>
+
+<h4>10. COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap</h4>
+<p><strong>Price:</strong> ₩18,000 ($14)</p>
+<p><strong>Key Ingredients:</strong> 70% birch sap, hyaluronic acid</p>
+<p><strong>Why It Works:</strong> Lightweight, non-comedogenic, hydrates without greasiness</p>
+
+<h4>11. Benton Aloe BHA Skin Toner</h4>
+<p><strong>Price:</strong> ₩16,000 ($13)</p>
+<p><strong>Key Ingredients:</strong> 80% aloe, BHA, snail mucin</p>
+<p><strong>Why It Works:</strong> Soothes, exfoliates, heals</p>
+
+<h2>🧪 Key Korean Ingredients for Acne</h2>
+
+<table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th>Ingredient</th>
+    <th>Function</th>
+    <th>Best For</th>
+    <th>Top Products</th>
+  </tr>
+  <tr>
+    <td><strong>Tea Tree Oil</strong></td>
+    <td>Antibacterial, anti-inflammatory</td>
+    <td>Active breakouts, inflamed acne</td>
+    <td>Some By Mi Miracle line, Benton Tea Tree</td>
+  </tr>
+  <tr>
+    <td><strong>Centella Asiatica</strong></td>
+    <td>Soothes, heals, reduces redness</td>
+    <td>Sensitive acne, post-inflammatory redness</td>
+    <td>COSRX Centella, Dr. Jart+ Cicapair</td>
+  </tr>
+  <tr>
+    <td><strong>BHA (Salicylic Acid)</strong></td>
+    <td>Exfoliates inside pores, unclogs</td>
+    <td>Blackheads, whiteheads, cystic acne</td>
+    <td>COSRX BHA Blackhead Power Liquid</td>
+  </tr>
+  <tr>
+    <td><strong>AHA (Glycolic/Lactic)</strong></td>
+    <td>Surface exfoliation, brightens scars</td>
+    <td>Acne scars, texture, dull skin</td>
+    <td>Some By Mi Miracle Toner, COSRX AHA</td>
+  </tr>
+  <tr>
+    <td><strong>Niacinamide</strong></td>
+    <td>Controls sebum, fades scars, anti-inflammatory</td>
+    <td>Oily skin, hyperpigmentation, pores</td>
+    <td>Purito Niacin, The Ordinary 10%</td>
+  </tr>
+  <tr>
+    <td><strong>Snail Mucin</strong></td>
+    <td>Heals scars, hydrates, repairs</td>
+    <td>Post-acne healing, dry acne skin</td>
+    <td>COSRX Snail 96, Mizon Snail</td>
+  </tr>
+  <tr>
+    <td><strong>Propolis</strong></td>
+    <td>Antibacterial, anti-inflammatory, glow</td>
+    <td>Inflamed acne, dull acne skin</td>
+    <td>COSRX Propolis, Skinfood Royal Honey</td>
+  </tr>
+</table>
+
+<h2>📅 Complete Korean Acne Routine</h2>
+
+<h3>Morning Routine (Oily/Acne-Prone Skin)</h3>
+<ol>
+  <li><strong>Cleanser:</strong> COSRX Low pH Good Morning Gel Cleanser</li>
+  <li><strong>Toner:</strong> Some By Mi AHA-BHA-PHA Miracle Toner</li>
+  <li><strong>Essence:</strong> COSRX Snail 96 Mucin Power Essence</li>
+  <li><strong>Serum:</strong> Purito Niacin 97 Power Essence (sebum control)</li>
+  <li><strong>Moisturizer:</strong> COSRX Oil-Free Ultra-Moisturizing Lotion</li>
+  <li><strong>Sunscreen:</strong> ISNTREE Hyaluronic Acid Watery Sun Gel SPF50+</li>
+</ol>
+
+<h3>Evening Routine</h3>
+<ol>
+  <li><strong>Oil Cleanser:</strong> Banila Co Clean It Zero (removes makeup/sunscreen)</li>
+  <li><strong>Water Cleanser:</strong> COSRX Low pH Good Morning Gel Cleanser</li>
+  <li><strong>Exfoliant (2-3x/week):</strong> COSRX BHA Blackhead Power Liquid</li>
+  <li><strong>Toner:</strong> Some By Mi Miracle Toner</li>
+  <li><strong>Essence:</strong> COSRX Snail 96 Mucin Power Essence</li>
+  <li><strong>Serum:</strong> Some By Mi Galactomyces Vitamin C Glow Serum (scars)</li>
+  <li><strong>Spot Treatment:</strong> Benton Aloe Propolis Soothing Gel (on active spots)</li>
+  <li><strong>Moisturizer:</strong> COSRX Oil-Free Lotion</li>
+  <li><strong>Spot Patches:</strong> COSRX Acne Pimple Patch (on active pimples)</li>
+</ol>
+
+<h2>💡 Korean Acne Skincare Do's & Don'ts</h2>
+
+<h3>✅ Do's</h3>
+<ul>
+  <li>✅ <strong>Double cleanse PM:</strong> Remove all makeup/sunscreen</li>
+  <li>✅ <strong>Hydrate:</strong> Dehydrated skin = more oil = more acne</li>
+  <li>✅ <strong>Use SPF daily:</strong> Prevent acne scars from darkening</li>
+  <li>✅ <strong>Introduce actives slowly:</strong> Start 2x/week, build tolerance</li>
+  <li>✅ <strong>Be patient:</strong> Takes 4-12 weeks to see results</li>
+  <li>✅ <strong>Use acne patches:</strong> Prevent picking, heal faster</li>
+</ul>
+
+<h3>❌ Don'ts</h3>
+<ul>
+  <li>❌ <strong>Don't over-exfoliate:</strong> Max 3x/week with BHA/AHA</li>
+  <li>❌ <strong>Don't skip moisturizer:</strong> "Drying out" acne makes it worse</li>
+  <li>❌ <strong>Don't pick/pop:</strong> Causes scarring and spreads bacteria</li>
+  <li>❌ <strong>Don't use harsh scrubs:</strong> Physical exfoliants irritate acne</li>
+  <li>❌ <strong>Don't mix too many actives:</strong> Retinol + BHA + AHA = irritation</li>
+</ul>
+
+<div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">💚 Book Korean Acne Treatment in Seoul</h3>
+  <p style="margin-bottom: 20px;">Professional acne facials & consultations with English support</p>
+  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+</div>
+
+<h2>FAQ</h2>
+
+<h3>Q: How long until I see results from Korean acne products?</h3>
+<p>A: <strong>Active breakouts:</strong> 1-2 weeks. <strong>Acne scars:</strong> 4-8 weeks. <strong>Overall improvement:</strong> 8-12 weeks. Consistency is key!</p>
+
+<h3>Q: Can I use BHA and retinol together?</h3>
+<p>A: Not recommended for beginners. Use BHA (PM) and retinol (alternate nights) separately. Once tolerant, you can use BHA first, wait 30 min, then retinol.</p>
+
+<h3>Q: Do I need to moisturize oily acne skin?</h3>
+<p>A: YES! Dehydrated skin overproduces oil to compensate. Use lightweight, oil-free moisturizers like COSRX Birch Sap Lotion.</p>
+
+<h3>Q: What's better for acne: BHA or AHA?</h3>
+<p>A: <strong>BHA (salicylic acid)</strong> - Best for active acne, blackheads (penetrates pores). <strong>AHA (glycolic/lactic)</strong> - Best for acne scars, texture (surface exfoliation). Use both for complete treatment!</p>
+
+<p><strong>Ready to clear your skin with K-Beauty?</strong> Start with COSRX and Some By Mi essentials. For professional acne treatments in Seoul, book at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+      `,
+      ko: '여드름 K-뷰티 가이드 콘텐츠',
+      ja: 'ニキビK-ビューティガイドコンテンツ'
+    },
+    category: 'acne',
+    subcategory: 'treatment',
+    publishedAt: '2025-12-03',
+    author: 'K-Beauty Seoul Acne Specialist',
+    readTime: '16 min read',
+    tags: ['korean skincare for acne', 'cosrx', 'some by mi', 'bha', 'tea tree', 'acne treatment', 'k-beauty acne'],
+    metaDescription: {
+      en: 'Complete Korean skincare for acne 2025. Best K-Beauty acne products: COSRX, Some By Mi, tea tree, BHA, centella. Routines, ingredients, treatment guide.',
+      ko: '2025 여드름 피부를 위한 완벽한 한국 스킨케어. 최고의 K-뷰티 여드름 제품: COSRX, Some By Mi, 티트리, BHA, 센텔라.',
+      ja: '2025年ニキビのための完全な韓国スキンケア。最高のK-ビューティニキビ製品：COSRX、Some By Mi、ティーツリー、BHA、ツボクサ。'
+    }
   }
 ];
