@@ -1,6 +1,7 @@
 import { Hono } from 'hono';
 import { serve } from '@hono/node-server';
 import { serveStatic } from '@hono/node-server/serve-static';
+import { blogArticles } from './blog-articles.js';
 
 const app = new Hono();
 
@@ -2014,6 +2015,156 @@ app.get('/stats', (c) => {
             <div class="stat-label">예상 수익</div>
             <div class="stat-value">₩${(totalClicks * 15000).toLocaleString()}</div>
           </div>
+        </div>
+      </div>
+    </body>
+    </html>
+  `;
+  
+  return c.html(html);
+});
+
+// ==========================================
+// BLOG ROUTES
+// ==========================================
+
+// Blog list page
+app.get('/blog', (c) => {
+  const lang = c.req.query('lang') || 'en';
+  
+  const html = `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>${lang === 'ko' ? '블로그' : lang === 'ja' ? 'ブログ' : 'Blog'} | K-Beauty Seoul</title>
+      <meta name="description" content="${lang === 'ko' ? 'K-뷰티 서울 블로그: 강남 최고의 뷰티 서비스 가이드' : lang === 'ja' ? 'K-ビューティソウルブログ：江南最高の美容サービスガイド' : 'K-Beauty Seoul Blog: Best beauty services guide in Gangnam'}">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f5f5f5; }
+        .header { background: linear-gradient(135deg, #FF6B9D, #FFC2D4); color: white; padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 36px; margin-bottom: 12px; }
+        .header p { font-size: 18px; opacity: 0.95; }
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 30px; }
+        .blog-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: transform 0.3s; cursor: pointer; }
+        .blog-card:hover { transform: translateY(-8px); box-shadow: 0 8px 30px rgba(0,0,0,0.12); }
+        .blog-image { width: 100%; height: 220px; object-fit: cover; }
+        .blog-content { padding: 24px; }
+        .blog-category { display: inline-block; background: #FF6B9D; color: white; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 12px; }
+        .blog-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #333; }
+        .blog-excerpt { font-size: 15px; color: #666; margin-bottom: 16px; line-height: 1.6; }
+        .blog-meta { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: #999; }
+        .blog-link { text-decoration: none; color: inherit; }
+        @media (max-width: 768px) {
+          .blog-grid { grid-template-columns: 1fr; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>${lang === 'ko' ? '📝 K-뷰티 블로그' : lang === 'ja' ? '📝 K-ビューティブログ' : '📝 K-Beauty Blog'}</h1>
+        <p>${lang === 'ko' ? '서울 최고의 뷰티 서비스 가이드' : lang === 'ja' ? 'ソウル最高の美容サービスガイド' : 'Seoul\'s Best Beauty Services Guide'}</p>
+      </div>
+      
+      <div class="container">
+        <div class="blog-grid">
+          ${blogArticles.map(article => `
+            <a href="/blog/${article.slug}?lang=${lang}" class="blog-link">
+              <div class="blog-card">
+                <img src="${article.content[lang]?.match(/src="([^"]+)"/)?.[1] || 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop'}" alt="${article.title[lang] || article.title.en}" class="blog-image" />
+                <div class="blog-content">
+                  <div class="blog-category">${article.category.toUpperCase()}</div>
+                  <div class="blog-title">${article.title[lang] || article.title.en}</div>
+                  <div class="blog-excerpt">${article.excerpt[lang] || article.excerpt.en}</div>
+                  <div class="blog-meta">
+                    <span>${article.readTime}</span>
+                    <span>${article.publishedAt}</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    </body>
+    </html>
+  `;
+  
+  return c.html(html);
+});
+
+// Individual blog post page
+app.get('/blog/:slug', (c) => {
+  const slug = c.req.param('slug');
+  const lang = c.req.query('lang') || 'en';
+  
+  const article = blogArticles.find(a => a.slug === slug);
+  
+  if (!article) {
+    return c.html('<h1>Blog post not found</h1>', 404);
+  }
+  
+  const html = `
+    <!DOCTYPE html>
+    <html lang="${lang}">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>${article.title[lang] || article.title.en} | K-Beauty Seoul</title>
+      <meta name="description" content="${article.metaDescription[lang] || article.metaDescription.en}">
+      <meta name="keywords" content="${article.tags.join(', ')}">
+      <meta property="og:title" content="${article.title[lang] || article.title.en}">
+      <meta property="og:description" content="${article.excerpt[lang] || article.excerpt.en}">
+      <meta property="og:type" content="article">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: #fff; color: #333; line-height: 1.8; }
+        .header { background: linear-gradient(135deg, #FF6B9D, #FFC2D4); color: white; padding: 80px 20px; text-align: center; }
+        .header h1 { font-size: 42px; margin-bottom: 16px; max-width: 900px; margin-left: auto; margin-right: auto; }
+        .meta { display: flex; gap: 20px; justify-content: center; align-items: center; font-size: 14px; opacity: 0.95; }
+        .article-container { max-width: 800px; margin: 60px auto; padding: 0 20px; }
+        .article-content h2 { font-size: 32px; margin-top: 48px; margin-bottom: 20px; color: #222; }
+        .article-content h3 { font-size: 24px; margin-top: 36px; margin-bottom: 16px; color: #333; }
+        .article-content p { font-size: 18px; margin-bottom: 24px; line-height: 1.8; }
+        .article-content ul, .article-content ol { margin-left: 30px; margin-bottom: 24px; font-size: 18px; }
+        .article-content li { margin-bottom: 12px; }
+        .article-content img { width: 100%; height: auto; border-radius: 12px; margin: 30px 0; }
+        .article-content table { width: 100%; margin: 24px 0; border-collapse: collapse; }
+        .article-content a { color: #FF6B9D; text-decoration: none; font-weight: 600; }
+        .article-content a:hover { text-decoration: underline; }
+        .tags { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 40px; padding-top: 40px; border-top: 2px solid #eee; }
+        .tag { background: #f0f0f0; padding: 8px 16px; border-radius: 20px; font-size: 14px; }
+        .back-link { display: inline-block; margin-bottom: 40px; color: #FF6B9D; text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        @media (max-width: 768px) {
+          .header h1 { font-size: 28px; }
+          .article-content h2 { font-size: 26px; }
+          .article-content h3 { font-size: 20px; }
+          .article-content p, .article-content ul, .article-content ol { font-size: 16px; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>${article.title[lang] || article.title.en}</h1>
+        <div class="meta">
+          <span>✍️ ${article.author}</span>
+          <span>📅 ${article.publishedAt}</span>
+          <span>⏱️ ${article.readTime}</span>
+        </div>
+      </div>
+      
+      <div class="article-container">
+        <a href="/blog?lang=${lang}" class="back-link">← ${lang === 'ko' ? '블로그 목록으로' : lang === 'ja' ? 'ブログ一覧に戻る' : 'Back to Blog'}</a>
+        
+        <div class="article-content">
+          ${article.content[lang] || article.content.en}
+        </div>
+        
+        <div class="tags">
+          ${article.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
         </div>
       </div>
     </body>
