@@ -2523,6 +2523,17 @@ app.get('/contact', (c) => {
 });
 
 // ==========================================
+// GOOGLE ADSENSE - ads.txt
+// ==========================================
+
+app.get('/ads.txt', (c) => {
+  const adsContent = 'google.com, pub-6943282483618134, DIRECT, f08c47fec0942fa0';
+  return c.text(adsContent, 200, {
+    'Content-Type': 'text/plain; charset=utf-8'
+  });
+});
+
+// ==========================================
 // SERVER START
 // ==========================================
 

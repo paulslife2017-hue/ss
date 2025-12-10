@@ -1,11 +1,1 @@
-# ads.txt for Seoul Beauty Guide Blog
-# Google AdSense Publisher ID: ca-pub-6943282483618134
-# 
-# This file is required by Google AdSense to verify authorized sellers
-# and prevent ad fraud. Place this file at the root of your domain.
-# 
-# Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-# 
-# Learn more: https://support.google.com/adsense/answer/7532444
-
 google.com, pub-6943282483618134, DIRECT, f08c47fec0942fa0
