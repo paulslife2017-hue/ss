@@ -4673,5 +4673,362 @@ export const blogArticles = [
       ko: '2025 여드름 피부를 위한 완벽한 한국 스킨케어. 최고의 K-뷰티 여드름 제품: COSRX, Some By Mi, 티트리, BHA, 센텔라.',
       ja: '2025年ニキビのための完全な韓国スキンケア。最高のK-ビューティニキビ製品：COSRX、Some By Mi、ティーツリー、BHA、ツボクサ。'
     }
+  },
+
+  // Article 17: Korean Skincare Products to Buy (HIGH CPC $2.50)
+  {
+    id: 'korean-skincare-products-to-buy-2025',
+    title: {
+      ko: '꼭 사야 할 한국 스킨케어 제품 2025',
+      en: 'Korean Skincare Products to Buy 2025: Ultimate Shopping List',
+      ja: '購入すべき韓国スキンケア製品2025',
+      zh: '必買韓國護膚品2025'
+    },
+    excerpt: {
+      ko: '2025 최고의 한국 스킨케어 제품 쇼핑 리스트. 가성비, 효과, 인기도 기준',
+      en: 'Complete 2025 Korean skincare shopping list. Best products by value, effectiveness, and popularity',
+      ja: '2025年最高の韓国スキンケア製品ショッピングリスト',
+      zh: '2025年最佳韓國護膚品購物清單'
+    },
+    content: {
+      en: `
+<h2>Korean Skincare Products to Buy 2025: The Ultimate Shopping Guide</h2>
+<img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1200&h=600&fit=crop" alt="Korean Skincare Products 2025" />
+
+<p>Planning your K-Beauty haul? This comprehensive guide covers the <strong>must-buy Korean skincare products of 2025</strong> - from cult classics to viral new launches. Whether shopping online or in Seoul, this curated list ensures you get the <strong>best value, proven results, and authentic products</strong>.</p>
+
+<div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">🛍️ Smart Shopping Guide</h3>
+  <ul style="list-style: none; padding-left: 0; color: white;">
+    <li>💎 Top 30 must-buy products</li>
+    <li>💰 Budget: $5-$50 per product</li>
+    <li>🎯 Organized by category & price</li>
+    <li>✅ Where to buy + price comparison</li>
+    <li>🏆 Best value picks highlighted</li>
+  </ul>
+</div>
+
+<h2>🏆 Top 30 Must-Buy Korean Skincare Products 2025</h2>
+
+<h3>Best Cleansers (Must-Buy) 🧼</h3>
+
+<h4>1. 🥇 Banila Co Clean It Zero Cleansing Balm Original</h4>
+<p><strong>Price:</strong> ₩18,000 ($14) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> #1 cleansing balm worldwide, melts makeup effortlessly</p>
+<p><strong>Best For:</strong> All skin types, makeup removal</p>
+<p><strong>Where to Buy:</strong> Olive Young, YesStyle, Amazon</p>
+
+<h4>2. COSRX Low pH Good Morning Gel Cleanser</h4>
+<p><strong>Price:</strong> ₩12,000 ($10) | <strong>Size:</strong> 150ml</p>
+<p><strong>Why Buy:</strong> Gentle pH 5.5, tea tree for acne, daily use</p>
+<p><strong>Best Value:</strong> ⭐ Lasts 3-4 months</p>
+
+<h4>3. Innisfree Green Tea Amino Cleansing Oil</h4>
+<p><strong>Price:</strong> ₩20,000 ($16) | <strong>Size:</strong> 150ml</p>
+<p><strong>Why Buy:</strong> Jeju green tea, removes waterproof makeup</p>
+
+---
+
+<h3>Best Toners & Essences 💧</h3>
+
+<h4>4. 🥇 COSRX Advanced Snail 96 Mucin Power Essence</h4>
+<p><strong>Price:</strong> ₩24,000 ($19) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> 96% snail mucin, heals & hydrates, cult favorite</p>
+<p><strong>Results:</strong> Visible improvement in 1 week</p>
+<p><strong>Best Seller:</strong> 50M+ bottles sold worldwide 🌍</p>
+
+<h4>5. SK-II Facial Treatment Essence</h4>
+<p><strong>Price:</strong> ₩180,000 ($145) | <strong>Size:</strong> 160ml</p>
+<p><strong>Why Buy:</strong> Luxury icon, 90% Pitera (galactomyces), anti-aging</p>
+<p><strong>Alternative:</strong> Missha Time Revolution ($28) - 80% similar results</p>
+
+<h4>6. Some By Mi AHA-BHA-PHA 30 Days Miracle Toner</h4>
+<p><strong>Price:</strong> ₩22,000 ($17) | <strong>Size:</strong> 150ml</p>
+<p><strong>Why Buy:</strong> Triple exfoliation, tea tree, acne treatment</p>
+<p><strong>Best For:</strong> Oily/acne-prone skin</p>
+
+<h4>7. ISNTREE Hyaluronic Acid Toner</h4>
+<p><strong>Price:</strong> ₩16,000 ($13) | <strong>Size:</strong> 200ml</p>
+<p><strong>Why Buy:</strong> 5 types of HA, deep hydration, budget-friendly</p>
+
+---
+
+<h3>Best Serums & Ampoules ✨</h3>
+
+<h4>8. 🥇 The Ordinary Niacinamide 10% + Zinc 1%</h4>
+<p><strong>Price:</strong> ₩9,000 ($7) | <strong>Size:</strong> 30ml</p>
+<p><strong>Why Buy:</strong> Affordable, controls oil, fades hyperpigmentation</p>
+<p><strong>Best Value:</strong> ⭐ Under $10!</p>
+
+<h4>9. Klairs Freshly Juiced Vitamin Drop</h4>
+<p><strong>Price:</strong> ₩26,000 ($21) | <strong>Size:</strong> 35ml</p>
+<p><strong>Why Buy:</strong> 5% vitamin C, gentle, brightening</p>
+<p><strong>Best For:</strong> Sensitive skin, beginners</p>
+
+<h4>10. COSRX Full Fit Propolis Light Ampoule</h4>
+<p><strong>Price:</strong> ₩28,000 ($22) | <strong>Size:</strong> 30ml</p>
+<p><strong>Why Buy:</strong> 83% propolis, glow boost, antibacterial</p>
+
+<h4>11. Purito Galacto Niacin 97 Power Essence</h4>
+<p><strong>Price:</strong> ₩28,000 ($22) | <strong>Size:</strong> 60ml</p>
+<p><strong>Why Buy:</strong> Galactomyces + niacinamide, brightening powerhouse</p>
+
+---
+
+<h3>Best Moisturizers 💦</h3>
+
+<h4>12. 🥇 COSRX Oil-Free Ultra-Moisturizing Lotion with Birch Sap</h4>
+<p><strong>Price:</strong> ₩18,000 ($14) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> 70% birch sap, lightweight, non-greasy</p>
+<p><strong>Best For:</strong> Oily/combination skin</p>
+
+<h4>13. Belif The True Cream Aqua Bomb</h4>
+<p><strong>Price:</strong> ₩38,000 ($30) | <strong>Size:</strong> 50ml</p>
+<p><strong>Why Buy:</strong> Gel texture, instant hydration, cooling</p>
+
+<h4>14. Laneige Water Sleeping Mask</h4>
+<p><strong>Price:</strong> ₩32,000 ($26) | <strong>Size:</strong> 70ml</p>
+<p><strong>Why Buy:</strong> Overnight hydration, wake up with glowing skin</p>
+
+<h4>15. COSRX Advanced Snail 92 All in One Cream</h4>
+<p><strong>Price:</strong> ₩24,000 ($19) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> 92% snail mucin, repairs & moisturizes</p>
+
+---
+
+<h3>Best Sunscreens ☀️</h3>
+
+<h4>16. 🥇 Beauty of Joseon Relief Sun: Rice + Probiotics SPF50+ PA++++</h4>
+<p><strong>Price:</strong> ₩14,000 ($11) | <strong>Size:</strong> 50ml</p>
+<p><strong>Why Buy:</strong> No white cast, dewy finish, doubles as moisturizer</p>
+<p><strong>Viral:</strong> TikTok 18M+ views</p>
+
+<h4>17. ISNTREE Hyaluronic Acid Watery Sun Gel SPF50+ PA++++</h4>
+<p><strong>Price:</strong> ₩16,000 ($13) | <strong>Size:</strong> 50ml</p>
+<p><strong>Why Buy:</strong> Gel texture, matte finish, no pilling under makeup</p>
+
+<h4>18. Round Lab Birch Juice Moisturizing Sun Cream SPF50+ PA++++</h4>
+<p><strong>Price:</strong> ₩18,000 ($14) | <strong>Size:</strong> 50ml</p>
+<p><strong>Why Buy:</strong> Hydrating, gentle on sensitive skin</p>
+
+---
+
+<h3>Best Exfoliators 🔄</h3>
+
+<h4>19. 🥇 COSRX BHA Blackhead Power Liquid</h4>
+<p><strong>Price:</strong> ₩24,000 ($19) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> 4% BHA, unclogs pores, reduces blackheads</p>
+<p><strong>Usage:</strong> 2-3x per week</p>
+
+<h4>20. COSRX AHA 7 Whitehead Power Liquid</h4>
+<p><strong>Price:</strong> ₩22,000 ($17) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> 7% glycolic acid, brightens, smooths texture</p>
+
+<h4>21. Neogen Bio-Peel Gauze Peeling Wine</h4>
+<p><strong>Price:</strong> ₩28,000 ($22) | <strong>Size:</strong> 30 pads</p>
+<p><strong>Why Buy:</strong> Gentle physical + chemical exfoliation</p>
+
+---
+
+<h3>Best Masks 🎭</h3>
+
+<h4>22. 🥇 Mediheal N.M.F Intensive Hydrating Mask (10 pack)</h4>
+<p><strong>Price:</strong> ₩12,000 ($10) | <strong>Pack:</strong> 10 sheets</p>
+<p><strong>Why Buy:</strong> #1 sheet mask brand, ₩1,200/mask</p>
+<p><strong>Best Value:</strong> ⭐ Bulk buy for 40% off</p>
+
+<h4>23. COSRX Acne Pimple Master Patch (24 patches)</h4>
+<p><strong>Price:</strong> ₩6,000 ($5) | <strong>Pack:</strong> 24 patches</p>
+<p><strong>Why Buy:</strong> Overnight acne treatment, absorbs pus</p>
+
+<h4>24. Innisfree My Real Squeeze Mask (Pack of 10)</h4>
+<p><strong>Price:</strong> ₩10,000 ($8) | <strong>Pack:</strong> 10 sheets</p>
+<p><strong>Why Buy:</strong> Natural ingredients, various options</p>
+
+---
+
+<h3>Best Eye Creams 👁️</h3>
+
+<h4>25. Innisfree Orchid Enriched Cream for Eyes</h4>
+<p><strong>Price:</strong> ₩38,000 ($30) | <strong>Size:</strong> 30ml</p>
+<p><strong>Why Buy:</strong> Anti-aging, reduces dark circles</p>
+
+<h4>26. Mizon Snail Repair Eye Cream</h4>
+<p><strong>Price:</strong> ₩16,000 ($13) | <strong>Size:</strong> 25ml</p>
+<p><strong>Why Buy:</strong> Snail mucin, budget-friendly, de-puffing</p>
+
+---
+
+<h3>Best Treatments 💊</h3>
+
+<h4>27. COSRX Centella Blemish Cream</h4>
+<p><strong>Price:</strong> ₩18,000 ($14) | <strong>Size:</strong> 30ml</p>
+<p><strong>Why Buy:</strong> Spot treatment for acne, soothes redness</p>
+
+<h4>28. Benton Aloe Propolis Soothing Gel</h4>
+<p><strong>Price:</strong> ₩20,000 ($16) | <strong>Size:</strong> 100ml</p>
+<p><strong>Why Buy:</strong> Multi-purpose, cooling, antibacterial</p>
+
+---
+
+<h3>Best Lip Care 💋</h3>
+
+<h4>29. Laneige Lip Sleeping Mask</h4>
+<p><strong>Price:</strong> ₩22,000 ($17) | <strong>Size:</strong> 20g</p>
+<p><strong>Why Buy:</strong> Overnight lip treatment, lasts 6+ months</p>
+<p><strong>Cult Favorite:</strong> 10M+ jars sold</p>
+
+<h4>30. Etude House Dear Darling Water Gel Tint</h4>
+<p><strong>Price:</strong> ₩6,000 ($5) | <strong>Size:</strong> 4.5g</p>
+<p><strong>Why Buy:</strong> Long-lasting, vibrant colors, hydrating</p>
+
+---
+
+<h2>💰 Budget Shopping Plans</h2>
+
+<h3>Starter Kit ($50-100)</h3>
+<ol>
+  <li>Banila Co Clean It Zero - $14</li>
+  <li>COSRX Snail Mucin Essence - $19</li>
+  <li>COSRX Oil-Free Lotion - $14</li>
+  <li>Beauty of Joseon Sunscreen - $11</li>
+  <li>Mediheal Sheet Masks (10pk) - $10</li>
+</ol>
+<p><strong>Total: $68</strong> ✅ Complete basic routine</p>
+
+<h3>Full Routine ($150-250)</h3>
+<ol>
+  <li>Double cleanse (Banila + COSRX) - $24</li>
+  <li>Toner (ISNTREE HA) - $13</li>
+  <li>Essence (COSRX Snail) - $19</li>
+  <li>Serum (Niacinamide) - $7</li>
+  <li>Moisturizer (COSRX) - $14</li>
+  <li>Sunscreen (Beauty of Joseon) - $11</li>
+  <li>Exfoliator (COSRX BHA) - $19</li>
+  <li>Sheet masks (Mediheal 20pk) - $20</li>
+  <li>Eye cream (Mizon) - $13</li>
+  <li>Lip mask (Laneige) - $17</li>
+</ol>
+<p><strong>Total: $157</strong> ✅ Complete advanced routine</p>
+
+<h3>Luxury Haul ($500+)</h3>
+<ol>
+  <li>SK-II Facial Treatment Essence - $145</li>
+  <li>Sulwhasoo Concentrated Ginseng Cream - $280</li>
+  <li>Whoo Jinyulhyang Jinyul Cream - $350</li>
+  <li>+ All essentials from Full Routine</li>
+</ol>
+<p><strong>Total: $932</strong> ✅ Premium Korean skincare experience</p>
+
+---
+
+<h2>📍 Where to Buy (Price Comparison)</h2>
+
+<table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th>Store</th>
+    <th>Pros</th>
+    <th>Cons</th>
+    <th>Best For</th>
+  </tr>
+  <tr>
+    <td><strong>Olive Young (Seoul)</strong></td>
+    <td>Largest selection, sales, tax refund</td>
+    <td>Need to visit Korea</td>
+    <td>Bulk buying, lowest prices</td>
+  </tr>
+  <tr>
+    <td><strong>YesStyle</strong></td>
+    <td>Free shipping $35+, rewards</td>
+    <td>Slow shipping (2-3 weeks)</td>
+    <td>Budget shoppers, bulk orders</td>
+  </tr>
+  <tr>
+    <td><strong>Stylevana</strong></td>
+    <td>Competitive prices, frequent sales</td>
+    <td>Limited brands</td>
+    <td>Deal hunters</td>
+  </tr>
+  <tr>
+    <td><strong>Amazon</strong></td>
+    <td>Fast Prime shipping, easy returns</td>
+    <td>Higher prices, counterfeits</td>
+    <td>Quick delivery needs</td>
+  </tr>
+  <tr>
+    <td><strong>Sephora</strong></td>
+    <td>Authentic, in-store testing</td>
+    <td>Limited K-Beauty selection</td>
+    <td>Dr. Jart+, Laneige only</td>
+  </tr>
+</table>
+
+<div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">🛍️ Book Korean Skincare Consultation</h3>
+  <p style="margin-bottom: 20px;">Get personalized product recommendations in Seoul</p>
+  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+</div>
+
+<h2>🛡️ How to Spot Fake Korean Skincare</h2>
+
+<h3>✅ Authentic Product Signs</h3>
+<ul>
+  <li>✅ Holographic stickers</li>
+  <li>✅ Batch code on packaging</li>
+  <li>✅ Korean language on box</li>
+  <li>✅ QR code for verification</li>
+  <li>✅ Authorized retailer seal</li>
+</ul>
+
+<h3>❌ Fake Product Warning Signs</h3>
+<ul>
+  <li>❌ Suspiciously low price (50%+ off retail)</li>
+  <li>❌ Poor packaging quality</li>
+  <li>❌ Spelling errors on labels</li>
+  <li>❌ No batch code or expiration date</li>
+  <li>❌ Seller has no reviews</li>
+</ul>
+
+<h2>💡 Shopping Tips</h2>
+
+<ul>
+  <li>✅ <strong>Buy during sales:</strong> Black Friday, 11.11, Lunar New Year</li>
+  <li>✅ <strong>Use coupon codes:</strong> YesStyle "KBEAUTY2025" for 10% off</li>
+  <li>✅ <strong>Join loyalty programs:</strong> Olive Young membership = 5% cashback</li>
+  <li>✅ <strong>Buy multi-packs:</strong> Sheet masks 30-40% cheaper in bulk</li>
+  <li>✅ <strong>Check expiration dates:</strong> Use within 12 months of opening</li>
+  <li>✅ <strong>Read reviews:</strong> Verified purchases on Amazon/YesStyle</li>
+</ul>
+
+<h2>FAQ</h2>
+
+<h3>Q: What's the minimum I should spend on a Korean skincare routine?</h3>
+<p>A: <strong>$50-70</strong> for basics (cleanser, essence, moisturizer, sunscreen). This covers essentials for 2-3 months.</p>
+
+<h3>Q: Are expensive Korean products worth it?</h3>
+<p>A: Not always! Many affordable products (COSRX, The Ordinary) perform as well as luxury brands. Focus on ingredients, not price.</p>
+
+<h3>Q: How do I know which products to buy?</h3>
+<p>A: Start with bestsellers from this list. Check your skin type, read reviews, and introduce products one at a time (2-week intervals).</p>
+
+<h3>Q: Can I mix Korean and Western skincare?</h3>
+<p>A: Absolutely! Many people use K-Beauty cleansers/essences with Western actives (retinol, vitamin C).</p>
+
+<p><strong>Ready to shop?</strong> Use this guide to build your perfect K-Beauty collection! For professional skincare consultations in Seoul, visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>.</p>
+      `,
+      ko: '한국 스킨케어 제품 쇼핑 가이드',
+      ja: '韓国スキンケア製品ショッピングガイド'
+    },
+    category: 'shopping',
+    subcategory: 'products',
+    publishedAt: '2025-12-10',
+    author: 'K-Beauty Seoul Shopping Expert',
+    readTime: '22 min read',
+    tags: ['korean skincare products', 'k-beauty shopping', 'best korean products', 'skincare to buy', 'cosrx', 'laneige', 'korean beauty haul'],
+    metaDescription: {
+      en: 'Ultimate 2025 Korean skincare products to buy guide. Top 30 must-have products: COSRX, Laneige, Beauty of Joseon. Budget plans, where to buy, price comparison, shopping tips.',
+      ko: '2025 필수 한국 스킨케어 제품 구매 가이드. 상위 30개 필수 제품: COSRX, Laneige, Beauty of Joseon. 예산 계획, 구매처, 가격 비교.',
+      ja: '2025年必須の韓国スキンケア製品購入ガイド。トップ30必須製品：COSRX、Laneige、Beauty of Joseon。予算プラン、購入先、価格比較。'
+    }
   }
 ];
