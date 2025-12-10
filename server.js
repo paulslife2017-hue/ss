@@ -1077,6 +1077,11 @@ function generateHomePage(lang = 'en') {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>K-Beauty Seoul | ${t.hero.title}</title>
       <meta name="description" content="${t.hero.subtitle}">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       ${generateStyles()}
     </head>
     <body>
@@ -1212,6 +1217,11 @@ function generateCatalogPage(category, lang = 'en', subcategory = 'all') {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>${categoryNames[category]} | K-Beauty Seoul</title>
       <meta name="description" content="${categoryDescs[category]}">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       ${generateStyles()}
     </head>
     <body>
@@ -1286,6 +1296,11 @@ function generateAdminPage() {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>관리자 페이지 | K-Beauty Seoul</title>
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -2040,6 +2055,11 @@ app.get('/blog', (c) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>${lang === 'ko' ? '블로그' : lang === 'ja' ? 'ブログ' : 'Blog'} | K-Beauty Seoul</title>
       <meta name="description" content="${lang === 'ko' ? 'K-뷰티 서울 블로그: 강남 최고의 뷰티 서비스 가이드' : lang === 'ja' ? 'K-ビューティソウルブログ：江南最高の美容サービスガイド' : 'K-Beauty Seoul Blog: Best beauty services guide in Gangnam'}">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: system-ui, -apple-system, sans-serif; background: #f5f5f5; }
@@ -2100,7 +2120,7 @@ app.get('/blog/:slug', (c) => {
   const slug = c.req.param('slug');
   const lang = c.req.query('lang') || 'en';
   
-  const article = blogArticles.find(a => a.slug === slug);
+  const article = blogArticles.find(a => a.id === slug);
   
   if (!article) {
     return c.html('<h1>Blog post not found</h1>', 404);
@@ -2118,6 +2138,11 @@ app.get('/blog/:slug', (c) => {
       <meta property="og:title" content="${article.title[lang] || article.title.en}">
       <meta property="og:description" content="${article.excerpt[lang] || article.excerpt.en}">
       <meta property="og:type" content="article">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, system-ui, sans-serif; background: #fff; color: #333; line-height: 1.8; }
@@ -2159,8 +2184,34 @@ app.get('/blog/:slug', (c) => {
       <div class="article-container">
         <a href="/blog?lang=${lang}" class="back-link">← ${lang === 'ko' ? '블로그 목록으로' : lang === 'ja' ? 'ブログ一覧に戻る' : 'Back to Blog'}</a>
         
+        <!-- 광고 1: 블로그 상단 (제목 바로 아래) -->
+        <div style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="AUTO"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        
         <div class="article-content">
           ${article.content[lang] || article.content.en}
+        </div>
+        
+        <!-- 광고 2: 블로그 하단 (태그 위) -->
+        <div style="text-align: center; margin: 40px 0; padding: 20px 0;">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="AUTO"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
         
         <div class="tags">
@@ -2188,6 +2239,11 @@ app.get('/about', (c) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>About Us | K-Beauty Seoul</title>
       <meta name="description" content="Learn about K-Beauty Seoul, your trusted guide to authentic Korean beauty services in Seoul, Gangnam, and beyond.">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
@@ -2288,6 +2344,11 @@ app.get('/privacy', (c) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Privacy Policy | K-Beauty Seoul</title>
       <meta name="description" content="K-Beauty Seoul Privacy Policy - How we collect, use, and protect your personal information.">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
@@ -2419,6 +2480,11 @@ app.get('/contact', (c) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Contact Us | K-Beauty Seoul</title>
       <meta name="description" content="Get in touch with K-Beauty Seoul. Email, phone, and office hours for customer support and inquiries.">
+      
+      <!-- Google AdSense - 자동 광고 -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+           crossorigin="anonymous"></script>
+      
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.8; color: #333; }
