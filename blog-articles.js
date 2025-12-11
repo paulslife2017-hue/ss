@@ -6377,5 +6377,341 @@ export const blogArticles = [
       ko: '2025 서울에서 꼭 받아봐야 할 K-뷰티 시술 TOP 5: 두피케어, BB글로우, 딥티슈 마사지, 아쿠아필, 립틴트. 가격, 예약 가이드 kbeautyseoul.co.kr',
       ja: '2025年ソウルで試す価値のある韓国美容サービストップ5：頭皮ケア、BBグロウ、ディープティッシュマッサージ、アクアピール、リップティント。価格、予約ガイド kbeautyseoul.co.kr'
     }
+  },
+
+  // Article 20: English Backlink-Optimized - Seoul Beauty Tourism Guide
+  {
+    id: 'seoul-beauty-tourism-guide-2025',
+    title: {
+      ko: '2025 서울 뷰티 관광 완벽 가이드',
+      en: 'Seoul Beauty Tourism Guide 2025: K-Beauty Treatments for International Travelers',
+      ja: '2025年ソウル美容観光完全ガイド',
+      zh: '2025年首爾美容旅遊完整指南'
+    },
+    slug: 'seoul-beauty-tourism-guide-2025',
+    excerpt: {
+      ko: '외국인을 위한 서울 뷰티 투어리즘 완벽 가이드. 예약 방법, 가격, 영어 지원, 추천 지역 총정리.',
+      en: 'Complete Seoul beauty tourism guide for international travelers. Booking, prices, English support, best districts. Experience K-Beauty in Seoul.',
+      ja: '外国人のためのソウル美容ツーリズム完全ガイド。予約方法、価格、英語サポート、おすすめエリア総まとめ。',
+      zh: '為外國人準備的首爾美容旅遊完整指南。預訂方法、價格、英語支援、推薦地區總整理。'
+    },
+    content: {
+      en: `
+<h2>Why Seoul Is the World's K-Beauty Capital</h2>
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="Seoul beauty district Gangnam" />
+
+<p>Seoul has become the <strong>global epicenter of beauty innovation</strong>, attracting over <strong>2.5 million beauty tourists annually</strong>. From cutting-edge facial treatments to traditional Korean spa experiences, Seoul offers beauty services you simply can't find anywhere else in the world.</p>
+
+<p>This comprehensive guide covers <strong>everything international travelers need to know</strong> about experiencing K-Beauty in Seoul: where to go, what treatments to try, how to book with English support, and insider tips to save money.</p>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; margin: 30px 0;">
+  <h3 style="color: white; text-align: center; margin-bottom: 20px;">✈️ Quick Guide for Beauty Tourists</h3>
+  <ul style="font-size: 16px; line-height: 1.8; color: white;">
+    <li><strong>Best Districts:</strong> Gangnam, Cheongdam, Myeongdong, Hongdae</li>
+    <li><strong>Average Cost:</strong> 30-50% cheaper than US/UK/Japan</li>
+    <li><strong>English Support:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" style="color: #FFD700; text-decoration: underline;"><strong>kbeautyseoul.co.kr</strong></a></li>
+    <li><strong>Best Time to Visit:</strong> September-November (mild weather, beauty deals)</li>
+    <li><strong>Visa Requirements:</strong> 90-day tourist visa for most countries</li>
+  </ul>
+</div>
+
+<h2>🏙️ Top Districts for Beauty Tourism in Seoul</h2>
+
+<h3>1. Gangnam District (강남구) - Premium Beauty Hub</h3>
+<img src="https://images.unsplash.com/photo-1544441892-794166f1e3be?w=1000&h=600&fit=crop" alt="Gangnam Seoul beauty district" />
+
+<p><strong>Why Gangnam?</strong> Home to Seoul's most luxurious clinics and experienced practitioners. Think of it as the "Beverly Hills of K-Beauty."</p>
+
+<div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 25px 0;">
+  <h4>Best Treatments in Gangnam:</h4>
+  <ul>
+    <li><strong>🧖 Korean Head Spa:</strong> ₩120,000-150,000 (~$90-115) | <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
+    <li><strong>💆 Deep Tissue Massage:</strong> ₩150,000-220,000 (~$115-169) | <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
+    <li><strong>✨ BB Glow Treatment:</strong> ₩250,000-350,000 (~$192-270) | <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
+    <li><strong>💋 Semi-Permanent Makeup:</strong> ₩400,000-600,000 (~$308-462) | <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
+  </ul>
+  
+  <p><strong>🚇 How to Get There:</strong> Gangnam Station (Line 2), Sinnonhyeon Station (Line 9), Apgujeong Station (Line 3)</p>
+  
+  <p><strong>💡 Pro Tip:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank"><strong>K-Beauty Seoul</strong></a> for 10-15% discount + English support guaranteed</p>
+</div>
+
+<h3>2. Cheongdam & Apgujeong (청담·압구정) - Celebrity Favorite</h3>
+<p><strong>Known for:</strong> High-end aesthetic procedures, celebrity-endorsed clinics, luxury spa experiences</p>
+
+<ul>
+  <li><strong>Signature Treatments:</strong> Aqua Peel, Glass Skin Facial, Gold Thread Lift</li>
+  <li><strong>Price Range:</strong> ₩180,000-500,000 (~$138-385)</li>
+  <li><strong>English Support:</strong> Excellent (many clinics cater to Chinese/Japanese tourists)</li>
+  <li><strong>Best For:</strong> Luxury treatments, special occasions, photoshoots</li>
+</ul>
+
+<h3>3. Myeongdong (명동) - Budget-Friendly & Tourist-Friendly</h3>
+<p><strong>Why Myeongdong?</strong> Most accessible for first-time visitors, many clinics have Chinese/Japanese-speaking staff</p>
+
+<ul>
+  <li><strong>Popular Services:</strong> Basic facials, sheet mask treatments, makeup services</li>
+  <li><strong>Price Range:</strong> ₩50,000-150,000 (~$38-115)</li>
+  <li><strong>Pros:</strong> Central location, easy to find, lots of beauty shopping nearby</li>
+  <li><strong>Cons:</strong> Can be touristy, quality varies</li>
+</ul>
+
+<h3>4. Hongdae (홍대) - Trendy & Youthful</h3>
+<p><strong>Best for:</strong> Younger travelers, unique nail art, creative makeup, tattoo-style semi-permanent makeup</p>
+
+<ul>
+  <li><strong>Specialty:</strong> Nail art, eyebrow tattooing, creative hair coloring</li>
+  <li><strong>Price Range:</strong> ₩60,000-180,000 (~$46-138)</li>
+  <li><strong>Vibe:</strong> Hip, artistic, Instagram-worthy</li>
+</ul>
+
+<h2>💸 Price Comparison: Seoul vs. Other Cities</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 30px 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <thead style="background: #3f51b5; color: white;">
+    <tr>
+      <th style="padding: 15px; text-align: left;">Treatment</th>
+      <th style="padding: 15px;">Seoul</th>
+      <th style="padding: 15px;">New York</th>
+      <th style="padding: 15px;">London</th>
+      <th style="padding: 15px;">Tokyo</th>
+      <th style="padding: 15px;">Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Deep Tissue Massage (90min)</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$115</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$220</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$195</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$160</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50; font-weight: bold;">48-52%</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Korean Head Spa (90min)</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$92</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$180</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$170</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$140</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50; font-weight: bold;">34-49%</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">BB Glow Treatment (90min)</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$192</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$450</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$420</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$350</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50; font-weight: bold;">45-57%</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Lip Tattoo (Semi-Permanent)</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$385</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$700</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$650</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$550</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50; font-weight: bold;">30-45%</td>
+    </tr>
+    <tr style="background: #f5f5f5; font-weight: bold;">
+      <td style="padding: 12px;">Average Savings</td>
+      <td style="padding: 12px; text-align: center;" colspan="4">30-57% cheaper than Western cities</td>
+      <td style="padding: 12px; text-align: center; color: #4caf50; font-weight: bold;">$196 saved</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>💰 Bottom Line:</strong> You can save enough on beauty treatments to pay for your entire Seoul trip!</p>
+
+<h2>📅 How to Plan Your Beauty Tourism Itinerary</h2>
+
+<h3>3-Day Seoul Beauty Weekend</h3>
+
+<div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin: 25px 0;">
+  <h4>Day 1: Arrival & Relaxation</h4>
+  <ul>
+    <li><strong>Morning:</strong> Arrive Seoul, check into hotel (Gangnam area recommended)</li>
+    <li><strong>Afternoon:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Deep Tissue Massage</a> (₩150,000) to recover from flight</li>
+    <li><strong>Evening:</strong> Explore Gangnam, K-Beauty shopping at Olive Young</li>
+  </ul>
+  
+  <h4>Day 2: Premium Beauty Treatments</h4>
+  <ul>
+    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Korean Head Spa</a> (₩120,000) - life-changing experience!</li>
+    <li><strong>Afternoon:</strong> Lunch in Cheongdam, <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank">BB Glow Treatment</a> (₩250,000)</li>
+    <li><strong>Evening:</strong> Visit Myeongdong for beauty product shopping</li>
+  </ul>
+  
+  <h4>Day 3: Final Pampering & Departure</h4>
+  <ul>
+    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">Aqua Peel Facial</a> (₩180,000) for glass skin glow</li>
+    <li><strong>Afternoon:</strong> Last-minute shopping, pack beauty haul</li>
+    <li><strong>Evening:</strong> Depart Seoul looking and feeling amazing!</li>
+  </ul>
+  
+  <p><strong>Total Cost:</strong> ₩700,000 (~$539 USD) for 3 premium treatments<br>
+  <strong>Same in NYC:</strong> ~$1,200-1,500 USD<br>
+  <strong>You Save:</strong> $661-961 USD! 💰</p>
+</div>
+
+<h3>Week-Long Seoul Beauty Retreat</h3>
+
+<p>For those wanting a full transformation, a week in Seoul allows for:</p>
+
+<ul>
+  <li><strong>Multiple sessions:</strong> BB Glow (3 sessions for best results)</li>
+  <li><strong>Recovery time:</strong> Semi-permanent makeup needs 5-7 days healing</li>
+  <li><strong>Variety:</strong> Try 7-10 different treatments</li>
+  <li><strong>Sightseeing:</strong> Balance beauty treatments with Seoul tourism</li>
+</ul>
+
+<p><strong>💡 Pro Tip:</strong> Book all treatments in advance through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr</strong></a> to secure English-speaking clinics and preferred time slots.</p>
+
+<h2>🗣️ Language & Communication Tips</h2>
+
+<h3>Don't Worry About the Language Barrier!</h3>
+
+<p>Many beauty tourists worry about communication, but Seoul's beauty industry is incredibly foreigner-friendly:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
+  <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <h4>✅ English-Friendly Solutions</h4>
+    <ul>
+      <li>Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">K-Beauty Seoul</a> (100% English)</li>
+      <li>Gangnam/Cheongdam clinics have English staff</li>
+      <li>Translation apps (Papago works best in Korea)</li>
+      <li>Picture menus at most clinics</li>
+    </ul>
+  </div>
+  
+  <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <h4>🇰🇷 Useful Korean Phrases</h4>
+    <ul>
+      <li><strong>"예약했어요"</strong> (ye-yak-haess-eo-yo) = "I have a reservation"</li>
+      <li><strong>"영어 가능해요?"</strong> (yeong-eo ga-neung-hae-yo?) = "English possible?"</li>
+      <li><strong>"얼마예요?"</strong> (eol-ma-ye-yo?) = "How much?"</li>
+      <li><strong>"감사합니다"</strong> (gam-sa-ham-ni-da) = "Thank you"</li>
+    </ul>
+  </div>
+</div>
+
+<h2>💳 Payment & Money Tips</h2>
+
+<h3>What Payment Methods Are Accepted?</h3>
+
+<ul>
+  <li><strong>✅ Credit Cards:</strong> Visa, Mastercard widely accepted (some charge 3% foreign transaction fee)</li>
+  <li><strong>✅ Cash (₩):</strong> Always works, some small clinics prefer cash</li>
+  <li><strong>✅ Online Booking (via K-Beauty Seoul):</strong> Pay in USD/EUR/JPY with your home credit card</li>
+  <li><strong>❌ Alipay/WeChat Pay:</strong> Not common except in Myeongdong</li>
+</ul>
+
+<h3>Money-Saving Tips</h3>
+
+<ol>
+  <li><strong>Book packages:</strong> 3+ treatments = 10-20% discount</li>
+  <li><strong>Weekday mornings:</strong> 15-30% cheaper than evenings/weekends</li>
+  <li><strong>Use K-Beauty Seoul:</strong> Exclusive online booking discounts</li>
+  <li><strong>Avoid peak seasons:</strong> December-February and July-August are most expensive</li>
+  <li><strong>Currency exchange:</strong> Use Myeongdong money changers (better rates than airport)</li>
+</ol>
+
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 30px; border-radius: 15px; margin: 30px 0; text-align: center;">
+  <h3 style="margin-bottom: 20px;">💎 Save 10% on Your First Booking!</h3>
+  <p style="font-size: 18px; margin-bottom: 20px;">Use code <strong style="background: white; color: #fa709a; padding: 8px 20px; border-radius: 25px; font-size: 20px;">BEAUTY10</strong> at checkout</p>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Browse Treatments →</a>
+</div>
+
+<h2>🏨 Where to Stay for Beauty Tourism</h2>
+
+<h3>Best Hotels Near Beauty Districts</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 25px 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <thead style="background: #3f51b5; color: white;">
+    <tr>
+      <th style="padding: 12px; text-align: left;">Hotel Tier</th>
+      <th style="padding: 12px;">Area</th>
+      <th style="padding: 12px;">Price/Night</th>
+      <th style="padding: 12px;">Why Stay Here</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Luxury</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Gangnam</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$200-400</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">5-min walk to top clinics, concierge booking assistance</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Mid-Range</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Myeongdong</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">$80-150</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Central location, easy subway access, beauty shopping nearby</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><strong>Budget</strong></td>
+      <td style="padding: 12px;">Hongdae</td>
+      <td style="padding: 12px; text-align: center;">$40-80</td>
+      <td style="padding: 12px;">Youth-friendly, trendy cafes, affordable beauty services</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>❓ FAQ - Beauty Tourism in Seoul</h2>
+
+<h3>Q: Do I need a visa for beauty tourism in Korea?</h3>
+<p><strong>A:</strong> Citizens of 112 countries (including US, UK, Canada, EU, Australia, Japan) get 90-day visa-free entry. Check <a href="https://www.visa.go.kr/openPage.do?MENU_ID=10101" target="_blank" rel="noopener">Korean Immigration</a> for your country.</p>
+
+<h3>Q: Can I get same-day beauty treatments?</h3>
+<p><strong>A:</strong> Possible but not recommended. Popular treatments (head spa, BB glow) book up 1-2 weeks in advance. Book ahead via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a>.</p>
+
+<h3>Q: Are Seoul beauty treatments safe for foreigners?</h3>
+<p><strong>A:</strong> Very safe! Korea has strict regulations. All clinics on K-Beauty Seoul are licensed, insured, and have foreign customer experience.</p>
+
+<h3>Q: What's the best time of year to visit for beauty tourism?</h3>
+<p><strong>A:</strong> <strong>September-November (fall)</strong> - pleasant weather, beauty deals, fewer Chinese tourists than summer. <strong>Avoid:</strong> July-August (hot, rainy, crowded).</p>
+
+<h3>Q: Can I bring beauty products back home?</h3>
+<p><strong>A:</strong> Yes! Most products allowed. Skincare under 100ml can go in carry-on. Check customs limits for sheet masks (some countries restrict agricultural products).</p>
+
+<h3>Q: Do clinics offer package deals for tourists?</h3>
+<p><strong>A:</strong> Yes! Many clinics have "beauty tour packages" (3-5 treatments bundled at 20-30% discount). Best booked through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" target="_blank">K-Beauty Seoul</a>.</p>
+
+<h2>🚀 Ready to Plan Your Seoul Beauty Trip?</h2>
+
+<p>Seoul beauty tourism offers the perfect combination of:</p>
+
+<ul>
+  <li><strong>✅ World-class treatments</strong> at 30-50% less than Western prices</li>
+  <li><strong>✅ Cutting-edge technology</strong> (BB Glow, scalp microscope analysis, nano-needling)</li>
+  <li><strong>✅ English-friendly booking</strong> via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a></li>
+  <li><strong>✅ Amazing city</strong> to explore (food, culture, shopping, nightlife)</li>
+</ul>
+
+<p>Whether you're planning a 3-day beauty weekend or a week-long transformation retreat, Seoul has everything you need for an unforgettable beauty tourism experience.</p>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 35px; border-radius: 15px; color: white; text-align: center; margin: 40px 0;">
+  <h3 style="color: white; margin-bottom: 20px;">✈️ Start Planning Your Seoul Beauty Trip!</h3>
+  <p style="font-size: 18px; margin-bottom: 25px;">Browse 50+ treatments with instant English booking & confirmation</p>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">Browse All Treatments →</a>
+  <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" style="background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; border: 2px solid white;">Learn More →</a>
+</div>
+
+<p><strong>Happy beauty traveling!</strong> See you in Seoul! 🇰🇷✨💆‍♀️</p>
+
+<p><em>*Prices and information accurate as of December 2025. This guide is independently written to help beauty tourists plan their Seoul trips. For official bookings with English support, visit <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a>.</em></p>
+      `,
+      ko: '서울 뷰티 관광 가이드 콘텐츠',
+      ja: 'ソウル美容観光ガイドコンテンツ'
+    },
+    category: 'tourism',
+    subcategory: 'guide',
+    publishedAt: '2025-12-11',
+    author: 'K-Beauty Seoul Travel Team',
+    readTime: '28 min read',
+    tags: ['seoul beauty tourism', 'k-beauty travel', 'gangnam beauty', 'seoul spa guide', 'beauty travel korea', 'kbeautyseoul', 'international travelers'],
+    metaDescription: {
+      en: 'Complete Seoul beauty tourism guide 2025 for international travelers. Best districts (Gangnam, Cheongdam), prices 30-50% cheaper than US/UK, English booking via kbeautyseoul.co.kr. 3-day and week-long itineraries.',
+      ko: '2025 외국인을 위한 서울 뷰티 관광 완벽 가이드. 최고 지역(강남, 청담), 미국/영국보다 30-50% 저렴, kbeautyseoul.co.kr 영어 예약. 3일 및 일주일 일정표.',
+      ja: '2025年外国人のためのソウル美容観光完全ガイド。最高エリア(江南、清潭)、米英より30-50%安い、kbeautyseoul.co.kr英語予約。3日間と1週間のスケジュール。'
+    }
   }
 ];
