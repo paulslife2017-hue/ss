@@ -2086,12 +2086,19 @@ app.get('/blog', (c) => {
       <div class="header">
         <h1>${lang === 'ko' ? '📝 K-뷰티 블로그' : lang === 'ja' ? '📝 K-ビューティブログ' : '📝 K-Beauty Blog'}</h1>
         <p>${lang === 'ko' ? '서울 최고의 뷰티 서비스 가이드' : lang === 'ja' ? 'ソウル最高の美容サービスガイド' : 'Seoul\'s Best Beauty Services Guide'}</p>
+        
+        <!-- Search Box -->
+        <div style="max-width: 600px; margin: 20px auto 0;">
+          <input type="text" id="blogSearch" placeholder="${lang === 'ko' ? '블로그 검색... (예: 헤드스파, 선크림, 여드름)' : lang === 'ja' ? 'ブログ検索...' : 'Search blogs... (e.g., head spa, sunscreen, acne)'}" 
+                 style="width: 100%; padding: 14px 20px; border: none; border-radius: 30px; font-size: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" 
+                 onkeyup="filterBlogs()" />
+        </div>
       </div>
       
       <div class="container">
         <div class="blog-grid">
           ${blogArticles.map(article => `
-            <a href="/blog/${article.slug}?lang=${lang}" class="blog-link">
+            <a href="/blog/${article.id}?lang=${lang}" class="blog-link">
               <div class="blog-card">
                 <img src="${article.content[lang]?.match(/src="([^"]+)"/)?.[1] || 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop'}" alt="${article.title[lang] || article.title.en}" class="blog-image" />
                 <div class="blog-content">
@@ -2108,6 +2115,52 @@ app.get('/blog', (c) => {
           `).join('')}
         </div>
       </div>
+      
+      <script>
+        // 블로그 검색 기능 - "head spa" → "scalp care" 매칭 포함
+        function filterBlogs() {
+          const searchInput = document.getElementById('blogSearch').value.toLowerCase();
+          const blogCards = document.querySelectorAll('.blog-card');
+          
+          // 검색어 동의어 매핑 (Search term synonyms mapping)
+          const synonyms = {
+            'head spa': ['scalp care', 'headspa', 'head spa', 'scalp', '헤드스파', '두피케어'],
+            'headspa': ['scalp care', 'headspa', 'head spa', 'scalp', '헤드스파', '두피케어'],
+            'scalp': ['scalp care', 'headspa', 'head spa', 'scalp', '헤드스파', '두피케어'],
+            'sunscreen': ['sun cream', 'spf', 'uv protection', '선크림', '자외선차단제'],
+            'acne': ['pimple', 'breakout', 'blemish', '여드름', 'ニキビ'],
+            'anti aging': ['anti-aging', 'wrinkle', 'fine line', '안티에이징', '주름'],
+            'routine': ['step', 'regimen', '루틴', '단계']
+          };
+          
+          // 검색어를 동의어로 확장
+          let searchTerms = [searchInput];
+          Object.keys(synonyms).forEach(key => {
+            if (searchInput.includes(key)) {
+              searchTerms = searchTerms.concat(synonyms[key]);
+            }
+          });
+          
+          blogCards.forEach(card => {
+            const title = card.querySelector('.blog-title').textContent.toLowerCase();
+            const excerpt = card.querySelector('.blog-excerpt').textContent.toLowerCase();
+            const category = card.querySelector('.blog-category').textContent.toLowerCase();
+            
+            // 원본 검색어 또는 동의어가 포함되어 있는지 확인
+            const isMatch = searchTerms.some(term => 
+              title.includes(term) || 
+              excerpt.includes(term) || 
+              category.includes(term)
+            );
+            
+            if (searchInput === '' || isMatch) {
+              card.parentElement.style.display = 'block';
+            } else {
+              card.parentElement.style.display = 'none';
+            }
+          });
+        }
+      </script>
     </body>
     </html>
   `;
