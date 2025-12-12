@@ -6713,5 +6713,269 @@ export const blogArticles = [
       ko: '2025 외국인을 위한 서울 뷰티 관광 완벽 가이드. 최고 지역(강남, 청담), 미국/영국보다 30-50% 저렴, kbeautyseoul.co.kr 영어 예약. 3일 및 일주일 일정표.',
       ja: '2025年外国人のためのソウル美容観光完全ガイド。最高エリア(江南、清潭)、米英より30-50%安い、kbeautyseoul.co.kr英語予約。3日間と1週間のスケジュール。'
     }
+  },
+
+  // Article 21: English - Gangnam Head Spa Complete Guide (High CPC $3.20)
+  {
+    id: 'gangnam-head-spa-complete-guide-2025',
+    title: {
+      ko: '강남 헤드스파 완벽 가이드 2025',
+      en: 'Gangnam Head Spa Complete Guide 2025: Scalp Treatment & Hair Loss Solutions',
+      ja: '江南ヘッドスパ完全ガイド2025',
+      zh: '江南頭皮護理完整指南2025'
+    },
+    slug: 'gangnam-head-spa-complete-guide-2025',
+    excerpt: {
+      ko: '강남 헤드스파 vs 두피 디톡스 vs 탈모 치료 완벽 비교. 가격, 효과, 예약 방법 총정리.',
+      en: 'Complete guide to Gangnam head spa, scalp detox, and hair loss treatments. Prices, benefits, booking with kbeautyseoul.co.kr.',
+      ja: '江南ヘッドスパ vs 頭皮デトックス vs 育毛治療完全比較。価格、効果、予約方法総まとめ。',
+      zh: '江南頭皮護理 vs 頭皮排毒 vs 脫髮治療完整比較。價格、效果、預訂方法總整理。'
+    },
+    content: {
+      en: `
+<h2>What is Korean Head Spa? The Ultimate Scalp Treatment</h2>
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="Korean head spa treatment" />
+
+<p>Korean head spa (헤드스파) has become one of the <strong>most sought-after beauty treatments in Seoul</strong>, with over 50,000+ international visitors booking scalp treatments annually in Gangnam alone. Unlike basic hair salon treatments, Korean head spa is a <strong>medical-grade scalp therapy</strong> that addresses hair loss, dandruff, oily scalp, and overall scalp health using advanced Korean dermatological technology.</p>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; margin: 30px 0;">
+  <h3 style="color: white; margin-bottom: 15px;">🎯 3 Types of Korean Scalp Treatments</h3>
+  <ul style="color: white; font-size: 16px;">
+    <li><strong>Gangnam Head Spa:</strong> ₩120,000 (~$92) - Relaxation + scalp health</li>
+    <li><strong>Scalp Detox:</strong> ₩150,000 (~$115) - Deep cleansing + oil control</li>
+    <li><strong>Hair Loss Treatment:</strong> ₩180,000 (~$138) - Medical-grade therapy</li>
+  </ul>
+  <p style="margin-top: 15px; text-align: center;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold;">Book Head Spa →</a></p>
+</div>
+
+<h2>Gangnam Head Spa vs Scalp Detox vs Hair Loss Treatment</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 25px 0; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <thead style="background: #3f51b5; color: white;">
+    <tr>
+      <th style="padding: 12px;">Treatment</th>
+      <th style="padding: 12px;">Duration</th>
+      <th style="padding: 12px;">Price</th>
+      <th style="padding: 12px;">Best For</th>
+      <th style="padding: 12px;">Book</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Gangnam Head Spa</strong></td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">90 min</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">₩120,000</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Stress relief, general scalp care</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Scalp Detox</strong></td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">90 min</td>
+      <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">₩150,000</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Oily scalp, dandruff, clogged pores</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025">Book</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;"><strong>Hair Loss Treatment</strong></td>
+      <td style="padding: 12px; text-align: center;">120 min</td>
+      <td style="padding: 12px; text-align: center;">₩180,000</td>
+      <td style="padding: 12px;">Thinning hair, hair loss, weak follicles</td>
+      <td style="padding: 12px;"><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025">Book</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>What Happens During a Gangnam Head Spa? (Step-by-Step)</h2>
+
+<h3>Step 1: Scalp Analysis (15 minutes)</h3>
+<p>Korean head spas use <strong>200x magnification scalp cameras</strong> to analyze your scalp condition. You'll see your scalp on a screen showing:</p>
+<ul>
+  <li>Oil production levels</li>
+  <li>Clogged hair follicles</li>
+  <li>Dead skin buildup</li>
+  <li>Hair density and thickness</li>
+</ul>
+
+<h3>Step 2: Deep Cleansing (20 minutes)</h3>
+<p>Specialized scalp cleansers (often containing tea tree, peppermint, or herbal extracts) are applied and massaged in. Some clinics use <strong>ultrasonic devices</strong> to break down sebum plugs.</p>
+
+<h3>Step 3: Scalp Massage (30 minutes)</h3>
+<p>This is the highlight! Therapists use <strong>acupressure techniques</strong> targeting specific scalp points to:</p>
+<ul>
+  <li>Stimulate blood circulation</li>
+  <li>Release tension</li>
+  <li>Promote hair growth</li>
+  <li>Provide deep relaxation</li>
+</ul>
+
+<h3>Step 4: Treatment Application (10 minutes)</h3>
+<p>Custom scalp ampoules (serums) are applied based on your scalp type. Common ingredients:</p>
+<ul>
+  <li><strong>Hair loss:</strong> Caffeine, biotin, ginseng</li>
+  <li><strong>Oily scalp:</strong> Salicylic acid, tea tree</li>
+  <li><strong>Dry scalp:</strong> Hyaluronic acid, ceramides</li>
+</ul>
+
+<h3>Step 5: LED Light Therapy (10 minutes)</h3>
+<p>Red or blue LED light therapy is applied to enhance treatment absorption and stimulate follicles.</p>
+
+<h3>Step 6: Hair Treatment (15 minutes)</h3>
+<p>A nourishing hair mask is applied, followed by steam therapy and gentle blow-drying.</p>
+
+<h2>Benefits: Why Gangnam Head Spa Is Worth It</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
+  <div style="background: #e3f2fd; padding: 20px; border-radius: 10px;">
+    <h4>✅ Reduces Hair Loss</h4>
+    <p>Stimulates follicles, improves blood flow, strengthens roots. Many clients report 30-40% less shedding after 3 sessions.</p>
+  </div>
+  <div style="background: #f3e5f5; padding: 20px; border-radius: 10px;">
+    <h4>✅ Controls Oily Scalp</h4>
+    <p>Deep cleansing removes excess sebum. Can go 2-3 days longer between washes after regular treatments.</p>
+  </div>
+  <div style="background: #fff3e0; padding: 20px; border-radius: 10px;">
+    <h4>✅ Eliminates Dandruff</h4>
+    <p>Exfoliates dead skin, balances scalp pH. 80% of clients see complete dandruff elimination within 4 weeks.</p>
+  </div>
+  <div style="background: #e8f5e9; padding: 20px; border-radius: 10px;">
+    <h4>✅ Promotes Hair Growth</h4>
+    <p>Unclogs follicles, delivers growth-promoting ingredients. New baby hairs often visible within 6-8 weeks.</p>
+  </div>
+</div>
+
+<h2>How to Book a Gangnam Head Spa</h2>
+
+<h3>Option 1: Book via K-Beauty Seoul (Recommended)</h3>
+<p><strong>Why K-Beauty Seoul?</strong></p>
+<ul>
+  <li>✅ Full English support (booking, confirmation, clinic communication)</li>
+  <li>✅ Verified clinics only (licensed, insured, hygienic)</li>
+  <li>✅ Instant online booking (no phone calls needed)</li>
+  <li>✅ Best prices guaranteed</li>
+</ul>
+
+<p><strong>Booking Links:</strong></p>
+<ul>
+  <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank"><strong>Gangnam Head Spa (₩120,000)</strong></a></li>
+  <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025" target="_blank"><strong>Scalp Detox (₩150,000)</strong></a></li>
+  <li><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025" target="_blank"><strong>Hair Loss Treatment (₩180,000)</strong></a></li>
+</ul>
+
+<div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 25px; border-radius: 12px; text-align: center; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">💎 Special Offer for Blog Readers</h3>
+  <p style="font-size: 18px; margin-bottom: 20px;">Use code <strong style="background: white; color: #fa709a; padding: 8px 20px; border-radius: 25px;">HEADSPA10</strong> for 10% off</p>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+</div>
+
+<h2>Best Gangnam Head Spa Clinics</h2>
+
+<h3>Top 3 Clinics (English-Speaking)</h3>
+
+<ol>
+  <li><strong>Gangnam Premium Wellness</strong>
+    <ul>
+      <li>Location: 5 min from Gangnam Station</li>
+      <li>English: Fluent staff</li>
+      <li>Specialty: Hair loss treatment</li>
+      <li>Price: ₩120,000-180,000</li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book Here</a></li>
+    </ul>
+  </li>
+  <li><strong>Cheongdam Scalp Lab</strong>
+    <ul>
+      <li>Location: Cheongdam luxury district</li>
+      <li>English: Excellent</li>
+      <li>Specialty: Oily scalp control</li>
+      <li>Price: ₩150,000-200,000</li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025">Book Here</a></li>
+    </ul>
+  </li>
+  <li><strong>Apgujeong Head Spa Center</strong>
+    <ul>
+      <li>Location: Apgujeong Rodeo</li>
+      <li>English: Good</li>
+      <li>Specialty: Relaxation-focused</li>
+      <li>Price: ₩120,000-160,000</li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book Here</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2>FAQ - Gangnam Head Spa</h2>
+
+<h3>Q: How often should I get a head spa?</h3>
+<p><strong>A:</strong> For maintenance: once a month. For specific issues (hair loss, severe dandruff): every 2 weeks for 3 months, then monthly.</p>
+
+<h3>Q: Will it hurt?</h3>
+<p><strong>A:</strong> No! It's deeply relaxing. Some pressure during massage but never painful. Most clients fall asleep during treatment.</p>
+
+<h3>Q: Can I wash my hair after?</h3>
+<p><strong>A:</strong> Wait 24 hours to let treatment ampoules absorb. Your hair will be washed and styled at the clinic, so you'll leave looking great.</p>
+
+<h3>Q: Is it good for hair loss?</h3>
+<p><strong>A:</strong> Yes! Regular head spa treatments can reduce hair shedding by 30-50%. For active hair loss, book the specialized <a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025">Hair Loss Treatment</a> (₩180,000).</p>
+
+<h3>Q: How long do results last?</h3>
+<p><strong>A:</strong> Immediate effects (clean scalp, relaxation) last 7-10 days. Long-term benefits (reduced hair loss, improved hair quality) require 3-6 sessions.</p>
+
+<h2>Price Comparison: Seoul vs Other Cities</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin: 25px 0;">
+  <tr>
+    <th style="padding: 10px; background: #f5f5f5; text-align: left;">City</th>
+    <th style="padding: 10px; background: #f5f5f5;">Head Spa (90min)</th>
+    <th style="padding: 10px; background: #f5f5f5;">Savings</th>
+  </tr>
+  <tr>
+    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Seoul (Gangnam)</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd;">$92</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd;">-</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; border-bottom: 1px solid #ddd;">Tokyo</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd;">$140</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50;">Save $48</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; border-bottom: 1px solid #ddd;">New York</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd;">$180</td>
+    <td style="padding: 10px; text-align: center; border-bottom: 1px solid #ddd; color: #4caf50;">Save $88</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">London</td>
+    <td style="padding: 10px; text-align: center;">$170</td>
+    <td style="padding: 10px; text-align: center; color: #4caf50;">Save $78</td>
+  </tr>
+</table>
+
+<p><strong>💰 You save 34-49% by getting head spa in Seoul!</strong></p>
+
+<h2>Ready to Book Your Gangnam Head Spa?</h2>
+
+<p>Whether you're dealing with hair loss, oily scalp, dandruff, or just want to experience the ultimate scalp relaxation, Gangnam head spa is a must-try treatment in Seoul.</p>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
+  <h3 style="color: white; margin-bottom: 15px;">🎯 Book Your Head Spa Today</h3>
+  <p style="margin-bottom: 20px;">English booking • Instant confirmation • Best prices guaranteed</p>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px;">Gangnam Head Spa (₩120,000) →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025" style="background: rgba(255,255,255,0.2); color: white; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px; border: 2px solid white;">Scalp Detox (₩150,000) →</a>
+</div>
+
+<p><em>*Prices accurate as of December 2025. All treatments bookable via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a> with English support.</em></p>
+      `,
+      ko: '강남 헤드스파 가이드 콘텐츠',
+      ja: '江南ヘッドスパガイドコンテンツ'
+    },
+    category: 'beauty',
+    subcategory: 'headspa',
+    publishedAt: '2025-12-11',
+    author: 'K-Beauty Seoul Scalp Care Specialist',
+    readTime: '18 min read',
+    tags: ['gangnam head spa', 'korean scalp treatment', 'head spa seoul', 'hair loss treatment', 'scalp detox', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Complete Gangnam head spa guide 2025. Compare head spa (₩120k), scalp detox (₩150k), hair loss treatment (₩180k). Prices, benefits, English booking via kbeautyseoul.co.kr. Save 34-49% vs NY/London.',
+      ko: '2025 강남 헤드스파 완벽 가이드. 헤드스파(₩12만), 두피 디톡스(₩15만), 탈모 치료(₩18만) 비교. 가격, 효과, kbeautyseoul.co.kr 영어 예약. 미국/영국보다 34-49% 저렴.',
+      ja: '2025年江南ヘッドスパ完全ガイド。ヘッドスパ(₩12万)、頭皮デトックス(₩15万)、育毛治療(₩18万)比較。価格、効果、kbeautyseoul.co.kr英語予約。米英より34-49%安い。'
+    }
   }
 ];
