@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /api/
-
-Sitemap: https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/sitemap.xml
+Sitemap: https://seoulzen.com/sitemap.xml
