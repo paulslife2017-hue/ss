@@ -7,6 +7,43 @@ import { blogArticles } from './blog-articles.js';
 const app = new Hono();
 
 // ==========================================
+// SECURITY HEADERS - Protection against attacks
+// ==========================================
+
+// Apply security headers to all routes
+app.use('*', async (c, next) => {
+  await next();
+  
+  // CSP (Content Security Policy) - Prevents XSS attacks
+  c.header('Content-Security-Policy', 
+    "default-src 'self'; " +
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://adservice.google.com; " +
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; " +
+    "font-src 'self' https://fonts.gstatic.com; " +
+    "img-src 'self' data: https: http:; " +
+    "connect-src 'self' https://pagead2.googlesyndication.com https://www.google-analytics.com; " +
+    "frame-src 'self' https://pagead2.googlesyndication.com https://www.youtube.com; " +
+    "object-src 'none'; " +
+    "base-uri 'self';"
+  );
+  
+  // HSTS (HTTP Strict Transport Security) - Forces HTTPS
+  c.header('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+  
+  // COOP (Cross-Origin-Opener-Policy) - Prevents cross-origin attacks
+  c.header('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
+  
+  // XFO (X-Frame-Options) - Prevents clickjacking
+  c.header('X-Frame-Options', 'SAMEORIGIN');
+  
+  // Additional security headers
+  c.header('X-Content-Type-Options', 'nosniff');
+  c.header('X-XSS-Protection', '1; mode=block');
+  c.header('Referrer-Policy', 'strict-origin-when-cross-origin');
+  c.header('Permissions-Policy', 'geolocation=(), microphone=(), camera=()');
+});
+
+// ==========================================
 // PERFORMANCE OPTIMIZATION: Compression & Caching
 // ==========================================
 
@@ -23,10 +60,21 @@ app.use('/public/*', async (c, next) => {
   c.header('Cache-Control', 'public, max-age=31536000, immutable');
 });
 
-// Cache headers for images
+// Cache headers for images with optimization hints
 app.use('/images/*', async (c, next) => {
   await next();
-  c.header('Cache-Control', 'public, max-age=2592000'); // 30 days
+  // Cache images for 30 days
+  c.header('Cache-Control', 'public, max-age=2592000, immutable');
+  // Image optimization hints
+  c.header('Accept-CH', 'DPR, Viewport-Width, Width');
+  c.header('Vary', 'Accept, DPR, Viewport-Width, Width');
+});
+
+// Inform browser about external resources (AdSense) for better caching
+app.use('*', async (c, next) => {
+  await next();
+  // Resource hints for better performance
+  c.header('Link', '<https://pagead2.googlesyndication.com>; rel=dns-prefetch, <https://pagead2.googlesyndication.com>; rel=preconnect');
 });
 
 // PWA - Service Worker (no cache, always fresh)

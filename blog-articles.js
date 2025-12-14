@@ -7682,4 +7682,85 @@ export const blogArticles = [
       ja: '【2025年最新】江南ヘッドスパ完全ガイド：おすすめ10選、料金(₩9.5万-25万/¥9,500-25,000)、日本語対応、15ステップ工程。kbeautyseoul.co.kr/jp で予約。初回10-15%割引。医療グレード頭皮分析。'
     }
   },
+  
+  // Article 29: Seoul Skincare Routine - English
+  {
+    id: 29,
+    slug: 'seoul-skincare-routine-ultimate-guide',
+    title: {
+      en: 'Seoul Skincare Routine: The Ultimate 10-Step Korean Beauty Guide',
+      ko: '서울 스킨케어 루틴: 궁극의 10단계 한국 뷰티 가이드',
+      ja: 'ソウルスキンケアルーティン：韓国美肌の秘密・完全ガイド'
+    },
+    excerpt: {
+      en: 'Discover the authentic Seoul skincare routine that Korean women swear by. Learn the complete 10-step Korean beauty regimen for flawless, glowing skin.',
+      ko: '한국 여성들이 맹세하는 정통 서울 스킨케어 루틴을 발견하세요. 완벽하고 빛나는 피부를 위한 완전한 10단계 한국 뷰티 요법을 배우세요.',
+      ja: '韓国女性が実践する本場のソウルスキンケアルーティンを徹底解説。透明感のある美肌を作る10ステップの韓国式スキンケア方法をご紹介します。'
+    },
+    content: `[Content from article-29-seoul-skincare-routine-en.js]`,
+    category: 'skincare',
+    date: '2024-12-14',
+    author: 'K-Beauty Expert',
+    readTime: '12 min',
+    tags: ['seoul skincare', 'korean beauty routine', '10-step skincare', 'k-beauty', 'glass skin', 'seoul beauty'],
+    metaDescription: {
+      en: 'Complete guide to the authentic Seoul skincare routine. Learn the 10-step Korean beauty regimen used by Korean women for flawless, glowing glass skin.',
+      ko: '정통 서울 스킨케어 루틴 완벽 가이드. 한국 여성들의 완벽하고 빛나는 유리 피부를 위한 10단계 한국 뷰티 요법을 배우세요.',
+      ja: '本場のソウルスキンケアルーティンの完全ガイド。韓国女性が透明感のあるガラス肌のために実践する10ステップの韓国式美容法を学びましょう。'
+    }
+  },
+  
+  // Article 30: Seoul Skincare Routine - Japanese
+  {
+    id: 30,
+    slug: 'seoul-skincare-routine-japanese',
+    title: {
+      en: 'Seoul Skincare Routine: Korean Beauty Secrets Complete Guide',
+      ko: '서울 스킨케어 루틴: 한국 미용 비밀 완전 가이드',
+      ja: 'ソウルスキンケアルーティン：韓国美肌の秘密・完全ガイド'
+    },
+    excerpt: {
+      en: 'Discover the authentic Seoul skincare routine practiced by Korean women. Complete guide to 10-step skincare for transparent, glowing skin.',
+      ko: '한국 여성들이 실천하는 정통 서울 스킨케어 루틴을 발견하세요. 투명하고 빛나는 피부를 위한 10단계 스킨케어 완벽 가이드.',
+      ja: '韓国女性が実践する本場のソウルスキンケアルーティンを徹底解説。透明感のある美肌を作る10ステップの韓国式スキンケア方法をご紹介します。'
+    },
+    content: `[Content from article-30-seoul-skincare-routine-jp.js]`,
+    category: 'skincare',
+    date: '2024-12-14',
+    author: 'Seoul Beauty Expert',
+    readTime: '12分',
+    tags: ['ソウルスキンケア', '韓国スキンケア', '10ステップスキンケア', 'Kビューティー', 'ガラス肌'],
+    metaDescription: {
+      en: 'Complete guide to authentic Seoul skincare routine. Learn 10-step Korean beauty regimen Korean women use for flawless glass skin.',
+      ko: '정통 서울 스킨케어 루틴 완벽 가이드. 한국 여성들이 완벽한 유리 피부를 위해 사용하는 10단계를 배우세요.',
+      ja: '本場のソウルスキンケアルーティンの完全ガイド。韓国女性が透明感のあるガラス肌のために実践する10ステップの韓国式美容法を学びましょう。'
+    }
+  },
+  
+  // Article 31: Best Seoul Skincare Brands
+  {
+    id: 31,
+    slug: 'best-seoul-skincare-brands-2024',
+    title: {
+      en: 'Best Seoul Skincare Brands 2024: Top 15 K-Beauty Brands Korean Women Love',
+      ko: '2024년 최고의 서울 스킨케어 브랜드: 한국 여성들이 사랑하는 K-뷰티 브랜드 톱 15',
+      ja: '2024年ベストソウルスキンケアブランド：韓国女性が愛用するK-ビューティーブランドTOP15'
+    },
+    excerpt: {
+      en: 'Discover the top Seoul skincare brands that Korean women swear by. From luxury to affordable, explore the best Korean beauty brands making waves globally.',
+      ko: '한국 여성들이 맹세하는 최고의 서울 스킨케어 브랜드를 발견하세요. 럭셔리부터 저렴한 것까지, 전 세계적으로 파장을 일으키는 최고의 한국 뷰티 브랜드를 살펴보세요.',
+      ja: '韓国女性が信頼する最高のソウルスキンケアブランドを発見。ラグジュアリーからプチプラまで、世界的に話題の韓国ビューティーブランドを探索。'
+    },
+    content: `[Content from article-31-seoul-skincare-brands-en.js]`,
+    category: 'skincare',
+    date: '2024-12-14',
+    author: 'K-Beauty Expert',
+    readTime: '15 min',
+    tags: ['seoul skincare brands', 'k-beauty brands', 'korean skincare', 'best seoul brands', 'korean beauty brands'],
+    metaDescription: {
+      en: 'Discover the top 15 Seoul skincare brands Korean women love in 2024. From luxury Sulwhasoo to affordable COSRX, find the best K-beauty brands for your skin.',
+      ko: '2024년 한국 여성들이 사랑하는 서울 스킨케어 브랜드 톱 15를 발견하세요. 럭셔리 설화수부터 저렴한 코스알엑스까지, 당신의 피부에 맞는 최고의 K-뷰티 브랜드를 찾으세요.',
+      ja: '2024年に韓国女性が愛用するソウルスキンケアブランドTOP15を発見。ラグジュアリーな雪花秀からプチプラのCOSRXまで、あなたの肌に最適なK-ビューティーブランドを見つけましょう。'
+    }
+  },
 ];
