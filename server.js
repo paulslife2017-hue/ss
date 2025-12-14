@@ -2264,10 +2264,11 @@ app.get('/blog/:slug', (c) => {
         
         <!-- 광고 1: 블로그 상단 - Display Ad (728x90 Leaderboard) -->
         <div style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; min-height: 100px; background: #f9f9f9;">
+          <!-- Blog Post Header -->
           <ins class="adsbygoogle"
                style="display:inline-block;width:728px;height:90px"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="1234567890"></ins>
+               data-ad-slot="4402451801"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
@@ -2275,12 +2276,13 @@ app.get('/blog/:slug', (c) => {
         
         <!-- 광고 2: In-Article Ad (자동 크기 조절) -->
         <div style="text-align: center; margin: 20px 0; min-height: 250px;">
+          <!-- Blog Post In-Article -->
           <ins class="adsbygoogle"
-               style="display:block; text-align:center;"
-               data-ad-layout="in-article"
-               data-ad-format="fluid"
+               style="display:block"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="9876543210"></ins>
+               data-ad-slot="3580518248"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
@@ -2292,11 +2294,13 @@ app.get('/blog/:slug', (c) => {
         
         <!-- 광고 3: 글 중간 - Responsive Display Ad -->
         <div style="text-align: center; margin: 30px 0; padding: 20px; background: #fafafa; border-radius: 8px; min-height: 280px;">
+          <!-- Blog Post Middle (In-Article) -->
           <ins class="adsbygoogle"
                style="display:block"
-               data-ad-format="autorelaxed"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="1122334455"></ins>
+               data-ad-slot="3580518248"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
@@ -2304,10 +2308,11 @@ app.get('/blog/:slug', (c) => {
         
         <!-- 광고 4: 블로그 하단 - Large Rectangle (336x280) -->
         <div style="text-align: center; margin: 40px 0; padding: 20px 0; min-height: 300px;">
+          <!-- Blog Post Footer -->
           <ins class="adsbygoogle"
                style="display:inline-block;width:336px;height:280px"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="5544332211"></ins>
+               data-ad-slot="8681635837"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
