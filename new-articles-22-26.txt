@@ -1,0 +1,25 @@
+// Article 22-26을 blog-articles.js에 추가
+
+Article 22: korean-skincare-routine-complete-guide-2025
+- 타겟: "Korean skincare routine" (월 49,500 검색)
+- CPC: $2.80
+- 길이: 3,500+ words
+- 백링크: 25+ to kbeautyseoul.co.kr
+
+Article 23: seoul-beauty-clinics-comprehensive-guide-2025
+- 타겟: "Seoul beauty clinic" (월 18,100 검색)
+- CPC: $3.90
+- 영어 예약 강조
+
+Article 24: 韓国美容ツアー完全ガイド2025 (일본어)
+- 타겟: "韓国美容ツアー" (월 33,100 검색)
+- CPC: ¥420 ($3.10)
+- 일본 관광객 타겟
+
+Article 25: ソウルエステおすすめランキング2025 (일본어)
+- 타겟: "ソウル エステ" (월 27,100 검색)
+- CPC: ¥380 ($2.80)
+
+Article 26: 韓国スキンケア最新トレンド2025 (일본어)
+- 타겟: "韓国 スキンケア" (월 40,500 검색)
+- CPC: ¥360 ($2.65)

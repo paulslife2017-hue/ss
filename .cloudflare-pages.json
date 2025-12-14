@@ -1,0 +1,6 @@
+{
+  "production_branch": "main",
+  "build_command": "echo 'No build needed'",
+  "build_output_directory": ".",
+  "compatibility_date": "2024-01-01"
+}

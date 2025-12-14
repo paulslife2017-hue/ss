@@ -5,161 +5,281 @@ import path from 'path';
 const distDir = './public';
 if (!fs.existsSync(distDir)) fs.mkdirSync(distDir, { recursive: true });
 
-// Common CSS for all pages
+// Modern CSS with latest UI trends
 const commonCSS = `
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-  line-height: 1.6; 
-  color: #333; 
-  background: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  line-height: 1.7; 
+  color: #1a1a1a; 
+  background: #fafafa;
 }
-.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px 0; }
-header h1 { font-size: 2.5rem; margin-bottom: 10px; }
-header p { font-size: 1.1rem; opacity: 0.9; }
-nav { background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px 0; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+
+/* Modern Header */
+header { 
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+  color: white; 
+  padding: 48px 0;
+  position: relative;
+  overflow: hidden;
+}
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0 0v120h1200V0c-200 50-400 80-600 80S200 50 0 0z" fill="rgba(255,255,255,0.05)"/></svg>');
+  opacity: 0.3;
+}
+header .container { position: relative; z-index: 1; }
+header h1 { 
+  font-size: clamp(2rem, 5vw, 3rem); 
+  margin-bottom: 12px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+header p { font-size: 1.125rem; opacity: 0.95; font-weight: 500; }
+
+/* Navigation */
+nav { 
+  background: white; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav .container { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
 nav a { 
   text-decoration: none; 
-  color: #667eea; 
+  color: #4b5563; 
   padding: 10px 20px; 
-  margin: 0 10px;
-  border-radius: 5px;
-  transition: background 0.3s;
+  border-radius: 8px;
+  transition: all 0.2s;
+  font-weight: 500;
+  font-size: 0.9375rem;
 }
-nav a:hover { background: #667eea; color: white; }
+nav a:hover { 
+  background: #6366f1; 
+  color: white; 
+  transform: translateY(-1px);
+}
+
+/* Hero Section */
 .hero { 
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
   color: white;
-  padding: 80px 20px;
+  padding: 80px 24px;
   text-align: center;
-  margin: 30px 0;
-  border-radius: 15px;
+  margin: 40px 0;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
 }
-.hero h2 { font-size: 3rem; margin-bottom: 20px; }
-.hero p { font-size: 1.3rem; margin-bottom: 30px; opacity: 0.9; }
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+  top: -250px;
+  right: -250px;
+}
+.hero h2 { 
+  font-size: clamp(2rem, 6vw, 3.5rem); 
+  margin-bottom: 20px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+.hero p { font-size: 1.25rem; margin-bottom: 32px; opacity: 0.95; max-width: 600px; margin-left: auto; margin-right: auto; }
 .btn { 
   display: inline-block;
-  padding: 15px 40px;
+  padding: 14px 32px;
   background: white;
-  color: #667eea;
+  color: #6366f1;
   text-decoration: none;
-  border-radius: 50px;
-  font-weight: bold;
-  transition: transform 0.3s;
-  margin: 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 8px;
+  font-size: 0.9375rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-.btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+.btn:hover { 
+  transform: translateY(-2px); 
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+/* Blog Grid - Modern Card Design */
 .blog-grid { 
   display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  gap: 30px; 
-  margin: 40px 0;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+  gap: 32px; 
+  margin: 48px 0;
 }
 .blog-card { 
   background: white; 
-  border-radius: 15px; 
+  border-radius: 16px; 
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #f3f4f6;
+}
+.blog-card:hover { 
+  transform: translateY(-4px); 
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  border-color: #e5e7eb;
+}
+.blog-card img { 
+  width: 100%; 
+  height: 220px; 
+  object-fit: cover;
   transition: transform 0.3s;
 }
-.blog-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
-.blog-card img { width: 100%; height: 200px; object-fit: cover; }
-.blog-card-content { padding: 20px; }
-.blog-card h3 { font-size: 1.3rem; margin-bottom: 10px; color: #333; }
-.blog-card p { color: #666; margin-bottom: 15px; }
-.blog-card a { 
-  color: #667eea; 
+.blog-card:hover img { transform: scale(1.05); }
+.blog-card-content { padding: 24px; }
+.blog-card h3 { 
+  font-size: 1.25rem; 
+  margin-bottom: 12px; 
+  color: #111827;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.blog-card p { 
+  color: #6b7280; 
+  margin-bottom: 16px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+.blog-card .meta {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
+}
+.blog-card a.read-more { 
+  color: #6366f1; 
   text-decoration: none; 
-  font-weight: bold;
+  font-weight: 600;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
+  font-size: 0.9375rem;
+  transition: gap 0.2s;
 }
-.blog-card a:hover { color: #764ba2; }
+.blog-card a.read-more:hover { 
+  color: #4f46e5;
+  gap: 10px;
+}
+
+/* Section Headers */
 .section-title { 
   text-align: center; 
-  font-size: 2.5rem; 
-  margin: 60px 0 30px; 
-  color: #333;
+  font-size: clamp(2rem, 4vw, 2.5rem); 
+  margin: 80px 0 16px; 
+  color: #111827;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 .section-subtitle { 
   text-align: center; 
-  color: #666; 
-  font-size: 1.1rem;
-  margin-bottom: 40px;
+  color: #6b7280; 
+  font-size: 1.125rem;
+  margin-bottom: 48px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* Footer */
 footer { 
-  background: #2d3748; 
-  color: white; 
-  padding: 40px 0; 
-  margin-top: 80px;
+  background: #111827; 
+  color: #d1d5db; 
+  padding: 48px 0; 
+  margin-top: 96px;
   text-align: center;
 }
-footer a { color: #667eea; text-decoration: none; }
-footer a:hover { text-decoration: underline; }
+footer a { color: #818cf8; text-decoration: none; font-weight: 500; }
+footer a:hover { color: #a5b4fc; text-decoration: underline; }
+footer p { line-height: 1.8; }
+
+/* Badges */
 .badge { 
   display: inline-block;
-  padding: 5px 15px;
+  padding: 6px 16px;
   background: rgba(255,255,255,0.2);
   border-radius: 20px;
-  font-size: 0.9rem;
-  margin: 5px;
+  font-size: 0.875rem;
+  margin: 6px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
 }
-.trust-badges { 
-  display: flex; 
-  justify-content: center; 
-  gap: 30px; 
-  flex-wrap: wrap;
-  margin: 40px 0;
-}
-.trust-badge { 
-  text-align: center; 
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  min-width: 150px;
-}
-.trust-badge-icon { font-size: 2.5rem; margin-bottom: 10px; }
-.trust-badge-title { font-weight: bold; color: #333; margin-bottom: 5px; }
-.trust-badge-desc { font-size: 0.9rem; color: #666; }
+
+/* Article Page */
 article { 
   background: white; 
-  padding: 40px; 
-  border-radius: 15px; 
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  margin: 30px 0;
+  padding: 48px; 
+  border-radius: 16px; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin: 32px 0;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
-article h1 { font-size: 2.5rem; margin-bottom: 20px; color: #333; }
-article h2 { font-size: 2rem; margin: 30px 0 15px; color: #444; }
-article h3 { font-size: 1.5rem; margin: 25px 0 12px; color: #555; }
-article p { margin-bottom: 15px; line-height: 1.8; }
-article ul, article ol { margin: 15px 0 15px 30px; }
-article li { margin-bottom: 8px; }
-article a { color: #667eea; text-decoration: none; }
-article a:hover { text-decoration: underline; }
-article table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-article th, article td { padding: 12px; border: 1px solid #ddd; text-align: left; }
-article th { background: #f5f5f5; font-weight: bold; }
+article h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 24px; color: #111827; font-weight: 800; line-height: 1.2; }
+article h2 { font-size: 2rem; margin: 40px 0 16px; color: #1f2937; font-weight: 700; }
+article h3 { font-size: 1.5rem; margin: 32px 0 12px; color: #374151; font-weight: 600; }
+article p { margin-bottom: 16px; line-height: 1.8; color: #374151; }
+article ul, article ol { margin: 16px 0 16px 32px; }
+article li { margin-bottom: 10px; line-height: 1.7; color: #374151; }
+article a { color: #6366f1; text-decoration: none; font-weight: 500; }
+article a:hover { text-decoration: underline; color: #4f46e5; }
+article img { 
+  width: 100%; 
+  border-radius: 12px; 
+  margin: 24px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+}
+article table { width: 100%; border-collapse: collapse; margin: 24px 0; border-radius: 8px; overflow: hidden; }
+article th, article td { padding: 14px; border: 1px solid #e5e7eb; text-align: left; }
+article th { background: #f9fafb; font-weight: 600; color: #111827; }
+article tr:hover { background: #f9fafb; }
+
+/* Back Link */
 .back-link { 
   display: inline-block; 
-  margin: 20px 0; 
-  padding: 10px 20px;
-  background: #667eea;
+  margin: 24px 0; 
+  padding: 12px 24px;
+  background: #6366f1;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.2s;
+  font-size: 0.9375rem;
 }
-.back-link:hover { background: #764ba2; }
+.back-link:hover { background: #4f46e5; transform: translateX(-4px); }
+
+/* Responsive */
 @media (max-width: 768px) {
-  header h1 { font-size: 2rem; }
-  .hero h2 { font-size: 2rem; }
-  .blog-grid { grid-template-columns: 1fr; }
-  article { padding: 20px; }
+  .container { padding: 0 16px; }
+  header { padding: 32px 0; }
+  .hero { padding: 60px 20px; margin: 24px 0; border-radius: 16px; }
+  .blog-grid { grid-template-columns: 1fr; gap: 24px; }
+  article { padding: 24px; margin: 20px 0; }
+  .section-title { margin: 56px 0 12px; }
 }
 </style>
 `;
@@ -211,11 +331,15 @@ const homepage = `<!DOCTYPE html>
     <div class="blog-grid">
       ${blogArticles.slice(0, 6).map(article => `
         <div class="blog-card">
-          <img src="${article.image}" alt="${article.title.en}">
+          <img src="${article.image}" alt="${article.title.en}" loading="lazy">
           <div class="blog-card-content">
             <h3>${article.title.en}</h3>
-            <p>${article.excerpt.en.substring(0, 120)}...</p>
-            <a href="/blog/${article.slug}.html">Read More →</a>
+            <p>${article.excerpt.en.substring(0, 130)}...</p>
+            <div class="meta">
+              <span>📅 ${article.date || '2025-01-01'}</span>
+              <span>⏱️ ${article.readTime || '10 min read'}</span>
+            </div>
+            <a href="/blog/${article.slug}.html" class="read-more">Read Full Guide →</a>
           </div>
         </div>
       `).join('')}
@@ -270,14 +394,15 @@ const blogList = `<!DOCTYPE html>
     <div class="blog-grid">
       ${blogArticles.map(article => `
         <div class="blog-card">
-          <img src="${article.image}" alt="${article.title.en}">
+          <img src="${article.image}" alt="${article.title.en}" loading="lazy">
           <div class="blog-card-content">
             <h3>${article.title.en}</h3>
-            <p>${article.excerpt.en.substring(0, 120)}...</p>
-            <p style="font-size: 0.9rem; color: #999; margin-bottom: 10px;">
-              📅 ${article.date} • ⏱️ ${article.readTime}
-            </p>
-            <a href="/blog/${article.slug}.html">Read Full Guide →</a>
+            <p>${article.excerpt.en.substring(0, 130)}...</p>
+            <div class="meta">
+              <span>📅 ${article.date || '2025-01-01'}</span>
+              <span>⏱️ ${article.readTime || '10 min read'}</span>
+            </div>
+            <a href="/blog/${article.slug}.html" class="read-more">Read Full Guide →</a>
           </div>
         </div>
       `).join('')}

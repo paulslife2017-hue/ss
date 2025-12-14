@@ -11,6 +11,7 @@ export const blogArticles = [
       zh: '江南按摩完整指南2025：從芳香療法到深層組織'
     },
     slug: 'gangnam-massage-guide-2025',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
     excerpt: {
       ko: '강남 최고의 마사지샵 완벽 가이드. 아로마테라피, 딥티슈, 핫스톤 마사지 비교 및 가격 정보.',
       en: 'Complete guide to best massage shops in Gangnam. Compare aromatherapy, deep tissue, hot stone massage with prices.',
@@ -238,6 +239,7 @@ export const blogArticles = [
       zh: '江南頭皮護理完整指南2025：從頭皮SPA到脫髮護理'
     },
     slug: 'gangnam-scalp-care-guide-2025',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
     excerpt: {
       ko: '강남 최고의 두피 케어 전문샵. 헤드스파, 두피 디톡스, 탈모 케어 프로그램 완벽 비교.',
       en: 'Best scalp care specialists in Gangnam. Complete comparison of head spa, scalp detox, hair loss treatment programs.',
@@ -430,6 +432,7 @@ export const blogArticles = [
       zh: '首爾唇部紋繡完整指南2025：江南最佳半永久唇妝'
     },
     slug: 'seoul-lip-tattoo-guide-2025',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop',
     excerpt: {
       ko: '서울 강남 최고의 립타투 전문샵. 자연스러운 입술 색깔, 6-12개월 지속, 통증 최소화. 립타투 가격, 후관리, 예약 방법 완벽 가이드.',
       en: 'Best lip tattoo studios in Seoul Gangnam. Natural lip color, lasts 6-12 months, minimal pain. Complete guide to lip tattoo prices, aftercare, and booking.',
@@ -766,6 +769,7 @@ export const blogArticles = [
       zh: '首爾BB光療護理完整指南2025：無需化妝的完美膚色'
     },
     slug: 'seoul-bb-glow-treatment-2025',
+    image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&h=600&fit=crop',
     excerpt: {
       ko: 'BB글로우는 서울에서 가장 인기있는 피부 시술. 파운데이션 없이도 완벽한 피부톤, 6-12개월 지속. 가격, 효과, 예약 방법 완벽 가이드.',
       en: 'BB Glow is Seoul\'s hottest skin treatment. Perfect skin tone without foundation, lasts 6-12 months. Complete guide to prices, benefits, and booking.',
@@ -1044,6 +1048,7 @@ export const blogArticles = [
       zh: '首爾美甲藝術完整指南2025：江南和弘大最佳美甲沙龍'
     },
     slug: 'seoul-nail-art-guide-2025',
+    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop',
     excerpt: {
       ko: '서울 최고의 네일아트 완벽 가이드. 한국 젤네일, 3D 네일아트, 미니멀 디자인. 가격, 인기 샵, 예약 방법.',
       en: 'Complete guide to Seoul\'s best nail art. Korean gel nails, 3D nail art, minimalist designs. Prices, popular salons, and booking.',
@@ -1354,6 +1359,7 @@ export const blogArticles = [
       zh: '韓國汗蒸幕體驗完整指南2025：首爾最佳水療中心'
     },
     slug: 'korean-spa-jjimjilbang-guide-2025',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=600&fit=crop',
     excerpt: {
       ko: '한국 전통 찜질방 완벽 가이드. 24시간 스파, 때밀이, 황토방, 염수방 체험. 외국인을 위한 이용 방법과 에티켓.',
       en: 'Complete Korean jjimjilbang spa guide. 24-hour spa, body scrub, clay rooms, salt rooms. How to use and etiquette for foreigners.',
@@ -1676,6 +1682,7 @@ export const blogArticles = [
       zh: '2025年韓國美容趨勢：K-美容產業的未來'
     },
     slug: 'korean-beauty-trends-2025',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
     excerpt: {
       ko: '2025년 한국 뷰티 트렌드 완벽 분석. 글래스 스킨, 클린 뷰티, 개인 맞춤 스킨케어의 부상.',
       en: 'Complete analysis of 2025 Korean beauty trends. Glass skin, clean beauty, personalized skincare rising trends.',
@@ -2050,6 +2057,7 @@ export const blogArticles = [
       zh: '初學者韓國護膚程序指南'
     },
     slug: 'korean-skincare-routine-beginners-2025',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
     excerpt: {
       ko: '한국 10단계 스킨케어 루틴 완벽 가이드. 초보자도 쉽게 따라할 수 있는 단계별 설명과 제품 추천.',
       en: 'Complete guide to the famous Korean 10-step skincare routine. Step-by-step instructions and product recommendations for beginners.',
@@ -5422,6 +5430,7 @@ export const blogArticles = [
       zh: '我的真實體驗：江南美容療程評價2025'
     },
     slug: 'my-gangnam-beauty-treatment-experience-2025',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
     excerpt: {
       ko: '강남에서 직접 받은 마사지, 두피케어, 페이셜 트리트먼트 솔직 후기. K-Beauty Seoul 예약 과정부터 결과까지 상세 리뷰.',
       en: 'Honest review of massage, scalp care, and facial treatments I personally received in Gangnam. Detailed experience from K-Beauty Seoul booking to results.',
@@ -5895,6 +5904,7 @@ export const blogArticles = [
       zh: '2025年首爾值得嘗試的韓國美容服務Top 5'
     },
     slug: 'top-5-korean-beauty-services-worth-trying-2025',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
     excerpt: {
       ko: '서울에서 꼭 경험해야 할 K-뷰티 시술 TOP 5. 두피케어부터 BB글로우까지, 가격·효과·예약 정보 총정리.',
       en: 'Must-try K-Beauty treatments in Seoul: from scalp care to BB Glow. Prices, benefits, booking guide via kbeautyseoul.co.kr.',
@@ -6389,6 +6399,7 @@ export const blogArticles = [
       zh: '2025年首爾美容旅遊完整指南'
     },
     slug: 'seoul-beauty-tourism-guide-2025',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
     excerpt: {
       ko: '외국인을 위한 서울 뷰티 투어리즘 완벽 가이드. 예약 방법, 가격, 영어 지원, 추천 지역 총정리.',
       en: 'Complete Seoul beauty tourism guide for international travelers. Booking, prices, English support, best districts. Experience K-Beauty in Seoul.',
@@ -6725,6 +6736,7 @@ export const blogArticles = [
       zh: '江南頭皮護理完整指南2025'
     },
     slug: 'gangnam-head-spa-complete-guide-2025',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
     excerpt: {
       ko: '강남 헤드스파 vs 두피 디톡스 vs 탈모 치료 완벽 비교. 가격, 효과, 예약 방법 총정리.',
       en: 'Complete guide to Gangnam head spa, scalp detox, and hair loss treatments. Prices, benefits, booking with kbeautyseoul.co.kr.',
