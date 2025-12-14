@@ -1075,10 +1075,97 @@ function generateServiceCard(service, lang) {
 function generateHomePage(lang = 'en') {
   const t = translations[lang];
   
-  // Group services by category
-  const beautyServices = services.filter(s => s.category === 'beauty').slice(0, 6);
-  const tourServices = services.filter(s => s.category === 'tour').slice(0, 6);
-  const shopServices = services.filter(s => s.category === 'shop').slice(0, 6);
+  // Get featured content
+  const featuredBlogs = blogArticles.slice(0, 3);
+  const popularServices = services.filter(s => s.category === 'beauty').slice(0, 4);
+  const latestBlogs = blogArticles.slice(3, 9);
+  
+  // Translations for new homepage
+  const homeTexts = {
+    ko: {
+      officialBadge: 'kbeautyseoul.co.kr 공식 가이드 블로그',
+      heroTitle: '당신의 프리미엄\nK-뷰티 가이드',
+      heroSubtitle: '검증된 업체 • 영어 지원 • 투명한 가격 • 안전한 예약',
+      bookNow: '지금 예약하기',
+      readGuides: '가이드 읽기',
+      featuredTitle: '📌 추천 가이드',
+      featuredSubtitle: '가장 인기 있는 K-뷰티 정보를 확인하세요',
+      servicesTitle: '💎 인기 서비스',
+      servicesSubtitle: '검증된 프리미엄 K-뷰티 서비스',
+      whyChooseTitle: '왜 K-Beauty Seoul인가?',
+      whyChooseSubtitle: '신뢰할 수 있는 K-뷰티 파트너',
+      verifiedTitle: '검증된 업체',
+      verifiedDesc: '모든 제휴 업체는 철저한 검증을 거쳤습니다',
+      englishTitle: '영어 지원',
+      englishDesc: '24/7 영어 고객 지원 서비스',
+      pricingTitle: '투명한 가격',
+      pricingDesc: '숨겨진 비용 없는 명확한 가격 정책',
+      safeTitle: '안전한 예약',
+      safeDesc: '안전하고 신뢰할 수 있는 예약 시스템',
+      latestTitle: '📚 최신 블로그',
+      latestSubtitle: '새로운 K-뷰티 정보와 팁',
+      viewAllGuides: '모든 가이드 보기',
+      viewAllPosts: '모든 포스트 보기',
+      footerDesc: 'kbeautyseoul.co.kr의 공식 정보 블로그입니다',
+      footerRights: '모든 권리 보유'
+    },
+    en: {
+      officialBadge: 'Official Guide Blog of kbeautyseoul.co.kr',
+      heroTitle: 'Your Premium\nK-Beauty Guide',
+      heroSubtitle: 'Verified Providers • English Support • Transparent Pricing • Safe Booking',
+      bookNow: 'Book Now',
+      readGuides: 'Read Guides',
+      featuredTitle: '📌 Featured Guides',
+      featuredSubtitle: 'Discover the most popular K-Beauty information',
+      servicesTitle: '💎 Popular Services',
+      servicesSubtitle: 'Verified Premium K-Beauty Services',
+      whyChooseTitle: 'Why K-Beauty Seoul?',
+      whyChooseSubtitle: 'Your Trusted K-Beauty Partner',
+      verifiedTitle: 'Verified Providers',
+      verifiedDesc: 'All partners are thoroughly verified',
+      englishTitle: 'English Support',
+      englishDesc: '24/7 English customer support',
+      pricingTitle: 'Transparent Pricing',
+      pricingDesc: 'Clear pricing with no hidden costs',
+      safeTitle: 'Safe Booking',
+      safeDesc: 'Secure and reliable booking system',
+      latestTitle: '📚 Latest Blog Posts',
+      latestSubtitle: 'New K-Beauty tips and information',
+      viewAllGuides: 'View All Guides',
+      viewAllPosts: 'View All Posts',
+      footerDesc: 'Official guide blog of kbeautyseoul.co.kr',
+      footerRights: 'All rights reserved'
+    },
+    ja: {
+      officialBadge: 'kbeautyseoul.co.kr 公式ガイドブログ',
+      heroTitle: 'あなたのプレミアム\nK-Beautyガイド',
+      heroSubtitle: '検証済み • 英語対応 • 透明な価格 • 安全予約',
+      bookNow: '今すぐ予約',
+      readGuides: 'ガイドを読む',
+      featuredTitle: '📌 おすすめガイド',
+      featuredSubtitle: '人気のK-Beauty情報をチェック',
+      servicesTitle: '💎 人気サービス',
+      servicesSubtitle: '検証済みプレミアムK-Beautyサービス',
+      whyChooseTitle: 'なぜK-Beauty Seoul?',
+      whyChooseSubtitle: '信頼できるK-Beautyパートナー',
+      verifiedTitle: '検証済み',
+      verifiedDesc: 'すべての提携先は徹底的に検証されています',
+      englishTitle: '英語対応',
+      englishDesc: '24/7英語カスタマーサポート',
+      pricingTitle: '透明な価格',
+      pricingDesc: '隠れた費用のない明確な価格',
+      safeTitle: '安全予約',
+      safeDesc: '安全で信頼できる予約システム',
+      latestTitle: '📚 最新ブログ',
+      latestSubtitle: '新しいK-Beauty情報とヒント',
+      viewAllGuides: 'すべてのガイドを見る',
+      viewAllPosts: 'すべての投稿を見る',
+      footerDesc: 'kbeautyseoul.co.krの公式ガイドブログ',
+      footerRights: '全著作権所有'
+    }
+  };
+  
+  const txt = homeTexts[lang] || homeTexts.en;
   
   return `
     <!DOCTYPE html>
@@ -1158,12 +1245,16 @@ function generateHomePage(lang = 'en') {
                       padding: 12px 24px; border-radius: 50px; margin-bottom: 24px;
                       box-shadow: 0 8px 32px rgba(0,0,0,0.1); border: 2px solid rgba(255,107,157,0.3);">
             <span style="font-size: 18px; font-weight: 700; color: #FF6B9D; letter-spacing: 0.5px;">
-              🏆 ${lang === 'ko' ? 'kbeautyseoul.co.kr 공식 정보 블로그' : lang === 'ja' ? 'kbeautyseoul.co.kr 公式情報ブログ' : 'Official Guide Blog of kbeautyseoul.co.kr'}
+              🏆 ${txt.officialBadge}
             </span>
           </div>
           
-          <h1 class="hero-title">${t.hero.title}</h1>
-          <p class="hero-subtitle">${t.hero.subtitle}</p>
+          <h1 class="hero-title" style="font-size: 64px; font-weight: 900; line-height: 1.2; margin-bottom: 24px;">
+            ${txt.heroTitle.replace('\\n', '<br>')}
+          </h1>
+          <p class="hero-subtitle" style="font-size: 22px; margin-bottom: 40px;">
+            ${txt.heroSubtitle}
+          </p>
           
           <!-- Trust Badges -->
           <div style="display: flex; justify-content: center; gap: 32px; margin: 32px 0; flex-wrap: wrap;">
@@ -1204,7 +1295,7 @@ function generateHomePage(lang = 'en') {
                       font-weight: 700; font-size: 20px; box-shadow: 0 8px 24px rgba(255, 107, 157, 0.5);
                       transition: all 0.3s ease; border: 3px solid rgba(255,255,255,0.3);">
               <span style="font-size: 28px;">📅</span>
-              <span>${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}</span>
+              <span>${txt.bookNow}</span>
             </a>
             <a href="/blog?lang=${lang}" 
                style="display: inline-flex; align-items: center; gap: 10px;
@@ -1213,7 +1304,7 @@ function generateHomePage(lang = 'en') {
                       font-weight: 700; font-size: 20px; border: 3px solid rgba(255,107,157,0.4);
                       transition: all 0.3s ease;">
               <span style="font-size: 28px;">📖</span>
-              <span>${lang === 'ko' ? '가이드 읽기' : lang === 'ja' ? 'ガイドを読む' : 'Read Guides'}</span>
+              <span>${txt.readGuides}</span>
             </a>
           </div>
           
