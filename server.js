@@ -2940,7 +2940,7 @@ app.get('/ads.txt', (c) => {
 // SERVER START
 // ==========================================
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 serve({
   fetch: app.fetch,
