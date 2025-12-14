@@ -5,6 +5,29 @@ import path from 'path';
 const distDir = './public';
 if (!fs.existsSync(distDir)) fs.mkdirSync(distDir, { recursive: true });
 
+// AdSense Configuration
+const ADSENSE_CLIENT = 'ca-pub-6943282483618134';
+
+// AdSense Auto Ads Script (goes in <head>)
+const adsenseAutoAds = `
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}"
+     crossorigin="anonymous"></script>
+`;
+
+// AdSense Display Ad Unit (for manual placement)
+const createAdUnit = (position) => `
+<div style="margin: 30px 0; text-align: center;">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="${ADSENSE_CLIENT}"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+`;
+
 // Modern CSS with latest UI trends
 const commonCSS = `
 <style>
@@ -292,6 +315,7 @@ const homepage = `<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seoul Zen - K-Beauty Official Blog | ${blogArticles.length} Expert Guides</title>
   <meta name="description" content="Your complete guide to Korean beauty services in Seoul. Expert reviews, prices, and English booking for massage, spa, skincare, and more.">
+  ${adsenseAutoAds}
   ${commonCSS}
 </head>
 <body>
@@ -369,6 +393,7 @@ const blogList = `<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Articles (${blogArticles.length}) - Seoul Zen Blog</title>
   <meta name="description" content="Browse all ${blogArticles.length} expert guides on Korean beauty services in Seoul. Massage, spa, skincare, and more.">
+  ${adsenseAutoAds}
   ${commonCSS}
 </head>
 <body>
@@ -439,6 +464,25 @@ const blogDir = path.join(distDir, 'blog');
 if (!fs.existsSync(blogDir)) fs.mkdirSync(blogDir, { recursive: true });
 
 blogArticles.forEach(article => {
+  // Get content (fallback to ko if en not available)
+  const content = article.content.en || article.content.ko || article.content.ja || '';
+  
+  // Split content into sections for ad placement
+  const contentParts = content.split('</h2>');
+  let contentWithAds = '';
+  
+  // Add ad after every 2 h2 sections (roughly middle of article)
+  contentParts.forEach((part, index) => {
+    contentWithAds += part;
+    if (index < contentParts.length - 1) {
+      contentWithAds += '</h2>';
+      // Add ad in the middle of the article
+      if (index === Math.floor(contentParts.length / 2)) {
+        contentWithAds += createAdUnit('middle');
+      }
+    }
+  });
+  
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -446,6 +490,7 @@ blogArticles.forEach(article => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${article.title.en} - Seoul Zen</title>
   <meta name="description" content="${article.metaDescription.en}">
+  ${adsenseAutoAds}
   ${commonCSS}
 </head>
 <body>
@@ -468,7 +513,11 @@ blogArticles.forEach(article => {
     <a href="/blog.html" class="back-link">← Back to All Articles</a>
     
     <article>
-      ${article.content.en}
+      ${createAdUnit('top')}
+      
+      ${contentWithAds}
+      
+      ${createAdUnit('bottom')}
       
       <div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 10px; text-align: center;">
         <h3 style="margin-bottom: 15px;">Ready to Book?</h3>
