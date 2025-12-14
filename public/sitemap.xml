@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/about</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/privacy</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/terms</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://3000-iqhsod8k2pg0d3fd8xqld-02b9cc79.sandbox.novita.ai/contact</loc>
-    <lastmod>2025-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <!-- Blog posts will be added dynamically -->
+<url><loc>https://seoulzen.com</loc><priority>1.0</priority></url>
+<url><loc>https://seoulzen.com/blog.html</loc><priority>0.9</priority></url>
+<url><loc>https://seoulzen.com/blog/gangnam-massage-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/gangnam-scalp-care-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-lip-tattoo-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-bb-glow-treatment-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-nail-art-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-spa-jjimjilbang-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-beauty-trends-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-skincare-routine-beginners-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/undefined.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/my-gangnam-beauty-treatment-experience-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/top-5-korean-beauty-services-worth-trying-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-beauty-tourism-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/gangnam-head-spa-complete-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-skincare-routine-complete-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-beauty-clinics-comprehensive-guide-2025.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-beauty-tour-complete-guide-2025-japanese.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/seoul-spa-ranking-2025-japanese.html</loc><priority>0.8</priority></url>
+<url><loc>https://seoulzen.com/blog/korean-skincare-trend-2025-japanese.html</loc><priority>0.8</priority></url>
 </urlset>
