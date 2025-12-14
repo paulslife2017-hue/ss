@@ -1,0 +1,15 @@
+name = "seoulzen"
+main = "server.js"
+compatibility_date = "2024-12-14"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "./dist"
+
+[[routes]]
+pattern = "seoulzen.com/*"
+custom_domain = true
+
+[[routes]]
+pattern = "www.seoulzen.com/*"
+custom_domain = true
