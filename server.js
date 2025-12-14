@@ -1128,11 +1128,11 @@ function generateHomePage(lang = 'en') {
                 background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
                 color: white; padding: 18px 32px; border-radius: 50px; 
                 text-decoration: none; font-weight: 700; font-size: 16px; 
-                box-shadow: 0 8px 24px rgba(255, 107, 157, 0.4); 
-                transition: all 0.3s ease; display: flex; align-items: center; gap: 8px;
-                animation: pulse 2s infinite;">
-        <span style="font-size: 20px;">📅</span>
-        <span>${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}</span>
+                box-shadow: 0 8px 24px rgba(255, 107, 157, 0.5); 
+                transition: all 0.3s ease; display: flex; align-items: center; gap: 10px;
+                animation: pulse 2s infinite; border: 3px solid rgba(255,255,255,0.3);">
+        <span style="font-size: 24px;">📅</span>
+        <span>${lang === 'ko' ? '지금 예약' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}</span>
       </a>
       <style>
         @keyframes pulse {
@@ -1184,28 +1184,42 @@ function generateHomePage(lang = 'en') {
             </div>
           </div>
           
+          <!-- Premium Service Banner -->
+          <div style="display: inline-block; background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); 
+                      padding: 16px 32px; border-radius: 50px; margin: 24px 0;
+                      box-shadow: 0 8px 32px rgba(255, 165, 0, 0.4); border: 3px solid rgba(255,255,255,0.5);
+                      animation: pulse 2s infinite;">
+            <span style="font-size: 24px; font-weight: 900; color: white; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+              ✨ ${lang === 'ko' ? '프리미엄 K-뷰티 서비스 예약' : lang === 'ja' ? 'プレミアムK-Beautyサービス予約' : 'Book Premium K-Beauty Services'}
+            </span>
+          </div>
+          
           <!-- Hero CTA Buttons -->
-          <div style="display: flex; gap: 16px; justify-content: center; margin-top: 32px; flex-wrap: wrap;">
+          <div style="display: flex; gap: 16px; justify-content: center; margin-top: 24px; flex-wrap: wrap;">
             <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=blog&utm_medium=hero_cta" 
                target="_blank"
-               style="display: inline-block; background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
-                      color: white; padding: 18px 48px; border-radius: 50px; text-decoration: none; 
-                      font-weight: 700; font-size: 18px; box-shadow: 0 8px 24px rgba(255, 107, 157, 0.4);
-                      transition: all 0.3s ease;">
-              📅 ${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}
+               style="display: inline-flex; align-items: center; gap: 10px;
+                      background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
+                      color: white; padding: 20px 56px; border-radius: 50px; text-decoration: none; 
+                      font-weight: 700; font-size: 20px; box-shadow: 0 8px 24px rgba(255, 107, 157, 0.5);
+                      transition: all 0.3s ease; border: 3px solid rgba(255,255,255,0.3);">
+              <span style="font-size: 28px;">📅</span>
+              <span>${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}</span>
             </a>
             <a href="/blog?lang=${lang}" 
-               style="display: inline-block; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
-                      color: #FF6B9D; padding: 18px 48px; border-radius: 50px; text-decoration: none; 
-                      font-weight: 700; font-size: 18px; border: 2px solid rgba(255,107,157,0.3);
+               style="display: inline-flex; align-items: center; gap: 10px;
+                      background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
+                      color: #FF6B9D; padding: 20px 56px; border-radius: 50px; text-decoration: none; 
+                      font-weight: 700; font-size: 20px; border: 3px solid rgba(255,107,157,0.4);
                       transition: all 0.3s ease;">
-              📝 ${lang === 'ko' ? '가이드 블로그 보기' : lang === 'ja' ? 'ガイドブログを見る' : 'Read Guide Blog'}
+              <span style="font-size: 28px;">📖</span>
+              <span>${lang === 'ko' ? '가이드 읽기' : lang === 'ja' ? 'ガイドを読む' : 'Read Guides'}</span>
             </a>
           </div>
           
           <div class="affiliate-badge" style="margin-top: 24px;">
-            <span>🎁</span>
-            <span>${lang === 'ko' ? '제휴 마케팅으로 운영 (투명한 가격, 10% 할인)' : lang === 'ja' ? 'アフィリエイトで運営（透明な価格、10%割引）' : 'Affiliate Marketing (Transparent Pricing, 10% Discount)'}</span>
+            <span>🏆</span>
+            <span>${lang === 'ko' ? '검증된 업체 • 영어 지원 • 투명한 가격 • 안전한 예약' : lang === 'ja' ? '検証済み • 英語対応 • 透明な価格 • 安全予約' : 'Verified Providers • English Support • Transparent Pricing • Safe Booking'}</span>
           </div>
         </div>
       </section>
@@ -1213,11 +1227,20 @@ function generateHomePage(lang = 'en') {
       <!-- Quick Links Section -->
       <section style="background: linear-gradient(135deg, #FFF5F8 0%, #FFE8EF 100%); padding: 60px 20px;">
         <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+          <!-- Featured Services Badge -->
+          <div style="display: inline-block; background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
+                      padding: 10px 24px; border-radius: 50px; margin-bottom: 20px;
+                      box-shadow: 0 4px 16px rgba(255, 107, 157, 0.3);">
+            <span style="font-size: 14px; font-weight: 700; color: white; letter-spacing: 1px;">
+              ⭐ ${lang === 'ko' ? '프리미엄 서비스 • 영어 지원' : lang === 'ja' ? 'プレミアムサービス • 英語対応' : 'PREMIUM SERVICES • ENGLISH SUPPORT'}
+            </span>
+          </div>
+          
           <h2 style="font-size: 32px; font-weight: 700; color: #333; margin-bottom: 16px;">
-            ${lang === 'ko' ? '🔥 인기 서비스 바로가기' : lang === 'ja' ? '🔥 人気サービスへのショートカット' : '🔥 Popular Services Quick Links'}
+            ${lang === 'ko' ? '🔥 인기 K-뷰티 서비스' : lang === 'ja' ? '🔥 人気K-Beautyサービス' : '🔥 Most Popular K-Beauty Services'}
           </h2>
           <p style="font-size: 18px; color: #666; margin-bottom: 40px;">
-            ${lang === 'ko' ? '가장 많이 찾는 K-Beauty 서비스를 한눈에' : lang === 'ja' ? '最も人気のあるK-Beautyサービスを一目で' : 'Most Popular K-Beauty Services at a Glance'}
+            ${lang === 'ko' ? '검증된 업체 • 투명한 가격 • 안전한 예약 • 24/7 영어 지원' : lang === 'ja' ? '検証済み • 透明な価格 • 安全予約 • 24/7英語サポート' : 'Verified Providers • Transparent Pricing • Safe Booking • 24/7 English Support'}
           </p>
           
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 32px;">
@@ -1232,9 +1255,9 @@ function generateHomePage(lang = 'en') {
               <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
                 ${lang === 'ko' ? '두피 케어 & 릴랙세이션' : lang === 'ja' ? '頭皮ケア & リラクゼーション' : 'Scalp Care & Relaxation'}
               </p>
-              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩120,000</span>
-                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">15% OFF</span>
+              <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                <span style="font-size: 18px; font-weight: 700; color: #FF6B9D;">₩120,000</span>
+                <span style="font-size: 12px; background: #E8F5E9; color: #2E7D32; padding: 4px 12px; border-radius: 4px; font-weight: 600;">⭐ ${lang === 'ko' ? '인기' : lang === 'ja' ? '人気' : 'POPULAR'}</span>
               </div>
             </a>
             
@@ -1249,9 +1272,9 @@ function generateHomePage(lang = 'en') {
               <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
                 ${lang === 'ko' ? '자연스러운 립 컬러' : lang === 'ja' ? '自然なリップカラー' : 'Natural Lip Color'}
               </p>
-              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩500,000</span>
-                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">20% OFF</span>
+              <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                <span style="font-size: 18px; font-weight: 700; color: #FF6B9D;">₩500,000</span>
+                <span style="font-size: 12px; background: #FFF3E0; color: #E65100; padding: 4px 12px; border-radius: 4px; font-weight: 600;">🔥 ${lang === 'ko' ? '베스트' : lang === 'ja' ? 'ベスト' : 'BEST'}</span>
               </div>
             </a>
             
@@ -1266,9 +1289,9 @@ function generateHomePage(lang = 'en') {
               <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
                 ${lang === 'ko' ? '반영구 파운데이션' : lang === 'ja' ? 'セミパーマネントファンデーション' : 'Semi-Permanent Foundation'}
               </p>
-              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩250,000</span>
-                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">10% OFF</span>
+              <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                <span style="font-size: 18px; font-weight: 700; color: #FF6B9D;">₩250,000</span>
+                <span style="font-size: 12px; background: #E3F2FD; color: #1565C0; padding: 4px 12px; border-radius: 4px; font-weight: 600;">✨ ${lang === 'ko' ? '추천' : lang === 'ja' ? 'おすすめ' : 'RECOMMENDED'}</span>
               </div>
             </a>
             
@@ -1283,9 +1306,9 @@ function generateHomePage(lang = 'en') {
               <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
                 ${lang === 'ko' ? '아로마 테라피 마사지' : lang === 'ja' ? 'アロマセラピーマッサージ' : 'Aromatherapy Massage'}
               </p>
-              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩150,000</span>
-                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">10% OFF</span>
+              <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                <span style="font-size: 18px; font-weight: 700; color: #FF6B9D;">₩150,000</span>
+                <span style="font-size: 12px; background: #F3E5F5; color: #6A1B9A; padding: 4px 12px; border-radius: 4px; font-weight: 600;">💎 ${lang === 'ko' ? '프리미엄' : lang === 'ja' ? 'プレミアム' : 'PREMIUM'}</span>
               </div>
             </a>
           </div>
