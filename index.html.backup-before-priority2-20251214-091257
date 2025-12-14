@@ -114,15 +114,6 @@
             object-fit: cover;
         }
         
-        /* Lazy loading optimization */
-        video[loading="lazy"] {
-            background: #f0f0f0;
-        }
-        
-        video[loading="lazy"].loaded {
-            background: transparent;
-        }
-        
         .hero-overlay {
             position: absolute;
             top: 0;
@@ -477,7 +468,7 @@
         <div id="beauty-en" class="lang-content active">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -489,7 +480,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -501,7 +492,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -518,7 +509,7 @@
         <div id="beauty-ja" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -530,7 +521,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -542,7 +533,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -559,7 +550,7 @@
         <div id="beauty-zh" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -571,7 +562,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -583,7 +574,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -613,7 +604,7 @@
         <div id="tour-en" class="lang-content active">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -625,7 +616,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -637,7 +628,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -654,7 +645,7 @@
         <div id="tour-ja" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -666,7 +657,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -678,7 +669,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -695,7 +686,7 @@
         <div id="tour-zh" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -707,7 +698,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -719,7 +710,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -749,7 +740,7 @@
         <div id="shop-en" class="lang-content active">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -761,7 +752,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -773,7 +764,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -790,7 +781,7 @@
         <div id="shop-ja" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -802,7 +793,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -814,7 +805,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -831,7 +822,7 @@
         <div id="shop-zh" class="lang-content">
             <div class="service-grid">
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=800">
                         <source src="https://player.vimeo.com/external/371817647.sd.mp4?s=3b8e8f6b5f8b0f96cac7e2f7c8f9b5e3&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -843,7 +834,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1571875257727-256c39da42af?w=800">
                         <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -855,7 +846,7 @@
                 </div>
                 
                 <div class="service-card">
-                    <video class="service-video" controls loading="lazy" preload="none" poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&q=80&fm=webp&auto=format">
+                    <video class="service-video" controls poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800">
                         <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236a2a7e2e21c4d835f8e8c4e1c96f51&profile_id=164" type="video/mp4">
                     </video>
                     <div class="service-content">
@@ -954,36 +945,6 @@
         // Language selector toggle (placeholder for future implementation)
         function toggleLangMenu() {
             alert('Language: English | 日本語 | 繁體中文');
-        }
-        
-        // Lazy loading enhancement with Intersection Observer
-        if ('IntersectionObserver' in window) {
-            const lazyObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const element = entry.target;
-                        
-                        // For videos with lazy loading
-                        if (element.tagName === 'VIDEO' && element.hasAttribute('loading')) {
-                            element.classList.add('loaded');
-                            // Preload video metadata when visible
-                            if (element.preload === 'none') {
-                                element.preload = 'metadata';
-                            }
-                        }
-                        
-                        lazyObserver.unobserve(element);
-                    }
-                });
-            }, { 
-                rootMargin: '100px', // Start loading 100px before entering viewport
-                threshold: 0.01
-            });
-            
-            // Observe all lazy-loaded elements
-            document.querySelectorAll('[loading="lazy"]').forEach(el => {
-                lazyObserver.observe(el);
-            });
         }
     </script>
 </body>
