@@ -60,7 +60,7 @@ Sitemap: https://seoulzen.com/sitemap.xml`;
   </ul>
   <footer>
     <p>© 2025 Seoul Zen - K-Beauty Official Blog</p>
-    <p><a href="https://kbeautyseoul.co.kr">Book Services</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">Book Services</a></p>
   </footer>
 </body>
 </html>`;
@@ -91,7 +91,7 @@ Sitemap: https://seoulzen.com/sitemap.xml`;
   </article>
   <footer>
     <p><a href="/blog">← Back to Blog List</a></p>
-    <p><a href="https://kbeautyseoul.co.kr">Book Services</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">Book Services</a></p>
   </footer>
 </body>
 </html>`;
@@ -115,7 +115,7 @@ Sitemap: https://seoulzen.com/sitemap.xml`;
   <p><strong>Total Articles: ${blogArticles.length}</strong></p>
   <nav>
     <a href="/blog">📖 Browse All Articles</a> | 
-    <a href="https://kbeautyseoul.co.kr">📅 Book Services</a>
+    <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">📅 Book Services</a>
   </nav>
   <h2>Featured Articles</h2>
   <ul>

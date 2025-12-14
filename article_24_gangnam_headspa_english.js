@@ -10,8 +10,8 @@
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 Experience Premium Gangnam Head Spa</h3>
-        <p style="color: white; margin-bottom: 15px;">Visit <strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong> for authentic Korean head spa treatments!</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">Book Your Head Spa Now →</a>
+        <p style="color: white; margin-bottom: 15px;">Visit <strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong> for authentic Korean head spa treatments!</p>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">Book Your Head Spa Now →</a>
       </div>
 
       <h2>Gangnam Head Spa: The Ultimate Korean Scalp Treatment Experience</h2>
@@ -167,7 +167,7 @@
       </ul>
 
       <div class="tip-box" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; margin: 25px 0;">
-        <p style="margin: 0;"><strong>💡 Pro Tip:</strong> Book your Gangnam head spa at <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a> - Premium location near Gangnam Station, English-speaking staff, and exclusive packages for international visitors!</p>
+        <p style="margin: 0;"><strong>💡 Pro Tip:</strong> Book your Gangnam head spa at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a> - Premium location near Gangnam Station, English-speaking staff, and exclusive packages for international visitors!</p>
       </div>
 
       <h3>Price Guide: Gangnam Head Spa (2025)</h3>
@@ -321,7 +321,7 @@
 
       <div class="cta-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin: 40px 0;">
         <h3 style="color: white; margin-top: 0;">Experience Premium Gangnam Head Spa at kbeautyseoul.co.kr</h3>
-        <p>Ready to experience the best head spa treatment in Gangnam? Visit <strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong> for:</p>
+        <p>Ready to experience the best head spa treatment in Gangnam? Visit <strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong> for:</p>
         <ul style="margin-bottom: 20px;">
           <li>📅 <strong>Easy online booking</strong> - Reserve your preferred time slot in English</li>
           <li>💎 <strong>Premium facilities</strong> - State-of-the-art equipment in private rooms</li>
@@ -343,7 +343,7 @@
           <li>✨ Package discounts available</li>
         </ul>
 
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 Book Your Head Spa Experience Now!</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 Book Your Head Spa Experience Now!</a>
       </div>
 
       <h3>Frequently Asked Questions</h3>
@@ -374,12 +374,12 @@
       
       <p>Whether you're dealing with specific scalp concerns or simply want to experience ultimate relaxation Korean-style, Gangnam's head spas offer world-class treatments in luxurious settings. The combination of traditional Korean wellness wisdom and modern technology creates an experience you won't find anywhere else.</p>
 
-      <p><strong>Ready to discover why Korean head spa has become a global phenomenon?</strong> Book your treatment at <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #764ba2; font-weight: bold;">kbeautyseoul.co.kr</a> and experience the best Gangnam has to offer!</p>
+      <p><strong>Ready to discover why Korean head spa has become a global phenomenon?</strong> Book your treatment at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="color: #764ba2; font-weight: bold;">kbeautyseoul.co.kr</a> and experience the best Gangnam has to offer!</p>
 
       <div class="final-cta" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 20px; text-align: center; margin-top: 60px;">
         <h2 style="color: white; margin-top: 0;">✨ Your Perfect Head Spa Experience Awaits ✨</h2>
         <p style="font-size: 18px; margin-bottom: 25px;">Relax, rejuvenate, and revitalize in Gangnam</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Visit kbeautyseoul.co.kr Now →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Visit kbeautyseoul.co.kr Now →</a>
       </div>
     </div>
   `,

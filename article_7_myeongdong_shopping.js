@@ -109,7 +109,7 @@ export const article7 = {
       <div class="cta-box">
         <h3>🏨 Need a Break from Shopping?</h3>
         <p>Book a quick facial or head spa treatment in Myeongdong. Perfect way to rest your feet and refresh during your shopping marathon!</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Browse Myeongdong Spas →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Browse Myeongdong Spas →</a>
       </div>
 
       <h2>Top 10 Must-Visit Beauty Stores in Myeongdong</h2>
@@ -284,7 +284,7 @@ export const article7 = {
       <div class="cta-box">
         <h3>💆‍♀️ Shopping Break: Pamper Yourself!</h3>
         <p>Take a break from shopping with a relaxing Korean facial or body massage. Many spas in Myeongdong cater to tourists with English support and instant booking.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Book Spa Treatment →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Book Spa Treatment →</a>
       </div>
 
       <h2>Complete Tax Refund Guide for K-Beauty Shopping</h2>
@@ -458,7 +458,7 @@ export const article7 = {
       <div class="cta-box">
         <h3>🧖‍♀️ Use Your K-Beauty Products Right Away!</h3>
         <p>Book a Korean spa treatment and see how professionals use these products. Learn proper application techniques from experts.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Experience K-Beauty Spa →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Experience K-Beauty Spa →</a>
       </div>
 
       <h2>Money-Saving Tips: Shop Smart in Myeongdong</h2>
@@ -600,7 +600,7 @@ export const article7 = {
       <div class="cta-box">
         <h3>💆‍♀️ Complete Your Myeongdong Experience</h3>
         <p>After shopping, treat yourself to an authentic Korean spa treatment. From quick facials to luxury head spas, find the perfect way to relax in Myeongdong.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Browse Spa Packages →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Browse Spa Packages →</a>
       </div>
 
       <h2>Frequently Asked Questions (FAQ)</h2>
@@ -693,7 +693,7 @@ export const article7 = {
       <div class="cta-box">
         <h3>🧖‍♀️ Complete Your Seoul Beauty Experience</h3>
         <p>Now that you have all the products, experience authentic Korean beauty treatments at top-rated spas. Book with instant confirmation and English support.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Book Beauty Treatment →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Book Beauty Treatment →</a>
       </div>
 
       <p><em>Last Updated: January 2025 | All prices and information verified for accuracy</em></p>

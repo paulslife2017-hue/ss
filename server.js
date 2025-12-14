@@ -137,7 +137,7 @@ let services = [
     reviews: 234,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'massage'
@@ -155,7 +155,7 @@ let services = [
     reviews: 342,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'headspa'
@@ -173,7 +173,7 @@ let services = [
     reviews: 218,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'semipermanent'
@@ -189,7 +189,7 @@ let services = [
     reviews: 156,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'semipermanent'
@@ -207,7 +207,7 @@ let services = [
     reviews: 89,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -223,7 +223,7 @@ let services = [
     reviews: 267,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -239,7 +239,7 @@ let services = [
     reviews: 198,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -257,7 +257,7 @@ let services = [
     reviews: 567,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'massage'
@@ -273,7 +273,7 @@ let services = [
     reviews: 423,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/deep-tissue?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/deep-tissue?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'massage'
@@ -290,7 +290,7 @@ let services = [
     reviews: 312,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hot-stone?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hot-stone?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'massage'
@@ -307,7 +307,7 @@ let services = [
     reviews: 234,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/oxygen-facial?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/oxygen-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -324,7 +324,7 @@ let services = [
     reviews: 456,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/collagen-facial?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/collagen-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -340,7 +340,7 @@ let services = [
     reviews: 189,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1629397685936-3d6a9682ec63?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/led-therapy?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/led-therapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'facial'
@@ -358,7 +358,7 @@ let services = [
     reviews: 298,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1583001308194-8c68f0e11012?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyeliner?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyeliner?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'semipermanent'
@@ -374,7 +374,7 @@ let services = [
     reviews: 167,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1595475884562-073c30d45670?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hairline?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hairline?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'semipermanent'
@@ -392,7 +392,7 @@ let services = [
     reviews: 389,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=scalp-care&discount=SCALP10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'headspa'
@@ -408,7 +408,7 @@ let services = [
     reviews: 234,
     youtubeUrl: '',
     imageUrl: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
-    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025',
+    affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
     subcategory: 'headspa'
@@ -1444,7 +1444,7 @@ function generateHomePage(lang = 'en') {
           
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 32px;">
             <!-- Gangnam Head Spa -->
-            <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank"
+            <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank"
                style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
                       box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
               <div style="font-size: 40px; margin-bottom: 12px;">💆‍♀️</div>
@@ -1461,7 +1461,7 @@ function generateHomePage(lang = 'en') {
             </a>
             
             <!-- Lip Tattoo -->
-            <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank"
+            <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" target="_blank"
                style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
                       box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
               <div style="font-size: 40px; margin-bottom: 12px;">💋</div>
@@ -1478,7 +1478,7 @@ function generateHomePage(lang = 'en') {
             </a>
             
             <!-- BB Glow -->
-            <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank"
+            <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" target="_blank"
                style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
                       box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
               <div style="font-size: 40px; margin-bottom: 12px;">✨</div>
@@ -1495,7 +1495,7 @@ function generateHomePage(lang = 'en') {
             </a>
             
             <!-- Gangnam Massage -->
-            <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank"
+            <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank"
                style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
                       box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
               <div style="font-size: 40px; margin-bottom: 12px;">💆</div>
@@ -2382,7 +2382,7 @@ app.get('/track/:serviceId', (c) => {
     return c.redirect(service.affiliateUrl);
   }
   
-  return c.redirect('https://kbeautyseoul.co.kr');
+  return c.redirect('https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10');
 });
 
 app.get('/stats', (c) => {
@@ -2795,13 +2795,13 @@ app.get('/about', (c) => {
     <body>
       <div class="header">
         <h1>About K-Beauty Seoul Blog</h1>
-        <p>🏆 Official Information Blog of <strong><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D; text-decoration: none;">kbeautyseoul.co.kr</a></strong></p>
+        <p>🏆 Official Information Blog of <strong><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #FF6B9D; text-decoration: none;">kbeautyseoul.co.kr</a></strong></p>
         <p style="font-size: 16px; margin-top: 10px;">Your Trusted Guide to Authentic Korean Beauty Experiences</p>
       </div>
       
       <div class="container">
         <h2>🎯 Who We Are</h2>
-        <p><strong>We are the official information blog of <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></strong>, Korea's leading beauty booking platform trusted by thousands of international travelers.</p>
+        <p><strong>We are the official information blog of <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></strong>, Korea's leading beauty booking platform trusted by thousands of international travelers.</p>
         
         <p>Since 2020, we've helped visitors from over 50 countries experience the best of Korean beauty treatments through our comprehensive guides, honest reviews, and seamless booking system.</p>
 
@@ -2811,7 +2811,7 @@ app.get('/about', (c) => {
           <li>✅ <strong>Detailed treatment guides</strong> - Everything you need to know before booking</li>
           <li>✅ <strong>Real experience reviews</strong> - Honest feedback from actual customers</li>
           <li>✅ <strong>Price comparisons</strong> - Save 30-50% vs your home country</li>
-          <li>✅ <strong>Easy booking</strong> - Reserve in English through <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></li>
+          <li>✅ <strong>Easy booking</strong> - Reserve in English through <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></li>
         </ul>
 
         <h2>🌟 What We Do</h2>

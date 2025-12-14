@@ -50,7 +50,7 @@ const newArticles = [
 <p><strong>Location:</strong> 428 Gangnam-daero, 3F (2 min from Exit 10)</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ Book Online:</strong> Reserve at <a href="https://kbeautyseoul.co.kr/services/juno-head-spa" target="_blank">kbeautyseoul.co.kr</a> for 10% first-visit discount!
+  <strong>🎟️ Book Online:</strong> Reserve at <a href="https://kbeautyseoul.co.kr/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr</a> for 10% first-visit discount!
 </div>
 
 <h3>#2 Park Jun Beauty Lab</h3>
@@ -108,7 +108,7 @@ const newArticles = [
 
 <h2>How to Book Online</h2>
 <ol>
-  <li>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa" target="_blank">kbeautyseoul.co.kr/services/head-spa</a></li>
+  <li>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr/services/head-spa</a></li>
   <li>Choose your preferred spa</li>
   <li>Select date & time (book 3-7 days in advance)</li>
   <li>Choose treatment package</li>
@@ -137,7 +137,7 @@ const newArticles = [
 </div>
 
 <h2>Conclusion</h2>
-<p>Gangnam head spa treatments offer exceptional value, combining professional scalp care, relaxation therapy, and measurable health benefits. Book your experience at <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam" target="_blank">kbeautyseoul.co.kr</a> for verified listings, real-time availability, and 10-15% online discounts!</p>
+<p>Gangnam head spa treatments offer exceptional value, combining professional scalp care, relaxation therapy, and measurable health benefits. Book your experience at <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr</a> for verified listings, real-time availability, and 10-15% online discounts!</p>
       `,
       ko: `<h1>강남 헤드스파 완벽 가이드 2025</h1><p>강남 최고의 헤드스파 10곳 완벽 분석...</p>`,
       ja: `<h1>江南ヘッドスパ完全ガイド2025</h1><p>江南最高のヘッドスパ10選完全分析...</p>`
@@ -224,7 +224,7 @@ const newArticles = [
 <p><strong>専門分野:</strong> 脱毛治療、敏感頭皮ケア、アンチエイジング</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ 日本語で予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>から簡単予約。初回10%割引適用！
+  <strong>🎟️ 日本語で予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>から簡単予約。初回10%割引適用！
 </div>
 
 <h4>🏆 1位の理由</h4>
@@ -286,7 +286,7 @@ const newArticles = [
 <h2>予約方法（日本人向け）</h2>
 <h3>オンライン予約（日本語対応）⭐おすすめ</h3>
 <ol>
-  <li><a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank">kbeautyseoul.co.kr（日本語版）</a>にアクセス</li>
+  <li><a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語版）</a>にアクセス</li>
   <li>サロンを選ぶ（日本語対応可マークを確認）</li>
   <li>日時を選択（3-7日前の予約推奨）</li>
   <li>コースを選択</li>
@@ -315,7 +315,7 @@ const newArticles = [
 </div>
 
 <h2>まとめ</h2>
-<p>江南のヘッドスパは、プロフェッショナルな頭皮ケア、リラクゼーション、健康効果を兼ね備えた、コストパフォーマンス抜群の体験です。<a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank">kbeautyseoul.co.kr（日本語版）</a>で今すぐ予約して、初回10-15%割引をゲットしましょう！</p>
+<p>江南のヘッドスパは、プロフェッショナルな頭皮ケア、リラクゼーション、健康効果を兼ね備えた、コストパフォーマンス抜群の体験です。<a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語版）</a>で今すぐ予約して、初回10-15%割引をゲットしましょう！</p>
       `
     },
     excerpt: {

@@ -1320,7 +1320,7 @@ function generateHomePage(lang = 'en') {
       <meta property="og:title" content="K-Beauty Seoul | ${t.hero.title}">
       <meta property="og:description" content="${t.hero.subtitle}">
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://kbeautyseoul.co.kr">
+      <meta property="og:url" content="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15">
       <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80">
       
       <!-- Favicon -->
@@ -1609,7 +1609,7 @@ app.get('/track/:serviceId', (c) => {
   
   // Find the service
   let service = null;
-  let targetUrl = 'https://kbeautyseoul.co.kr';
+  let targetUrl = 'https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15';
   
   if (type === 'beauty') {
     service = beautyServices.find(s => s.id === serviceId);

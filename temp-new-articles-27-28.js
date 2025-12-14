@@ -43,7 +43,7 @@ export default {
 
         <div class="cta-box">
           <p><strong>Want to book your Gangnam head spa experience?</strong></p>
-          <p>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
+          <p>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
           for verified spa listings, real-time availability, and exclusive discounts for online bookings.</p>
         </div>
       </section>
@@ -175,7 +175,7 @@ export default {
 
             <p class="booking-info">
               <strong>📞 Booking:</strong> Reserve online at 
-              <a href="https://kbeautyseoul.co.kr/services/juno-head-spa" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
+              <a href="https://kbeautyseoul.co.kr/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
               for 10% discount on first visit.
             </p>
           </div>
@@ -348,7 +348,7 @@ export default {
         <div class="cta-box">
           <h3>🎟️ Compare All Prices & Book Online</h3>
           <p>
-            Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
+            Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
             to compare real-time availability, read verified reviews, and book your head spa treatment with instant confirmation.
           </p>
           <p><strong>First-time customers get 10-15% off!</strong></p>
@@ -461,7 +461,7 @@ export default {
           </p>
           <p>
             <strong>Always check reviews on</strong> 
-            <a href="https://kbeautyseoul.co.kr/reviews" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
+            <a href="https://kbeautyseoul.co.kr/reviews?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
             before booking to verify authenticity and fair pricing.
           </p>
         </div>
@@ -480,7 +480,7 @@ export default {
             <div class="step-content">
               <h4>Visit kbeautyseoul.co.kr</h4>
               <p>
-                Go to <a href="https://kbeautyseoul.co.kr/services/head-spa" target="_blank" rel="noopener">kbeautyseoul.co.kr/services/head-spa</a> 
+                Go to <a href="https://kbeautyseoul.co.kr/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr/services/head-spa</a> 
                 - the most trusted platform for Seoul beauty bookings.
               </p>
             </div>
@@ -544,7 +544,7 @@ export default {
         <h3>Method 2: Direct Phone Booking</h3>
         <p>
           If you prefer calling directly, most Gangnam spas have English-speaking staff. 
-          However, online booking through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
+          However, online booking through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> 
           is easier and often cheaper (10-15% discount).
         </p>
 
@@ -762,7 +762,7 @@ export default {
           <h4>Q: Do they speak English in Gangnam spas?</h4>
           <p>
             <strong>A:</strong> Most top-rated Gangnam spas have English-speaking staff, especially those listed on 
-            <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>. 
+            <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>. 
             Japanese and Chinese services are also common.
           </p>
         </div>
@@ -830,7 +830,7 @@ export default {
         <div class="final-cta">
           <h3>🎟️ Ready to Book Your Gangnam Head Spa?</h3>
           <p>
-            Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam" target="_blank" rel="noopener" class="cta-link">kbeautyseoul.co.kr/services/head-spa-gangnam</a> 
+            Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="cta-link">kbeautyseoul.co.kr/services/head-spa-gangnam</a> 
             now to:
           </p>
           <ul>
@@ -840,7 +840,7 @@ export default {
             <li>✨ Save 10-15% vs walk-in prices</li>
             <li>✨ Access exclusive first-timer discounts</li>
           </ul>
-          <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam" target="_blank" rel="noopener" class="btn-primary">
+          <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="btn-primary">
             Book Your Head Spa Now →
           </a>
         </div>
@@ -925,7 +925,7 @@ export default {
         <div class="cta-box">
           <p><strong>🎟️ 江南ヘッドスパをオンライン予約したい方へ</strong></p>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             なら、日本語対応・即時予約確定・初回10-15%割引でご予約いただけます。
           </p>
         </div>
@@ -1129,7 +1129,7 @@ export default {
               <h4>🇯🇵 日本人向け情報</h4>
               <p>
                 <strong>予約方法</strong>：
-                <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa" target="_blank" rel="noopener">
+                <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
                   kbeautyseoul.co.kr（日本語サイト）
                 </a>
                 から簡単予約。初回10%割引適用。
@@ -1274,7 +1274,7 @@ export default {
         <div class="cta-box">
           <h3>🎟️ 全サロン料金比較・オンライン予約</h3>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener">
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
               kbeautyseoul.co.kr（日本語版）
             </a>
             で、リアルタイム空き状況確認、口コミ閲覧、即時予約が可能です。
@@ -1392,7 +1392,7 @@ export default {
           </p>
           <p>
             予約前に必ず
-            <a href="https://kbeautyseoul.co.kr/jp/reviews" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp/reviews?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             で口コミをチェックしましょう。
           </p>
         </div>
@@ -1411,7 +1411,7 @@ export default {
             <div class="step-content">
               <h4>kbeautyseoul.co.kr（日本語版）にアクセス</h4>
               <p>
-                <a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank" rel="noopener">
+                <a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
                   kbeautyseoul.co.kr/jp/services/head-spa
                 </a>
                 にアクセス。日本語で簡単予約が可能です。
@@ -1709,7 +1709,7 @@ export default {
           <h4>Q: 日本語は通じますか？</h4>
           <p>
             <strong>A:</strong> 評価の高い江南のサロン、特に
-            <a href="https://kbeautyseoul.co.kr/jp" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             に掲載されているサロンは、日本語スタッフまたは日本語メニューがあります。
             中国語対応も一般的です。
           </p>
@@ -1779,7 +1779,7 @@ export default {
         <div class="final-cta">
           <h3>🎟️ 今すぐ江南ヘッドスパを予約しよう</h3>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener" class="cta-link">
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="cta-link">
               kbeautyseoul.co.kr/jp/services/head-spa-gangnam
             </a>
             で以下のメリットを：
@@ -1791,7 +1791,7 @@ export default {
             <li>✨ 飛び込みより10-15%お得</li>
             <li>✨ 初回限定割引あり</li>
           </ul>
-          <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener" class="btn-primary">
+          <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="btn-primary">
             今すぐ予約する →
           </a>
         </div>

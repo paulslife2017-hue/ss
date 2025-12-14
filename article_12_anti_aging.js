@@ -42,7 +42,7 @@ module.exports = {
 
 <p><strong>Downtime:</strong> None. Mild redness for 2-4 hours.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Thermage FLX Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Thermage FLX Treatment</strong></a></p>
 
 <h3>2. Ultherapy (울쎄라)</h3>
 <p><strong>What It Is:</strong> Ultrasound skin lifting<br>
@@ -79,7 +79,7 @@ module.exports = {
 <li><strong>Gentle YAG:</strong> Vascular issues, redness (₩180,000-300,000)</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Laser Treatment Package</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Laser Treatment Package</strong></a></p>
 
 <h3>4. Botox & Dysport</h3>
 <p><strong>What It Is:</strong> Injectable neurotoxin for wrinkle reduction<br>
@@ -127,7 +127,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Customized Anti-Aging Plan</h3>
 <p>Get expert consultation from Seoul's top dermatologists. Personalized treatment plan combining multiple procedures for optimal results.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Consultation →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Consultation →</a>
 </div>
 
 <h3>6. Thread Lift (실리프팅)</h3>
@@ -163,7 +163,7 @@ module.exports = {
 
 <p><strong>Recommended:</strong> 2-3 sessions, 4 weeks apart, then maintenance every 6 months.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Skin Booster Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Skin Booster Treatment</strong></a></p>
 
 <h3>8. PRP (Platelet-Rich Plasma) / Vampire Facial</h3>
 <p><strong>What It Is:</strong> Your own blood platelets for skin rejuvenation<br>
@@ -216,7 +216,7 @@ module.exports = {
 <li>Glass Skin Total Care: ₩800,000</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Banobagi Consultation</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Banobagi Consultation</strong></a></p>
 
 <h3>2. Oracle Dermatology Clinic</h3>
 <p><strong>Location:</strong> Apgujeong<br>
@@ -240,7 +240,7 @@ module.exports = {
 <strong>Specialty:</strong> Luxury treatments, spa ambiance<br>
 <strong>Famous For:</strong> VIP experience, comprehensive packages</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Luxury Anti-Aging Package</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Luxury Anti-Aging Package</strong></a></p>
 
 <h3>5. ID Hospital Skin Clinic</h3>
 <p><strong>Location:</strong> Gangnam<br>
@@ -306,7 +306,7 @@ module.exports = {
 <div class="cta-box">
 <h3>💎 Exclusive Package Deals</h3>
 <p>Get the best prices on comprehensive anti-aging packages. Compare clinics and find seasonal promotions.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">View Current Promotions →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">View Current Promotions →</a>
 </div>
 
 <h2>🎯 Choosing the Right Treatment for Your Age</h2>
@@ -421,7 +421,7 @@ module.exports = {
 
 <div class="info-box">
 <h3>🏥 Choosing a Safe Clinic</h3>
-<p>Only book at licensed medical facilities with board-certified doctors. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Verified clinic bookings</a> ensure you receive authentic products and qualified medical professionals.</p>
+<p>Only book at licensed medical facilities with board-certified doctors. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Verified clinic bookings</a> ensure you receive authentic products and qualified medical professionals.</p>
 </div>
 
 <h2>❓ Frequently Asked Questions</h2>
@@ -430,7 +430,7 @@ module.exports = {
 <p>A: Yes, when performed by licensed professionals at reputable clinics. Korea has strict medical regulations and high standards. Always verify doctor credentials and clinic licenses.</p>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p>A: Not at international clinics. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book through platforms</a> offering English support and translation services at major Gangnam clinics.</p>
+<p>A: Not at international clinics. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Book through platforms</a> offering English support and translation services at major Gangnam clinics.</p>
 
 <h3>Q: How much should I budget for anti-aging treatments?</h3>
 <p>A: Depends on age and goals. Budget ₩2,000,000-5,000,000 annually for preventive care (20s-30s), ₩5,000,000-15,000,000 for active treatment (40s-50s).</p>
@@ -479,7 +479,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Start Your Anti-Aging Journey</h3>
 <p>Book consultation with Seoul's top anti-aging specialists. Get personalized treatment plan and exclusive package pricing.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Free Consultation →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Free Consultation →</a>
 </div>
 
 <h2>📝 Final Thoughts</h2>
@@ -490,7 +490,7 @@ module.exports = {
 
 <p>Investment in anti-aging treatments is an investment in confidence and self-care. While costs can be significant (₩3,000,000-15,000,000 annually for comprehensive care), the results—looking 5-10 years younger with natural, healthy skin—make it worthwhile for many.</p>
 
-<p>Ready to experience Korean anti-aging excellence? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book your consultation with Seoul's top anti-aging specialists</strong></a> and discover why people worldwide trust Korean expertise for age-defying results!</p>
+<p>Ready to experience Korean anti-aging excellence? <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>Book your consultation with Seoul's top anti-aging specialists</strong></a> and discover why people worldwide trust Korean expertise for age-defying results!</p>
   `,
   metaDescription: "Complete guide to Korean anti-aging treatments Seoul 2025. Thermage, Ulthera, Botox, fillers, laser treatments. Prices (₩150,000-3,000,000), best Gangnam clinics, expert advice.",
   keywords: "korean anti aging treatment, seoul dermatology, thermage korea, ultherapy seoul, botox korea, dermal fillers seoul, laser treatment korea, anti aging clinic gangnam, korean skin tightening",

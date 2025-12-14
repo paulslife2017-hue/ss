@@ -17,7 +17,7 @@ export const article24 = {
 <h1>韓国美容ツアー完全ガイド2025（日本人観光客向け）</h1>
 
 <div class="alert-info">
-  <strong>🎯 2025年最新情報:</strong> 日本から最も近い美容大国・韓国！ボトックス・フィラーが日本の40-60%OFF。日本語サポート完備の<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>で安心予約！
+  <strong>🎯 2025年最新情報:</strong> 日本から最も近い美容大国・韓国！ボトックス・フィラーが日本の40-60%OFF。日本語サポート完備の<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a>で安心予約！
 </div>
 
 <h2>なぜ日本人が韓国美容ツアーを選ぶのか？</h2>
@@ -64,70 +64,70 @@ export const article24 = {
     <td>₩150,000（¥15,750）</td>
     <td>¥40,000-60,000</td>
     <td><strong>¥24,250節約（60%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/botox?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/botox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>ヒアルロン酸注入（1cc）</strong></td>
     <td>₩400,000（¥42,000）</td>
     <td>¥70,000-100,000</td>
     <td><strong>¥28,000節約（40%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/filler?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/filler?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>レーザートーニング</strong></td>
     <td>₩250,000（¥26,250）</td>
     <td>¥50,000-80,000</td>
     <td><strong>¥23,750節約（47%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/laser?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/laser?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>二重まぶた整形</strong></td>
     <td>₩2,500,000（¥262,500）</td>
     <td>¥400,000-600,000</td>
     <td><strong>¥137,500節約（34%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/double-eyelid?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/double-eyelid?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>鼻整形</strong></td>
     <td>₩5,000,000（¥525,000）</td>
     <td>¥800,000-1,200,000</td>
     <td><strong>¥275,000節約（34%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/rhinoplasty?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/rhinoplasty?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>ヘッドスパ（90分）</strong></td>
     <td>₩120,000（¥12,600）</td>
     <td>¥15,000-25,000</td>
     <td><strong>¥2,400節約（16%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15">予約</a></td>
   </tr>
   <tr>
     <td><strong>リップタトゥー</strong></td>
     <td>₩500,000（¥52,500）</td>
     <td>¥80,000-120,000</td>
     <td><strong>¥27,500節約（34%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>眉毛タトゥー</strong></td>
     <td>₩450,000（¥47,250）</td>
     <td>¥70,000-100,000</td>
     <td><strong>¥22,750節約（32%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/eyebrow-tattoo?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/eyebrow-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>BBグロウ（美白注入）</strong></td>
     <td>₩250,000（¥26,250）</td>
     <td>¥50,000-70,000</td>
     <td><strong>¥23,750節約（47%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10">予約</a></td>
   </tr>
   <tr>
     <td><strong>ウルセラ（全顔）</strong></td>
     <td>₩1,800,000（¥189,000）</td>
     <td>¥350,000-500,000</td>
     <td><strong>¥161,000節約（46%OFF）</strong></td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/ultherapy?ref=KBSEOUL2025">予約</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/ultherapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">予約</a></td>
   </tr>
 </table>
 
@@ -263,7 +263,7 @@ export const article24 = {
 <h3>ステップ1: kbeautyseoul.co.krで無料相談 📝</h3>
 
 <ol>
-  <li><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>にアクセス</li>
+  <li><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a>にアクセス</li>
   <li>「日本語サポート」を選択</li>
   <li>希望施術を選ぶ（例: ボトックス、二重整形）</li>
   <li>簡単なフォーム入力:
@@ -420,7 +420,7 @@ export const article24 = {
 <div class="cta-box">
   <h3>🇰🇷 今すぐ無料カウンセリング予約！</h3>
   <p><strong>日本語完全対応・透明料金・政府認定クリニックのみ</strong></p>
-  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" class="cta-button">無料相談を始める（日本語）</a></p>
+  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="cta-button">無料相談を始める（日本語）</a></p>
   <p>✅ 150+提携クリニック | ✅ 24時間日本語サポート | ✅ 失敗時無料再手術保証 | ✅ 返金保証</p>
 </div>
 
@@ -429,10 +429,10 @@ export const article24 = {
   <li>📖 <a href="/blog/korean-skincare-routine-complete-guide-2025">韓国スキンケアルーティン完全ガイド</a></li>
   <li>🏢 <a href="/blog/seoul-beauty-clinics-comprehensive-guide-2025">ソウル美容クリニック完全ガイド</a></li>
   <li>💄 <a href="/blog/seoul-lip-tattoo-guide-2025">ソウルリップタトゥーガイド</a></li>
-  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025">全サービス一覧</a></li>
+  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10">全サービス一覧</a></li>
 </ul>
 
-<p>질문이 있으시면 언제든지 <a href="https://kbeautyseoul.co.kr/contact?ref=KBSEOUL2025">お問い合わせください</a>！💕</p>
+<p>질문이 있으시면 언제든지 <a href="https://kbeautyseoul.co.kr/contact?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">お問い合わせください</a>！💕</p>
     `
   },
   excerpt: {

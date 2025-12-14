@@ -10,8 +10,8 @@
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 プレミアム江南ヘッドスパ体験</h3>
-        <p style="color: white; margin-bottom: 15px;"><strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>で本格的な韓国ヘッドスパトリートメントをご体験ください！</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">今すぐヘッドスパを予約 →</a>
+        <p style="color: white; margin-bottom: 15px;"><strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>で本格的な韓国ヘッドスパトリートメントをご体験ください！</p>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">今すぐヘッドスパを予約 →</a>
       </div>
 
       <h2>江南ヘッドスパ：究極の韓国頭皮トリートメント体験</h2>
@@ -167,7 +167,7 @@
       </ul>
 
       <div class="tip-box" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; margin: 25px 0;">
-        <p style="margin: 0;"><strong>💡 プロのヒント：</strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a>で江南ヘッドスパを予約 - 江南駅近くのプレミアムロケーション、日本語対応スタッフ、国際訪問者向けの限定パッケージ！</p>
+        <p style="margin: 0;"><strong>💡 プロのヒント：</strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a>で江南ヘッドスパを予約 - 江南駅近くのプレミアムロケーション、日本語対応スタッフ、国際訪問者向けの限定パッケージ！</p>
       </div>
 
       <h3>価格ガイド：江南ヘッドスパ（2025年）</h3>
@@ -236,7 +236,7 @@
 
       <div class="cta-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin: 40px 0;">
         <h3 style="color: white; margin-top: 0;">kbeautyseoul.co.krでプレミアム江南ヘッドスパを体験</h3>
-        <p>江南で最高のヘッドスパトリートメントを体験する準備はできましたか？<strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>にアクセスして：</p>
+        <p>江南で最高のヘッドスパトリートメントを体験する準備はできましたか？<strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>にアクセスして：</p>
         <ul style="margin-bottom: 20px;">
           <li>📅 <strong>簡単なオンライン予約</strong> - 日本語で希望の時間帯を予約</li>
           <li>💎 <strong>プレミアム施設</strong> - プライベートルームの最先端設備</li>
@@ -258,7 +258,7 @@
           <li>✨ パッケージ割引利用可能</li>
         </ul>
 
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 今すぐヘッドスパ体験を予約！</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 今すぐヘッドスパ体験を予約！</a>
       </div>
 
       <h3>最終的な考え</h3>
@@ -266,12 +266,12 @@
       
       <p>特定の頭皮の懸念に対処しているか、単に韓国スタイルの究極のリラクゼーションを体験したいかにかかわらず、江南のヘッドスパは豪華な環境で世界クラスのトリートメントを提供します。伝統的な韓国のウェルネスの知恵と現代技術の組み合わせは、他では見つからない体験を作り出します。</p>
 
-      <p><strong>韓国ヘッドスパが世界的な現象になった理由を発見する準備はできましたか？</strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #764ba2; font-weight: bold;">kbeautyseoul.co.kr</a>でトリートメントを予約し、江南が提供する最高のものを体験してください！</p>
+      <p><strong>韓国ヘッドスパが世界的な現象になった理由を発見する準備はできましたか？</strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #764ba2; font-weight: bold;">kbeautyseoul.co.kr</a>でトリートメントを予約し、江南が提供する最高のものを体験してください！</p>
 
       <div class="final-cta" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 20px; text-align: center; margin-top: 60px;">
         <h2 style="color: white; margin-top: 0;">✨ 完璧なヘッドスパ体験があなたを待っています ✨</h2>
         <p style="font-size: 18px; margin-bottom: 25px;">江南でリラックス、リジュビネーション、リバイタリゼーション</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">kbeautyseoul.co.krを今すぐ訪問 →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">kbeautyseoul.co.krを今すぐ訪問 →</a>
       </div>
     </div>
   `,

@@ -15,7 +15,7 @@ export const article22 = {
 <h1>Korean Skincare Routine: Complete 10-Step Guide 2025</h1>
 
 <div class="alert-info">
-  <strong>🎯 Updated for 2025:</strong> Latest K-Beauty trends, product recommendations, and order. Book professional <a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025">Korean Facial Treatment</a> (₩150,000) to learn from experts!
+  <strong>🎯 Updated for 2025:</strong> Latest K-Beauty trends, product recommendations, and order. Book professional <a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Korean Facial Treatment</a> (₩150,000) to learn from experts!
 </div>
 
 <h2>Why Korean Skincare Works: The Science</h2>
@@ -394,7 +394,7 @@ export const article22 = {
 <p><strong>Top Seoul Skincare Experiences:</strong></p>
 
 <ol>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025">Korean Facial Treatment</a></strong> (₩150,000)
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Korean Facial Treatment</a></strong> (₩150,000)
     <ul>
       <li>Duration: 90-120 minutes</li>
       <li>What's Included: Deep cleanse, extractions, custom mask, massage, LED therapy</li>
@@ -402,7 +402,7 @@ export const article22 = {
       <li>Learn: Personalized routine recommendations from estheticians</li>
     </ul>
   </li>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/laser-facial?ref=KBSEOUL2025">Laser Facial</a></strong> (₩250,000)
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/laser-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Laser Facial</a></strong> (₩250,000)
     <ul>
       <li>For: Acne scars, pigmentation, wrinkles</li>
       <li>Technology: CO2 fractional or IPL</li>
@@ -411,7 +411,7 @@ export const article22 = {
   <li><strong>K-Beauty Shopping Tour</strong>
     <ul>
       <li>Visit: Myeongdong, Olive Young flagship, Aritaum</li>
-      <li>Book guide: <a href="https://kbeautyseoul.co.kr/booking/beauty-tour?ref=KBSEOUL2025">Beauty Shopping Tour</a></li>
+      <li>Book guide: <a href="https://kbeautyseoul.co.kr/booking/beauty-tour?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Beauty Shopping Tour</a></li>
     </ul>
   </li>
 </ol>
@@ -473,7 +473,7 @@ export const article22 = {
 <div class="cta-box">
   <h3>🇰🇷 Ready to Experience Korean Skincare in Seoul?</h3>
   <p><strong>Book a professional facial and learn from experts:</strong></p>
-  <p><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025" class="cta-button">Book Korean Facial (₩150,000)</a></p>
+  <p><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">Book Korean Facial (₩150,000)</a></p>
   <p>✅ English Support | ✅ Personalized Routine | ✅ Professional Extractions | ✅ 90min Treatment</p>
 </div>
 
@@ -481,11 +481,11 @@ export const article22 = {
 
 <ul>
   <li>📖 Read: <a href="/blog/best-korean-skincare-products-2025">Top 20 Korean Skincare Products 2025</a></li>
-  <li>🏢 Book: <a href="https://kbeautyseoul.co.kr/booking/skin-consultation?ref=KBSEOUL2025">Seoul Skin Consultation</a> (₩50,000)</li>
-  <li>🛍️ Shop: <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025">All Seoul Beauty Services</a></li>
+  <li>🏢 Book: <a href="https://kbeautyseoul.co.kr/booking/skin-consultation?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=skincare&discount=FIRST10">Seoul Skin Consultation</a> (₩50,000)</li>
+  <li>🛍️ Shop: <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">All Seoul Beauty Services</a></li>
 </ul>
 
-<p>Questions? Leave a comment below or <a href="https://kbeautyseoul.co.kr/contact?ref=KBSEOUL2025">contact our beauty experts</a>! 💕</p>
+<p>Questions? Leave a comment below or <a href="https://kbeautyseoul.co.kr/contact?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">contact our beauty experts</a>! 💕</p>
     `,
     ko: `<h1>한국식 스킨케어 루틴: 완벽한 10단계 가이드 2025</h1><p>10단계 한국식 스킨케어 완벽 가이드...</p>`,
     ja: `<h1>韓国スキンケアルーティン：完璧な10ステップガイド2025</h1><p>10ステップ韓国スキンケア完璧ガイド...</p>`

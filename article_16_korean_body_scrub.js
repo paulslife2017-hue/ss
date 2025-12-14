@@ -48,7 +48,7 @@ module.exports = {
       <li>Milk scrub treatment: ₩40,000</li>
       <li>Honey scrub package: ₩50,000</li>
     </ul>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book Dragon Hill Spa body scrub →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book Dragon Hill Spa body scrub →</a></p>
 
     <h3>2. Siloam Sauna (신촌 실로암 사우나)</h3>
     <p><strong>Location:</strong> Sinchon, Seoul<br>
@@ -57,7 +57,7 @@ module.exports = {
     <strong>Why Visit:</strong> Famous for gentle yet thorough scrubbing technique, popular with locals, affordable prices.</p>
     
     <p><strong>Specialty:</strong> Known for their "soft-hand" technique that's less aggressive but equally effective. Great for sensitive skin or first-timers.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Reserve Siloam Sauna scrub service →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Reserve Siloam Sauna scrub service →</a></p>
 
     <h3>3. Sparex (스파렉스)</h3>
     <p><strong>Location:</strong> Multiple locations (Gangnam, Dongdaemun)<br>
@@ -71,14 +71,14 @@ module.exports = {
       <li>Scrub + facial: ₩38,000</li>
       <li>Premium package (scrub + massage + facial): ₩55,000</li>
     </ul>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book Sparex body scrub online →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book Sparex body scrub online →</a></p>
 
     <h3>4. Itaewon Land (이태원랜드)</h3>
     <p><strong>Location:</strong> Itaewon, Seoul<br>
     <strong>Price:</strong> ₩27,000-40,000<br>
     <strong>Hours:</strong> 5 AM - Midnight<br>
     <strong>Why Visit:</strong> International-friendly atmosphere, English-speaking scrubbers, located in tourist-friendly Itaewon area.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Schedule Itaewon Land scrub →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Schedule Itaewon Land scrub →</a></p>
 
     <h3>5. Premier Jjimjilbang (프리미어 찜질방)</h3>
     <p><strong>Location:</strong> Gangnam, Seoul<br>
@@ -87,42 +87,42 @@ module.exports = {
     <strong>Why Visit:</strong> Luxury jjimjilbang with premium scrub services, high-end facilities, and professional attendants.</p>
     
     <p><strong>Premium Services:</strong> Uses organic scrub products, includes aromatherapy, private scrub rooms available.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book premium body scrub →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book premium body scrub →</a></p>
 
     <h3>6. Hangang Jjimjilbang (한강 찜질방)</h3>
     <p><strong>Location:</strong> Mapo, Seoul<br>
     <strong>Price:</strong> ₩23,000-38,000<br>
     <strong>Hours:</strong> 24 hours<br>
     <strong>Why Visit:</strong> Traditional local jjimjilbang with authentic atmosphere, experienced scrubbers, budget-friendly prices.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Find Hangang Jjimjilbang services →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Find Hangang Jjimjilbang services →</a></p>
 
     <h3>7. Rainbow Sauna (레인보우 사우나)</h3>
     <p><strong>Location:</strong> Hongdae, Seoul<br>
     <strong>Price:</strong> ₩25,000-40,000<br>
     <strong>Hours:</strong> 24 hours<br>
     <strong>Why Visit:</strong> Popular with younger crowds, modern facilities, skilled scrubbers trained in latest techniques.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Reserve Rainbow Sauna scrub →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Reserve Rainbow Sauna scrub →</a></p>
 
     <h3>8. Seoul Spa (서울스파)</h3>
     <p><strong>Location:</strong> Myeongdong, Seoul<br>
     <strong>Price:</strong> ₩30,000-45,000<br>
     <strong>Hours:</strong> 6 AM - Midnight<br>
     <strong>Why Visit:</strong> Centrally located near shopping areas, tourist-friendly, clean modern facilities.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book Seoul Spa treatment →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book Seoul Spa treatment →</a></p>
 
     <h3>9. Oedo Sauna (외도 사우나)</h3>
     <p><strong>Location:</strong> Gangnam, Seoul<br>
     <strong>Price:</strong> ₩28,000-42,000<br>
     <strong>Hours:</strong> 24 hours<br>
     <strong>Why Visit:</strong> Spacious facilities, multiple scrub options, includes various spa amenities.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Check Oedo Sauna availability →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Check Oedo Sauna availability →</a></p>
 
     <h3>10. Busan Jjimjilbang Seoul Branch (부산 찜질방 서울점)</h3>
     <p><strong>Location:</strong> Yeouido, Seoul<br>
     <strong>Price:</strong> ₩24,000-38,000<br>
     <strong>Hours:</strong> 24 hours<br>
     <strong>Why Visit:</strong> Authentic Busan-style scrubbing technique, strong and thorough, popular with those who want intensive exfoliation.</p>
-    <p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Experience Busan-style scrub →</a></p>
+    <p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Experience Busan-style scrub →</a></p>
 
     <h2>What to Expect During Your Korean Body Scrub</h2>
 
@@ -343,7 +343,7 @@ module.exports = {
     <div class="cta-box">
       <h3>Ready to Experience Korean Body Scrub?</h3>
       <p>Book your authentic Korean body scrub experience at Seoul's best jjimjilbang today!</p>
-      <a href="https://kbeautyseoul.co.kr" class="cta-button" target="_blank" rel="noopener">Book Korean Body Scrub Now →</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" class="cta-button" target="_blank" rel="noopener">Book Korean Body Scrub Now →</a>
     </div>
   `,
   metaDescription: 'Ultimate guide to Korean body scrub (세신) in Seoul 2025. Top 10 jjimjilbang, prices (₩20,000-50,000), techniques, tips & what to expect from this traditional Korean spa treatment.',

@@ -63,7 +63,7 @@ module.exports = {
 
 <p><strong>Why It's Great:</strong> Most popular foot massage chain in Seoul. Clean facilities, professional therapists, excellent for tourists. English menu available.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Herb Therapy Session</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Herb Therapy Session</strong></a></p>
 
 <h3>2. Foot Paradise (풋 파라다이스)</h3>
 <p><strong>Location:</strong> Myeongdong<br>
@@ -113,7 +113,7 @@ module.exports = {
 
 <p><strong>Unique:</strong> Combines Thai stretching with Korean pressure point technique.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Reserve Gangnam Foot Spa</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Reserve Gangnam Foot Spa</strong></a></p>
 
 <h3>5. Dragon Hill Spa Foot Reflexology</h3>
 <p><strong>Location:</strong> Yongsan<br>
@@ -176,12 +176,12 @@ module.exports = {
 
 <p><strong>Note:</strong> Basic facilities, strong authentic technique, local clientele.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Find Foot Massage Near You</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Find Foot Massage Near You</strong></a></p>
 
 <div class="cta-box">
 <h3>👣 Book Your Foot Massage</h3>
 <p>Reserve foot reflexology sessions at Seoul's best-rated spas. Instant confirmation and English support available.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Foot Reflexology →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Foot Reflexology →</a>
 </div>
 
 <h2>💰 Pricing Guide 2025</h2>
@@ -354,7 +354,7 @@ module.exports = {
 <p>A: Can be intense! Korean reflexology uses deep pressure. Communicate if it's too strong. Some discomfort at tension points is normal and beneficial.</p>
 
 <h3>Q: Do I need to book in advance?</h3>
-<p>A: Walk-ins usually accepted, but booking recommended for weekends/evenings. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Reserve online</a> for guaranteed availability.</p>
+<p>A: Walk-ins usually accepted, but booking recommended for weekends/evenings. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Reserve online</a> for guaranteed availability.</p>
 
 <h3>Q: What should I wear?</h3>
 <p>A: Comfortable clothes. Some spas provide uniforms. You'll remove shoes and socks. Long pants recommended (therapist accesses lower legs).</p>
@@ -382,7 +382,7 @@ module.exports = {
 
 <p>Don't leave Seoul without experiencing authentic Korean foot reflexology. Your feet—and your whole body—will thank you!</p>
 
-<p>Ready to treat your tired feet? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book your Korean foot massage session</strong></a> and experience the therapeutic power of authentic reflexology!</p>
+<p>Ready to treat your tired feet? <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>Book your Korean foot massage session</strong></a> and experience the therapeutic power of authentic reflexology!</p>
   `,
   metaDescription: "Complete guide to Korean foot massage & reflexology in Seoul 2025. Best locations, prices (₩30,000-120,000), techniques, health benefits in Gangnam, Myeongdong & more.",
   keywords: "korean foot massage, foot reflexology seoul, foot spa korea, foot massage gangnam, reflexology myeongdong, korean foot spa, foot massage prices seoul, best foot massage seoul",

@@ -105,7 +105,7 @@ export const article8 = {
         <li><strong>English Support:</strong> Yes, several English-speaking barbers</li>
         <li><strong>Booking:</strong> Walk-ins okay weekdays, reservations recommended weekends</li>
       </ul>
-      <p><strong>Book online:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow">Reserve your spot</a></p>
+      <p><strong>Book online:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow">Reserve your spot</a></p>
 
       <h4>2. Vaunce Barbershop (본스 바버샵)</h4>
       <p><strong>Location:</strong> Sinsa-dong, near Garosu-gil</p>
@@ -155,7 +155,7 @@ export const article8 = {
         <li><strong>Popular With:</strong> International residents, military, tourists</li>
         <li><strong>Why Visit:</strong> Understands non-Asian hair textures</li>
       </ul>
-      <p><strong>Book here:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow">Instant confirmation</a></p>
+      <p><strong>Book here:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow">Instant confirmation</a></p>
 
       <h4>5. Barber Post (바버포스트)</h4>
       <p><strong>Location:</strong> Near Itaewon Station Exit 1</p>
@@ -201,7 +201,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>✂️ Book Your Men's Haircut in Seoul</h3>
         <p>Browse barbershops by area, style, and price range. Read verified reviews and book with instant confirmation. English support available.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Find Your Barber →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Find Your Barber →</a>
       </div>
 
       <h2>Men's Skincare & Facial Treatments</h2>
@@ -284,7 +284,7 @@ export const article8 = {
         <li><strong>Atmosphere:</strong> Dark wood, leather, masculine luxury</li>
         <li><strong>Perks:</strong> Complimentary drinks, private rooms, shower facilities</li>
       </ul>
-      <p><strong>Reserve treatment:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow">Book now</a></p>
+      <p><strong>Reserve treatment:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow">Book now</a></p>
 
       <h4>Clear Skin Men's Clinic (클리어스킨 남성클리닉)</h4>
       <p><strong>Location:</strong> Myeongdong, near Lotte Department Store</p>
@@ -304,7 +304,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>🧔 Experience Korean Men's Skincare</h3>
         <p>Try professional men's facial treatments designed specifically for male skin. English-speaking clinics available with instant booking confirmation.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Browse Men's Treatments →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Browse Men's Treatments →</a>
       </div>
 
       <h2>Korean Men's Skincare Routine (Step-by-Step)</h2>
@@ -430,7 +430,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>🧴 Complete Your Korean Skincare Routine</h3>
         <p>Pair your new products with professional facial treatment. Learn proper application techniques from Korean skincare experts.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Book Skincare Consultation →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Book Skincare Consultation →</a>
       </div>
 
       <h2>Complete Pricing Guide for Men's Grooming</h2>
@@ -555,7 +555,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>💈 Book Complete Grooming Package</h3>
         <p>Save money with bundled services. Browse package deals from top-rated men's salons with verified reviews and instant confirmation.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">View Package Deals →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">View Package Deals →</a>
       </div>
 
       <h2>Korean Barbershop Etiquette & Tips</h2>
@@ -696,7 +696,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>💉 Explore Advanced Grooming Treatments</h3>
         <p>Consult with experienced practitioners at men's clinics. Free consultations available at most clinics. English-speaking doctors available.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Book Consultation →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Book Consultation →</a>
       </div>
 
       <h2>Korean Men's Grooming for Different Ages</h2>
@@ -833,7 +833,7 @@ export const article8 = {
       <div class="cta-box">
         <h3>🧔 Start Your Men's Grooming Journey</h3>
         <p>Book your first Korean grooming experience today. Browse barbershops, men's spas, and skincare clinics with verified reviews and instant confirmation. English support available.</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" rel="nofollow" class="cta-button">Explore Men's Services →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="nofollow" class="cta-button">Explore Men's Services →</a>
       </div>
 
       <p><em>Last Updated: January 2025 | All prices and information verified for accuracy</em></p>

@@ -337,7 +337,7 @@ app.get('/', (c) => {
                 <a href="/">Home</a>
                 <a href="/shop">Shop</a>
                 <a href="https://www.seoulzen.com">Blog</a>
-                <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
+                <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
             </div>
             <div class="nav-actions">
                 <!-- Cart hidden for affiliate model -->
@@ -571,7 +571,7 @@ app.get('/shop', (c) => {
                 <a href="/">Home</a>
                 <a href="/shop">Shop</a>
                 <a href="https://www.seoulzen.com">Blog</a>
-                <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
+                <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #FF6B9D; font-weight: 700;">🌸 K-Beauty Seoul</a>
             </div>
             <div class="nav-actions">
                 <!-- Cart hidden for affiliate model -->

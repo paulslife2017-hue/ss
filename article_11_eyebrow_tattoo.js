@@ -90,7 +90,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Get Perfect Korean Eyebrows</h3>
 <p>Book your eyebrow tattoo consultation with Seoul's top-rated artists. Expert technique analysis and personalized recommendations.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Eyebrow Consultation →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Eyebrow Consultation →</a>
 </div>
 
 <h2>🏆 Best Eyebrow Tattoo Clinics in Seoul 2025</h2>
@@ -120,7 +120,7 @@ module.exports = {
 <li>Men's Natural Brows: ₩500,000</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book at Brow King Seoul</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book at Brow King Seoul</strong></a></p>
 
 <h3>2. Ritz Beauty Lab</h3>
 <p><strong>Location:</strong> Apgujeong Rodeo<br>
@@ -137,7 +137,7 @@ module.exports = {
 <li>Touch-up session: ₩150,000</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Reserve Microblading Session</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Reserve Microblading Session</strong></a></p>
 
 <h3>3. K-Beauty Brow Studio</h3>
 <p><strong>Location:</strong> Sinsa-dong (Garosu-gil)<br>
@@ -155,7 +155,7 @@ module.exports = {
 
 <p>This is both a clinic and training academy, where you can be treated by master instructors who teach other artists.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Master-Level Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Master-Level Treatment</strong></a></p>
 
 <h3>5. Velvet Brow Clinic</h3>
 <p><strong>Location:</strong> Cheongdam-dong<br>
@@ -181,7 +181,7 @@ module.exports = {
 
 <p>Operates under medical supervision with highest safety and hygiene standards. Great for those with skin sensitivities.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Safe, Medical-Grade Service</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Safe, Medical-Grade Service</strong></a></p>
 
 <h2>💰 Complete Pricing Guide 2025</h2>
 
@@ -328,7 +328,7 @@ module.exports = {
 <div class="cta-box">
 <h3>🎯 Book Your Perfect Brows</h3>
 <p>Get Korean-style eyebrows from master artists. Consultation, design, and expert technique for natural, beautiful results.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Schedule Your Appointment →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Schedule Your Appointment →</a>
 </div>
 
 <h2>🩹 Aftercare: Day-by-Day Guide</h2>
@@ -441,7 +441,7 @@ module.exports = {
 
 <div class="info-box">
 <h3>🎯 Not Sure Which Style?</h3>
-<p>Expert artists will analyze your face shape, features, and personal style during consultation. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book a consultation</a> to get personalized recommendations from Seoul's top brow artists.</p>
+<p>Expert artists will analyze your face shape, features, and personal style during consultation. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Book a consultation</a> to get personalized recommendations from Seoul's top brow artists.</p>
 </div>
 
 <h2>❓ Frequently Asked Questions</h2>
@@ -475,7 +475,7 @@ module.exports = {
 </p>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p>A: Not at international-friendly clinics. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book through English platforms</a> that partner with clinics offering English service. Many top Gangnam clinics have English-speaking staff.</p>
+<p>A: Not at international-friendly clinics. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Book through English platforms</a> that partner with clinics offering English service. Many top Gangnam clinics have English-speaking staff.</p>
 
 <h3>Q: When can I resume normal activities?</h3>
 <p>A: 
@@ -530,7 +530,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Start Your Brow Transformation</h3>
 <p>Join thousands who trust Seoul's master artists for perfect, natural eyebrows. Book your consultation today.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Now - Limited Slots →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Now - Limited Slots →</a>
 </div>
 
 <h2>🌐 Getting to Seoul Eyebrow Clinics</h2>
@@ -588,7 +588,7 @@ module.exports = {
 
 <p>Investment-wise, ₩350,000-700,000 for a complete treatment (including touch-up) is reasonable considering the longevity and daily convenience. Choose an experienced artist, follow aftercare religiously, and you'll enjoy natural, beautiful brows that boost your confidence every time you look in the mirror.</p>
 
-<p>Ready to transform your brows with Korean expertise? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book your eyebrow tattoo consultation in Seoul</strong></a> and experience why people travel from around the world for Korean semi-permanent makeup!</p>
+<p>Ready to transform your brows with Korean expertise? <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>Book your eyebrow tattoo consultation in Seoul</strong></a> and experience why people travel from around the world for Korean semi-permanent makeup!</p>
   `,
   metaDescription: "Complete Korean eyebrow tattoo guide Seoul 2025. Compare microblading, powder, combo & nano brows. Prices (₩200,000-800,000), best clinics in Gangnam, procedure details.",
   keywords: "korean eyebrow tattoo, microblading seoul, eyebrow tattoo gangnam, semi permanent makeup korea, powder brows seoul, combo brows korea, nano brows seoul, best eyebrow tattoo seoul",

@@ -516,7 +516,7 @@ module.exports = {
 
     <h2>Conclusion: Achieving Flawless Korean Skin</h2>
 
-    <p>Seoul's dermatology clinics offer world-class treatments that combine <a href="https://kbeautyseoul.co.kr">Korean skincare expertise</a> with cutting-edge medical technology. From treating acne to achieving anti-aging goals, you'll find professional solutions at every budget level.</p>
+    <p>Seoul's dermatology clinics offer world-class treatments that combine <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=skincare&discount=FIRST10">Korean skincare expertise</a> with cutting-edge medical technology. From treating acne to achieving anti-aging goals, you'll find professional solutions at every budget level.</p>
 
     <p><strong>Key Takeaways:</strong></p>
     <ul>
@@ -527,12 +527,12 @@ module.exports = {
       <li>Follow post-treatment care instructions carefully</li>
     </ul>
 
-    <p>Combine your dermatology treatments with other <a href="https://kbeautyseoul.co.kr">Korean beauty services</a> like spa treatments, facials, or hair styling for a complete Korean beauty transformation!</p>
+    <p>Combine your dermatology treatments with other <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=skincare&discount=FIRST10">Korean beauty services</a> like spa treatments, facials, or hair styling for a complete Korean beauty transformation!</p>
 
     <div class="cta-box">
       <h3>Ready for Your Skin Transformation?</h3>
       <p>Explore Seoul's best dermatology clinics and discover advanced skin treatments!</p>
-      <a href="https://kbeautyseoul.co.kr" class="cta-button">Discover Korean Beauty →</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=skincare&discount=FIRST10" class="cta-button">Discover Korean Beauty →</a>
     </div>
   `,
   metaDescription: 'Complete guide to best Korean dermatology clinics in Seoul 2025. Top 12 clinics, laser treatments, Botox, fillers, acne care. Prices ₩50,000-1,500,000. Gangnam, Cheongdam locations.',

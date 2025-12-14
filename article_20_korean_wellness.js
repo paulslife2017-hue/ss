@@ -444,7 +444,7 @@ module.exports = {
 
     <h2>Conclusion: Embracing Korean Wellness</h2>
 
-    <p>Korean wellness practices offer profound healing for modern life's stresses, combining ancient wisdom with contemporary understanding. From <a href="https://kbeautyseoul.co.kr">traditional hanbang treatments</a> to meditation retreats, Seoul provides authentic paths to holistic health.</p>
+    <p>Korean wellness practices offer profound healing for modern life's stresses, combining ancient wisdom with contemporary understanding. From <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">traditional hanbang treatments</a> to meditation retreats, Seoul provides authentic paths to holistic health.</p>
 
     <p><strong>Key Takeaways:</strong></p>
     <ul>
@@ -455,12 +455,12 @@ module.exports = {
       <li>Respect traditional wisdom while exploring modern adaptations</li>
     </ul>
 
-    <p>Complement your wellness journey with other <a href="https://kbeautyseoul.co.kr">Korean beauty and spa experiences</a> for complete rejuvenation of body, mind, and spirit!</p>
+    <p>Complement your wellness journey with other <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">Korean beauty and spa experiences</a> for complete rejuvenation of body, mind, and spirit!</p>
 
     <div class="cta-box">
       <h3>Ready for Your Korean Wellness Journey?</h3>
       <p>Explore Seoul's best wellness centers and discover holistic healing experiences!</p>
-      <a href="https://kbeautyseoul.co.kr" class="cta-button">Discover Korean Wellness →</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="cta-button">Discover Korean Wellness →</a>
     </div>
   `,
   metaDescription: 'Complete guide to Korean wellness & holistic spa experiences in Seoul 2025. Top 10 centers, hanbang treatments, meditation, yoga. Prices ₩80,000-500,000. Traditional healing guide included!',

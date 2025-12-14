@@ -41,7 +41,7 @@ module.exports = {
 
 <p><strong>Why Special:</strong> Korea's most prestigious beauty brand. Traditional Korean royal court treatments using rare ginseng and herbs. Incredibly luxurious ambiance.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Sulwhasoo Couple Experience</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Sulwhasoo Couple Experience</strong></a></p>
 
 <h3>2. The Spa in Garden Five</h3>
 <p><strong>Location:</strong> Songpa-gu<br>
@@ -80,7 +80,7 @@ module.exports = {
 
 <p><strong>Unique Feature:</strong> Specializes in red ginseng, Korea's most prized anti-aging ingredient.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Reserve Red Ginseng Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Reserve Red Ginseng Treatment</strong></a></p>
 
 <h3>4. Banyan Tree Club & Spa Seoul</h3>
 <p><strong>Location:</strong> Namsan Tower area<br>
@@ -137,7 +137,7 @@ module.exports = {
 <li>Afternoon tea service</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Hotel Spa Package</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Hotel Spa Package</strong></a></p>
 
 <h3>7. Imperial Palace Spa</h3>
 <p><strong>Location:</strong> Itaewon<br>
@@ -205,12 +205,12 @@ module.exports = {
 
 <p><strong>Best For:</strong> Affordable luxury, convenient locations.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Compare All Couple Packages</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Compare All Couple Packages</strong></a></p>
 
 <div class="cta-box">
 <h3>💝 Book Your Romantic Spa Day</h3>
 <p>Reserve private couple's spa experiences at Seoul's top-rated spas. English support and instant confirmation.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Reserve Couple Spa Package →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Reserve Couple Spa Package →</a>
 </div>
 
 <h2>💰 Pricing Guide by Experience Level</h2>
@@ -365,7 +365,7 @@ module.exports = {
 <h2>❓ Frequently Asked Questions</h2>
 
 <h3>Q: Do we need to speak Korean?</h3>
-<p>A: Not at major spas. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book through platforms</a> offering English support. Most luxury spas have English-speaking staff.</p>
+<p>A: Not at major spas. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Book through platforms</a> offering English support. Most luxury spas have English-speaking staff.</p>
 
 <h3>Q: Are couple spas co-ed?</h3>
 <p>A: Yes! Private couple's rooms accommodate mixed-gender couples comfortably. Public areas may be gender-separated.</p>
@@ -416,7 +416,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Create Unforgettable Memories</h3>
 <p>Book your romantic couple's spa experience in Seoul. Private suites, luxury treatments, and quality time together.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Reserve Your Couple Spa →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Reserve Your Couple Spa →</a>
 </div>
 
 <h2>🌐 Getting There</h2>
@@ -441,7 +441,7 @@ module.exports = {
 
 <p>The investment (₩320,000-1,200,000) provides not just treatments but quality time, stress relief, and a uniquely Korean cultural experience. The private rooms, professional service, and attention to detail make Seoul couple spas among the world's best.</p>
 
-<p>Ready for a romantic spa day in Seoul? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book your couple's spa package</strong></a> and enjoy unforgettable K-beauty wellness together!</p>
+<p>Ready for a romantic spa day in Seoul? <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>Book your couple's spa package</strong></a> and enjoy unforgettable K-beauty wellness together!</p>
   `,
   metaDescription: "Best couple spa packages in Seoul 2025. Prices (₩200,000-1,200,000), luxury private suites in Gangnam, romantic K-beauty experiences for two.",
   keywords: "seoul couple spa, couple massage seoul, romantic spa korea, couple spa package gangnam, private spa room seoul, honeymoon spa korea, couples treatment seoul",

@@ -44,7 +44,7 @@ export default {
         <div class="cta-box">
           <p><strong>🎟️ 江南ヘッドスパをオンライン予約したい方へ</strong></p>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             なら、日本語対応・即時予約確定・初回10-15%割引でご予約いただけます。
           </p>
         </div>
@@ -248,7 +248,7 @@ export default {
               <h4>🇯🇵 日本人向け情報</h4>
               <p>
                 <strong>予約方法</strong>：
-                <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa" target="_blank" rel="noopener">
+                <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
                   kbeautyseoul.co.kr（日本語サイト）
                 </a>
                 から簡単予約。初回10%割引適用。
@@ -393,7 +393,7 @@ export default {
         <div class="cta-box">
           <h3>🎟️ 全サロン料金比較・オンライン予約</h3>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener">
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
               kbeautyseoul.co.kr（日本語版）
             </a>
             で、リアルタイム空き状況確認、口コミ閲覧、即時予約が可能です。
@@ -511,7 +511,7 @@ export default {
           </p>
           <p>
             予約前に必ず
-            <a href="https://kbeautyseoul.co.kr/jp/reviews" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp/reviews?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             で口コミをチェックしましょう。
           </p>
         </div>
@@ -530,7 +530,7 @@ export default {
             <div class="step-content">
               <h4>kbeautyseoul.co.kr（日本語版）にアクセス</h4>
               <p>
-                <a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank" rel="noopener">
+                <a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener">
                   kbeautyseoul.co.kr/jp/services/head-spa
                 </a>
                 にアクセス。日本語で簡単予約が可能です。
@@ -828,7 +828,7 @@ export default {
           <h4>Q: 日本語は通じますか？</h4>
           <p>
             <strong>A:</strong> 評価の高い江南のサロン、特に
-            <a href="https://kbeautyseoul.co.kr/jp" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
+            <a href="https://kbeautyseoul.co.kr/jp?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a>
             に掲載されているサロンは、日本語スタッフまたは日本語メニューがあります。
             中国語対応も一般的です。
           </p>
@@ -898,7 +898,7 @@ export default {
         <div class="final-cta">
           <h3>🎟️ 今すぐ江南ヘッドスパを予約しよう</h3>
           <p>
-            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener" class="cta-link">
+            <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="cta-link">
               kbeautyseoul.co.kr/jp/services/head-spa-gangnam
             </a>
             で以下のメリットを：
@@ -910,7 +910,7 @@ export default {
             <li>✨ 飛び込みより10-15%お得</li>
             <li>✨ 初回限定割引あり</li>
           </ul>
-          <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank" rel="noopener" class="btn-primary">
+          <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank" rel="noopener" class="btn-primary">
             今すぐ予約する →
           </a>
         </div>

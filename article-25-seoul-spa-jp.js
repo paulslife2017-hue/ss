@@ -17,7 +17,7 @@ export const article25 = {
 <h1>ソウルエステおすすめランキング2025（日本人観光客向け）</h1>
 
 <div class="alert-info">
-  <strong>🎯 2025年最新版:</strong> 日本より16-47%安い！日本語対応のソウルエステTOP10。<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>で簡単予約！
+  <strong>🎯 2025年最新版:</strong> 日本より16-47%安い！日本語対応のソウルエステTOP10。<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a>で簡単予約！
 </div>
 
 <h2>なぜソウルエステが日本人に人気？</h2>
@@ -97,7 +97,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 育毛・頭皮トラブルに悩む方向け。医療機関レベルの診断＋ケア！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" class="cta-button">予約する</a></p>
 
 <h4>🥈 2位: Cheongdam Luxury Spa（清潭高級スパ）</h4>
 
@@ -120,7 +120,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 特別な記念日・自分へのご褒美に最適！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/premium-headspa?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/premium-headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" class="cta-button">予約する</a></p>
 
 <h4>🥉 3位: Myeongdong Head Spa Center（明洞ヘッドスパセンター）</h4>
 
@@ -143,7 +143,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> コスパ重視・手軽に試したい方向け！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/myeongdong-headspa?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/myeongdong-headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" class="cta-button">予約する</a></p>
 
 <h3>【フェイシャルエステ部門】TOP3 ✨</h3>
 
@@ -194,7 +194,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 本格的な美白・シミ治療を求める方向け！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">予約する</a></p>
 
 <h4>🥈 2位: Jungsaemmool Beauty Lab（チョン・セムル ビューティーラボ）</h4>
 
@@ -217,7 +217,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 「ガラス肌」を体験したい方に最適！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/glass-skin-facial?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/glass-skin-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">予約する</a></p>
 
 <h4>🥉 3位: The Face Shop Therapy Room（ザ・フェイスショップ セラピールーム）</h4>
 
@@ -240,7 +240,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 初めてのK-Beautyエステ体験に最適！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/faceshop-facial?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/faceshop-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">予約する</a></p>
 
 <h3>【ボディエステ部門】TOP3 💆</h3>
 
@@ -291,7 +291,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 旅行疲れ・肩こり解消に最適！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" class="cta-button">予約する</a></p>
 
 <h4>🥈 2位: Dragon Hill Spa（ドラゴンヒルスパ）</h4>
 
@@ -315,7 +315,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 韓国伝統のチムジルバン体験＋節約したい方向け！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/dragonhill-spa?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/dragonhill-spa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" class="cta-button">予約する</a></p>
 
 <h4>🥉 3位: Korean Traditional Scrub House（韓国伝統垢すりハウス）</h4>
 
@@ -338,7 +338,7 @@ export const article25 = {
 
 <p><strong>おすすめポイント:</strong> 韓国ならではの体験をしたい方向け！</p>
 
-<p><a href="https://kbeautyseoul.co.kr/booking/scrub?ref=KBSEOUL2025" class="cta-button">予約する</a></p>
+<p><a href="https://kbeautyseoul.co.kr/booking/scrub?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">予約する</a></p>
 
 <h2>エステ目的別おすすめプラン</h2>
 
@@ -408,7 +408,7 @@ export const article25 = {
 <h3>ステップ1: kbeautyseoul.co.krで予約 📝</h3>
 
 <ol>
-  <li><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>にアクセス</li>
+  <li><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a>にアクセス</li>
   <li>「エステ・スパ予約」を選択</li>
   <li>希望エステ種類（ヘッドスパ、フェイシャル、ボディ）</li>
   <li>日時・予算を入力</li>
@@ -492,7 +492,7 @@ export const article25 = {
 <div class="cta-box">
   <h3>🇰🇷 今すぐエステ予約！</h3>
   <p><strong>日本語完全対応・透明料金・優良サロンのみ</strong></p>
-  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" class="cta-button">日本語で予約する</a></p>
+  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="cta-button">日本語で予約する</a></p>
   <p>✅ 50+提携サロン | ✅ 24時間日本語サポート | ✅ 予約変更無料 | ✅ 安心の返金保証</p>
 </div>
 
@@ -501,7 +501,7 @@ export const article25 = {
   <li>📖 <a href="/blog/korean-beauty-tour-complete-guide-2025-japanese">韓国美容ツアー完全ガイド</a></li>
   <li>🏢 <a href="/blog/gangnam-head-spa-complete-guide-2025">江南ヘッドスパガイド</a></li>
   <li>💄 <a href="/blog/korean-skincare-routine-complete-guide-2025">韓国スキンケアルーティン</a></li>
-  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025">全サービス一覧</a></li>
+  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=skincare&discount=FIRST10">全サービス一覧</a></li>
 </ul>
     `
   },

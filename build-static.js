@@ -335,7 +335,7 @@ const homepage = `<!DOCTYPE html>
     <div class="container" style="text-align: center;">
       <a href="/">🏠 Home</a>
       <a href="/blog.html">📖 All Articles</a>
-      <a href="https://kbeautyseoul.co.kr" target="_blank">📅 Book Services</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">📅 Book Services</a>
     </div>
   </nav>
 
@@ -344,7 +344,7 @@ const homepage = `<!DOCTYPE html>
       <h2>Your Premium K-Beauty Guide</h2>
       <p>Expert guides, honest reviews, and transparent pricing for Seoul's best beauty services</p>
       <a href="/blog.html" class="btn">📖 Browse All Guides</a>
-      <a href="https://kbeautyseoul.co.kr" class="btn" target="_blank">📅 Book Now</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="btn" target="_blank">📅 Book Now</a>
     </div>
   </div>
 
@@ -376,7 +376,7 @@ const homepage = `<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
       <p style="margin-top: 10px;">Complete guides to Korean beauty services, treatments, and tourism in Seoul</p>
       <p style="margin-top: 20px; opacity: 0.7;">© 2025 Seoul Zen. All rights reserved.</p>
     </div>
@@ -408,7 +408,7 @@ const blogList = `<!DOCTYPE html>
     <div class="container" style="text-align: center;">
       <a href="/">🏠 Home</a>
       <a href="/blog.html">📖 All Articles</a>
-      <a href="https://kbeautyseoul.co.kr" target="_blank">📅 Book Services</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">📅 Book Services</a>
     </div>
   </nav>
 
@@ -436,7 +436,7 @@ const blogList = `<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
       <p style="margin-top: 20px; opacity: 0.7;">© 2025 Seoul Zen. All rights reserved.</p>
     </div>
   </footer>
@@ -505,7 +505,7 @@ blogArticles.forEach(article => {
     <div class="container" style="text-align: center;">
       <a href="/">🏠 Home</a>
       <a href="/blog.html">📖 All Articles</a>
-      <a href="https://kbeautyseoul.co.kr" target="_blank">📅 Book Services</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">📅 Book Services</a>
     </div>
   </nav>
 
@@ -522,7 +522,7 @@ blogArticles.forEach(article => {
       <div style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 10px; text-align: center;">
         <h3 style="margin-bottom: 15px;">Ready to Book?</h3>
         <p>Book verified K-Beauty services with English support</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" class="btn" style="margin-top: 15px;">📅 Book on kbeautyseoul.co.kr</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" class="btn" style="margin-top: 15px;">📅 Book on kbeautyseoul.co.kr</a>
       </div>
     </article>
 
@@ -531,7 +531,7 @@ blogArticles.forEach(article => {
 
   <footer>
     <div class="container">
-      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
       <p style="margin-top: 20px; opacity: 0.7;">© 2025 Seoul Zen. All rights reserved.</p>
     </div>
   </footer>

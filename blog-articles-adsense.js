@@ -192,7 +192,7 @@ export const adsenseBlogArticles = [
   <li>🧖 <strong>Head Spa After Shopping:</strong> Relax with Gangnam head spa</li>
 </ul>
 
-<p>Book beauty services at: <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+<p>Book beauty services at: <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
 
 <h2>Shipping K-Beauty Products Home</h2>
 <p><strong>How to Ship Your Beauty Haul:</strong></p>
@@ -206,7 +206,7 @@ export const adsenseBlogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🛍️ Plan Your Seoul Beauty Shopping Trip</h3>
   <p style="margin-bottom: 20px;">Book beauty treatments between shopping sessions</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Services →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Services →</a>
 </div>
 
 <h2>Frequently Asked Questions</h2>
@@ -226,7 +226,7 @@ export const adsenseBlogArticles = [
 <h3>Q5. When is the best time to shop for K-beauty in Seoul?</h3>
 <p>A. January and July for mega sales. Weekday mornings for fewer crowds. Friday-Sunday for special promotions and events.</p>
 
-<p><strong>Happy K-beauty shopping in Seoul!</strong> For authentic Korean beauty experiences and professional treatments, visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book consultations and services with English-speaking experts.</p>
+<p><strong>Happy K-beauty shopping in Seoul!</strong> For authentic Korean beauty experiences and professional treatments, visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> to book consultations and services with English-speaking experts.</p>
       `,
       ko: '서울 뷰티 쇼핑 완벽 가이드 콘텐츠 (한국어)',
       ja: 'ソウル美容ショッピング完全ガイドコンテンツ (日本語)'

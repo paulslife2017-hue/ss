@@ -10,8 +10,8 @@
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 ソウルでプロフェッショナルなリップタトゥーサービスをお探しですか？</h3>
-        <p style="color: white; margin-bottom: 15px;"><strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>で専門家のカウンセリングとプレミアムトリートメントをご利用ください！</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #f5576c; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">今すぐカウンセリングを予約 →</a>
+        <p style="color: white; margin-bottom: 15px;"><strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>で専門家のカウンセリングとプレミアムトリートメントをご利用ください！</p>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #f5576c; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; margin-top: 10px;">今すぐカウンセリングを予約 →</a>
       </div>
 
       <h2>韓国リップタトゥー：半永久的なリップカラーの究極ガイド</h2>
@@ -150,7 +150,7 @@
       </ul>
 
       <div class="tip-box" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; margin: 25px 0;">
-        <p style="margin: 0;"><strong>💡 プロのヒント:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a>でリップタトゥーセッションを予約 - 江南に便利な場所にあり、地下鉄アクセスが簡単、多言語スタッフ（英語、日本語、中国語）、10年以上の経験を持つ認定スペシャリストがいます！</p>
+        <p style="margin: 0;"><strong>💡 プロのヒント:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #d63031; font-weight: bold;">kbeautyseoul.co.kr</a>でリップタトゥーセッションを予約 - 江南に便利な場所にあり、地下鉄アクセスが簡単、多言語スタッフ（英語、日本語、中国語）、10年以上の経験を持つ認定スペシャリストがいます！</p>
       </div>
 
       <h3>韓国での平均費用（2025年価格）</h3>
@@ -253,7 +253,7 @@
 
       <div class="cta-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 15px; margin: 40px 0;">
         <h3 style="color: white; margin-top: 0;">kbeautyseoul.co.krで韓国リップタトゥー体験を予約</h3>
-        <p>ソウルで最高の韓国リップタトゥーを体験する準備はできましたか？<strong><a href="https://kbeautyseoul.co.kr" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>にアクセスして：</p>
+        <p>ソウルで最高の韓国リップタトゥーを体験する準備はできましたか？<strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: white; text-decoration: underline;">kbeautyseoul.co.kr</a></strong>にアクセスして：</p>
         <ul style="margin-bottom: 20px;">
           <li>📅 <strong>カウンセリングを予約</strong> - パーソナライズされたリップタトゥーセッションをスケジュール</li>
           <li>💎 <strong>サービスを閲覧</strong> - すべての韓国美容トリートメントを探索</li>
@@ -274,7 +274,7 @@
           <li>✨ 観光客向けのフレキシブルな予約スケジュール</li>
         </ul>
 
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 今すぐ予約する！</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #764ba2; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px;">👉 今すぐ予約する！</a>
       </div>
 
       <h3>最終的な考え</h3>
@@ -282,12 +282,12 @@
       
       <p>人気のグラデーションスタイル、大胆なフルカラールック、または微妙なナチュラルティントを選択するかどうかにかかわらず、成功の鍵は、あなたのビジョンを理解し、自然で美しい結果を提供できる経験豊富な認定スペシャリストを選択することです。</p>
 
-      <p><strong>毎日完璧な唇で目覚める準備はできましたか？</strong> 今すぐ<a href="https://kbeautyseoul.co.kr" target="_blank" style="color: #f5576c; font-weight: bold;">kbeautyseoul.co.kr</a>にアクセスしてカウンセリングを予約しましょう！</p>
+      <p><strong>毎日完璧な唇で目覚める準備はできましたか？</strong> 今すぐ<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="color: #f5576c; font-weight: bold;">kbeautyseoul.co.kr</a>にアクセスしてカウンセリングを予約しましょう！</p>
 
       <div class="final-cta" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 40px; border-radius: 20px; text-align: center; margin-top: 60px;">
         <h2 style="color: white; margin-top: 0;">✨ リップタトゥーの旅の準備はできましたか？ ✨</h2>
         <p style="font-size: 18px; margin-bottom: 25px;">最高の本格的な韓国美容を体験してください</p>
-        <a href="https://kbeautyseoul.co.kr" target="_blank" style="display: inline-block; background: white; color: #f5576c; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">kbeautyseoul.co.krを今すぐ訪問 →</a>
+        <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" style="display: inline-block; background: white; color: #f5576c; padding: 18px 50px; border-radius: 35px; text-decoration: none; font-weight: bold; font-size: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">kbeautyseoul.co.krを今すぐ訪問 →</a>
       </div>
     </div>
   `,

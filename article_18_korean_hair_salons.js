@@ -442,7 +442,7 @@ module.exports = {
 
     <h2>Conclusion: Achieving Your Perfect Korean Hair</h2>
 
-    <p>Seoul's hair salons offer world-class styling services that combine <a href="https://kbeautyseoul.co.kr">Korean beauty expertise</a> with cutting-edge techniques. Whether you're seeking a trendy two-block cut, glamorous balayage, or a complete makeover, you'll find exceptional quality at every price point.</p>
+    <p>Seoul's hair salons offer world-class styling services that combine <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">Korean beauty expertise</a> with cutting-edge techniques. Whether you're seeking a trendy two-block cut, glamorous balayage, or a complete makeover, you'll find exceptional quality at every price point.</p>
 
     <p><strong>Key Takeaways:</strong></p>
     <ul>
@@ -453,12 +453,12 @@ module.exports = {
       <li>Visit Gangnam for premium service, Hongdae for affordability</li>
     </ul>
 
-    <p>Pair your new hairstyle with other <a href="https://kbeautyseoul.co.kr">Korean beauty treatments</a> like facials, skin care services, or spa experiences for a complete transformation!</p>
+    <p>Pair your new hairstyle with other <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">Korean beauty treatments</a> like facials, skin care services, or spa experiences for a complete transformation!</p>
 
     <div class="cta-box">
       <h3>Ready for Your Korean Hair Transformation?</h3>
       <p>Explore Seoul's best beauty destinations and discover more K-beauty services!</p>
-      <a href="https://kbeautyseoul.co.kr" class="cta-button">Discover Korean Beauty →</a>
+      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="cta-button">Discover Korean Beauty →</a>
     </div>
   `,
   metaDescription: 'Complete guide to best Korean hair salons in Seoul 2025. Top 15 salons, prices (₩30,000-200,000), trendy cuts, colors, perms. Gangnam, Hongdae, Itaewon locations. Booking tips included!',

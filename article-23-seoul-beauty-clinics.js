@@ -15,7 +15,7 @@ export const article23 = {
 <h1>Seoul Beauty Clinics: Complete Guide 2025 (English Booking)</h1>
 
 <div class="alert-info">
-  <strong>🎯 Why Seoul?</strong> World-class beauty treatments at 40-70% lower prices than USA/UK. All clinics below offer English booking via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>
+  <strong>🎯 Why Seoul?</strong> World-class beauty treatments at 40-70% lower prices than USA/UK. All clinics below offer English booking via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">kbeautyseoul.co.kr</a>
 </div>
 
 <h2>Top 10 Beauty Treatments in Seoul 2025</h2>
@@ -33,70 +33,70 @@ export const article23 = {
     <td>₩150,000 ($115)</td>
     <td>$400-600</td>
     <td>70% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/botox?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/botox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Lip Filler (1ml)</strong></td>
     <td>₩400,000 ($310)</td>
     <td>$600-800</td>
     <td>50% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/lip-filler?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/lip-filler?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Laser Facial</strong></td>
     <td>₩250,000 ($195)</td>
     <td>$500-700</td>
     <td>60% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/laser-facial?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/laser-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Facial Contouring</strong></td>
     <td>₩8,000,000 ($6,200)</td>
     <td>$15,000-25,000</td>
     <td>65% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/facial-contouring?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/facial-contouring?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Double Eyelid Surgery</strong></td>
     <td>₩2,500,000 ($1,940)</td>
     <td>$4,000-6,000</td>
     <td>60% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/double-eyelid?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/double-eyelid?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Nose Job (Rhinoplasty)</strong></td>
     <td>₩5,000,000 ($3,880)</td>
     <td>$8,000-12,000</td>
     <td>55% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/rhinoplasty?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/rhinoplasty?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Thread Lift</strong></td>
     <td>₩1,200,000 ($930)</td>
     <td>$2,500-4,000</td>
     <td>65% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/thread-lift?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/thread-lift?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Ultherapy (Full Face)</strong></td>
     <td>₩1,800,000 ($1,395)</td>
     <td>$3,500-5,000</td>
     <td>65% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/ultherapy?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/ultherapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Microneedling + PRP</strong></td>
     <td>₩350,000 ($270)</td>
     <td>$800-1,200</td>
     <td>70% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/microneedling?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/microneedling?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
   <tr>
     <td><strong>Hair Transplant (1000 grafts)</strong></td>
     <td>₩3,500,000 ($2,713)</td>
     <td>$7,000-12,000</td>
     <td>65% OFF</td>
-    <td><a href="https://kbeautyseoul.co.kr/booking/hair-transplant?ref=KBSEOUL2025">Book</a></td>
+    <td><a href="https://kbeautyseoul.co.kr/booking/hair-transplant?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
   </tr>
 </table>
 
@@ -168,7 +168,7 @@ export const article23 = {
 
 <p><strong>How to Book:</strong></p>
 <ol>
-  <li>Visit <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a></li>
+  <li>Visit <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">kbeautyseoul.co.kr</a></li>
   <li>Select treatment type</li>
   <li>Fill out consultation form (your concerns, budget, dates)</li>
   <li>Get matched with 2-3 verified clinics</li>
@@ -196,7 +196,7 @@ export const article23 = {
 <ol>
   <li><strong>Research & Book (Week 1-2)</strong>
     <ul>
-      <li>Browse treatments on <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a></li>
+      <li>Browse treatments on <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">kbeautyseoul.co.kr</a></li>
       <li>Submit consultation form with photos</li>
       <li>Receive clinic recommendations</li>
     </ul>
@@ -481,7 +481,7 @@ Still 40-60% cheaper than USA/UK for same treatment!</p>
 <div class="cta-box">
   <h3>Start Your Beauty Transformation Today!</h3>
   <p><strong>Free Consultation + Verified Clinics + English Support</strong></p>
-  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" class="cta-button">Get Free Consultation Now</a></p>
+  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" class="cta-button">Get Free Consultation Now</a></p>
   <p>✅ 150+ Verified Clinics | ✅ 24/7 English Support | ✅ Transparent Pricing | ✅ Money-Back Guarantee</p>
 </div>
 
@@ -490,7 +490,7 @@ Still 40-60% cheaper than USA/UK for same treatment!</p>
   <li>📖 <a href="/blog/korean-skincare-routine-complete-guide-2025">Korean Skincare Routine Guide</a></li>
   <li>🏢 <a href="/blog/gangnam-head-spa-complete-guide-2025">Gangnam Head Spa Guide</a></li>
   <li>💄 <a href="/blog/seoul-lip-tattoo-guide-2025">Seoul Lip Tattoo Guide</a></li>
-  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025">All Seoul Beauty Services</a></li>
+  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10">All Seoul Beauty Services</a></li>
 </ul>
     `,
     ko: `<h1>서울 뷰티 클리닉: 완벽 가이드 2025 (영어 예약)</h1><p>영어 예약 가능한 서울 뷰티 클리닉 완벽 가이드...</p>`,

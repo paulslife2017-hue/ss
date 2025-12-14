@@ -126,7 +126,7 @@ const beautyServices = [
     },
     duration: '90min',
     videoUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/headspa'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/headspa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15'
   },
   {
     id: 'lip-tattoo',
@@ -150,7 +150,7 @@ const beautyServices = [
     },
     duration: '120min',
     videoUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo?utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10'
   },
   {
     id: 'eyebrow-tattoo',
@@ -174,7 +174,7 @@ const beautyServices = [
     },
     duration: '120min',
     videoUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow?utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10'
   },
   {
     id: 'bb-glow',
@@ -198,7 +198,7 @@ const beautyServices = [
     },
     duration: '90min',
     videoUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow?utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10'
   },
   {
     id: 'glass-skin-facial',
@@ -222,7 +222,7 @@ const beautyServices = [
     },
     duration: '90min',
     videoUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10'
   },
   {
     id: 'aqua-peel',
@@ -246,7 +246,7 @@ const beautyServices = [
     },
     duration: '60min',
     videoUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel'
+    bookingUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10'
   }
 ];
 
@@ -273,7 +273,7 @@ const tourPackages = [
     },
     duration: '4hrs',
     videoUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/tour/kbeauty'
+    bookingUrl: 'https://kbeautyseoul.co.kr/tour/kbeauty?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10'
   },
   {
     id: 'seoul-night-tour',
@@ -297,7 +297,7 @@ const tourPackages = [
     },
     duration: '3hrs',
     videoUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/tour/night'
+    bookingUrl: 'https://kbeautyseoul.co.kr/tour/night?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10'
   },
   {
     id: 'palace-hanbok-tour',
@@ -321,7 +321,7 @@ const tourPackages = [
     },
     duration: '5hrs',
     videoUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    bookingUrl: 'https://kbeautyseoul.co.kr/tour/hanbok'
+    bookingUrl: 'https://kbeautyseoul.co.kr/tour/hanbok?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10'
   }
 ];
 
@@ -347,7 +347,7 @@ const shopProducts = [
       twd: 8540
     },
     imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    shopUrl: 'https://kbeautyseoul.co.kr/shop/sulwhasoo'
+    shopUrl: 'https://kbeautyseoul.co.kr/shop/sulwhasoo?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10'
   },
   {
     id: 'whoo-gift-set',
@@ -370,7 +370,7 @@ const shopProducts = [
       twd: 10250
     },
     imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    shopUrl: 'https://kbeautyseoul.co.kr/shop/whoo'
+    shopUrl: 'https://kbeautyseoul.co.kr/shop/whoo?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10'
   },
   {
     id: 'cosrx-collection',
@@ -393,7 +393,7 @@ const shopProducts = [
       twd: 2070
     },
     imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
-    shopUrl: 'https://kbeautyseoul.co.kr/shop/cosrx'
+    shopUrl: 'https://kbeautyseoul.co.kr/shop/cosrx?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10'
   }
 ];
 
@@ -946,7 +946,7 @@ function generateHomePage(lang = 'en') {
       <meta property="og:title" content="K-Beauty Seoul | ${t.hero.title}">
       <meta property="og:description" content="${t.hero.subtitle}">
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://kbeautyseoul.co.kr">
+      <meta property="og:url" content="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15">
       <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80">
       
       <!-- Favicon -->

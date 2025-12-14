@@ -35,7 +35,7 @@ module.exports = {
 <div class="cta-box">
 <h3>🎯 Ready to Experience Korean Head Spa?</h3>
 <p>Book your authentic head spa treatment at top-rated Gangnam salons with instant confirmation and English support.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Head Spa Treatment →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Head Spa Treatment →</a>
 </div>
 
 <h2>🏆 Top 10 Head Spas in Gangnam 2025</h2>
@@ -49,7 +49,7 @@ module.exports = {
 <p>Amos Professional is one of Korea's most famous head spa chains, known for their comprehensive scalp treatments and professional service. Their Gangnam location offers private treatment rooms and English-speaking staff.</p>
 
 <p><strong>Why It's Great:</strong> Advanced scalp camera analysis, premium Korean hair products, luxurious private rooms</p>
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Amos Professional Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Amos Professional Treatment</strong></a></p>
 
 <h3>2. Chahong Ardor (차홍아더)</h3>
 <p><strong>Location:</strong> Apgujeong Rodeo Street<br>
@@ -67,7 +67,7 @@ module.exports = {
 <li>Complimentary Tea Service</li>
 </ul>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Reserve Luxury Head Spa</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Reserve Luxury Head Spa</strong></a></p>
 
 <h3>3. Yunique Hair & Scalp Care</h3>
 <p><strong>Location:</strong> Gangnam Station Area<br>
@@ -77,7 +77,7 @@ module.exports = {
 
 <p>Yunique specializes in treating specific scalp concerns. Their scalp therapists use customized treatments based on detailed scalp analysis.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Scalp Treatment</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Scalp Treatment</strong></a></p>
 
 <h3>4. Grida Gangnam</h3>
 <p><strong>Location:</strong> Gangnam-gu, near Sinnonhyeon Station<br>
@@ -95,7 +95,7 @@ module.exports = {
 
 <p>The Scalp combines beauty and medical expertise. They use professional-grade equipment and treatments approved by Korean dermatologists.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Medical Scalp Care</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Medical Scalp Care</strong></a></p>
 
 <h3>6. Raum Hair (라움헤어)</h3>
 <p><strong>Location:</strong> Apgujeong<br>
@@ -113,7 +113,7 @@ module.exports = {
 
 <p>Ideal for busy travelers who want a quality head spa experience in less time.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Express Head Spa</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Express Head Spa</strong></a></p>
 
 <h3>8. Sulwhasoo Flagship Store Spa</h3>
 <p><strong>Location:</strong> Dosan Park, Gangnam<br>
@@ -139,7 +139,7 @@ module.exports = {
 
 <p>Offers English service and tourist packages. Great for first-time visitors to Seoul.</p>
 
-<p><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>→ Book Tourist-Friendly Head Spa</strong></a></p>
+<p><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>→ Book Tourist-Friendly Head Spa</strong></a></p>
 
 <h2>💰 Complete Price Guide: Gangnam Head Spas</h2>
 
@@ -180,7 +180,7 @@ module.exports = {
 
 <h3>Booking Methods:</h3>
 <ol>
-<li><strong>Online Booking (Recommended):</strong> <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book through KBeautySeoul.co.kr</a> for instant confirmation and English support</li>
+<li><strong>Online Booking (Recommended):</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book through KBeautySeoul.co.kr</a> for instant confirmation and English support</li>
 <li><strong>Naver Booking:</strong> Search salon name in Korean</li>
 <li><strong>Phone Call:</strong> Korean language required</li>
 <li><strong>Walk-in:</strong> Not recommended (usually fully booked)</li>
@@ -227,7 +227,7 @@ module.exports = {
 <div class="cta-box">
 <h3>✨ Experience Viral Korean Head Spa</h3>
 <p>Don't miss Seoul's most relaxing beauty treatment. Book your head spa session at Gangnam's top-rated salons.</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Reserve Your Head Spa Now →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Reserve Your Head Spa Now →</a>
 </div>
 
 <h2>🎯 Best Head Spa for Different Needs</h2>
@@ -298,7 +298,7 @@ module.exports = {
 <p>A: Absolutely! Many Gangnam head spas have 40% male clients. Great for hair loss prevention.</p>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p>A: Not at tourist-friendly spas. <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">Book through English-supported platforms</a> for easiest experience.</p>
+<p>A: Not at tourist-friendly spas. <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">Book through English-supported platforms</a> for easiest experience.</p>
 
 <h3>Q: What's the difference between head spa and regular hair salon?</h3>
 <p>A: Head spa focuses on scalp health and relaxation (60-90 min treatment). Hair salon focuses on styling. Head spa includes deep massage and therapeutic treatments.</p>
@@ -320,7 +320,7 @@ module.exports = {
 <li><strong>Package Deals:</strong> Buy 5 sessions, get 1 free</li>
 <li><strong>Weekday Discounts:</strong> 15-30% off Mon-Fri before 3 PM</li>
 <li><strong>Couple Packages:</strong> 20% discount for two people</li>
-<li><strong>Tourist Specials:</strong> Check with <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">booking platforms</a></li>
+<li><strong>Tourist Specials:</strong> Check with <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener">booking platforms</a></li>
 </ul>
 
 <h2>📱 Korean Head Spa on Social Media</h2>
@@ -348,7 +348,7 @@ module.exports = {
 <div class="cta-box">
 <h3>🎯 Start Your K-Beauty Journey</h3>
 <p>Experience the viral Korean head spa treatment that's taken the world by storm. Book your session at Gangnam's top-rated spas today!</p>
-<a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener" class="cta-button">Book Your Head Spa Experience →</a>
+<a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener" class="cta-button">Book Your Head Spa Experience →</a>
 </div>
 
 <h2>📝 Final Thoughts</h2>
@@ -357,7 +357,7 @@ module.exports = {
 
 <p>The investment (₩80,000-250,000) provides not just immediate relaxation but long-term scalp health benefits. Book 1-2 weeks in advance, especially for popular spots like Chahong Ardor or Amos Professional.</p>
 
-<p>Ready to experience Seoul's most viral beauty treatment? <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>Book your Gangnam head spa session now</strong></a> and discover why millions around the world are obsessed with Korean scalp care!</p>
+<p>Ready to experience Seoul's most viral beauty treatment? <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10" target="_blank" rel="noopener"><strong>Book your Gangnam head spa session now</strong></a> and discover why millions around the world are obsessed with Korean scalp care!</p>
   `,
   metaDescription: "Top 10 head spas in Gangnam 2025. Complete guide to Korean scalp treatments, prices (₩80,000-250,000), booking tips & what to expect. Viral K-beauty experience!",
   keywords: "gangnam head spa, korean head spa, scalp treatment seoul, head spa gangnam, korean scalp care, head spa prices seoul, best head spa gangnam, korean hair spa, gangnam scalp treatment, head spa booking seoul",

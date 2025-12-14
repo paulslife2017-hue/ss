@@ -37,7 +37,7 @@ export const blogArticles = [
 </ul>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>💡 Pro Tip:</strong> 저녁 8시 이후 예약 시 10% 할인! <a href="https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025" target="_blank">지금 예약하기 →</a>
+  <strong>💡 Pro Tip:</strong> 저녁 8시 이후 예약 시 10% 할인! <a href="https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">지금 예약하기 →</a>
 </div>
 
 <h3>2. 딥티슈 마사지 (₩200,000)</h3>
@@ -105,7 +105,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 지금 예약하고 특별 혜택 받기</h3>
   <p style="margin-bottom: 20px;">강남 프리미엄 마사지샵 최저가 보장</p>
-  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025?ref=BLOG" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">예약하러 가기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025?ref=BLOG&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">예약하러 가기 →</a>
 </div>
 
 <h2>자주 묻는 질문 (FAQ)</h2>
@@ -132,7 +132,7 @@ export const blogArticles = [
 <p><strong>결론:</strong> 강남에서 최고의 마사지를 경험하고 싶다면 kbeautyseoul.co.kr에서 예약하세요. 검증된 샵만 엄선하여 소개합니다.</p>
 
 <div style="text-align: center; margin: 40px 0;">
-  <a href="https://kbeautyseoul.co.kr" style="background: #10B981; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">K-Beauty Seoul 홈페이지 방문 →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: #10B981; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">K-Beauty Seoul 홈페이지 방문 →</a>
 </div>
       `,
       en: `
@@ -153,7 +153,7 @@ export const blogArticles = [
 </ul>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>💡 Pro Tip:</strong> 10% discount for bookings after 8 PM! <a href="https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025" target="_blank">Book Now →</a>
+  <strong>💡 Pro Tip:</strong> 10% discount for bookings after 8 PM! <a href="https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">Book Now →</a>
 </div>
 
 <h3>2. Deep Tissue Massage ($154)</h3>
@@ -213,7 +213,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 Book Now for Special Benefits</h3>
   <p style="margin-bottom: 20px;">Gangnam Premium Massage - Best Price Guaranteed</p>
-  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025?ref=BLOG" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025?ref=BLOG&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
       `
     },
@@ -370,7 +370,7 @@ export const blogArticles = [
   <h3 style="margin-bottom: 15px;">🎁 신규 고객 특별 혜택</h3>
   <p style="margin-bottom: 10px; font-size: 18px;"><strong>헤드스파 첫 방문 시 30% 할인</strong></p>
   <p style="margin-bottom: 20px;">₩120,000 → ₩84,000</p>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025?ref=BLOG" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025?ref=BLOG&utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
 </div>
 
 <h2>강남 두피 케어 전문샵 선택 기준</h2>
@@ -406,7 +406,7 @@ export const blogArticles = [
 
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 18px; margin-bottom: 20px;"><strong>건강한 두피, 풍성한 모발의 시작</strong></p>
-  <a href="https://kbeautyseoul.co.kr" style="background: #10B981; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">K-Beauty Seoul에서 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: #10B981; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 18px;">K-Beauty Seoul에서 예약하기 →</a>
 </div>
       `
     },
@@ -488,7 +488,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 립타투 예약하고 20% 할인받기</h3>
   <p style="margin-bottom: 20px;">강남 최고의 립타투 전문가가 기다립니다</p>
-  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
 </div>
       `,
       en: `
@@ -656,7 +656,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 Book Your Lip Tattoo & Get 20% Off</h3>
   <p style="margin-bottom: 20px;">Gangnam's Top-Rated Lip Tattoo Experts</p>
-  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Top Gangnam Areas for Lip Tattoo</h2>
@@ -667,7 +667,7 @@ export const blogArticles = [
   <li><strong>Sinsa (Garosu-gil):</strong> Trendy boutique studios</li>
 </ul>
 
-<p><strong>Ready for perfect lips every day?</strong> Book your consultation at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's best lip tattoo studios in Gangnam.</p>
+<p><strong>Ready for perfect lips every day?</strong> Book your consultation at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's best lip tattoo studios in Gangnam.</p>
       `,
       ja: `
 <h2>ソウルのリップタトゥーが特別な理由</h2>
@@ -729,7 +729,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 リップタトゥーを予約して20%オフ</h3>
   <p style="margin-bottom: 20px;">江南のトップレートリップタトゥーエキスパート</p>
-  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
 </div>
 
 <h2>よくある質問（FAQ）</h2>
@@ -743,7 +743,7 @@ export const blogArticles = [
 <h3>Q3. リタッチは必要ですか？</h3>
 <p>A. はい、ほとんどのスタジオでは、初回施術から4〜6週間後に無料のリタッチセッションを含めて、色とカバレッジを完璧にします。</p>
 
-<p><strong>毎日完璧な唇の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>で相談を予約し、江南の最高のリップタトゥースタジオを発見してください。</p>
+<p><strong>毎日完璧な唇の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>で相談を予約し、江南の最高のリップタトゥースタジオを発見してください。</p>
       `
     },
     category: 'beauty',
@@ -794,7 +794,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 BB글로우 첫 시술 25% 할인</h3>
   <p style="margin-bottom: 20px;">강남 최고의 BB글로우 전문 클리닉</p>
-  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
 </div>
       `,
       en: `
@@ -981,7 +981,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 First BB Glow Treatment 25% Off</h3>
   <p style="margin-bottom: 20px;">Gangnam's Premier BB Glow Specialists</p>
-  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Best Gangnam Areas for BB Glow</h2>
@@ -992,7 +992,7 @@ export const blogArticles = [
   <li><strong>Cheongdam:</strong> Premium clinics with latest technology</li>
 </ul>
 
-<p><strong>Ready for flawless skin 24/7?</strong> Book your BB Glow consultation at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> and experience Seoul's most advanced skin treatment in Gangnam.</p>
+<p><strong>Ready for flawless skin 24/7?</strong> Book your BB Glow consultation at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> and experience Seoul's most advanced skin treatment in Gangnam.</p>
       `,
       ja: `
 <h2>BBグロウが特別な理由</h2>
@@ -1011,7 +1011,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 初回BBグロウトリートメント25%オフ</h3>
   <p style="margin-bottom: 20px;">江南のプレミアBBグロウスペシャリスト</p>
-  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
 </div>
 
 <h2>よくある質問（FAQ）</h2>
@@ -1022,7 +1022,7 @@ export const blogArticles = [
 <h3>Q2. 何回のセッションが必要ですか？</h3>
 <p>A. 最適な結果のために：2週間間隔で3〜4セッション。濃い肌トーンの場合、フルカバレッジのために4〜5セッションが必要な場合があります。</p>
 
-<p><strong>24時間365日完璧な肌の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>でBBグロウ相談を予約し、江南でソウルの最も先進的なスキントリートメントを体験してください。</p>
+<p><strong>24時間365日完璧な肌の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>でBBグロウ相談を予約し、江南でソウルの最も先進的なスキントリートメントを体験してください。</p>
       `
     },
     category: 'beauty',
@@ -1073,7 +1073,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 네일아트 첫 방문 15% 할인</h3>
   <p style="margin-bottom: 20px;">강남·홍대 인기 네일샵 예약하기</p>
-  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=nail-art&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
 </div>
       `,
       en: `
@@ -1221,7 +1221,7 @@ export const blogArticles = [
 
 <h2>How to Book Nail Art in Seoul</h2>
 <h3>Option 1: Online Booking (Recommended)</h3>
-<p>Use <a href="https://kbeautyseoul.co.kr" target="_blank"><strong>kbeautyseoul.co.kr</strong></a> for:</p>
+<p>Use <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank"><strong>kbeautyseoul.co.kr</strong></a> for:</p>
 <ul>
   <li>✅ Instant confirmation in English/Japanese</li>
   <li>✅ View salon portfolios and reviews</li>
@@ -1292,7 +1292,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 First-Time Nail Art 15% Off</h3>
   <p style="margin-bottom: 20px;">Book Top-Rated Gangnam & Hongdae Nail Salons</p>
-  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=nail-art&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Best Nail Salons by Style</h2>
@@ -1303,7 +1303,7 @@ export const blogArticles = [
   <li><strong>Character/K-Pop:</strong> Hongdae & Myeongdong (trendy, fun)</li>
 </ul>
 
-<p><strong>Ready for stunning Korean nail art?</strong> Book your appointment at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's best nail salons in Gangnam and Hongdae!</p>
+<p><strong>Ready for stunning Korean nail art?</strong> Book your appointment at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's best nail salons in Gangnam and Hongdae!</p>
       `,
       ja: `
 <h2>ソウルのネイルアートが世界的に有名な理由</h2>
@@ -1322,7 +1322,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 初回ネイルアート15%オフ</h3>
   <p style="margin-bottom: 20px;">江南と弘大のトップレートネイルサロンを予約</p>
-  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=nail-art&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
 </div>
 
 <h2>よくある質問（FAQ）</h2>
@@ -1333,7 +1333,7 @@ export const blogArticles = [
 <h3>Q2. 韓国のジェルネイルアートはどのくらい持続しますか？</h3>
 <p>A. 適切なケアで3〜4週間です。韓国のジェル品質は優れており、耐久性があります。</p>
 
-<p><strong>美しい韓国ネイルアートの準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>で予約し、江南と弘大でソウルの最高のネイルサロンを発見してください！</p>
+<p><strong>美しい韓国ネイルアートの準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>で予約し、江南と弘大でソウルの最高のネイルサロンを発見してください！</p>
       `
     },
     category: 'beauty',
@@ -1376,7 +1376,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 찜질방 입장권 + 때밀이 패키지 예약</h3>
   <p style="margin-bottom: 20px;">서울 최고의 찜질방 체험</p>
-  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">지금 예약하기 →</a>
 </div>
       `,
       en: `
@@ -1607,7 +1607,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 Jjimjilbang Entry + Body Scrub Package</h3>
   <p style="margin-bottom: 20px;">Experience Seoul's Best Jjimjilbang with English Support</p>
-  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Why Every Tourist Should Try Jjimjilbang</h2>
@@ -1619,7 +1619,7 @@ export const blogArticles = [
   <li>🤝 <strong>Social Experience:</strong> See how Koreans relax and socialize</li>
 </ul>
 
-<p><strong>Ready for an authentic Korean spa experience?</strong> Book your jjimjilbang visit at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's most unique wellness tradition!</p>
+<p><strong>Ready for an authentic Korean spa experience?</strong> Book your jjimjilbang visit at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> and discover Seoul's most unique wellness tradition!</p>
       `,
       ja: `
 <h2>韓国チムジルバンが特別な理由</h2>
@@ -1640,7 +1640,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 チムジルバン入場 + ボディスクラブパッケージ</h3>
   <p style="margin-bottom: 20px;">ソウルの最高のチムジルバンを英語サポート付きで体験</p>
-  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/jjimjilbang?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">今すぐ予約 →</a>
 </div>
 
 <h2>よくある質問（FAQ）</h2>
@@ -1656,7 +1656,7 @@ export const blogArticles = [
 <h3>Q2. 女性一人旅でも安全ですか？</h3>
 <p>A. 絶対に！チムジルバンは非常に安全です。入浴エリアは男女別で、共用エリアは家族向けでセキュリティスタッフがいます。</p>
 
-<p><strong>本格的な韓国スパ体験の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>でチムジルバン訪問を予約し、ソウルの最もユニークなウェルネス伝統を発見してください！</p>
+<p><strong>本格的な韓国スパ体験の準備はできましたか？</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>でチムジルバン訪問を予約し、ソウルの最もユニークなウェルネス伝統を発見してください！</p>
       `
     },
     category: 'spa',
@@ -1922,7 +1922,7 @@ export const blogArticles = [
   <li>Experience professional glass skin treatments</li>
   <li>Get personalized AI skin analysis</li>
   <li>Try cutting-edge beauty technologies</li>
-  <li>Book at: <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></li>
+  <li>Book at: <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></li>
 </ul>
 
 <p><strong>2. Myeongdong Shopping District</strong></p>
@@ -2006,7 +2006,7 @@ export const blogArticles = [
 <p>A. The traditional 10-step routine has evolved into a more flexible "skinimalism" approach. While layering remains important, the focus is now on multi-functional products and skin cycling rather than using many single-purpose products.</p>
 
 <h3>Q3. How can I experience these K-beauty trends in Seoul?</h3>
-<p>A. Visit Gangnam's premium beauty clinics for AI skin analysis and professional treatments. Book appointments through <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> for guaranteed English-speaking service and authentic K-beauty experiences.</p>
+<p>A. Visit Gangnam's premium beauty clinics for AI skin analysis and professional treatments. Book appointments through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> for guaranteed English-speaking service and authentic K-beauty experiences.</p>
 
 <h3>Q4. Are K-beauty products becoming more expensive in 2025?</h3>
 <p>A. While premium personalized and clean beauty products command higher prices, K-beauty maintains its reputation for affordability. Many innovative formulations remain budget-friendly, especially from brands like COSRX, Beauty of Joseon, and Innisfree.</p>
@@ -2017,7 +2017,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Experience 2025 K-Beauty Trends in Seoul</h3>
   <p style="margin-bottom: 20px;">Book professional K-beauty treatments at Gangnam's top-rated clinics</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Conclusion: The Future of K-Beauty is Here</h2>
@@ -2025,7 +2025,7 @@ export const blogArticles = [
 
 <p>Whether you're a longtime K-beauty enthusiast or just discovering the magic of Korean skincare, 2025 offers exciting opportunities to achieve your best skin yet. The emphasis on skin barrier health, clean ingredients, and personalized approaches ensures that everyone can find products tailored to their unique needs.</p>
 
-<p><strong>Ready to embrace K-beauty trends?</strong> Visit Seoul's beauty districts or explore online at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book authentic Korean beauty treatments and consultations with English-speaking experts!</p>
+<p><strong>Ready to embrace K-beauty trends?</strong> Visit Seoul's beauty districts or explore online at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> to book authentic Korean beauty treatments and consultations with English-speaking experts!</p>
       `,
       ja: `
 <h2>2025年の韓国美容トレンド</h2>
@@ -2280,12 +2280,12 @@ export const blogArticles = [
   <li>💎 Gangnam - Premium brands and latest releases</li>
 </ul>
 
-<p>For professional skincare consultations and treatments in Seoul, book at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a></p>
+<p>For professional skincare consultations and treatments in Seoul, book at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
 
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Get Professional Skin Analysis in Seoul</h3>
   <p style="margin-bottom: 20px;">Book a consultation to build your perfect K-beauty routine</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>FAQ</h2>
@@ -2517,7 +2517,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FA8BFF, #2BD2FF); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Want Professional Facial Treatment?</h3>
   <p style="margin-bottom: 20px;">Book Korean facial care services in Seoul with English support</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FA8BFF; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FA8BFF; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>🧪 Key Ingredients Explained</h2>
@@ -2660,10 +2660,10 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎁 Want to Try Korean Facial Treatments?</h3>
   <p style="margin-bottom: 20px;">Book professional Korean skincare services in Seoul</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
-<p><strong>Ready to glow?</strong> Start with 2-3 masks per week and find your perfect match. Visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book professional Korean facial treatments in Seoul!</p>
+<p><strong>Ready to glow?</strong> Start with 2-3 masks per week and find your perfect match. Visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> to book professional Korean facial treatments in Seoul!</p>
       `,
       ko: '한국 시트 마스크 가이드 콘텐츠',
       ja: '韓国シートマスクガイドコンテンツ'
@@ -3040,7 +3040,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FA8BFF, #2BD2FF); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Experience Korean Skincare in Seoul</h3>
   <p style="margin-bottom: 20px;">Book professional Korean facial treatments with English support</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FA8BFF; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FA8BFF; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>FAQ</h2>
@@ -3057,7 +3057,7 @@ export const blogArticles = [
 <h3>Q: Which has better anti-aging products?</h3>
 <p>A: Both are excellent. K-Beauty excels in prevention (start young), while J-Beauty focuses on correction (premium anti-aging lines from Shiseido, SK-II).</p>
 
-<p><strong>The verdict?</strong> There's no "winner" - choose based on your skin type, budget, and philosophy. Or better yet, mix both for a customized routine! Visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book Korean skincare consultations in Seoul.</p>
+<p><strong>The verdict?</strong> There's no "winner" - choose based on your skin type, budget, and philosophy. Or better yet, mix both for a customized routine! Visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> to book Korean skincare consultations in Seoul.</p>
       `,
       ko: 'K-뷰티 vs J-뷰티 비교 가이드 콘텐츠',
       ja: 'K-ビューティ vs J-ビューティ比較ガイドコンテンツ'
@@ -3315,7 +3315,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">💄 Want Professional Korean Makeup?</h3>
   <p style="margin-bottom: 20px;">Book professional makeup services in Seoul with English support</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>🛍️ Must-Buy K-Beauty Makeup Products 2025</h2>
@@ -3352,7 +3352,7 @@ export const blogArticles = [
 <h3>Q: How do I choose the right K-Beauty cushion shade?</h3>
 <p>A: Korean cushions often run lighter (shades 13, 17, 21, 23). Test on your jawline. If visiting Seoul, ask for samples at Olive Young or department stores.</p>
 
-<p><strong>Ready to embrace K-Beauty makeup?</strong> Visit Seoul's beauty stores or book professional makeup services at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+<p><strong>Ready to embrace K-Beauty makeup?</strong> Visit Seoul's beauty stores or book professional makeup services at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>!</p>
       `,
       ko: '한국 메이크업 트렌드 가이드 콘텐츠',
       ja: '韓国メイクアップトレンドガイドコンテンツ'
@@ -3507,7 +3507,7 @@ export const blogArticles = [
   <li>💎 Treatments: Aqua peel, oxygen facial, LED therapy</li>
 </ul>
 
-<p><strong>How to Book:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> offers English booking service</p>
+<p><strong>How to Book:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> offers English booking service</p>
 
 <p><strong>Option 2: Shopping - Gangnam Beauty Streets</strong></p>
 <ul>
@@ -3521,7 +3521,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">💆 Book Your Seoul Spa & Skincare</h3>
   <p style="margin-bottom: 20px;">English-friendly booking for Gangnam's best beauty clinics</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>📅 Day 3: Bukchon Hanok & Traditional Korean Beauty</h2>
@@ -3645,7 +3645,7 @@ export const blogArticles = [
   <li><strong>Papago</strong> - Naver translator (camera translation)</li>
   <li><strong>Olive Young App</strong> - Exclusive coupons, store locator</li>
   <li><strong>Kakao T</strong> - Taxi app (English available)</li>
-  <li><strong>K-Beauty Seoul</strong> - Book treatments at <a href="https://kbeautyseoul.co.kr">kbeautyseoul.co.kr</a></li>
+  <li><strong>K-Beauty Seoul</strong> - Book treatments at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a></li>
 </ul>
 
 <h2>FAQ</h2>
@@ -3654,7 +3654,7 @@ export const blogArticles = [
 <p>A: Yes! With tax refunds and in-store promotions, you'll save 20-40% vs international online prices. Plus, no shipping fees or wait times!</p>
 
 <h3>Q: Do I need to book spa treatments in advance?</h3>
-<p>A: Highly recommended for Gangnam clinics (especially weekends). Use <a href="https://kbeautyseoul.co.kr">kbeautyseoul.co.kr</a> for English booking service.</p>
+<p>A: Highly recommended for Gangnam clinics (especially weekends). Use <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a> for English booking service.</p>
 
 <h3>Q: Can I do this itinerary without speaking Korean?</h3>
 <p>A: Absolutely! Major shopping areas (Myeongdong, Gangnam) have English-speaking staff. Download Papago translator app for backup.</p>
@@ -3662,7 +3662,7 @@ export const blogArticles = [
 <h3>Q: What's the best time to visit Seoul for beauty shopping?</h3>
 <p>A: Spring (April-May) and Fall (Sept-Nov) offer pleasant weather. Avoid peak summer (July-Aug) humidity. Major sales: January, July, Black Friday, 11.11.</p>
 
-<p><strong>Ready for your Seoul beauty adventure?</strong> Book your spa treatments and skincare consultations at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+<p><strong>Ready for your Seoul beauty adventure?</strong> Book your spa treatments and skincare consultations at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>!</p>
       `,
       ko: '서울 뷰티 여행 가이드 콘텐츠',
       ja: 'ソウル美容旅行ガイドコンテンツ'
@@ -4015,7 +4015,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Get Professional Skin Analysis in Seoul</h3>
   <p style="margin-bottom: 20px;">Book a consultation to find the perfect ingredients for your skin</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>FAQ</h2>
@@ -4036,7 +4036,7 @@ export const blogArticles = [
 - <strong>Anti-aging (retinol, peptides):</strong> 8-12 weeks<br>
 - <strong>Acne (tea tree, centella):</strong> 2-6 weeks</p>
 
-<p><strong>Ready to build your perfect K-Beauty routine?</strong> Visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> to book professional skincare consultations in Seoul!</p>
+<p><strong>Ready to build your perfect K-Beauty routine?</strong> Visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> to book professional skincare consultations in Seoul!</p>
       `,
       ko: 'K-뷰티 성분 가이드 콘텐츠',
       ja: 'K-ビューティ成分ガイドコンテンツ'
@@ -4336,7 +4336,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">☀️ Book Korean Facial with SPF Consultation</h3>
   <p style="margin-bottom: 20px;">Get professional sun protection advice in Seoul</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>✅ How to Apply Sunscreen Correctly</h2>
@@ -4425,7 +4425,7 @@ export const blogArticles = [
 <h3>Q: Can I mix sunscreen with foundation?</h3>
 <p>A: No! This dilutes SPF protection. Apply sunscreen first, wait 5 minutes, then apply makeup.</p>
 
-<p><strong>Ready to find your perfect Korean sunscreen?</strong> Visit Seoul's beauty stores or shop online. For professional skincare consultations, book at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+<p><strong>Ready to find your perfect Korean sunscreen?</strong> Visit Seoul's beauty stores or shop online. For professional skincare consultations, book at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>!</p>
       `,
       ko: '한국 선크림 가이드 콘텐츠',
       ja: '韓国日焼け止めガイドコンテンツ'
@@ -4648,7 +4648,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">💚 Book Korean Acne Treatment in Seoul</h3>
   <p style="margin-bottom: 20px;">Professional acne facials & consultations with English support</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>FAQ</h2>
@@ -4665,7 +4665,7 @@ export const blogArticles = [
 <h3>Q: What's better for acne: BHA or AHA?</h3>
 <p>A: <strong>BHA (salicylic acid)</strong> - Best for active acne, blackheads (penetrates pores). <strong>AHA (glycolic/lactic)</strong> - Best for acne scars, texture (surface exfoliation). Use both for complete treatment!</p>
 
-<p><strong>Ready to clear your skin with K-Beauty?</strong> Start with COSRX and Some By Mi essentials. For professional acne treatments in Seoul, book at <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>!</p>
+<p><strong>Ready to clear your skin with K-Beauty?</strong> Start with COSRX and Some By Mi essentials. For professional acne treatments in Seoul, book at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>!</p>
       `,
       ko: '여드름 K-뷰티 가이드 콘텐츠',
       ja: 'ニキビK-ビューティガイドコンテンツ'
@@ -4974,7 +4974,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FF6B9D, #FFC2D4); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🛍️ Book Korean Skincare Consultation</h3>
   <p style="margin-bottom: 20px;">Get personalized product recommendations in Seoul</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FF6B9D; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>🛡️ How to Spot Fake Korean Skincare</h2>
@@ -5022,7 +5022,7 @@ export const blogArticles = [
 <h3>Q: Can I mix Korean and Western skincare?</h3>
 <p>A: Absolutely! Many people use K-Beauty cleansers/essences with Western actives (retinol, vitamin C).</p>
 
-<p><strong>Ready to shop?</strong> Use this guide to build your perfect K-Beauty collection! For professional skincare consultations in Seoul, visit <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>.</p>
+<p><strong>Ready to shop?</strong> Use this guide to build your perfect K-Beauty collection! For professional skincare consultations in Seoul, visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>.</p>
       `,
       ko: '한국 스킨케어 제품 쇼핑 가이드',
       ja: '韓国スキンケア製品ショッピングガイド'
@@ -5075,9 +5075,9 @@ export const blogArticles = [
 
 <h2>🏆 Best Platform: K-Beauty Seoul Review</h2>
 
-<h3>Why <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> is #1</h3>
+<h3>Why <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> is #1</h3>
 
-<p>After testing multiple booking platforms, <strong><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a></strong> stands out as the most foreigner-friendly option in 2025.</p>
+<p>After testing multiple booking platforms, <strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a></strong> stands out as the most foreigner-friendly option in 2025.</p>
 
 <table border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
   <tr>
@@ -5118,7 +5118,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">🎉 Book Your Seoul Beauty Experience</h3>
   <p style="margin-bottom: 20px;">Instant confirmation • English support • 150+ verified clinics</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Book Now at K-Beauty Seoul →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Book Now at K-Beauty Seoul →</a>
 </div>
 
 <h2>📍 Top Beauty Services to Book in Seoul</h2>
@@ -5132,7 +5132,7 @@ export const blogArticles = [
   <li>💪 Deep tissue massage - ₩180,000</li>
   <li>🪨 Hot stone massage - ₩200,000</li>
 </ul>
-<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank" rel="noopener">K-Beauty Seoul Massage Booking</a> (English support available)</p>
+<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank" rel="noopener">K-Beauty Seoul Massage Booking</a> (English support available)</p>
 
 <h3>2. Head Spa & Scalp Treatment 💆‍♀️</h3>
 <p><strong>Price:</strong> ₩120,000-₩180,000 ($92-$138) | <strong>Duration:</strong> 60-90 min</p>
@@ -5144,7 +5144,7 @@ export const blogArticles = [
   <li>✅ Massage + treatment mask</li>
   <li>✅ Steam therapy</li>
 </ul>
-<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank" rel="noopener">K-Beauty Seoul Head Spa Booking</a></p>
+<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank" rel="noopener">K-Beauty Seoul Head Spa Booking</a></p>
 
 <h3>3. Korean Facial Treatment ✨</h3>
 <p><strong>Price:</strong> ₩100,000-₩300,000 ($80-$240) | <strong>Duration:</strong> 60-90 min</p>
@@ -5155,7 +5155,7 @@ export const blogArticles = [
   <li>💎 Gold therapy facial - ₩250,000</li>
   <li>🧬 LED light therapy - ₩180,000</li>
 </ul>
-<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank" rel="noopener">K-Beauty Seoul Facial Booking</a></p>
+<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul Facial Booking</a></p>
 
 <h3>4. Nail Art & Gel Manicure 💅</h3>
 <p><strong>Price:</strong> ₩40,000-₩120,000 ($32-$95) | <strong>Duration:</strong> 60-120 min</p>
@@ -5165,7 +5165,7 @@ export const blogArticles = [
   <li>💎 Bling nails with gems</li>
   <li>🎨 Hand-painted designs</li>
 </ul>
-<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025" target="_blank" rel="noopener">K-Beauty Seoul Nail Booking</a></p>
+<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/nail-art?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=nail-art&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul Nail Booking</a></p>
 
 <h3>5. Semi-Permanent Makeup 💋</h3>
 <p><strong>Price:</strong> ₩200,000-₩600,000 ($155-$465) | <strong>Duration:</strong> 2-3 hours</p>
@@ -5175,14 +5175,14 @@ export const blogArticles = [
   <li>💋 Lip tattoo/tint - ₩300,000</li>
   <li>👁️ Eyeliner tattoo - ₩200,000</li>
 </ul>
-<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank" rel="noopener">K-Beauty Seoul Semi-Permanent Booking</a></p>
+<p><strong>Book at:</strong> <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul Semi-Permanent Booking</a></p>
 
 <h2>📝 Step-by-Step Booking Guide</h2>
 
 <h3>Method 1: Book via K-Beauty Seoul (Recommended)</h3>
 
 <ol>
-  <li><strong>Visit <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a></strong></li>
+  <li><strong>Visit <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a></strong></li>
   <li><strong>Choose your service</strong>
     <ul>
       <li>Browse by category: Massage, Facial, Head Spa, Nail Art</li>
@@ -5220,7 +5220,7 @@ export const blogArticles = [
 
 <div style="background: #f0f9ff; padding: 30px; border-radius: 12px; margin: 30px 0;">
   <h3>💡 Pro Tip: First-Time Booking Discount</h3>
-  <p>New users get <strong>10-20% off</strong> their first booking at <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a>. Check the homepage for current promotions!</p>
+  <p>New users get <strong>10-20% off</strong> their first booking at <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a>. Check the homepage for current promotions!</p>
 </div>
 
 <h2>🗓️ Best Time to Book</h2>
@@ -5260,7 +5260,7 @@ export const blogArticles = [
   </tr>
 </table>
 
-<p><strong>💡 Tip:</strong> Book via <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a> at least 3-7 days in advance for best selection.</p>
+<p><strong>💡 Tip:</strong> Book via <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a> at least 3-7 days in advance for best selection.</p>
 
 <h2>💳 Payment Options</h2>
 
@@ -5283,7 +5283,7 @@ export const blogArticles = [
 <h2>🌐 Language Support</h2>
 
 <h3>English-Friendly Booking</h3>
-<p><strong><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a></strong> offers:</p>
+<p><strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a></strong> offers:</p>
 <ul>
   <li>🇬🇧 Full English website</li>
   <li>🇯🇵 Japanese language option</li>
@@ -5298,19 +5298,19 @@ export const blogArticles = [
 <p><strong>Why Choose:</strong> Highest quality, celebrity clinics, latest treatments</p>
 <p><strong>Price Range:</strong> ₩150,000-₩500,000</p>
 <p><strong>Popular Clinics:</strong> Apgujeong Rodeo, Cheongdam area</p>
-<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/gangnam" target="_blank" rel="noopener">Gangnam Beauty Services</a></p>
+<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Gangnam Beauty Services</a></p>
 
 <h3>2. Myeongdong 명동 (Tourist-Friendly)</h3>
 <p><strong>Why Choose:</strong> Convenient location, English staff, moderate prices</p>
 <p><strong>Price Range:</strong> ₩80,000-₩200,000</p>
 <p><strong>Popular:</strong> Near Myeongdong Station</p>
-<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/myeongdong" target="_blank" rel="noopener">Myeongdong Beauty Services</a></p>
+<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/myeongdong?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">Myeongdong Beauty Services</a></p>
 
 <h3>3. Hongdae 홍대 (Budget-Friendly)</h3>
 <p><strong>Why Choose:</strong> Trendy, affordable, younger vibe</p>
 <p><strong>Price Range:</strong> ₩50,000-₩150,000</p>
 <p><strong>Popular:</strong> Nail art, eyelash extensions</p>
-<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/hongdae" target="_blank" rel="noopener">Hongdae Beauty Services</a></p>
+<p><strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/area/hongdae?utm_source=seoulzen&utm_medium=blog&utm_campaign=nail-art&discount=FIRST10" target="_blank" rel="noopener">Hongdae Beauty Services</a></p>
 
 <h2>⭐ Customer Reviews: K-Beauty Seoul</h2>
 
@@ -5318,7 +5318,7 @@ export const blogArticles = [
 
 <blockquote style="background: #f9f9f9; padding: 20px; border-left: 4px solid #FF6B9D; margin: 20px 0;">
   <p><strong>Sarah M. (USA) ⭐⭐⭐⭐⭐</strong></p>
-  <p>"Booked a head spa through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a> - process was so easy! English website, instant confirmation, and the clinic had English-speaking staff. Best scalp massage of my life!"</p>
+  <p>"Booked a head spa through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a> - process was so easy! English website, instant confirmation, and the clinic had English-speaking staff. Best scalp massage of my life!"</p>
 </blockquote>
 
 <blockquote style="background: #f9f9f9; padding: 20px; border-left: 4px solid #FF6B9D; margin: 20px 0;">
@@ -5329,31 +5329,31 @@ export const blogArticles = [
 
 <blockquote style="background: #f9f9f9; padding: 20px; border-left: 4px solid #FF6B9D; margin: 20px 0;">
   <p><strong>Emma L. (UK) ⭐⭐⭐⭐⭐</strong></p>
-  <p>"Used <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> for facial + nail art. Both clinics were verified and professional. Prices were exactly as listed - no hidden fees!"</p>
+  <p>"Used <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a> for facial + nail art. Both clinics were verified and professional. Prices were exactly as listed - no hidden fees!"</p>
 </blockquote>
 
 <div style="background: linear-gradient(135deg, #11998e, #38ef7d); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">✨ Join 10,000+ Happy Customers</h3>
   <p style="margin-bottom: 20px;">Book your Korean beauty experience with confidence</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #11998e; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Start Booking →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #11998e; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Start Booking →</a>
 </div>
 
 <h2>❓ FAQ</h2>
 
 <h3>Q: Is it safe to book beauty services online in Seoul?</h3>
-<p>A: Yes! <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a> only lists verified clinics with business licenses and customer reviews. All payments are secured via Stripe.</p>
+<p>A: Yes! <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a> only lists verified clinics with business licenses and customer reviews. All payments are secured via Stripe.</p>
 
 <h3>Q: Can I cancel or reschedule my booking?</h3>
 <p>A: Yes. Free cancellation up to 24-48 hours before appointment (varies by clinic). Reschedule easily through the booking confirmation email.</p>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p>A: No! When booking via <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a>, you can request English/Japanese/Chinese-speaking staff. Many Gangnam clinics have multilingual staff.</p>
+<p>A: No! When booking via <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a>, you can request English/Japanese/Chinese-speaking staff. Many Gangnam clinics have multilingual staff.</p>
 
 <h3>Q: How far in advance should I book?</h3>
 <p>A: <strong>Weekdays:</strong> 3-5 days ahead. <strong>Weekends:</strong> 1-2 weeks ahead. Popular clinics fill up fast!</p>
 
 <h3>Q: Are walk-ins possible?</h3>
-<p>A: Some clinics accept walk-ins, but booking via <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a> guarantees your slot and often gets you 10-20% discounts.</p>
+<p>A: Some clinics accept walk-ins, but booking via <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a> guarantees your slot and often gets you 10-20% discounts.</p>
 
 <h2>🎁 Special Offers</h2>
 
@@ -5365,7 +5365,7 @@ export const blogArticles = [
   <li>👥 <strong>Group booking:</strong> 3+ people, save 25%</li>
 </ul>
 
-<p><strong>Check latest offers:</strong> <a href="https://kbeautyseoul.co.kr/promotions" target="_blank" rel="noopener">K-Beauty Seoul Promotions</a></p>
+<p><strong>Check latest offers:</strong> <a href="https://kbeautyseoul.co.kr/promotions?utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul Promotions</a></p>
 
 <h2>📞 Customer Support</h2>
 
@@ -5375,14 +5375,14 @@ export const blogArticles = [
   <li>📧 Email: support@kbeautyseoul.co.kr</li>
   <li>💬 Live chat: Available on website (9 AM - 9 PM KST)</li>
   <li>📱 WhatsApp: +82-10-XXXX-XXXX</li>
-  <li>🌐 Website: <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">kbeautyseoul.co.kr</a></li>
+  <li>🌐 Website: <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">kbeautyseoul.co.kr</a></li>
 </ul>
 
 <p><strong>Response Time:</strong> Within 12 hours (usually faster!)</p>
 
 <h2>🎯 Final Recommendation</h2>
 
-<p>For the <strong>easiest, safest, and most convenient</strong> way to book Korean beauty services in Seoul, we highly recommend <strong><a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul (kbeautyseoul.co.kr)</a></strong>.</p>
+<p>For the <strong>easiest, safest, and most convenient</strong> way to book Korean beauty services in Seoul, we highly recommend <strong><a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul (kbeautyseoul.co.kr)</a></strong>.</p>
 
 <p><strong>Why?</strong></p>
 <ul>
@@ -5398,11 +5398,11 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #FA8BFF, #2BD2FF); padding: 40px; border-radius: 12px; color: white; text-align: center; margin: 40px 0;">
   <h2 style="margin-bottom: 20px;">Ready to Experience Korean Beauty?</h2>
   <p style="font-size: 18px; margin-bottom: 30px;">Book now and get 15% off your first service!</p>
-  <a href="https://kbeautyseoul.co.kr" style="background: white; color: #FA8BFF; padding: 20px 50px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 20px; display: inline-block; box-shadow: 0 6px 20px rgba(0,0,0,0.3);">Book at K-Beauty Seoul Now →</a>
+  <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: white; color: #FA8BFF; padding: 20px 50px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 20px; display: inline-block; box-shadow: 0 6px 20px rgba(0,0,0,0.3);">Book at K-Beauty Seoul Now →</a>
   <p style="margin-top: 20px; font-size: 14px; opacity: 0.9;">✨ Instant confirmation • English support • Best rates</p>
 </div>
 
-<p><strong>Happy booking!</strong> Experience the best of Korean beauty with confidence through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener">K-Beauty Seoul</a>. 🎉💆✨</p>
+<p><strong>Happy booking!</strong> Experience the best of Korean beauty with confidence through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener">K-Beauty Seoul</a>. 🎉💆✨</p>
       `,
       ko: '서울 뷰티 서비스 예약 가이드',
       ja: 'ソウル美容サービス予約ガイド'
@@ -5442,7 +5442,7 @@ export const blogArticles = [
 <h2>Why I Decided to Try Korean Beauty Treatments in Gangnam</h2>
 <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Beauty District" />
 
-<p>As a long-time K-Beauty enthusiast who'd only experienced products, I finally took the plunge to try <strong>professional beauty treatments in Seoul's Gangnam district</strong>. After reading countless Reddit threads and YouTube reviews, I booked through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> for their <strong>English-speaking support and verified clinics</strong>.</p>
+<p>As a long-time K-Beauty enthusiast who'd only experienced products, I finally took the plunge to try <strong>professional beauty treatments in Seoul's Gangnam district</strong>. After reading countless Reddit threads and YouTube reviews, I booked through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> for their <strong>English-speaking support and verified clinics</strong>.</p>
 
 <p>This is my <strong>100% honest review</strong> of 3 treatments I received over a week in Seoul: <strong>Deep Tissue Massage, Scalp Care Treatment, and Aqua Peeling Facial</strong>. No sponsorship, just real experiences with photos, prices, and tips. 🇰🇷✨</p>
 
@@ -5452,7 +5452,7 @@ export const blogArticles = [
     <li><strong>Best Experience:</strong> Scalp Care Treatment (life-changing!) 🌟</li>
     <li><strong>Best Value:</strong> Deep Tissue Massage (₩150,000 for 90min)</li>
     <li><strong>Most Surprising:</strong> Aqua Peeling results lasted 3+ weeks</li>
-    <li><strong>Booking Platform:</strong> <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> - easy, reliable, English support</li>
+    <li><strong>Booking Platform:</strong> <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> - easy, reliable, English support</li>
     <li><strong>Total Spent:</strong> ₩450,000 (~$340 USD) for 3 treatments</li>
     <li><strong>Would I Do It Again?</strong> 💯 YES! Already planning round 2</li>
   </ul>
@@ -5471,7 +5471,7 @@ export const blogArticles = [
 </ul>
 
 <h3>Why I Chose K-Beauty Seoul</h3>
-<p>After comparing 5+ booking platforms (Klook, KKday, Naver, direct clinic websites), I went with <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> because:</p>
+<p>After comparing 5+ booking platforms (Klook, KKday, Naver, direct clinic websites), I went with <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> because:</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
@@ -5494,7 +5494,7 @@ export const blogArticles = [
 
 <p><strong>Booking process was literally 5 steps:</strong></p>
 <ol>
-  <li>Browse treatments on <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr catalog</a></li>
+  <li>Browse treatments on <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">kbeautyseoul.co.kr catalog</a></li>
   <li>Select service, date, and time (calendar shows real-time availability)</li>
   <li>Fill out a simple form (name, hotel address, any allergies)</li>
   <li>Pay online (accepted my US Visa card, no extra fees)</li>
@@ -5504,7 +5504,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white; margin-bottom: 15px;">🎯 Want to Book the Same Treatments?</h3>
   <p style="margin-bottom: 20px;">Get 10% off your first booking with code <strong>BLOG10</strong></p>
-  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Browse Treatments →</a>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Browse Treatments →</a>
 </div>
 
 <h2>💆‍♀️ Treatment #1: Deep Tissue Massage (₩150,000)</h2>
@@ -5513,7 +5513,7 @@ export const blogArticles = [
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Gangnam Premium Wellness (partnered with K-Beauty Seoul)<br>
 <strong>Address:</strong> 5-minute walk from Gangnam Station Exit 10<br>
-<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025</a></p>
+<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025</a></p>
 
 <h3>The Experience (90 Minutes)</h3>
 <p>The clinic was <strong>way fancier</strong> than I expected - marble floors, soft ambient music, complimentary ginseng tea. I was greeted in English (!!) and given a tour.</p>
@@ -5547,7 +5547,7 @@ export const blogArticles = [
 <strong>Next day:</strong> Slight muscle soreness (normal for deep tissue), but overall felt amazing<br>
 <strong>1 week later:</strong> Shoulder tension came back a bit, but still better than before treatment</p>
 
-<p><strong>💡 My Tip:</strong> Book this treatment early in your Seoul trip. The relaxation sets the perfect vibe for your vacation. <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book Gangnam massage here</a>.</p>
+<p><strong>💡 My Tip:</strong> Book this treatment early in your Seoul trip. The relaxation sets the perfect vibe for your vacation. <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book Gangnam massage here</a>.</p>
 
 <h2>💈 Treatment #2: Scalp Care Treatment (₩120,000) ⭐ MY FAVORITE</h2>
 <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean scalp spa treatment" />
@@ -5555,7 +5555,7 @@ export const blogArticles = [
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Gangnam Head Spa Lab<br>
 <strong>Address:</strong> Near Apgujeong Rodeo Station<br>
-<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025</a></p>
+<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025</a></p>
 
 <h3>Why I Booked This</h3>
 <p>Okay, confession: I've had <strong>oily, itchy scalp + hair thinning</strong> for 2 years. Tried every Western dandruff shampoo (Head & Shoulders, Nizoral, T-Gel) with zero results. Heard Korean scalp treatments are next-level, so I had to try.</p>
@@ -5604,7 +5604,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white; margin-bottom: 15px;">💆 Want to Try Korean Scalp Treatment?</h3>
   <p style="margin-bottom: 20px;">This was the #1 beauty treatment I recommend to everyone visiting Seoul</p>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Scalp Care →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Scalp Care →</a>
 </div>
 
 <h2>✨ Treatment #3: Aqua Peeling Facial (₩180,000)</h2>
@@ -5613,7 +5613,7 @@ export const blogArticles = [
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Cheongdam Aesthetic Center<br>
 <strong>Address:</strong> Luxury building in Cheongdam (intimidating but worth it!)<br>
-<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025</a></p>
+<strong>Booked via:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025</a></p>
 
 <h3>What Is Aqua Peeling?</h3>
 <p>Think of it as <strong>hydrating microdermabrasion meets suction facial</strong>. Uses water pressure to exfoliate dead skin + vacuum to extract blackheads. Popular in Korea for "glass skin" prep.</p>
@@ -5666,7 +5666,7 @@ export const blogArticles = [
 <strong>1 week later:</strong> Texture was noticeably smoother. Blackheads hadn't returned yet<br>
 <strong>3 weeks later:</strong> Glow faded, but skin texture remained better than before treatment</p>
 
-<p><strong>💡 My Honest Take:</strong> Great for a <strong>special occasion or pre-event glow</strong>. Would I pay ₩180,000 monthly? Probably not. But as a quarterly treat? Absolutely. Worth it for the experience alone. Book at <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a>.</p>
+<p><strong>💡 My Honest Take:</strong> Great for a <strong>special occasion or pre-event glow</strong>. Would I pay ₩180,000 monthly? Probably not. But as a quarterly treat? Absolutely. Worth it for the experience alone. Book at <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>.</p>
 
 <h2>💰 Total Cost Breakdown & Value Comparison</h2>
 
@@ -5717,7 +5717,7 @@ export const blogArticles = [
 <h2>📝 Tips for Booking Korean Beauty Treatments (What I Wish I Knew)</h2>
 
 <h3>1. Book Through K-Beauty Seoul for Peace of Mind</h3>
-<p>Yes, you <em>could</em> try to book directly with clinics, but here's why I recommend <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a>:</p>
+<p>Yes, you <em>could</em> try to book directly with clinics, but here's why I recommend <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a>:</p>
 <ul>
   <li>✅ <strong>English customer support:</strong> They answered my questions via WhatsApp at 11pm Seoul time</li>
   <li>✅ <strong>Curated clinics:</strong> All verified for cleanliness, licensing, English support</li>
@@ -5806,14 +5806,14 @@ export const blogArticles = [
   
   <div style="background: white; padding: 20px; border-radius: 10px; margin: 20px 0;">
     <h4>🎉 First-Timer Offer</h4>
-    <p><strong>10% OFF</strong> your first booking on <a href="https://kbeautyseoul.co.kr" target="_blank">K-Beauty Seoul</a></p>
+    <p><strong>10% OFF</strong> your first booking on <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">K-Beauty Seoul</a></p>
     <p>Use code: <strong style="background: #ffd700; padding: 5px 15px; border-radius: 5px; font-size: 18px;">BLOG10</strong></p>
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; margin: 20px 0;">
     <h4>💸 Package Deal</h4>
     <p><strong>Save ₩50,000</strong> when you book 3+ treatments</p>
-    <p>Perfect combo: <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Scalp Care</a> + <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Massage</a> + <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">Facial</a></p>
+    <p>Perfect combo: <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Scalp Care</a> + <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Massage</a> + <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">Facial</a></p>
   </div>
   
   <div style="background: white; padding: 20px; border-radius: 10px; margin: 20px 0;">
@@ -5823,7 +5823,7 @@ export const blogArticles = [
   </div>
   
   <div style="text-align: center; margin-top: 25px;">
-    <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 18px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Browse All Treatments →</a>
+    <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #fa709a; padding: 18px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Browse All Treatments →</a>
   </div>
 </div>
 
@@ -5835,17 +5835,17 @@ export const blogArticles = [
 
 <h2>🔗 Useful Links & Resources</h2>
 <ul>
-  <li>📝 <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>K-Beauty Seoul</strong></a> - Main booking platform I used</li>
-  <li>💆 <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Book Scalp Care Treatment</a> (my #1 recommendation)</li>
-  <li>💪 <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book Deep Tissue Massage</a></li>
-  <li>✨ <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">Book Aqua Peeling Facial</a></li>
-  <li>📚 <a href="https://kbeautyseoul.co.kr/blog?lang=en" target="_blank">More K-Beauty Treatment Guides</a></li>
+  <li>📝 <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>K-Beauty Seoul</strong></a> - Main booking platform I used</li>
+  <li>💆 <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book Scalp Care Treatment</a> (my #1 recommendation)</li>
+  <li>💪 <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book Deep Tissue Massage</a></li>
+  <li>✨ <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">Book Aqua Peeling Facial</a></li>
+  <li>📚 <a href="https://kbeautyseoul.co.kr/blog?lang=en&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">More K-Beauty Treatment Guides</a></li>
 </ul>
 
 <h2>❓ Your Questions Answered (FAQ)</h2>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p><strong>A:</strong> Nope! All clinics partnered with <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> have English-speaking staff. Plus, the booking platform provides Korean translations for taxi directions.</p>
+<p><strong>A:</strong> Nope! All clinics partnered with <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> have English-speaking staff. Plus, the booking platform provides Korean translations for taxi directions.</p>
 
 <h3>Q: How far in advance should I book?</h3>
 <p><strong>A:</strong> <strong>1-2 weeks minimum</strong> for popular treatments (especially scalp care on weekends). Last-minute bookings are sometimes available on weekday mornings.</p>
@@ -5866,15 +5866,15 @@ export const blogArticles = [
 
 <p>If you're visiting Seoul or planning a trip, <strong>DO NOT SKIP Korean beauty treatments</strong>. They're not just touristy pampering - they're legit, results-driven therapies that combine ancient techniques with modern technology.</p>
 
-<p>For easy booking with English support, I can't recommend <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> enough. They made my entire beauty experience stress-free and exceeded all expectations.</p>
+<p>For easy booking with English support, I can't recommend <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> enough. They made my entire beauty experience stress-free and exceeded all expectations.</p>
 
 <div style="background: #e1f5fe; padding: 25px; border-radius: 10px; margin: 30px 0; text-align: center;">
   <h3>Ready to Experience Korean Beauty Treatments?</h3>
   <p style="margin: 15px 0;">Use code <strong style="background: #ffd700; padding: 5px 15px; border-radius: 5px;">BLOG10</strong> for 10% off your first booking</p>
-  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Start Booking →</a>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 40px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Start Booking →</a>
 </div>
 
-<p><strong>Questions about my experience?</strong> Leave a comment below or check out <a href="https://kbeautyseoul.co.kr/blog" target="_blank">more K-Beauty guides on kbeautyseoul.co.kr blog</a>!</p>
+<p><strong>Questions about my experience?</strong> Leave a comment below or check out <a href="https://kbeautyseoul.co.kr/blog?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">more K-Beauty guides on kbeautyseoul.co.kr blog</a>!</p>
 
 <p><em>*All prices accurate as of December 2025. Treatment experiences are my own and not sponsored. I booked and paid for all services myself through K-Beauty Seoul.</em></p>
       `,
@@ -5918,7 +5918,7 @@ export const blogArticles = [
 
 <p>Seoul has become the <strong>global capital of beauty innovation</strong>. From revolutionary skincare techniques to advanced aesthetic procedures, Korea offers treatments you simply can't find anywhere else. After researching and trying dozens of services across Gangnam, Cheongdam, and Myeongdong, I've narrowed it down to the <strong>top 5 must-try treatments</strong> for 2025.</p>
 
-<p>Whether you're visiting Seoul for the first time or a K-Beauty veteran, these services offer the <strong>perfect blend of innovation, results, and value</strong>. Best part? You can book all of them through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> with full English support. ✨</p>
+<p>Whether you're visiting Seoul for the first time or a K-Beauty veteran, these services offer the <strong>perfect blend of innovation, results, and value</strong>. Best part? You can book all of them through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> with full English support. ✨</p>
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; margin: 30px 0;">
   <h3 style="color: white; text-align: center; margin-bottom: 20px;">🏆 Quick Rankings</h3>
@@ -5929,7 +5929,7 @@ export const blogArticles = [
     <li><strong>#4: Aqua Peel Glass Skin Facial</strong> (Instant results)</li>
     <li><strong>#5: Semi-Permanent Lip Tint</strong> (Most convenient)</li>
   </ol>
-  <p style="text-align: center; margin-top: 20px;"><a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Browse All Services →</a></p>
+  <p style="text-align: center; margin-top: 20px;"><a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Browse All Services →</a></p>
 </div>
 
 <h2>🥇 #1: Korean Scalp Care Treatment - The Game Changer</h2>
@@ -5979,7 +5979,7 @@ export const blogArticles = [
   <strong>Price:</strong> ₩120,000 (~$90 USD)<br>
   <strong>Best for:</strong> Hair thinning, oily scalp, dandruff, scalp sensitivity<br>
   <strong>Recommended frequency:</strong> Monthly for best results<br>
-  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025</strong></a></p>
+  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank"><strong>kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025</strong></a></p>
 </div>
 
 <h3>💡 Pro Tips</h3>
@@ -5993,7 +5993,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white;">🌟 Most Popular Treatment on K-Beauty Seoul</h3>
   <p>95% customer satisfaction • 4.9/5 stars • Most re-booked service</p>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Scalp Care →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Scalp Care →</a>
 </div>
 
 <h2>🥈 #2: BB Glow Semi-Permanent Foundation - The Innovation</h2>
@@ -6034,7 +6034,7 @@ export const blogArticles = [
   <strong>Price:</strong> ₩280,000 (~$210 USD) for 1 session • ₩700,000 (~$525) for 3-session package<br>
   <strong>Best for:</strong> Busy professionals, those who hate wearing makeup, uneven skin tone<br>
   <strong>Recommended sessions:</strong> 3 sessions (2 weeks apart) for optimal coverage<br>
-  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025</strong></a></p>
+  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" target="_blank"><strong>kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025</strong></a></p>
 </div>
 
 <h3>💡 Pro Tips</h3>
@@ -6048,7 +6048,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white;">💎 #1 Requested Service by Beauty Influencers</h3>
   <p>As seen on K-Beauty YouTube • Instagram • TikTok trends</p>
-  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" style="background: white; color: #4facfe; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book BB Glow →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" style="background: white; color: #4facfe; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book BB Glow →</a>
 </div>
 
 <h2>🥉 #3: Korean Deep Tissue Massage - The Value King</h2>
@@ -6089,7 +6089,7 @@ export const blogArticles = [
   <strong>Price:</strong> ₩150,000 (~$113 USD)<br>
   <strong>Best for:</strong> Desk workers, chronic pain, athletic recovery, stress relief<br>
   <strong>Comparable US price:</strong> $200-250 for same quality<br>
-  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025</strong></a></p>
+  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank"><strong>kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025</strong></a></p>
 </div>
 
 <h3>💡 Pro Tips</h3>
@@ -6103,7 +6103,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white;">💪 Best Value Treatment in Seoul</h3>
   <p>Save $87-137 vs US prices • Same-day booking available</p>
-  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Massage →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #fa709a; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Massage →</a>
 </div>
 
 <h2>4️⃣ #4: Aqua Peel Glass Skin Facial - Instant Results</h2>
@@ -6152,7 +6152,7 @@ export const blogArticles = [
   <strong>Price:</strong> ₩180,000 (~$135 USD)<br>
   <strong>Best for:</strong> Pre-event glow, blackheads, dull skin, makeup enthusiasts<br>
   <strong>Recommended frequency:</strong> Monthly for best results<br>
-  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025</strong></a></p>
+  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank"><strong>kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025</strong></a></p>
 </div>
 
 <h3>💡 Pro Tips</h3>
@@ -6166,7 +6166,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white;">✨ Pre-Wedding & Event Favorite</h3>
   <p>Instant glass skin glow • Perfect for photoshoots</p>
-  <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Facial →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Facial →</a>
 </div>
 
 <h2>5️⃣ #5: Semi-Permanent Lip Tint - Ultimate Convenience</h2>
@@ -6206,7 +6206,7 @@ export const blogArticles = [
   <strong>Price:</strong> ₩350,000 (~$263 USD) includes touch-up session<br>
   <strong>Best for:</strong> Pale lips, busy lifestyle, no-makeup lovers, lip shape enhancement<br>
   <strong>Comparable US price:</strong> $400-600<br>
-  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025</strong></a></p>
+  <strong>Book:</strong> <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" target="_blank"><strong>kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025</strong></a></p>
 </div>
 
 <h3>💡 Pro Tips</h3>
@@ -6220,7 +6220,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white;">💋 Wake Up Pretty Every Day</h3>
   <p>1-3 years lasting • Natural gradient lips • English-speaking artists</p>
-  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Lip Tint →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" style="background: white; color: #f5576c; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 15px;">Book Lip Tint →</a>
 </div>
 
 <h2>🎯 How to Choose the Right Treatment for You</h2>
@@ -6237,27 +6237,27 @@ export const blogArticles = [
     <tr>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Fix hair/scalp problems</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>#1 Scalp Care</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Hate wearing makeup daily</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>#2 BB Glow</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" target="_blank">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Chronic pain/stress relief</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>#3 Deep Tissue Massage</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Pre-event instant glow</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>#4 Aqua Peel Facial</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px;">Natural lip color 24/7</td>
       <td style="padding: 12px;"><strong>#5 Lip Tint</strong></td>
-      <td style="padding: 12px;"><a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank">Book</a></td>
+      <td style="padding: 12px;"><a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" target="_blank">Book</a></td>
     </tr>
   </tbody>
 </table>
@@ -6291,14 +6291,14 @@ export const blogArticles = [
   </div>
   
   <div style="text-align: center; margin-top: 30px;">
-    <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">Claim Discount & Browse →</a>
+    <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #fa709a; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">Claim Discount & Browse →</a>
   </div>
 </div>
 
 <h2>📍 Booking Tips & What to Know</h2>
 
 <h3>Why Book Through K-Beauty Seoul?</h3>
-<p>After trying to book directly with clinics (nightmare!), I strongly recommend using <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a>:</p>
+<p>After trying to book directly with clinics (nightmare!), I strongly recommend using <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a>:</p>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
   <div style="background: #e3f2fd; padding: 20px; border-radius: 10px;">
@@ -6338,7 +6338,7 @@ export const blogArticles = [
 <h2>❓ FAQ - Your Questions Answered</h2>
 
 <h3>Q: Do I need to speak Korean?</h3>
-<p><strong>A:</strong> Nope! All clinics on <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a> have English-speaking staff. Plus, the platform provides Korean text for taxi directions.</p>
+<p><strong>A:</strong> Nope! All clinics on <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> have English-speaking staff. Plus, the platform provides Korean text for taxi directions.</p>
 
 <h3>Q: How far in advance should I book?</h3>
 <p><strong>A:</strong> <strong>1-2 weeks</strong> for weekday appointments, <strong>2-4 weeks</strong> for weekends/evenings. Scalp care and BB Glow book up fastest.</p>
@@ -6360,16 +6360,16 @@ export const blogArticles = [
 
 <p>These 5 treatments represent the <strong>best of Korean beauty innovation</strong> - from ancient scalp therapy techniques to cutting-edge BB Glow technology. What makes them special isn't just the results (though those are incredible), it's the <strong>combination of expertise, technology, and value</strong> you won't find anywhere else in the world.</p>
 
-<p>Whether you're visiting Seoul for a week or planning a dedicated beauty trip, booking through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> makes the entire experience seamless. No language barriers, no booking stress, just pure Korean beauty excellence.</p>
+<p>Whether you're visiting Seoul for a week or planning a dedicated beauty trip, booking through <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> makes the entire experience seamless. No language barriers, no booking stress, just pure Korean beauty excellence.</p>
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 35px; border-radius: 15px; color: white; text-align: center; margin: 40px 0;">
   <h3 style="color: white; margin-bottom: 20px;">✨ Ready to Experience Korean Beauty?</h3>
   <p style="font-size: 18px; margin-bottom: 25px;">Use code <strong style="background: white; color: #667eea; padding: 8px 20px; border-radius: 25px; font-size: 20px;">BLOG10</strong> for 10% off your first booking</p>
-  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">Browse All Services →</a>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; border: 2px solid white;">Book Scalp Care (Most Popular) →</a>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #667eea; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">Browse All Services →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; border: 2px solid white;">Book Scalp Care (Most Popular) →</a>
 </div>
 
-<p><strong>Questions about these treatments?</strong> Comment below or check out the <a href="https://kbeautyseoul.co.kr/blog" target="_blank">K-Beauty Seoul blog</a> for more guides!</p>
+<p><strong>Questions about these treatments?</strong> Comment below or check out the <a href="https://kbeautyseoul.co.kr/blog?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">K-Beauty Seoul blog</a> for more guides!</p>
 
 <p><em>*Prices accurate as of December 2025. All treatments personally researched and vetted. This guide contains affiliate links to kbeautyseoul.co.kr.</em></p>
       `,
@@ -6420,7 +6420,7 @@ export const blogArticles = [
   <ul style="font-size: 16px; line-height: 1.8; color: white;">
     <li><strong>Best Districts:</strong> Gangnam, Cheongdam, Myeongdong, Hongdae</li>
     <li><strong>Average Cost:</strong> 30-50% cheaper than US/UK/Japan</li>
-    <li><strong>English Support:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" style="color: #FFD700; text-decoration: underline;"><strong>kbeautyseoul.co.kr</strong></a></li>
+    <li><strong>English Support:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="color: #FFD700; text-decoration: underline;"><strong>kbeautyseoul.co.kr</strong></a></li>
     <li><strong>Best Time to Visit:</strong> September-November (mild weather, beauty deals)</li>
     <li><strong>Visa Requirements:</strong> 90-day tourist visa for most countries</li>
   </ul>
@@ -6436,15 +6436,15 @@ export const blogArticles = [
 <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 25px 0;">
   <h4>Best Treatments in Gangnam:</h4>
   <ul>
-    <li><strong>🧖 Korean Head Spa:</strong> ₩120,000-150,000 (~$90-115) | <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
-    <li><strong>💆 Deep Tissue Massage:</strong> ₩150,000-220,000 (~$115-169) | <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
-    <li><strong>✨ BB Glow Treatment:</strong> ₩250,000-350,000 (~$192-270) | <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
-    <li><strong>💋 Semi-Permanent Makeup:</strong> ₩400,000-600,000 (~$308-462) | <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank">Book Here</a></li>
+    <li><strong>🧖 Korean Head Spa:</strong> ₩120,000-150,000 (~$90-115) | <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book Here</a></li>
+    <li><strong>💆 Deep Tissue Massage:</strong> ₩150,000-220,000 (~$115-169) | <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Book Here</a></li>
+    <li><strong>✨ BB Glow Treatment:</strong> ₩250,000-350,000 (~$192-270) | <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" target="_blank">Book Here</a></li>
+    <li><strong>💋 Semi-Permanent Makeup:</strong> ₩400,000-600,000 (~$308-462) | <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=lip-tattoo&discount=FIRST10" target="_blank">Book Here</a></li>
   </ul>
   
   <p><strong>🚇 How to Get There:</strong> Gangnam Station (Line 2), Sinnonhyeon Station (Line 9), Apgujeong Station (Line 3)</p>
   
-  <p><strong>💡 Pro Tip:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank"><strong>K-Beauty Seoul</strong></a> for 10-15% discount + English support guaranteed</p>
+  <p><strong>💡 Pro Tip:</strong> Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank"><strong>K-Beauty Seoul</strong></a> for 10-15% discount + English support guaranteed</p>
 </div>
 
 <h3>2. Cheongdam & Apgujeong (청담·압구정) - Celebrity Favorite</h3>
@@ -6540,20 +6540,20 @@ export const blogArticles = [
   <h4>Day 1: Arrival & Relaxation</h4>
   <ul>
     <li><strong>Morning:</strong> Arrive Seoul, check into hotel (Gangnam area recommended)</li>
-    <li><strong>Afternoon:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Deep Tissue Massage</a> (₩150,000) to recover from flight</li>
+    <li><strong>Afternoon:</strong> <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Deep Tissue Massage</a> (₩150,000) to recover from flight</li>
     <li><strong>Evening:</strong> Explore Gangnam, K-Beauty shopping at Olive Young</li>
   </ul>
   
   <h4>Day 2: Premium Beauty Treatments</h4>
   <ul>
-    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank">Korean Head Spa</a> (₩120,000) - life-changing experience!</li>
-    <li><strong>Afternoon:</strong> Lunch in Cheongdam, <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank">BB Glow Treatment</a> (₩250,000)</li>
+    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank">Korean Head Spa</a> (₩120,000) - life-changing experience!</li>
+    <li><strong>Afternoon:</strong> Lunch in Cheongdam, <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10" target="_blank">BB Glow Treatment</a> (₩250,000)</li>
     <li><strong>Evening:</strong> Visit Myeongdong for beauty product shopping</li>
   </ul>
   
   <h4>Day 3: Final Pampering & Departure</h4>
   <ul>
-    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025" target="_blank">Aqua Peel Facial</a> (₩180,000) for glass skin glow</li>
+    <li><strong>Morning:</strong> <a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">Aqua Peel Facial</a> (₩180,000) for glass skin glow</li>
     <li><strong>Afternoon:</strong> Last-minute shopping, pack beauty haul</li>
     <li><strong>Evening:</strong> Depart Seoul looking and feeling amazing!</li>
   </ul>
@@ -6574,7 +6574,7 @@ export const blogArticles = [
   <li><strong>Sightseeing:</strong> Balance beauty treatments with Seoul tourism</li>
 </ul>
 
-<p><strong>💡 Pro Tip:</strong> Book all treatments in advance through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" target="_blank"><strong>kbeautyseoul.co.kr</strong></a> to secure English-speaking clinics and preferred time slots.</p>
+<p><strong>💡 Pro Tip:</strong> Book all treatments in advance through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank"><strong>kbeautyseoul.co.kr</strong></a> to secure English-speaking clinics and preferred time slots.</p>
 
 <h2>🗣️ Language & Communication Tips</h2>
 
@@ -6586,7 +6586,7 @@ export const blogArticles = [
   <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <h4>✅ English-Friendly Solutions</h4>
     <ul>
-      <li>Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">K-Beauty Seoul</a> (100% English)</li>
+      <li>Book via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">K-Beauty Seoul</a> (100% English)</li>
       <li>Gangnam/Cheongdam clinics have English staff</li>
       <li>Translation apps (Papago works best in Korea)</li>
       <li>Picture menus at most clinics</li>
@@ -6628,7 +6628,7 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 30px; border-radius: 15px; margin: 30px 0; text-align: center;">
   <h3 style="margin-bottom: 20px;">💎 Save 10% on Your First Booking!</h3>
   <p style="font-size: 18px; margin-bottom: 20px;">Use code <strong style="background: white; color: #fa709a; padding: 8px 20px; border-radius: 25px; font-size: 20px;">BEAUTY10</strong> at checkout</p>
-  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Browse Treatments →</a>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #fa709a; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">Browse Treatments →</a>
 </div>
 
 <h2>🏨 Where to Stay for Beauty Tourism</h2>
@@ -6672,7 +6672,7 @@ export const blogArticles = [
 <p><strong>A:</strong> Citizens of 112 countries (including US, UK, Canada, EU, Australia, Japan) get 90-day visa-free entry. Check <a href="https://www.visa.go.kr/openPage.do?MENU_ID=10101" target="_blank" rel="noopener">Korean Immigration</a> for your country.</p>
 
 <h3>Q: Can I get same-day beauty treatments?</h3>
-<p><strong>A:</strong> Possible but not recommended. Popular treatments (head spa, BB glow) book up 1-2 weeks in advance. Book ahead via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a>.</p>
+<p><strong>A:</strong> Possible but not recommended. Popular treatments (head spa, BB glow) book up 1-2 weeks in advance. Book ahead via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>.</p>
 
 <h3>Q: Are Seoul beauty treatments safe for foreigners?</h3>
 <p><strong>A:</strong> Very safe! Korea has strict regulations. All clinics on K-Beauty Seoul are licensed, insured, and have foreign customer experience.</p>
@@ -6684,7 +6684,7 @@ export const blogArticles = [
 <p><strong>A:</strong> Yes! Most products allowed. Skincare under 100ml can go in carry-on. Check customs limits for sheet masks (some countries restrict agricultural products).</p>
 
 <h3>Q: Do clinics offer package deals for tourists?</h3>
-<p><strong>A:</strong> Yes! Many clinics have "beauty tour packages" (3-5 treatments bundled at 20-30% discount). Best booked through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" target="_blank">K-Beauty Seoul</a>.</p>
+<p><strong>A:</strong> Yes! Many clinics have "beauty tour packages" (3-5 treatments bundled at 20-30% discount). Best booked through <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank">K-Beauty Seoul</a>.</p>
 
 <h2>🚀 Ready to Plan Your Seoul Beauty Trip?</h2>
 
@@ -6693,7 +6693,7 @@ export const blogArticles = [
 <ul>
   <li><strong>✅ World-class treatments</strong> at 30-50% less than Western prices</li>
   <li><strong>✅ Cutting-edge technology</strong> (BB Glow, scalp microscope analysis, nano-needling)</li>
-  <li><strong>✅ English-friendly booking</strong> via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a></li>
+  <li><strong>✅ English-friendly booking</strong> via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></li>
   <li><strong>✅ Amazing city</strong> to explore (food, culture, shopping, nightlife)</li>
 </ul>
 
@@ -6702,13 +6702,13 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 35px; border-radius: 15px; color: white; text-align: center; margin: 40px 0;">
   <h3 style="color: white; margin-bottom: 20px;">✈️ Start Planning Your Seoul Beauty Trip!</h3>
   <p style="font-size: 18px; margin-bottom: 25px;">Browse 50+ treatments with instant English booking & confirmation</p>
-  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">Browse All Treatments →</a>
-  <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" style="background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; border: 2px solid white;">Learn More →</a>
+  <a href="https://kbeautyseoul.co.kr/catalog?lang=en&ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" style="background: white; color: #667eea; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">Browse All Treatments →</a>
+  <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" style="background: rgba(255,255,255,0.2); color: white; padding: 18px 45px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 18px; display: inline-block; margin: 10px; border: 2px solid white;">Learn More →</a>
 </div>
 
 <p><strong>Happy beauty traveling!</strong> See you in Seoul! 🇰🇷✨💆‍♀️</p>
 
-<p><em>*Prices and information accurate as of December 2025. This guide is independently written to help beauty tourists plan their Seoul trips. For official bookings with English support, visit <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a>.</em></p>
+<p><em>*Prices and information accurate as of December 2025. This guide is independently written to help beauty tourists plan their Seoul trips. For official bookings with English support, visit <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>.</em></p>
       `,
       ko: '서울 뷰티 관광 가이드 콘텐츠',
       ja: 'ソウル美容観光ガイドコンテンツ'
@@ -6757,7 +6757,7 @@ export const blogArticles = [
     <li><strong>Scalp Detox:</strong> ₩150,000 (~$115) - Deep cleansing + oil control</li>
     <li><strong>Hair Loss Treatment:</strong> ₩180,000 (~$138) - Medical-grade therapy</li>
   </ul>
-  <p style="margin-top: 15px; text-align: center;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold;">Book Head Spa →</a></p>
+  <p style="margin-top: 15px; text-align: center;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #667eea; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold;">Book Head Spa →</a></p>
 </div>
 
 <h2>Gangnam Head Spa vs Scalp Detox vs Hair Loss Treatment</h2>
@@ -6778,21 +6778,21 @@ export const blogArticles = [
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">90 min</td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">₩120,000</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Stress relief, general scalp care</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Scalp Detox</strong></td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">90 min</td>
       <td style="padding: 12px; text-align: center; border-bottom: 1px solid #ddd;">₩150,000</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Oily scalp, dandruff, clogged pores</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025">Book</a></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=scalp-care&discount=SCALP10">Book</a></td>
     </tr>
     <tr>
       <td style="padding: 12px;"><strong>Hair Loss Treatment</strong></td>
       <td style="padding: 12px; text-align: center;">120 min</td>
       <td style="padding: 12px; text-align: center;">₩180,000</td>
       <td style="padding: 12px;">Thinning hair, hair loss, weak follicles</td>
-      <td style="padding: 12px;"><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025">Book</a></td>
+      <td style="padding: 12px;"><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Book</a></td>
     </tr>
   </tbody>
 </table>
@@ -6868,15 +6868,15 @@ export const blogArticles = [
 
 <p><strong>Booking Links:</strong></p>
 <ul>
-  <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank"><strong>Gangnam Head Spa (₩120,000)</strong></a></li>
-  <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025" target="_blank"><strong>Scalp Detox (₩150,000)</strong></a></li>
-  <li><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025" target="_blank"><strong>Hair Loss Treatment (₩180,000)</strong></a></li>
+  <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" target="_blank"><strong>Gangnam Head Spa (₩120,000)</strong></a></li>
+  <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=scalp-care&discount=SCALP10" target="_blank"><strong>Scalp Detox (₩150,000)</strong></a></li>
+  <li><a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10" target="_blank"><strong>Hair Loss Treatment (₩180,000)</strong></a></li>
 </ul>
 
 <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 25px; border-radius: 12px; text-align: center; margin: 30px 0;">
   <h3 style="margin-bottom: 15px;">💎 Special Offer for Blog Readers</h3>
   <p style="font-size: 18px; margin-bottom: 20px;">Use code <strong style="background: white; color: #fa709a; padding: 8px 20px; border-radius: 25px;">HEADSPA10</strong> for 10% off</p>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #fa709a; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #fa709a; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block;">Book Now →</a>
 </div>
 
 <h2>Best Gangnam Head Spa Clinics</h2>
@@ -6890,7 +6890,7 @@ export const blogArticles = [
       <li>English: Fluent staff</li>
       <li>Specialty: Hair loss treatment</li>
       <li>Price: ₩120,000-180,000</li>
-      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book Here</a></li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10">Book Here</a></li>
     </ul>
   </li>
   <li><strong>Cheongdam Scalp Lab</strong>
@@ -6899,7 +6899,7 @@ export const blogArticles = [
       <li>English: Excellent</li>
       <li>Specialty: Oily scalp control</li>
       <li>Price: ₩150,000-200,000</li>
-      <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025">Book Here</a></li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=scalp-care&discount=SCALP10">Book Here</a></li>
     </ul>
   </li>
   <li><strong>Apgujeong Head Spa Center</strong>
@@ -6908,7 +6908,7 @@ export const blogArticles = [
       <li>English: Good</li>
       <li>Specialty: Relaxation-focused</li>
       <li>Price: ₩120,000-160,000</li>
-      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025">Book Here</a></li>
+      <li><a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10">Book Here</a></li>
     </ul>
   </li>
 </ol>
@@ -6925,7 +6925,7 @@ export const blogArticles = [
 <p><strong>A:</strong> Wait 24 hours to let treatment ampoules absorb. Your hair will be washed and styled at the clinic, so you'll leave looking great.</p>
 
 <h3>Q: Is it good for hair loss?</h3>
-<p><strong>A:</strong> Yes! Regular head spa treatments can reduce hair shedding by 30-50%. For active hair loss, book the specialized <a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025">Hair Loss Treatment</a> (₩180,000).</p>
+<p><strong>A:</strong> Yes! Regular head spa treatments can reduce hair shedding by 30-50%. For active hair loss, book the specialized <a href="https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Hair Loss Treatment</a> (₩180,000).</p>
 
 <h3>Q: How long do results last?</h3>
 <p><strong>A:</strong> Immediate effects (clean scalp, relaxation) last 7-10 days. Long-term benefits (reduced hair loss, improved hair quality) require 3-6 sessions.</p>
@@ -6969,11 +6969,11 @@ export const blogArticles = [
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; text-align: center; margin: 30px 0;">
   <h3 style="color: white; margin-bottom: 15px;">🎯 Book Your Head Spa Today</h3>
   <p style="margin-bottom: 20px;">English booking • Instant confirmation • Best prices guaranteed</p>
-  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px;">Gangnam Head Spa (₩120,000) →</a>
-  <a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025" style="background: rgba(255,255,255,0.2); color: white; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px; border: 2px solid white;">Scalp Detox (₩150,000) →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=massage&discount=BLOG10" style="background: white; color: #667eea; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px;">Gangnam Head Spa (₩120,000) →</a>
+  <a href="https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=scalp-care&discount=SCALP10" style="background: rgba(255,255,255,0.2); color: white; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; margin: 5px; border: 2px solid white;">Scalp Detox (₩150,000) →</a>
 </div>
 
-<p><em>*Prices accurate as of December 2025. All treatments bookable via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank">kbeautyseoul.co.kr</a> with English support.</em></p>
+<p><em>*Prices accurate as of December 2025. All treatments bookable via <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a> with English support.</em></p>
       `,
       ko: '강남 헤드스파 가이드 콘텐츠',
       ja: '江南ヘッドスパガイドコンテンツ'
@@ -7159,7 +7159,7 @@ export const blogArticles = [
 <p>Looking for the <strong>best head spa in Gangnam</strong>? Gangnam, Seoul's luxury beauty district, is home to Korea's most advanced scalp care centers offering the famous <strong>Korean head spa treatment</strong>.</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ Want to book your Gangnam head spa?</strong> Visit <a href="https://kbeautyseoul.co.kr/services/head-spa" target="_blank">kbeautyseoul.co.kr</a> for verified listings, real-time availability, and 10-15% online discounts!
+  <strong>🎟️ Want to book your Gangnam head spa?</strong> Visit <a href="https://kbeautyseoul.co.kr/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr</a> for verified listings, real-time availability, and 10-15% online discounts!
 </div>
 
 <h2>What is a Korean Head Spa?</h2>
@@ -7194,7 +7194,7 @@ export const blogArticles = [
 <p><strong>Location:</strong> 428 Gangnam-daero, 3F (2 min from Exit 10)</p>
 
 <div style="background: #d1ecf1; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>📞 Book Online:</strong> Reserve at <a href="https://kbeautyseoul.co.kr/services/juno-head-spa" target="_blank">kbeautyseoul.co.kr</a> for 10% first-visit discount!
+  <strong>📞 Book Online:</strong> Reserve at <a href="https://kbeautyseoul.co.kr/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr</a> for 10% first-visit discount!
 </div>
 
 <h4>Why #1:</h4>
@@ -7283,7 +7283,7 @@ export const blogArticles = [
 
 <h2>How to Book Online (Step-by-Step)</h2>
 <ol>
-  <li>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa" target="_blank">kbeautyseoul.co.kr/services/head-spa</a></li>
+  <li>Visit <a href="https://kbeautyseoul.co.kr/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr/services/head-spa</a></li>
   <li>Choose your preferred spa from verified listings</li>
   <li>Select date & time (book 3-7 days in advance recommended)</li>
   <li>Choose treatment package (Basic, Standard, or Premium)</li>
@@ -7355,7 +7355,7 @@ export const blogArticles = [
 <p><strong>A:</strong> Absolutely! 40% of Gangnam head spa clients are male, visiting for hair loss prevention and stress relief.</p>
 
 <h4>Q: Do they speak English?</h4>
-<p><strong>A:</strong> Most top-rated Gangnam spas have English-speaking staff, especially those listed on <a href="https://kbeautyseoul.co.kr" target="_blank">kbeautyseoul.co.kr</a>. Japanese and Chinese services also common.</p>
+<p><strong>A:</strong> Most top-rated Gangnam spas have English-speaking staff, especially those listed on <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>. Japanese and Chinese services also common.</p>
 
 <h4>Q: Should I tip?</h4>
 <p><strong>A:</strong> Tipping not expected in Korea (service charge included). However, exceptional service can be acknowledged with ₩10,000-20,000 tip (optional).</p>
@@ -7364,7 +7364,7 @@ export const blogArticles = [
 <p><strong>Gangnam head spa treatments offer exceptional value</strong>, combining professional scalp care, relaxation therapy, and measurable health benefits. Whether dealing with scalp issues, seeking stress relief, or wanting to try the famous Korean head spa experience, Gangnam is the best place in Seoul.</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ Ready to Book?</strong> Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam" target="_blank">kbeautyseoul.co.kr/services/head-spa-gangnam</a> to compare all spas, read 10,000+ verified reviews, and save 10-15% with online booking!
+  <strong>🎟️ Ready to Book?</strong> Visit <a href="https://kbeautyseoul.co.kr/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr/services/head-spa-gangnam</a> to compare all spas, read 10,000+ verified reviews, and save 10-15% with online booking!
 </div>
       `,
       ko: `<h1>강남 헤드스파 완벽 가이드 2025</h1><p>강남 최고의 헤드스파 10곳 완벽 분석...</p>`,
@@ -7405,7 +7405,7 @@ export const blogArticles = [
 <p><strong>江南（カンナム）でヘッドスパをお探しですか？</strong> この記事では、ソウル江南区にある<strong>最高級ヘッドスパ10選</strong>を完全解説します。料金、日本語対応、予約方法まで、日本人観光客の方にも分かりやすくご案内いたします。</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ 日本語で簡単予約：</strong> <a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>なら、日本語対応・即時予約確定・初回10-15%割引！
+  <strong>🎟️ 日本語で簡単予約：</strong> <a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>なら、日本語対応・即時予約確定・初回10-15%割引！
 </div>
 
 <h2>韓国ヘッドスパとは？日本との違い</h2>
@@ -7475,7 +7475,7 @@ export const blogArticles = [
 <p><strong>専門分野:</strong> 脱毛治療、敏感頭皮ケア、アンチエイジング</p>
 
 <div style="background: #d1ecf1; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>📞 日本語で予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>から簡単予約。初回10%割引適用！
+  <strong>📞 日本語で予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/juno-head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語サイト）</a>から簡単予約。初回10%割引適用！
 </div>
 
 <h4>🏆 1位の理由</h4>
@@ -7572,7 +7572,7 @@ export const blogArticles = [
 
 <h3>方法1: オンライン予約（日本語対応）⭐おすすめ</h3>
 <ol>
-  <li><a href="https://kbeautyseoul.co.kr/jp/services/head-spa" target="_blank">kbeautyseoul.co.kr（日本語版）</a>にアクセス</li>
+  <li><a href="https://kbeautyseoul.co.kr/jp/services/head-spa?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語版）</a>にアクセス</li>
   <li>サロンを選ぶ（<strong>日本語対応可</strong>のマークがついているサロンが安心）</li>
   <li>日時を選択（週末14-18時は混雑するため、<strong>3-7日前の予約推奨</strong>）</li>
   <li>コースを選択（オプション追加：LEDセラピー+₩30,000、アロマアップグレード+₩20,000）</li>
@@ -7649,7 +7649,7 @@ export const blogArticles = [
 <p><strong>A:</strong> もちろんです！江南ヘッドスパ利用者の<strong>40%は男性</strong>。薄毛予防、ストレス解消、頭皮健康維持のために通う方が多いです。</p>
 
 <h4>Q: 日本語は通じますか？</h4>
-<p><strong>A:</strong> 評価の高い江南のサロン、特に<a href="https://kbeautyseoul.co.kr/jp" target="_blank">kbeautyseoul.co.kr</a>に掲載されているサロンは、日本語スタッフまたは日本語メニューがあります。中国語対応も一般的です。</p>
+<p><strong>A:</strong> 評価の高い江南のサロン、特に<a href="https://kbeautyseoul.co.kr/jp?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a>に掲載されているサロンは、日本語スタッフまたは日本語メニューがあります。中国語対応も一般的です。</p>
 
 <h4>Q: チップは必要ですか？</h4>
 <p><strong>A:</strong> 韓国では<strong>チップ不要</strong>が基本（サービス料込み）。ただし、特別に良いサービスを受けた場合は₩10,000-20,000のチップも可（任意）。</p>
@@ -7664,7 +7664,7 @@ export const blogArticles = [
 <p><strong>結論：絶対におすすめです！</strong> 江南のヘッドスパは、プロフェッショナルな頭皮ケア、リラクゼーション、健康効果を兼ね備えた、コストパフォーマンス抜群の体験です。</p>
 
 <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin: 20px 0;">
-  <strong>🎟️ 今すぐ予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam" target="_blank">kbeautyseoul.co.kr（日本語版）</a>で全サロンを一括比較、10,000件以上の口コミ閲覧、日本語で即時予約確定。飛び込みより10-15%お得！初回限定割引あり！
+  <strong>🎟️ 今すぐ予約:</strong> <a href="https://kbeautyseoul.co.kr/jp/services/head-spa-gangnam?utm_source=seoulzen&utm_medium=blog&utm_campaign=headspa&discount=FIRST15" target="_blank">kbeautyseoul.co.kr（日本語版）</a>で全サロンを一括比較、10,000件以上の口コミ閲覧、日本語で即時予約確定。飛び込みより10-15%お得！初回限定割引あり！
 </div>
       `
     },

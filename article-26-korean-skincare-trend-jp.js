@@ -17,7 +17,7 @@ export const article26 = {
 <h1>韓国スキンケア最新トレンド2025（日本市場向け）</h1>
 
 <div class="alert-info">
-  <strong>🎯 2025年最新情報:</strong> 日本未発売の最先端K-Beautyトレンド！ガラス肌・水光肌を実現する新成分＆施術を完全解説。<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025">kbeautyseoul.co.kr</a>で体験予約可能！
+  <strong>🎯 2025年最新情報:</strong> 日本未発売の最先端K-Beautyトレンド！ガラス肌・水光肌を実現する新成分＆施術を完全解説。<a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10">kbeautyseoul.co.kr</a>で体験予約可能！
 </div>
 
 <h2>2025年 K-Beauty トレンドキーワードTOP5</h2>
@@ -216,20 +216,20 @@ export const article26 = {
 <h3>ソウルで受けられるガラス肌2.0 専門施術</h3>
 
 <ol>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025">BBグロウ</a></strong>（₩250,000 / ¥26,250）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10">BBグロウ</a></strong>（₩250,000 / ¥26,250）
     <ul>
       <li>美白成分を肌に直接注入</li>
       <li>即効性：施術後すぐ透明感UP</li>
       <li>持続期間：6-12ヶ月</li>
     </ul>
   </li>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025">アクアピーリング</a></strong>（₩180,000 / ¥18,900）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">アクアピーリング</a></strong>（₩180,000 / ¥18,900）
     <ul>
       <li>水流で毛穴の汚れ除去</li>
       <li>痛みゼロ、ダウンタイム不要</li>
     </ul>
   </li>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/led-facial?ref=KBSEOUL2025">LED光治療</a></strong>（₩150,000 / ¥15,750）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/led-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">LED光治療</a></strong>（₩150,000 / ¥15,750）
     <ul>
       <li>赤色LED：コラーゲン生成促進</li>
       <li>青色LED：ニキビ菌殺菌</li>
@@ -428,19 +428,19 @@ export const article26 = {
 <h3>おすすめ体験コース</h3>
 
 <ol>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/glass-skin-facial?ref=KBSEOUL2025">ガラス肌2.0 フェイシャル</a></strong>（₩180,000 / ¥18,900）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/glass-skin-facial?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">ガラス肌2.0 フェイシャル</a></strong>（₩180,000 / ¥18,900）
     <ul>
       <li>所要時間: 90分</li>
       <li>内容: 深層クレンジング＋アクアピーリング＋LED光治療＋保湿パック</li>
     </ul>
   </li>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/cica-treatment?ref=KBSEOUL2025">Cica 鎮静トリートメント</a></strong>（₩150,000 / ¥15,750）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/cica-treatment?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general-booking&discount=FIRST10">Cica 鎮静トリートメント</a></strong>（₩150,000 / ¥15,750）
     <ul>
       <li>敏感肌・ニキビ肌向け</li>
       <li>Cica高濃度パック＋超音波導入</li>
     </ul>
   </li>
-  <li><strong><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025">BBグロウ（美白注入）</a></strong>（₩250,000 / ¥26,250）
+  <li><strong><a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=bb-glow&discount=FIRST10">BBグロウ（美白注入）</a></strong>（₩250,000 / ¥26,250）
     <ul>
       <li>即効性◎（施術後すぐ白肌）</li>
       <li>持続期間: 6-12ヶ月</li>
@@ -497,7 +497,7 @@ export const article26 = {
 <div class="cta-box">
   <h3>🇰🇷 ソウルで最新トレンド体験！</h3>
   <p><strong>日本未発売の施術＋製品を先取り</strong></p>
-  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" class="cta-button">日本語で予約する</a></p>
+  <p><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" class="cta-button">日本語で予約する</a></p>
   <p>✅ 最新トレンド施術 | ✅ 日本未発売製品購入代行 | ✅ 24時間日本語サポート | ✅ 返金保証</p>
 </div>
 
@@ -506,7 +506,7 @@ export const article26 = {
   <li>📖 <a href="/blog/korean-skincare-routine-complete-guide-2025">韓国スキンケアルーティン完全ガイド</a></li>
   <li>🏢 <a href="/blog/korean-beauty-tour-complete-guide-2025-japanese">韓国美容ツアー完全ガイド</a></li>
   <li>💄 <a href="/blog/seoul-spa-ranking-2025-japanese">ソウルエステランキング</a></li>
-  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025">全サービス一覧</a></li>
+  <li>🛍️ <a href="https://kbeautyseoul.co.kr/services?ref=KBSEOUL2025&utm_source=seoulzen&utm_medium=blog&utm_campaign=spa&discount=FIRST10">全サービス一覧</a></li>
 </ul>
     `
   },
