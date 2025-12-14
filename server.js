@@ -726,6 +726,17 @@ function generateStyles() {
         font-weight: 600;
       }
       
+      /* Quick Links Hover Effects */
+      a[href*="kbeautyseoul.co.kr/booking"]:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 32px rgba(255, 107, 157, 0.3) !important;
+        border-color: #FF6B9D !important;
+      }
+      a[href*="/blog"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(255, 107, 157, 0.2) !important;
+      }
+      
       /* Catalog Section */
       .catalog-section {
         padding: 60px 20px 40px;
@@ -1142,12 +1153,150 @@ function generateHomePage(lang = 'en') {
           <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
+          <!-- Official Blog Badge -->
+          <div style="display: inline-block; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); 
+                      padding: 12px 24px; border-radius: 50px; margin-bottom: 24px;
+                      box-shadow: 0 8px 32px rgba(0,0,0,0.1); border: 2px solid rgba(255,107,157,0.3);">
+            <span style="font-size: 18px; font-weight: 700; color: #FF6B9D; letter-spacing: 0.5px;">
+              🏆 ${lang === 'ko' ? 'kbeautyseoul.co.kr 공식 정보 블로그' : lang === 'ja' ? 'kbeautyseoul.co.kr 公式情報ブログ' : 'Official Guide Blog of kbeautyseoul.co.kr'}
+            </span>
+          </div>
+          
           <h1 class="hero-title">${t.hero.title}</h1>
           <p class="hero-subtitle">${t.hero.subtitle}</p>
-          <div class="affiliate-badge">
-            <span>🎁</span>
-            <span>${lang === 'ko' ? '제휴 마케팅으로 운영' : lang === 'ja' ? 'アフィリエイトで運営' : lang === 'zh' ? '聯盟行銷營運' : 'Affiliate Marketing'}</span>
+          
+          <!-- Trust Badges -->
+          <div style="display: flex; justify-content: center; gap: 32px; margin: 32px 0; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.95); 
+                        padding: 12px 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+              <span style="font-size: 20px;">✅</span>
+              <span style="font-weight: 600; color: #333;">${lang === 'ko' ? '검증된 서비스' : lang === 'ja' ? '検証済みサービス' : 'Verified Services'}</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.95); 
+                        padding: 12px 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+              <span style="font-size: 20px;">🏥</span>
+              <span style="font-weight: 600; color: #333;">${lang === 'ko' ? '150+ 제휴 업체' : lang === 'ja' ? '150+ 提携先' : '150+ Providers'}</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.95); 
+                        padding: 12px 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+              <span style="font-size: 20px;">🕐</span>
+              <span style="font-weight: 600; color: #333;">${lang === 'ko' ? '24/7 영어 지원' : lang === 'ja' ? '24/7 英語サポート' : '24/7 English Support'}</span>
+            </div>
           </div>
+          
+          <!-- Hero CTA Buttons -->
+          <div style="display: flex; gap: 16px; justify-content: center; margin-top: 32px; flex-wrap: wrap;">
+            <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=blog&utm_medium=hero_cta" 
+               target="_blank"
+               style="display: inline-block; background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
+                      color: white; padding: 18px 48px; border-radius: 50px; text-decoration: none; 
+                      font-weight: 700; font-size: 18px; box-shadow: 0 8px 24px rgba(255, 107, 157, 0.4);
+                      transition: all 0.3s ease;">
+              📅 ${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}
+            </a>
+            <a href="/blog?lang=${lang}" 
+               style="display: inline-block; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
+                      color: #FF6B9D; padding: 18px 48px; border-radius: 50px; text-decoration: none; 
+                      font-weight: 700; font-size: 18px; border: 2px solid rgba(255,107,157,0.3);
+                      transition: all 0.3s ease;">
+              📝 ${lang === 'ko' ? '가이드 블로그 보기' : lang === 'ja' ? 'ガイドブログを見る' : 'Read Guide Blog'}
+            </a>
+          </div>
+          
+          <div class="affiliate-badge" style="margin-top: 24px;">
+            <span>🎁</span>
+            <span>${lang === 'ko' ? '제휴 마케팅으로 운영 (투명한 가격, 10% 할인)' : lang === 'ja' ? 'アフィリエイトで運営（透明な価格、10%割引）' : 'Affiliate Marketing (Transparent Pricing, 10% Discount)'}</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Quick Links Section -->
+      <section style="background: linear-gradient(135deg, #FFF5F8 0%, #FFE8EF 100%); padding: 60px 20px;">
+        <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+          <h2 style="font-size: 32px; font-weight: 700; color: #333; margin-bottom: 16px;">
+            ${lang === 'ko' ? '🔥 인기 서비스 바로가기' : lang === 'ja' ? '🔥 人気サービスへのショートカット' : '🔥 Popular Services Quick Links'}
+          </h2>
+          <p style="font-size: 18px; color: #666; margin-bottom: 40px;">
+            ${lang === 'ko' ? '가장 많이 찾는 K-Beauty 서비스를 한눈에' : lang === 'ja' ? '最も人気のあるK-Beautyサービスを一目で' : 'Most Popular K-Beauty Services at a Glance'}
+          </p>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 32px;">
+            <!-- Gangnam Head Spa -->
+            <a href="https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025" target="_blank"
+               style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
+                      box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
+              <div style="font-size: 40px; margin-bottom: 12px;">💆‍♀️</div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #FF6B9D; margin-bottom: 8px;">
+                ${lang === 'ko' ? '강남 헤드스파' : lang === 'ja' ? '江南ヘッドスパ' : 'Gangnam Head Spa'}
+              </h3>
+              <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
+                ${lang === 'ko' ? '두피 케어 & 릴랙세이션' : lang === 'ja' ? '頭皮ケア & リラクゼーション' : 'Scalp Care & Relaxation'}
+              </p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩120,000</span>
+                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">15% OFF</span>
+              </div>
+            </a>
+            
+            <!-- Lip Tattoo -->
+            <a href="https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025" target="_blank"
+               style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
+                      box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
+              <div style="font-size: 40px; margin-bottom: 12px;">💋</div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #FF6B9D; margin-bottom: 8px;">
+                ${lang === 'ko' ? '립 타투' : lang === 'ja' ? 'リップタトゥー' : 'Lip Tattoo'}
+              </h3>
+              <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
+                ${lang === 'ko' ? '자연스러운 립 컬러' : lang === 'ja' ? '自然なリップカラー' : 'Natural Lip Color'}
+              </p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩500,000</span>
+                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">20% OFF</span>
+              </div>
+            </a>
+            
+            <!-- BB Glow -->
+            <a href="https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025" target="_blank"
+               style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
+                      box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
+              <div style="font-size: 40px; margin-bottom: 12px;">✨</div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #FF6B9D; margin-bottom: 8px;">
+                ${lang === 'ko' ? 'BB 글로우' : lang === 'ja' ? 'BBグロウ' : 'BB Glow'}
+              </h3>
+              <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
+                ${lang === 'ko' ? '반영구 파운데이션' : lang === 'ja' ? 'セミパーマネントファンデーション' : 'Semi-Permanent Foundation'}
+              </p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩250,000</span>
+                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">10% OFF</span>
+              </div>
+            </a>
+            
+            <!-- Gangnam Massage -->
+            <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank"
+               style="display: block; background: white; padding: 24px; border-radius: 16px; text-decoration: none;
+                      box-shadow: 0 4px 16px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 2px solid transparent;">
+              <div style="font-size: 40px; margin-bottom: 12px;">💆</div>
+              <h3 style="font-size: 20px; font-weight: 700; color: #FF6B9D; margin-bottom: 8px;">
+                ${lang === 'ko' ? '강남 마사지' : lang === 'ja' ? '江南マッサージ' : 'Gangnam Massage'}
+              </h3>
+              <p style="font-size: 14px; color: #666; margin-bottom: 12px;">
+                ${lang === 'ko' ? '아로마 테라피 마사지' : lang === 'ja' ? 'アロマセラピーマッサージ' : 'Aromatherapy Massage'}
+              </p>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                <span style="font-size: 16px; font-weight: 700; color: #FF6B9D;">₩150,000</span>
+                <span style="font-size: 12px; background: #FFE8EF; color: #FF6B9D; padding: 4px 8px; border-radius: 4px; font-weight: 600;">10% OFF</span>
+              </div>
+            </a>
+          </div>
+          
+          <a href="/blog?lang=${lang}" 
+             style="display: inline-block; background: white; color: #FF6B9D; 
+                    padding: 16px 40px; border-radius: 50px; text-decoration: none; 
+                    font-weight: 700; font-size: 16px; border: 2px solid #FF6B9D;
+                    transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+            📖 ${lang === 'ko' ? '더 많은 가이드 보기 →' : lang === 'ja' ? 'もっとガイドを見る →' : 'Read More Guides →'}
+          </a>
         </div>
       </section>
       
