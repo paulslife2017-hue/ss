@@ -2096,6 +2096,19 @@ app.get('/blog', (c) => {
       </div>
       
       <div class="container">
+        <!-- 광고: 블로그 목록 상단 -->
+        <div style="text-align: center; margin: 30px 0; padding: 20px; background: #f5f5f5; border-radius: 12px; min-height: 120px;">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-format="fluid"
+               data-ad-layout-key="-6t+ed+2i-1n-4w"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="6677889900"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        
         <div class="blog-grid">
           ${blogArticles.map(article => `
             <a href="/blog/${article.id}?lang=${lang}" class="blog-link">
@@ -2113,6 +2126,18 @@ app.get('/blog', (c) => {
               </div>
             </a>
           `).join('')}
+        </div>
+        
+        <!-- 광고: 블로그 목록 하단 -->
+        <div style="text-align: center; margin: 40px 0; padding: 30px; background: #fafafa; border-radius: 12px; min-height: 280px;">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-format="autorelaxed"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="3344556677"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </div>
       
@@ -2237,14 +2262,25 @@ app.get('/blog/:slug', (c) => {
       <div class="article-container">
         <a href="/blog?lang=${lang}" class="back-link">← ${lang === 'ko' ? '블로그 목록으로' : lang === 'ja' ? 'ブログ一覧に戻る' : 'Back to Blog'}</a>
         
-        <!-- 광고 1: 블로그 상단 (제목 바로 아래) -->
-        <div style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+        <!-- 광고 1: 블로그 상단 - Display Ad (728x90 Leaderboard) -->
+        <div style="text-align: center; margin: 30px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; min-height: 100px; background: #f9f9f9;">
           <ins class="adsbygoogle"
-               style="display:block"
+               style="display:inline-block;width:728px;height:90px"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="AUTO"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
+               data-ad-slot="1234567890"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        
+        <!-- 광고 2: In-Article Ad (자동 크기 조절) -->
+        <div style="text-align: center; margin: 20px 0; min-height: 250px;">
+          <ins class="adsbygoogle"
+               style="display:block; text-align:center;"
+               data-ad-layout="in-article"
+               data-ad-format="fluid"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="9876543210"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
@@ -2254,14 +2290,24 @@ app.get('/blog/:slug', (c) => {
           ${article.content[lang] || article.content.en}
         </div>
         
-        <!-- 광고 2: 블로그 하단 (태그 위) -->
-        <div style="text-align: center; margin: 40px 0; padding: 20px 0;">
+        <!-- 광고 3: 글 중간 - Responsive Display Ad -->
+        <div style="text-align: center; margin: 30px 0; padding: 20px; background: #fafafa; border-radius: 8px; min-height: 280px;">
           <ins class="adsbygoogle"
                style="display:block"
+               data-ad-format="autorelaxed"
                data-ad-client="ca-pub-6943282483618134"
-               data-ad-slot="AUTO"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
+               data-ad-slot="1122334455"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        
+        <!-- 광고 4: 블로그 하단 - Large Rectangle (336x280) -->
+        <div style="text-align: center; margin: 40px 0; padding: 20px 0; min-height: 300px;">
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:336px;height:280px"
+               data-ad-client="ca-pub-6943282483618134"
+               data-ad-slot="5544332211"></ins>
           <script>
                (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
