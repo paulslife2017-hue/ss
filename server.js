@@ -2495,6 +2495,27 @@ app.get('/blog', (c) => {
   return c.html(html);
 });
 
+// Sitemap.xml route
+app.get('/sitemap.xml', (c) => {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai</loc><priority>1.0</priority></url>
+  <url><loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog</loc><priority>0.9</priority></url>
+  ${blogArticles.map(article => `  <url><loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/${article.slug}</loc><priority>0.8</priority></url>`).join('\n')}
+</urlset>`;
+  return c.body(sitemap, 200, {
+    'Content-Type': 'application/xml; charset=utf-8'
+  });
+});
+
+// Robots.txt route
+app.get('/robots.txt', (c) => {
+  const robotsTxt = `User-agent: *
+Allow: /
+Sitemap: https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/sitemap.xml`;
+  return c.text(robotsTxt);
+});
+
 // Individual blog post page
 app.get('/blog/:slug', (c) => {
   const slug = c.req.param('slug');
