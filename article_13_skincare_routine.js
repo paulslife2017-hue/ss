@@ -4,7 +4,7 @@ module.exports = {
   slug: "korean-10-step-skincare-routine-guide-2025",
   excerpt: "Master the famous Korean 10-step skincare routine for flawless glass skin. Complete guide with product recommendations, order, timing, and tips for achieving the coveted K-beauty glow.",
   content: `
-<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop" alt="Korean 10-Step Skincare Routine Products" class="featured-image">
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean 10-Step Skincare Routine Products" class="featured-image">
 
 <p>The Korean 10-step skincare routine has revolutionized beauty worldwide, promising radiant, youthful "glass skin." While it may seem overwhelming, this comprehensive approach to skincare delivers results that keep Korean women looking decades younger. This guide breaks down each step, explains why it matters, and helps you customize the routine for your skin type.</p>
 
@@ -430,7 +430,7 @@ module.exports = {
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["Skincare Routine", "K-Beauty", "Glass Skin", "Korean Skincare", "Beauty Guide", "Seoul"],
-  image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "15 min read",
   views: 5234,
   published: true,

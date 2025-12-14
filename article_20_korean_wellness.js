@@ -469,7 +469,7 @@ module.exports = {
   readTime: '18 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 };

@@ -10,11 +10,11 @@ export const products = [
     price: 28.99,
     originalPrice: 35.00,
     amazonUrl: "https://www.amazon.com/COSRX-Advanced-Snail-Mucin-Essence/dp/B00PBX3L7K",
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
+    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600",
-      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600"
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&fm=webp&auto=format&q=80",
+      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&fm=webp&auto=format&q=80",
+      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80"
     ],
     description: "The #1 bestselling Korean essence with 96% snail mucin. Deeply hydrates, repairs damaged skin, and improves skin elasticity. Perfect for all skin types, especially dry and sensitive skin.",
     keyBenefits: [
@@ -40,10 +40,10 @@ export const products = [
     category: "moisturizer",
     price: 26.99,
     originalPrice: 32.00,
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600",
-      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600"
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&fm=webp&auto=format&q=80",
+      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Rich cream featuring traditional Korean medicinal herbs. Deeply nourishes while maintaining a lightweight feel. Perfect for achieving that coveted 'glass skin' glow.",
     keyBenefits: [
@@ -69,10 +69,10 @@ export const products = [
     category: "toner",
     price: 22.99,
     originalPrice: 28.00,
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600",
-      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&fm=webp&auto=format&q=80",
+      "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600&fm=webp&auto=format&q=80"
     ],
     description: "TikTok viral toner with 77% heartleaf extract. Soothes irritated skin, controls sebum, and minimizes pores. pH 5.5 for optimal skin health.",
     keyBenefits: [
@@ -98,9 +98,9 @@ export const products = [
     category: "cleanser",
     price: 16.99,
     originalPrice: 20.00,
-    image: "https://images.unsplash.com/photo-1556228841-80f6c3add2f0?w=600",
+    image: "https://images.unsplash.com/photo-1556228841-80f6c3add2f0?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228841-80f6c3add2f0?w=600"
+      "https://images.unsplash.com/photo-1556228841-80f6c3add2f0?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Gentle morning cleanser with low pH 5.5. Contains tea tree oil for acne care while maintaining skin's natural barrier.",
     keyBenefits: [
@@ -126,9 +126,9 @@ export const products = [
     category: "sunscreen",
     price: 21.99,
     originalPrice: 25.00,
-    image: "https://images.unsplash.com/photo-1556228841-28d9ea1b7f8d?w=600",
+    image: "https://images.unsplash.com/photo-1556228841-28d9ea1b7f8d?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228841-28d9ea1b7f8d?w=600"
+      "https://images.unsplash.com/photo-1556228841-28d9ea1b7f8d?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Reddit's #1 sunscreen! No white cast, feels like moisturizer, SPF 50+ PA++++ protection. Perfect for daily use.",
     keyBenefits: [
@@ -154,9 +154,9 @@ export const products = [
     category: "treatment",
     price: 7.99,
     originalPrice: 10.00,
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Holy grail pimple patches! Absorbs pus and protects blemishes. Works overnight. 80,000+ 5-star reviews on Amazon.",
     keyBenefits: [
@@ -182,9 +182,9 @@ export const products = [
     category: "mask",
     price: 32.99,
     originalPrice: 40.00,
-    image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600",
+    image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600"
+      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Iconic overnight mask that deeply hydrates while you sleep. Wake up to plump, glowing skin.",
     keyBenefits: [
@@ -210,9 +210,9 @@ export const products = [
     category: "cleanser",
     price: 25.99,
     originalPrice: 30.00,
-    image: "https://images.unsplash.com/photo-1556228841-3f1e1b630a3e?w=600",
+    image: "https://images.unsplash.com/photo-1556228841-3f1e1b630a3e?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228841-3f1e1b630a3e?w=600"
+      "https://images.unsplash.com/photo-1556228841-3f1e1b630a3e?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Gentle cleansing oil that melts away makeup and blackheads. Perfect for double cleansing routine.",
     keyBenefits: [
@@ -238,9 +238,9 @@ export const products = [
     category: "makeup",
     price: 22.99,
     originalPrice: 28.00,
-    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600",
+    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600"
+      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&fm=webp&auto=format&q=80"
     ],
     description: "TikTok's most viral cushion foundation! 24-hour lasting, semi-matte finish, perfect coverage.",
     keyBenefits: [
@@ -266,9 +266,9 @@ export const products = [
     category: "toner",
     price: 24.99,
     originalPrice: 30.00,
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600",
+    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600"
+      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Triple-action exfoliating toner. Improves texture, minimizes pores, controls breakouts in 30 days.",
     keyBenefits: [
@@ -295,9 +295,9 @@ export const products = [
     category: "set",
     price: 89.99,
     originalPrice: 120.00,
-    image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600",
+    image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600"
+      "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Complete 4-step routine to achieve Korean glass skin. Includes: Cleanser, Toner, Essence, Cream. Curated by SeoulZen beauty experts.",
     keyBenefits: [
@@ -323,9 +323,9 @@ export const products = [
     category: "set",
     price: 119.99,
     originalPrice: 180.00,
-    image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600",
+    image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80",
     images: [
-      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600"
+      "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=600&fm=webp&auto=format&q=80"
     ],
     description: "Spring-ready skincare set! Includes sunscreen, brightening serum, lightweight moisturizer, and more. Perfect for seasonal transition.",
     keyBenefits: [

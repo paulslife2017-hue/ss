@@ -21,14 +21,14 @@ export const adsenseBlogArticles = [
     content: {
       en: `
 <h2>Seoul Beauty Shopping Guide 2025: Where to Buy Authentic K-Beauty</h2>
-<img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop" alt="Seoul Beauty Shopping" />
+<img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Beauty Shopping" />
 
 <p>Seoul is a paradise for beauty enthusiasts, offering everything from luxury department stores to street-side cosmetic shops packed with the latest K-beauty innovations. Whether you're hunting for cult-favorite products or discovering new brands, this comprehensive guide will help you navigate Seoul's best beauty shopping destinations.</p>
 
 <h2>Top Seoul Beauty Shopping Districts</h2>
 
 <h3>1. Myeongdong: Tourist Beauty Haven</h3>
-<img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&h=600&fit=crop" alt="Myeongdong Shopping" />
+<img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Myeongdong Shopping" />
 
 <p><strong>Why Shop in Myeongdong?</strong></p>
 <ul>
@@ -64,7 +64,7 @@ export const adsenseBlogArticles = [
 </div>
 
 <h3>2. Gangnam: Luxury K-Beauty Shopping</h3>
-<img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop" alt="Gangnam Luxury Shopping" />
+<img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Luxury Shopping" />
 
 <p><strong>Why Shop in Gangnam?</strong></p>
 <ul>
@@ -92,7 +92,7 @@ export const adsenseBlogArticles = [
 </ul>
 
 <h3>3. Hongdae: Indie & Trendy K-Beauty</h3>
-<img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800&h=600&fit=crop" alt="Hongdae Shopping" />
+<img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Hongdae Shopping" />
 
 <p><strong>Why Shop in Hongdae?</strong></p>
 <ul>
@@ -111,7 +111,7 @@ export const adsenseBlogArticles = [
 </ol>
 
 <h2>Best Korean Beauty Products to Buy in Seoul</h2>
-<img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&h=600&fit=crop" alt="K-Beauty Products" />
+<img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-Beauty Products" />
 
 <h3>Cult-Favorite K-Beauty Products:</h3>
 
@@ -142,7 +142,7 @@ export const adsenseBlogArticles = [
 </ol>
 
 <h2>Seoul Beauty Shopping Strategies</h2>
-<img src="https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=800&h=600&fit=crop" alt="Shopping Strategy" />
+<img src="https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Shopping Strategy" />
 
 <h3>How to Maximize Your Seoul Beauty Shopping:</h3>
 
@@ -182,7 +182,7 @@ export const adsenseBlogArticles = [
 </ul>
 
 <h2>Beauty Services to Try While Shopping</h2>
-<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop" alt="Beauty Services Seoul" />
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Beauty Services Seoul" />
 
 <p><strong>Enhance Your Shopping Trip with Beauty Services:</strong></p>
 <ul>

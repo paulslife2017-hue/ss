@@ -9,7 +9,7 @@ export const article24 = {
     ja: '韓国美容ツアー完全ガイド2025（日本人観光客向け）'
   },
   date: '2025-02-07',
-  image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800',
+  image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `<h1>Korean Beauty Tour Complete Guide 2025 (For Japanese Tourists)</h1><p>Japanese version available below...</p>`,
     ko: `<h1>한국 뷰티 투어 완벽 가이드 2025 (일본 관광객용)</h1><p>일본 관광객을 위한 완벽한 한국 뷰티 투어 가이드...</p>`,

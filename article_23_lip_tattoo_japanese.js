@@ -6,7 +6,7 @@
   excerpt: 'ソウルの韓国リップタトゥー（リップブラッシング）完全ガイド。人気のスタイル、施術手順、治癒過程、価格、江南の最高のクリニックについて学びましょう。',
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop" alt="韓国リップタトゥートリートメント" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="韓国リップタトゥートリートメント" class="featured-image">
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 ソウルでプロフェッショナルなリップタトゥーサービスをお探しですか？</h3>
@@ -297,7 +297,7 @@
   readTime: "15 min read",
   tags: ["リップタトゥー", "リップブラッシング", "韓国美容", "半永久メイク", "ソウル美容", "K-Beauty", "江南", "美容トリートメント", "コスメティックタトゥー", "リップカラー", "日本語ガイド"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "ソウルの韓国リップタトゥー完全ガイド2025：人気のスタイル、施術手順、治癒タイムライン、価格、江南の最高のクリニック。kbeautyseoul.co.krで予約",
   canonicalUrl: "https://seoulzen.com/post/korean-lip-tattoo-japanese-guide-seoul-2025",
   views: 0,

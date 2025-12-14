@@ -185,7 +185,7 @@ const beautyServices = [
     duration: '90min',
     rating: 4.8,
     reviews: 342,
-    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=headspa',
     platform: 'K-Beauty Seoul',
     blogUrl: '/post/gangnam-head-spa-ultimate-guide-2025'
@@ -215,7 +215,7 @@ const beautyServices = [
     duration: '120min',
     rating: 4.9,
     reviews: 218,
-    imageUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=liptattoo',
     platform: 'K-Beauty Seoul',
     blogUrl: '/post/korean-lip-tattoo-complete-guide-seoul-2025'
@@ -244,7 +244,7 @@ const beautyServices = [
     duration: '120min',
     rating: 4.7,
     reviews: 156,
-    imageUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=eyebrow',
     platform: 'K-Beauty Seoul'
   },
@@ -273,7 +273,7 @@ const beautyServices = [
     duration: '90min',
     rating: 4.6,
     reviews: 89,
-    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=bbglow',
     platform: 'K-Beauty Seoul'
   },
@@ -301,7 +301,7 @@ const beautyServices = [
     duration: '90min',
     rating: 4.8,
     reviews: 267,
-    imageUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=glassskin',
     platform: 'K-Beauty Seoul'
   },
@@ -329,7 +329,7 @@ const beautyServices = [
     duration: '60min',
     rating: 4.7,
     reviews: 198,
-    imageUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025&utm_source=affiliate&utm_medium=website&utm_campaign=aquapeel',
     platform: 'K-Beauty Seoul'
   }
@@ -361,7 +361,7 @@ const tourPackages = [
     duration: '4hrs',
     rating: 4.9,
     reviews: 412,
-    imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://www.klook.com/activity/kbeauty-tour-seoul?aid=KLOOK_AFFILIATE_ID&aff_adid=kbeauty',
     platform: 'Klook'
   },
@@ -389,7 +389,7 @@ const tourPackages = [
     duration: '3hrs',
     rating: 4.8,
     reviews: 356,
-    imageUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://www.kkday.com/seoul-night-tour?pid=KKDAY_AFFILIATE_ID&source=affiliate',
     platform: 'KKday'
   },
@@ -418,7 +418,7 @@ const tourPackages = [
     duration: '5hrs',
     rating: 4.9,
     reviews: 523,
-    imageUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://www.klook.com/activity/hanbok-palace-tour?aid=KLOOK_AFFILIATE_ID&aff_adid=hanbok',
     platform: 'Klook'
   },
@@ -446,7 +446,7 @@ const tourPackages = [
     duration: '4hrs',
     rating: 4.7,
     reviews: 189,
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://www.kkday.com/gangnam-food-tour?pid=KKDAY_AFFILIATE_ID&source=affiliate',
     platform: 'KKday'
   }
@@ -477,7 +477,7 @@ const shopProducts = [
     badge: 'popular',
     rating: 4.9,
     reviews: 1243,
-    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://link.coupang.com/a/sulwhasoo?lptag=AF123456&subid=COUPANG_PARTNER_ID',
     platform: 'Coupang'
   },
@@ -505,7 +505,7 @@ const shopProducts = [
     badge: 'recommended',
     rating: 4.8,
     reviews: 876,
-    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://link.coupang.com/a/whoo?lptag=AF123456&subid=COUPANG_PARTNER_ID',
     platform: 'Coupang'
   },
@@ -533,7 +533,7 @@ const shopProducts = [
     badge: 'popular',
     rating: 4.7,
     reviews: 2134,
-    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://link.coupang.com/a/cosrx?lptag=AF123456&subid=COUPANG_PARTNER_ID',
     platform: 'Coupang'
   },
@@ -561,7 +561,7 @@ const shopProducts = [
     badge: 'newdeal',
     rating: 4.9,
     reviews: 3567,
-    imageUrl: 'https://images.unsplash.com/photo-1556229010-aa3bafc8e533?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1556229010-aa3bafc8e533?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://smartstore.naver.com/beauty-joseon?ref=NAVER_SHOPPING_ID',
     platform: 'Naver Shopping'
   },
@@ -589,7 +589,7 @@ const shopProducts = [
     badge: 'discount',
     rating: 4.6,
     reviews: 4521,
-    imageUrl: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     affiliateUrl: 'https://link.coupang.com/a/mediheal?lptag=AF123456&subid=COUPANG_PARTNER_ID',
     platform: 'Coupang'
   }
@@ -1321,7 +1321,7 @@ function generateHomePage(lang = 'en') {
       <meta property="og:description" content="${t.hero.subtitle}">
       <meta property="og:type" content="website">
       <meta property="og:url" content="https://kbeautyseoul.co.kr">
-      <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop">
+      <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80">
       
       <!-- Favicon -->
       <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">

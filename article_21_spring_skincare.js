@@ -7,7 +7,7 @@ const article21 = {
   excerpt: "Complete guide to Korean spring skincare: transition your routine, best products for spring weather, recommended treatments in Seoul, and expert tips to achieve glowing skin this season.",
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop" alt="Korean Spring Skincare Products" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Spring Skincare Products" class="featured-image">
       
       <div class="quick-facts">
         <h3>🌸 Spring Skincare Quick Facts</h3>
@@ -588,7 +588,7 @@ const article21 = {
   readTime: "18 min read",
   tags: ["Spring Skincare", "Korean Routine", "Seasonal Skincare", "K-Beauty Products", "Seoul Treatments", "Yellow Dust Protection", "Sunscreen", "Brightening", "Cherry Blossom Season"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "Complete Korean spring skincare routine 2025: Best products, treatments in Seoul, yellow dust protection, sunscreen guide, and expert tips for glowing skin this season.",
   canonicalUrl: "https://seoulzen.com/post/korean-spring-skincare-routine-2025",
   views: 0,

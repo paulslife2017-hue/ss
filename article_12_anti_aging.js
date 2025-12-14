@@ -4,7 +4,7 @@ module.exports = {
   slug: "korean-anti-aging-treatments-seoul-2025",
   excerpt: "Discover Seoul's best anti-aging treatments including Thermage, Ulthera, Botox, fillers, laser treatments & more. Complete guide to prices (₩150,000-3,000,000), best clinics in Gangnam, and achieving youthful Korean glass skin.",
   content: `
-<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop" alt="Korean Anti-Aging Treatment in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Anti-Aging Treatment in Seoul" class="featured-image">
 
 <p>Korean anti-aging treatments represent the cutting edge of aesthetic medicine, combining advanced technology with traditional beauty wisdom. Seoul's dermatology clinics and medical spas offer world-class rejuvenation procedures that keep Korean celebrities looking decades younger. This comprehensive guide covers the most effective Korean anti-aging treatments available in 2025.</p>
 
@@ -498,7 +498,7 @@ module.exports = {
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["Anti-Aging", "Skincare", "Medical Aesthetics", "Gangnam", "Dermatology", "Seoul"],
-  image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "18 min read",
   views: 4156,
   published: true,

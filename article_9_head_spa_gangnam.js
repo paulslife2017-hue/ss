@@ -4,7 +4,7 @@ module.exports = {
   slug: "best-head-spas-gangnam-seoul-2025",
   excerpt: "Discover the top 10 head spas in Gangnam offering authentic Korean scalp treatments. Complete guide to prices (₩80,000-250,000), booking tips, and what to expect from this viral K-beauty experience.",
   content: `
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="Luxury Head Spa in Gangnam Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Luxury Head Spa in Gangnam Seoul" class="featured-image">
 
 <p>Korean head spas have taken social media by storm, with millions of views on TikTok and Instagram. Gangnam, Seoul's luxury beauty district, is home to the best head spa experiences in Korea. This comprehensive guide covers everything you need to know about booking the perfect scalp treatment in 2025.</p>
 
@@ -365,7 +365,7 @@ module.exports = {
   category: "Head Spa",
   categorySlug: "head-spa",
   tags: ["Head Spa", "Gangnam", "Scalp Treatment", "Hair Care", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "12 min read",
   views: 2847,
   published: true,

@@ -13,7 +13,7 @@ export const article6 = {
   keywords: 'korean gel nails, k-nail art seoul, gel nails gangnam, nail art hongdae, korean nail trends 2025, gel manicure seoul price, best nail salons korea',
   content: `
     <div class="blog-content">
-      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop" alt="Korean Gel Nails and Nail Art" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Gel Nails and Nail Art" class="featured-image">
       
       <h2>Why Korean Nail Art is Taking Over Instagram</h2>
       <p>Korean nail art has evolved from simple manicures to intricate works of wearable art. Known for its delicate designs, innovative techniques, and stunning attention to detail, K-nail art has become a global phenomenon. Whether you're visiting Seoul or just love the aesthetic, this comprehensive guide will help you navigate the world of Korean gel nails and nail art in 2025.</p>

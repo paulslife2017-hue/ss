@@ -4,7 +4,7 @@ module.exports = {
   slug: "seoul-couple-spa-packages-guide-2025",
   excerpt: "Discover Seoul's best couple spa packages for romantic relaxation. Complete guide to prices (₩200,000-1,200,000), luxury spas in Gangnam, private rooms, and unforgettable K-beauty experiences for couples.",
   content: `
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Couple Spa Experience in Seoul Korea" class="featured-image">
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Couple Spa Experience in Seoul Korea" class="featured-image">
 
 <p>Seoul offers some of the world's most romantic and luxurious couple spa experiences, combining traditional Korean wellness with modern luxury. Whether you're on a honeymoon, anniversary, or simply want quality time together, Korean couple spas provide private sanctuaries for relaxation and rejuvenation. This comprehensive guide covers the best couple spa packages in Seoul for 2025.</p>
 
@@ -449,7 +449,7 @@ module.exports = {
   category: "Spa & Wellness",
   categorySlug: "spa-wellness",
   tags: ["Couple Spa", "Massage", "Romantic Seoul", "Wellness", "Luxury Spa", "Gangnam"],
-  image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "13 min read",
   views: 2967,
   published: true,

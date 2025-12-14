@@ -4,7 +4,7 @@ module.exports = {
   slug: "korean-foot-massage-reflexology-seoul-2025",
   excerpt: "Ultimate guide to Korean foot massage and reflexology in Seoul. Best locations, prices (₩30,000-120,000), techniques, health benefits, and where to find authentic foot spas in Gangnam, Myeongdong & more.",
   content: `
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop" alt="Korean Foot Massage Reflexology in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Foot Massage Reflexology in Seoul" class="featured-image">
 
 <p>Korean foot massage and reflexology are deeply rooted in traditional Eastern medicine, offering therapeutic benefits beyond simple relaxation. Seoul's foot spas combine ancient healing techniques with modern comfort, providing relief from tired feet after days of exploring the city. This comprehensive guide covers everything you need to know about experiencing authentic Korean foot reflexology in 2025.</p>
 
@@ -390,7 +390,7 @@ module.exports = {
   category: "Massage",
   categorySlug: "massage",
   tags: ["Foot Massage", "Reflexology", "Wellness", "Massage", "Seoul", "Health"],
-  image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "14 min read",
   views: 3421,
   published: true,

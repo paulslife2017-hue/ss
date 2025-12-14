@@ -9,7 +9,7 @@ export const article22 = {
     ja: '韓国スキンケアルーティン：完璧な10ステップガイド2025'
   },
   date: '2025-02-05',
-  image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800',
+  image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `
 <h1>Korean Skincare Routine: Complete 10-Step Guide 2025</h1>

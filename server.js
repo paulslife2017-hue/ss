@@ -60,6 +60,14 @@ app.use('/public/*', async (c, next) => {
   c.header('Cache-Control', 'public, max-age=31536000, immutable');
 });
 
+// Cache headers for JavaScript files (code-split modules)
+app.use('/js/*', async (c, next) => {
+  await next();
+  // Cache JS files for 7 days (shorter for quick updates)
+  c.header('Cache-Control', 'public, max-age=604800, immutable');
+  c.header('Content-Type', 'application/javascript; charset=utf-8');
+});
+
 // Cache headers for images with optimization hints
 app.use('/images/*', async (c, next) => {
   await next();
@@ -3147,6 +3155,16 @@ app.get('/ads.txt', (c) => {
     'Content-Type': 'text/plain; charset=utf-8'
   });
 });
+
+// ==========================================
+// STATIC FILE SERVING
+// ==========================================
+
+// Serve all public files (CSS, JS, images, etc.)
+app.use('/*', serveStatic({ 
+  root: './public',
+  rewriteRequestPath: (path) => path.replace(/^\//, '/') // Keep path as-is
+}));
 
 // ==========================================
 // SERVER START

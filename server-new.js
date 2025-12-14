@@ -125,7 +125,7 @@ const beautyServices = [
       twd: 2900
     },
     duration: '90min',
-    videoUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/headspa'
   },
   {
@@ -149,7 +149,7 @@ const beautyServices = [
       twd: 11900
     },
     duration: '120min',
-    videoUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo'
   },
   {
@@ -173,7 +173,7 @@ const beautyServices = [
       twd: 10700
     },
     duration: '120min',
-    videoUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow'
   },
   {
@@ -197,7 +197,7 @@ const beautyServices = [
       twd: 5900
     },
     duration: '90min',
-    videoUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow'
   },
   {
@@ -221,7 +221,7 @@ const beautyServices = [
       twd: 4400
     },
     duration: '90min',
-    videoUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin'
   },
   {
@@ -245,7 +245,7 @@ const beautyServices = [
       twd: 3650
     },
     duration: '60min',
-    videoUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel'
   }
 ];
@@ -272,7 +272,7 @@ const tourPackages = [
       twd: 2070
     },
     duration: '4hrs',
-    videoUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/tour/kbeauty'
   },
   {
@@ -296,7 +296,7 @@ const tourPackages = [
       twd: 1830
     },
     duration: '3hrs',
-    videoUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/tour/night'
   },
   {
@@ -320,7 +320,7 @@ const tourPackages = [
       twd: 2320
     },
     duration: '5hrs',
-    videoUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop',
+    videoUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     bookingUrl: 'https://kbeautyseoul.co.kr/tour/hanbok'
   }
 ];
@@ -346,7 +346,7 @@ const shopProducts = [
       jpy: 37900,
       twd: 8540
     },
-    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     shopUrl: 'https://kbeautyseoul.co.kr/shop/sulwhasoo'
   },
   {
@@ -369,7 +369,7 @@ const shopProducts = [
       jpy: 45500,
       twd: 10250
     },
-    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     shopUrl: 'https://kbeautyseoul.co.kr/shop/whoo'
   },
   {
@@ -392,7 +392,7 @@ const shopProducts = [
       jpy: 9200,
       twd: 2070
     },
-    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     shopUrl: 'https://kbeautyseoul.co.kr/shop/cosrx'
   }
 ];
@@ -947,7 +947,7 @@ function generateHomePage(lang = 'en') {
       <meta property="og:description" content="${t.hero.subtitle}">
       <meta property="og:type" content="website">
       <meta property="og:url" content="https://kbeautyseoul.co.kr">
-      <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop">
+      <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80">
       
       <!-- Favicon -->
       <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">

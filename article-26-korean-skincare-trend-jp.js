@@ -9,7 +9,7 @@ export const article26 = {
     ja: '韓国スキンケア最新トレンド2025（日本市場向け）'
   },
   date: '2025-02-09',
-  image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800',
+  image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `<h1>Korean Skincare Latest Trends 2025</h1><p>Japanese version available below...</p>`,
     ko: `<h1>한국 스킨케어 최신 트렌드 2025</h1><p>일본 시장을 위한 한국 스킨케어 최신 트렌드...</p>`,

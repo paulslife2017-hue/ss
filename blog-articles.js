@@ -11,7 +11,7 @@ export const blogArticles = [
       zh: '江南按摩完整指南2025：從芳香療法到深層組織'
     },
     slug: 'gangnam-massage-guide-2025',
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '강남 최고의 마사지샵 완벽 가이드. 아로마테라피, 딥티슈, 핫스톤 마사지 비교 및 가격 정보.',
       en: 'Complete guide to best massage shops in Gangnam. Compare aromatherapy, deep tissue, hot stone massage with prices.',
@@ -21,12 +21,12 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>강남 마사지가 특별한 이유</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="강남 마사지" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="강남 마사지" />
 
 <p>강남은 서울에서 가장 프리미엄한 마사지 서비스를 제공하는 지역입니다. 최신 시설과 전문 테라피스트들이 당신의 피로를 완벽하게 풀어드립니다.</p>
 
 <h3>1. 아로마테라피 마사지 (₩180,000)</h3>
-<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop" alt="아로마테라피 마사지" />
+<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="아로마테라피 마사지" />
 
 <p><strong>추천 대상:</strong> 스트레스 해소, 심신 안정을 원하는 분</p>
 <ul>
@@ -41,7 +41,7 @@ export const blogArticles = [
 </div>
 
 <h3>2. 딥티슈 마사지 (₩200,000)</h3>
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop" alt="딥티슈 마사지" />
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="딥티슈 마사지" />
 
 <p><strong>추천 대상:</strong> 만성 통증, 근육 뭉침이 심한 분</p>
 <ul>
@@ -52,7 +52,7 @@ export const blogArticles = [
 </ul>
 
 <h3>3. 핫스톤 마사지 (₩220,000)</h3>
-<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop" alt="핫스톤 마사지" />
+<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="핫스톤 마사지" />
 
 <p><strong>추천 대상:</strong> 혈액순환 개선, 추운 계절 몸을 따뜻하게</p>
 <ul>
@@ -137,12 +137,12 @@ export const blogArticles = [
       `,
       en: `
 <h2>Why Gangnam Massage is Special</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Gangnam Massage" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Massage" />
 
 <p>Gangnam offers Seoul's most premium massage services. State-of-the-art facilities and professional therapists will perfectly relieve your fatigue.</p>
 
 <h3>1. Aromatherapy Massage ($138)</h3>
-<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop" alt="Aromatherapy Massage" />
+<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Aromatherapy Massage" />
 
 <p><strong>Recommended for:</strong> Stress relief and mental relaxation</p>
 <ul>
@@ -157,7 +157,7 @@ export const blogArticles = [
 </div>
 
 <h3>2. Deep Tissue Massage ($154)</h3>
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop" alt="Deep Tissue Massage" />
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Deep Tissue Massage" />
 
 <p><strong>Recommended for:</strong> Chronic pain and severe muscle tension</p>
 <ul>
@@ -168,7 +168,7 @@ export const blogArticles = [
 </ul>
 
 <h3>3. Hot Stone Massage ($169)</h3>
-<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop" alt="Hot Stone Massage" />
+<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Hot Stone Massage" />
 
 <p><strong>Recommended for:</strong> Circulation improvement, warming in cold season</p>
 <ul>
@@ -239,7 +239,7 @@ export const blogArticles = [
       zh: '江南頭皮護理完整指南2025：從頭皮SPA到脫髮護理'
     },
     slug: 'gangnam-scalp-care-guide-2025',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '강남 최고의 두피 케어 전문샵. 헤드스파, 두피 디톡스, 탈모 케어 프로그램 완벽 비교.',
       en: 'Best scalp care specialists in Gangnam. Complete comparison of head spa, scalp detox, hair loss treatment programs.',
@@ -249,12 +249,12 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>강남 두피 케어가 인기있는 이유</h2>
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="강남 헤드스파" />
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="강남 헤드스파" />
 
 <p>현대인의 스트레스, 미세먼지, 잦은 염색으로 두피 건강이 위협받고 있습니다. 강남의 전문 두피 케어샵에서 건강한 두피와 모발을 되찾으세요.</p>
 
 <h3>1. 강남 헤드스파 (₩120,000)</h3>
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop" alt="헤드스파" />
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="헤드스파" />
 
 <p><strong>이런 분께 추천합니다:</strong></p>
 <ul>
@@ -279,7 +279,7 @@ export const blogArticles = [
 </div>
 
 <h3>2. 두피 디톡스 케어 (₩140,000)</h3>
-<img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop" alt="두피 디톡스" />
+<img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="두피 디톡스" />
 
 <p><strong>이런 분께 추천합니다:</strong></p>
 <ul>
@@ -298,7 +298,7 @@ export const blogArticles = [
 </ul>
 
 <h3>3. 탈모 케어 프로그램 (₩250,000)</h3>
-<img src="https://images.unsplash.com/photo-1595475884562-073c30d45670?w=800&h=600&fit=crop" alt="탈모 케어" />
+<img src="https://images.unsplash.com/photo-1595475884562-073c30d45670?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="탈모 케어" />
 
 <p><strong>이런 분께 추천합니다:</strong></p>
 <ul>
@@ -432,7 +432,7 @@ export const blogArticles = [
       zh: '首爾唇部紋繡完整指南2025：江南最佳半永久唇妝'
     },
     slug: 'seoul-lip-tattoo-guide-2025',
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '서울 강남 최고의 립타투 전문샵. 자연스러운 입술 색깔, 6-12개월 지속, 통증 최소화. 립타투 가격, 후관리, 예약 방법 완벽 가이드.',
       en: 'Best lip tattoo studios in Seoul Gangnam. Natural lip color, lasts 6-12 months, minimal pain. Complete guide to lip tattoo prices, aftercare, and booking.',
@@ -442,7 +442,7 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>서울 립타투가 특별한 이유</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="서울 립타투" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="서울 립타투" />
 
 <p>립타투(입술 문신)는 서울에서 가장 인기있는 반영구 화장 시술 중 하나입니다. 아침에 일어나면 이미 립스틱을 바른 듯한 자연스러운 입술을 경험해보세요.</p>
 
@@ -493,7 +493,7 @@ export const blogArticles = [
       `,
       en: `
 <h2>Why Seoul Lip Tattoos Are Special</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="Seoul Lip Tattoo" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Lip Tattoo" />
 
 <p>Lip tattooing (semi-permanent lip makeup) is one of Seoul's most popular beauty treatments. Wake up every morning with lips that look like you've already applied lipstick!</p>
 
@@ -537,7 +537,7 @@ export const blogArticles = [
 </table>
 
 <h2>Popular Lip Tattoo Styles in Seoul</h2>
-<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop" alt="Korean Lip Tattoo Styles" />
+<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Lip Tattoo Styles" />
 
 <h3>1. Natural Gradient Lip</h3>
 <p><strong>Most Popular Style</strong> - Creates a natural gradient effect from lighter outer edges to deeper color in the center. Perfect for a "just-bitten" Korean lip look.</p>
@@ -553,7 +553,7 @@ export const blogArticles = [
 </div>
 
 <h2>What to Expect During Lip Tattoo Procedure</h2>
-<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop" alt="Lip Tattoo Procedure" />
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Lip Tattoo Procedure" />
 
 <h3>Step-by-Step Process:</h3>
 <ol>
@@ -568,7 +568,7 @@ export const blogArticles = [
 <p><strong>Is it painful?</strong> Most clients rate the pain as 3-4 out of 10 with numbing cream. You may feel slight pressure and vibration, but it's generally very tolerable.</p>
 
 <h2>Aftercare Guide for Lip Tattoos</h2>
-<img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop" alt="Lip Tattoo Aftercare" />
+<img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Lip Tattoo Aftercare" />
 
 <h3>First 7 Days (Critical Period):</h3>
 <ul>
@@ -671,7 +671,7 @@ export const blogArticles = [
       `,
       ja: `
 <h2>ソウルのリップタトゥーが特別な理由</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="ソウル リップタトゥー" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="ソウル リップタトゥー" />
 
 <p>リップタトゥー（半永久リップメイク）は、ソウルで最も人気のある美容施術の一つです。毎朝起きたときに、すでにリップスティックを塗ったような唇を体験してください！</p>
 
@@ -715,7 +715,7 @@ export const blogArticles = [
 </table>
 
 <h2>ソウルで人気のリップタトゥースタイル</h2>
-<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop" alt="韓国リップタトゥースタイル" />
+<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="韓国リップタトゥースタイル" />
 
 <h3>1. ナチュラルグラデーションリップ</h3>
 <p><strong>最も人気のスタイル</strong> - 外側の縁から中心に向かって濃くなるナチュラルなグラデーション効果を作ります。韓国の「噛んだような」リップルックに最適です。</p>
@@ -769,7 +769,7 @@ export const blogArticles = [
       zh: '首爾BB光療護理完整指南2025：無需化妝的完美膚色'
     },
     slug: 'seoul-bb-glow-treatment-2025',
-    image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: 'BB글로우는 서울에서 가장 인기있는 피부 시술. 파운데이션 없이도 완벽한 피부톤, 6-12개월 지속. 가격, 효과, 예약 방법 완벽 가이드.',
       en: 'BB Glow is Seoul\'s hottest skin treatment. Perfect skin tone without foundation, lasts 6-12 months. Complete guide to prices, benefits, and booking.',
@@ -779,7 +779,7 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>BB글로우가 특별한 이유</h2>
-<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop" alt="BB글로우 트리트먼트" />
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB글로우 트리트먼트" />
 
 <p>BB글로우는 마이크로니들링 기술을 사용하여 피부에 특수 BB세럼을 주입하는 혁신적인 시술입니다. 매일 파운데이션을 바르지 않아도 완벽한 피부톤을 유지할 수 있습니다.</p>
 
@@ -799,7 +799,7 @@ export const blogArticles = [
       `,
       en: `
 <h2>What Makes BB Glow Special</h2>
-<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop" alt="BB Glow Treatment" />
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Treatment" />
 
 <p>BB Glow is an innovative treatment that uses microneedling technology to infuse special BB serum into your skin. Achieve perfect skin tone without applying foundation every day!</p>
 
@@ -812,7 +812,7 @@ export const blogArticles = [
 </ul>
 
 <h2>How Does BB Glow Work?</h2>
-<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop" alt="BB Glow Process" />
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Process" />
 
 <h3>Treatment Process (90-120 minutes):</h3>
 <ol>
@@ -825,7 +825,7 @@ export const blogArticles = [
 </ol>
 
 <h2>BB Glow Benefits</h2>
-<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop" alt="BB Glow Benefits" />
+<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Benefits" />
 
 <ul>
   <li>🌟 <strong>Flawless Complexion:</strong> Even skin tone without daily foundation</li>
@@ -911,7 +911,7 @@ export const blogArticles = [
 </table>
 
 <h2>Who Should Get BB Glow?</h2>
-<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop" alt="BB Glow Candidates" />
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Candidates" />
 
 <h3>Perfect For:</h3>
 <ul>
@@ -932,7 +932,7 @@ export const blogArticles = [
 </ul>
 
 <h2>Aftercare for BB Glow</h2>
-<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&h=600&fit=crop" alt="BB Glow Aftercare" />
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Aftercare" />
 
 <h3>First 24 Hours:</h3>
 <ul>
@@ -996,7 +996,7 @@ export const blogArticles = [
       `,
       ja: `
 <h2>BBグロウが特別な理由</h2>
-<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop" alt="BBグロウトリートメント" />
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BBグロウトリートメント" />
 
 <p>BBグロウは、マイクロニードリング技術を使用して特殊なBBセラムを肌に注入する革新的なトリートメントです。毎日ファンデーションを塗らなくても完璧な肌トーンを実現！</p>
 
@@ -1048,7 +1048,7 @@ export const blogArticles = [
       zh: '首爾美甲藝術完整指南2025：江南和弘大最佳美甲沙龍'
     },
     slug: 'seoul-nail-art-guide-2025',
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '서울 최고의 네일아트 완벽 가이드. 한국 젤네일, 3D 네일아트, 미니멀 디자인. 가격, 인기 샵, 예약 방법.',
       en: 'Complete guide to Seoul\'s best nail art. Korean gel nails, 3D nail art, minimalist designs. Prices, popular salons, and booking.',
@@ -1058,7 +1058,7 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>서울 네일아트가 세계적으로 유명한 이유</h2>
-<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop" alt="서울 네일아트" />
+<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="서울 네일아트" />
 
 <p>서울의 네일아트는 섬세한 디자인, 혁신적인 기술, 그리고 저렴한 가격으로 전 세계 여행객들에게 인기가 많습니다. 강남과 홍대는 최고의 네일샵이 밀집한 지역입니다.</p>
 
@@ -1078,7 +1078,7 @@ export const blogArticles = [
       `,
       en: `
 <h2>Why Seoul Nail Art is World-Famous</h2>
-<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop" alt="Seoul Nail Art" />
+<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Nail Art" />
 
 <p>Seoul's nail art is globally renowned for its delicate designs, innovative techniques, and affordable prices. Gangnam and Hongdae are the hotspots for the best nail salons in Seoul.</p>
 
@@ -1091,7 +1091,7 @@ export const blogArticles = [
 </ul>
 
 <h2>Popular Korean Nail Art Styles</h2>
-<img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&h=600&fit=crop" alt="Korean Nail Styles" />
+<img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Nail Styles" />
 
 <h3>1. Minimalist Nude Nails</h3>
 <p><strong>Most Popular for Office Workers</strong> - Clean, elegant nude tones with subtle accents. Perfect for professional settings while maintaining sophistication.</p>
@@ -1187,7 +1187,7 @@ export const blogArticles = [
 </div>
 
 <h2>Best Areas for Nail Art in Seoul</h2>
-<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800&h=600&fit=crop" alt="Seoul Nail Salons" />
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Nail Salons" />
 
 <h3>🏙️ Gangnam District</h3>
 <p><strong>Premium Quality, Higher Prices</strong></p>
@@ -1238,7 +1238,7 @@ export const blogArticles = [
 </div>
 
 <h2>What to Expect at Korean Nail Salons</h2>
-<img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=800&h=600&fit=crop" alt="Korean Nail Salon Experience" />
+<img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Nail Salon Experience" />
 
 <h3>Step-by-Step Process:</h3>
 <ol>
@@ -1307,7 +1307,7 @@ export const blogArticles = [
       `,
       ja: `
 <h2>ソウルのネイルアートが世界的に有名な理由</h2>
-<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop" alt="ソウル ネイルアート" />
+<img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="ソウル ネイルアート" />
 
 <p>ソウルのネイルアートは、繊細なデザイン、革新的な技術、手頃な価格で世界中に知られています。江南と弘大は、ソウルで最高のネイルサロンのホットスポットです。</p>
 
@@ -1359,7 +1359,7 @@ export const blogArticles = [
       zh: '韓國汗蒸幕體驗完整指南2025：首爾最佳水療中心'
     },
     slug: 'korean-spa-jjimjilbang-guide-2025',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '한국 전통 찜질방 완벽 가이드. 24시간 스파, 때밀이, 황토방, 염수방 체험. 외국인을 위한 이용 방법과 에티켓.',
       en: 'Complete Korean jjimjilbang spa guide. 24-hour spa, body scrub, clay rooms, salt rooms. How to use and etiquette for foreigners.',
@@ -1369,7 +1369,7 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>한국 찜질방이 특별한 이유</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="한국 찜질방" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="한국 찜질방" />
 
 <p>찜질방은 한국의 독특한 문화 체험으로, 사우나, 온천, 수면, 엔터테인먼트를 하나로 결합한 24시간 복합 휴식 공간입니다. 서울을 방문하는 외국인이라면 꼭 경험해야 할 필수 코스입니다.</p>
 
@@ -1381,7 +1381,7 @@ export const blogArticles = [
       `,
       en: `
 <h2>What Makes Korean Jjimjilbang Special</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Korean Jjimjilbang Spa" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Jjimjilbang Spa" />
 
 <p>Jjimjilbang is a uniquely Korean cultural experience combining sauna, hot springs, sleeping quarters, and entertainment in a 24-hour wellness complex. It's a must-do experience for any foreigner visiting Seoul!</p>
 
@@ -1396,7 +1396,7 @@ export const blogArticles = [
 </ul>
 
 <h2>What to Expect at a Korean Jjimjilbang</h2>
-<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop" alt="Jjimjilbang Interior" />
+<img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Jjimjilbang Interior" />
 
 <h3>Entry Process (Step-by-Step):</h3>
 <ol>
@@ -1411,7 +1411,7 @@ export const blogArticles = [
 </div>
 
 <h2>Jjimjilbang Facilities</h2>
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop" alt="Jjimjilbang Facilities" />
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Jjimjilbang Facilities" />
 
 <h3>Bathing Area (Gender-Separated, Nude):</h3>
 <ul>
@@ -1488,7 +1488,7 @@ export const blogArticles = [
 </table>
 
 <h2>Korean Body Scrub (Ttaemiri - 때밀이)</h2>
-<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop" alt="Korean Body Scrub" />
+<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Body Scrub" />
 
 <h3>What is Ttaemiri?</h3>
 <p>A traditional Korean exfoliation service where a professional scrubs your entire body using a rough mitt, removing dead skin cells and impurities. It's an essential part of the jjimjilbang experience!</p>
@@ -1516,7 +1516,7 @@ export const blogArticles = [
 </div>
 
 <h2>Jjimjilbang Etiquette for Foreigners</h2>
-<img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=600&fit=crop" alt="Jjimjilbang Etiquette" />
+<img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Jjimjilbang Etiquette" />
 
 <h3>Bathing Area Rules (Nude Areas):</h3>
 <ul>
@@ -1538,7 +1538,7 @@ export const blogArticles = [
 </ul>
 
 <h2>Famous Korean Jjimjilbang Foods</h2>
-<img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&h=600&fit=crop" alt="Jjimjilbang Food" />
+<img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Jjimjilbang Food" />
 
 <h3>Must-Try Snacks:</h3>
 <ul>
@@ -1623,7 +1623,7 @@ export const blogArticles = [
       `,
       ja: `
 <h2>韓国チムジルバンが特別な理由</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="韓国チムジルバンスパ" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="韓国チムジルバンスパ" />
 
 <p>チムジルバンは、サウナ、温泉、睡眠エリア、エンターテインメントを24時間ウェルネスコンプレックスに組み合わせた、韓国独特の文化体験です。ソウルを訪れる外国人にとって必見の体験です！</p>
 
@@ -1682,7 +1682,7 @@ export const blogArticles = [
       zh: '2025年韓國美容趨勢：K-美容產業的未來'
     },
     slug: 'korean-beauty-trends-2025',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '2025년 한국 뷰티 트렌드 완벽 분석. 글래스 스킨, 클린 뷰티, 개인 맞춤 스킨케어의 부상.',
       en: 'Complete analysis of 2025 Korean beauty trends. Glass skin, clean beauty, personalized skincare rising trends.',
@@ -1692,20 +1692,20 @@ export const blogArticles = [
     content: {
       ko: `
 <h2>2025 K-뷰티 트렌드</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="K-뷰티 트렌드 2025" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-뷰티 트렌드 2025" />
 
 <p>한국 뷰티 산업은 매년 새로운 트렌드와 혁신을 선도하며 세계 시장을 이끌고 있습니다. 2025년에는 어떤 트렌드가 한국 뷰티 시장을 주도할까요?</p>
       `,
       en: `
 <h2>Korean Beauty Trends 2025: What's Next for K-Beauty?</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="Korean Beauty Trends 2025" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Beauty Trends 2025" />
 
 <p>The Korean beauty industry continues to lead global beauty innovation year after year. As we enter 2025, K-beauty is undergoing a transformative evolution, with new technologies, ingredients, and philosophies reshaping how we approach skincare and makeup.</p>
 
 <p>From Seoul's bustling beauty districts like Gangnam and Myeongdong to global beauty counters worldwide, Korean beauty trends set the standard for what's next in skincare innovation. This comprehensive guide explores the top Korean beauty trends dominating 2025.</p>
 
 <h2>Top 10 Korean Beauty Trends in 2025</h2>
-<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=600&fit=crop" alt="K-Beauty Innovation" />
+<img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-Beauty Innovation" />
 
 <h3>1. Glass Skin 2.0: The Evolution of Glass Skin</h3>
 <p><strong>What is Glass Skin 2.0?</strong></p>
@@ -1728,7 +1728,7 @@ export const blogArticles = [
 </ul>
 
 <h3>2. Clean Beauty Movement in Korea</h3>
-<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&h=600&fit=crop" alt="Clean Beauty Korea" />
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Clean Beauty Korea" />
 
 <p><strong>What is K-Clean Beauty?</strong></p>
 <p>Korean clean beauty in 2025 goes beyond "natural" ingredients. It encompasses sustainable sourcing, eco-friendly packaging, cruelty-free testing, and transparency in ingredient lists.</p>
@@ -1751,7 +1751,7 @@ export const blogArticles = [
 </ul>
 
 <h3>3. Personalized Skincare: AI & Custom Formulations</h3>
-<img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop" alt="AI Skincare Technology" />
+<img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="AI Skincare Technology" />
 
 <p><strong>The Rise of Personalized K-Beauty</strong></p>
 <p>In 2025, Korean beauty brands are leveraging artificial intelligence and machine learning to create truly personalized skincare routines tailored to individual skin types, concerns, and environments.</p>
@@ -1785,7 +1785,7 @@ export const blogArticles = [
 </ul>
 
 <h3>5. Waterless Beauty Products</h3>
-<img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop" alt="Waterless Beauty" />
+<img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Waterless Beauty" />
 
 <p><strong>Why Waterless Beauty?</strong></p>
 <p>Korean brands are pioneering waterless beauty to address sustainability concerns and create more concentrated, effective formulations.</p>
@@ -1819,7 +1819,7 @@ export const blogArticles = [
 </ul>
 
 <h3>7. Skin Barrier Focus: Ceramides & Prebiotics</h3>
-<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop" alt="Skin Barrier Care" />
+<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Skin Barrier Care" />
 
 <p><strong>Why Barrier Health Matters</strong></p>
 <p>Korean skincare experts emphasize that a healthy skin barrier is the foundation of all skin health. In 2025, barrier-repair ingredients are the most sought-after.</p>
@@ -1846,7 +1846,7 @@ export const blogArticles = [
 </ul>
 
 <h3>9. K-Beauty at Home: DIY Face Masks & Treatments</h3>
-<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop" alt="DIY Korean Face Masks" />
+<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="DIY Korean Face Masks" />
 
 <p><strong>The Home Spa Trend</strong></p>
 <p>Korean consumers are embracing at-home spa treatments with professional-grade results, using devices and formulations previously only available at clinics.</p>
@@ -1873,7 +1873,7 @@ export const blogArticles = [
 </ul>
 
 <h2>How to Incorporate 2025 K-Beauty Trends</h2>
-<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop" alt="Korean Skincare Routine" />
+<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Skincare Routine" />
 
 <h3>Building Your 2025 K-Beauty Routine</h3>
 <p><strong>Morning Routine (Skinimalist Approach):</strong></p>
@@ -1913,7 +1913,7 @@ export const blogArticles = [
 </ol>
 
 <h2>Where to Experience K-Beauty Trends in Seoul</h2>
-<img src="https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=800&h=600&fit=crop" alt="Seoul Beauty District" />
+<img src="https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Beauty District" />
 
 <h3>Best Places to Explore Korean Beauty Innovation:</h3>
 
@@ -2029,7 +2029,7 @@ export const blogArticles = [
       `,
       ja: `
 <h2>2025年の韓国美容トレンド</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="K-ビューティトレンド2025" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-ビューティトレンド2025" />
 
 <p>韓国美容産業は毎年新しいトレンドとイノベーションをリードし、世界市場を牽引しています。2025年にはどのようなトレンドが韓国美容市場を主導するのでしょうか？</p>
       `
@@ -2057,7 +2057,7 @@ export const blogArticles = [
       zh: '初學者韓國護膚程序指南'
     },
     slug: 'korean-skincare-routine-beginners-2025',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '한국 10단계 스킨케어 루틴 완벽 가이드. 초보자도 쉽게 따라할 수 있는 단계별 설명과 제품 추천.',
       en: 'Complete guide to the famous Korean 10-step skincare routine. Step-by-step instructions and product recommendations for beginners.',
@@ -2067,7 +2067,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Korean Skincare Routine for Beginners: Master the 10-Step Method</h2>
-<img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=1200&h=600&fit=crop" alt="Korean Skincare Routine" />
+<img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Skincare Routine" />
 
 <p>The Korean 10-step skincare routine has revolutionized beauty worldwide. While it may seem overwhelming at first, this comprehensive guide will break down each step, explain why it's important, and help you build your perfect K-beauty routine—whether you're a complete beginner or looking to refine your existing regimen.</p>
 
@@ -2075,7 +2075,7 @@ export const blogArticles = [
 <p>Korean skincare philosophy focuses on <strong>prevention rather than correction</strong>, <strong>hydration over everything</strong>, and <strong>consistency for results</strong>. The multi-step approach allows you to layer lightweight products that penetrate deeply, rather than applying one heavy cream that sits on top of your skin.</p>
 
 <h2>The Complete 10-Step Korean Skincare Routine</h2>
-<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop" alt="10-Step Routine" />
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="10-Step Routine" />
 
 <h3>Morning Routine (7 Steps)</h3>
 
@@ -2198,7 +2198,7 @@ export const blogArticles = [
 </ul>
 
 <h2>Simplified Routines for Beginners</h2>
-<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop" alt="Beginner Routine" />
+<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Beginner Routine" />
 
 <h3>3-Step Beginner Routine (Start Here!)</h3>
 <p><strong>Morning & Evening:</strong></p>
@@ -2334,7 +2334,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Why Korean Sheet Masks Are #1 Worldwide</h2>
-<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop" alt="Korean Sheet Masks" />
+<img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Sheet Masks" />
 
 <p>Korean sheet masks dominate the global beauty market, with <strong>$2.5 billion in annual sales</strong>. But with thousands of options, how do you choose? This complete 2025 guide breaks down the <strong>best Korean sheet masks by skin concern, ingredients, and budget</strong>.</p>
 
@@ -2699,7 +2699,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>K-Beauty vs J-Beauty: The Ultimate Showdown</h2>
-<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop" alt="K-Beauty vs J-Beauty Comparison" />
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-Beauty vs J-Beauty Comparison" />
 
 <p>Korean Beauty (K-Beauty) and Japanese Beauty (J-Beauty) both dominate Asia's $143 billion beauty market, but they take <strong>radically different approaches</strong>. Which philosophy suits your skin best? This comprehensive 2025 guide breaks down the differences in <strong>ingredients, routines, philosophies, and results</strong>.</p>
 
@@ -3093,7 +3093,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>2025 Korean Makeup Trends: What's Hot in K-Beauty</h2>
-<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop" alt="Korean Makeup Trends 2025" />
+<img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Makeup Trends 2025" />
 
 <p>Korean makeup trends set global beauty standards, from <strong>"glass skin"</strong> to <strong>gradient lips</strong>. As we enter 2025, K-Beauty makeup is evolving with <strong>minimalism, skin-first approaches, and soft glam aesthetics</strong>. This guide covers the <strong>top 10 makeup trends</strong> dominating Seoul's streets, K-dramas, and beauty influencer feeds.</p>
 
@@ -3388,7 +3388,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>The Ultimate Seoul Beauty Travel Guide 2025</h2>
-<img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200&h=600&fit=crop" alt="Seoul Beauty Travel 2025" />
+<img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Beauty Travel 2025" />
 
 <p>Seoul is the <strong>global K-Beauty capital</strong>, attracting <strong>2.5 million beauty tourists annually</strong>. This complete 3-day itinerary covers <strong>shopping districts, spa treatments, K-Beauty experiences, and photo-worthy cafes</strong> - perfect for first-time visitors seeking the ultimate Seoul beauty adventure!</p>
 
@@ -3698,7 +3698,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>K-Beauty Ingredients: The Science Behind the Glow</h2>
-<img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&h=600&fit=crop" alt="K-Beauty Ingredients 2025" />
+<img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="K-Beauty Ingredients 2025" />
 
 <p>Korean skincare is famous for <strong>innovative, science-backed ingredients</strong> that deliver real results. From <strong>snail mucin to fermented galactomyces</strong>, K-Beauty brands pioneer unusual yet effective actives. This comprehensive guide breaks down <strong>15 key K-Beauty ingredients</strong>, their benefits, scientific backing, and best product recommendations for 2025.</p>
 
@@ -4072,7 +4072,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Best Korean Sunscreens 2025: The Ultimate SPF Guide</h2>
-<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=600&fit=crop" alt="Best Korean Sunscreens 2025" />
+<img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Best Korean Sunscreens 2025" />
 
 <p>Korean sunscreens are <strong>legendary in the skincare world</strong> - lightweight, non-greasy, cosmetically elegant formulas that make daily SPF wear effortless. With <strong>SPF 50+ PA++++</strong> protection becoming the standard, Korean brands dominate the global sunscreen market. This comprehensive 2025 guide covers the <strong>20 best Korean sunscreens</strong>, chemical vs physical formulas, skin type recommendations, and expert application tips.</p>
 
@@ -4462,7 +4462,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Korean Skincare for Acne: The Complete Treatment Guide 2025</h2>
-<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop" alt="Korean Acne Skincare 2025" />
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Acne Skincare 2025" />
 
 <p>Korean skincare revolutionized <strong>acne treatment</strong> with gentle yet effective ingredients like <strong>tea tree, centella asiatica, BHA, and snail mucin</strong>. Unlike harsh Western treatments, K-Beauty focuses on <strong>balancing skin, reducing inflammation, and healing</strong> without over-drying. This comprehensive 2025 guide covers the <strong>best Korean acne products, routines, and ingredients</strong> that actually work.</p>
 
@@ -4701,7 +4701,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Korean Skincare Products to Buy 2025: The Ultimate Shopping Guide</h2>
-<img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1200&h=600&fit=crop" alt="Korean Skincare Products 2025" />
+<img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Skincare Products 2025" />
 
 <p>Planning your K-Beauty haul? This comprehensive guide covers the <strong>must-buy Korean skincare products of 2025</strong> - from cult classics to viral new launches. Whether shopping online or in Seoul, this curated list ensures you get the <strong>best value, proven results, and authentic products</strong>.</p>
 
@@ -5058,7 +5058,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>How to Book Korean Beauty Services in Seoul 2025</h2>
-<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="Booking Korean Beauty Services Seoul" />
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Booking Korean Beauty Services Seoul" />
 
 <p>Booking Korean beauty services in Seoul can be challenging for foreigners - language barriers, payment systems, and finding trustworthy clinics. This comprehensive 2025 guide covers <strong>the best booking platforms, trusted clinics in Gangnam, and step-by-step reservation processes</strong> for massage, facials, head spa, and more.</p>
 
@@ -5430,7 +5430,7 @@ export const blogArticles = [
       zh: '我的真實體驗：江南美容療程評價2025'
     },
     slug: 'my-gangnam-beauty-treatment-experience-2025',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '강남에서 직접 받은 마사지, 두피케어, 페이셜 트리트먼트 솔직 후기. K-Beauty Seoul 예약 과정부터 결과까지 상세 리뷰.',
       en: 'Honest review of massage, scalp care, and facial treatments I personally received in Gangnam. Detailed experience from K-Beauty Seoul booking to results.',
@@ -5440,7 +5440,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Why I Decided to Try Korean Beauty Treatments in Gangnam</h2>
-<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="Gangnam Beauty District" />
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Beauty District" />
 
 <p>As a long-time K-Beauty enthusiast who'd only experienced products, I finally took the plunge to try <strong>professional beauty treatments in Seoul's Gangnam district</strong>. After reading countless Reddit threads and YouTube reviews, I booked through <a href="https://kbeautyseoul.co.kr" target="_blank" rel="noopener"><strong>kbeautyseoul.co.kr</strong></a> for their <strong>English-speaking support and verified clinics</strong>.</p>
 
@@ -5459,7 +5459,7 @@ export const blogArticles = [
 </div>
 
 <h2>🔍 How I Found & Booked These Treatments</h2>
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&h=600&fit=crop" alt="Booking Korean beauty services online" />
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Booking Korean beauty services online" />
 
 <h3>The Struggle of Booking as a Foreigner</h3>
 <p>Let's be real - booking beauty services in Korea as a non-Korean speaker is <strong>terrifying</strong>. Most clinics:</p>
@@ -5508,7 +5508,7 @@ export const blogArticles = [
 </div>
 
 <h2>💆‍♀️ Treatment #1: Deep Tissue Massage (₩150,000)</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1000&h=600&fit=crop" alt="Korean deep tissue massage" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean deep tissue massage" />
 
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Gangnam Premium Wellness (partnered with K-Beauty Seoul)<br>
@@ -5550,7 +5550,7 @@ export const blogArticles = [
 <p><strong>💡 My Tip:</strong> Book this treatment early in your Seoul trip. The relaxation sets the perfect vibe for your vacation. <a href="https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025" target="_blank">Book Gangnam massage here</a>.</p>
 
 <h2>💈 Treatment #2: Scalp Care Treatment (₩120,000) ⭐ MY FAVORITE</h2>
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=600&fit=crop" alt="Korean scalp spa treatment" />
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean scalp spa treatment" />
 
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Gangnam Head Spa Lab<br>
@@ -5608,7 +5608,7 @@ export const blogArticles = [
 </div>
 
 <h2>✨ Treatment #3: Aqua Peeling Facial (₩180,000)</h2>
-<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1000&h=600&fit=crop" alt="Korean aqua peeling facial treatment" />
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean aqua peeling facial treatment" />
 
 <h3>📍 Location & Clinic</h3>
 <p><strong>Clinic:</strong> Cheongdam Aesthetic Center<br>
@@ -5750,7 +5750,7 @@ export const blogArticles = [
 </ul>
 
 <h2>🏆 Final Verdict: Are Korean Beauty Treatments Worth It?</h2>
-<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1000&h=600&fit=crop" alt="Korean beauty treatment results" />
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean beauty treatment results" />
 
 <p><strong>Short answer: YES. 💯</strong></p>
 
@@ -5904,7 +5904,7 @@ export const blogArticles = [
       zh: '2025年首爾值得嘗試的韓國美容服務Top 5'
     },
     slug: 'top-5-korean-beauty-services-worth-trying-2025',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '서울에서 꼭 경험해야 할 K-뷰티 시술 TOP 5. 두피케어부터 BB글로우까지, 가격·효과·예약 정보 총정리.',
       en: 'Must-try K-Beauty treatments in Seoul: from scalp care to BB Glow. Prices, benefits, booking guide via kbeautyseoul.co.kr.',
@@ -5914,7 +5914,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Why Korean Beauty Services Are World-Class</h2>
-<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="Seoul beauty district" />
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul beauty district" />
 
 <p>Seoul has become the <strong>global capital of beauty innovation</strong>. From revolutionary skincare techniques to advanced aesthetic procedures, Korea offers treatments you simply can't find anywhere else. After researching and trying dozens of services across Gangnam, Cheongdam, and Myeongdong, I've narrowed it down to the <strong>top 5 must-try treatments</strong> for 2025.</p>
 
@@ -5933,7 +5933,7 @@ export const blogArticles = [
 </div>
 
 <h2>🥇 #1: Korean Scalp Care Treatment - The Game Changer</h2>
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=600&fit=crop" alt="Korean scalp care treatment" />
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean scalp care treatment" />
 
 <h3>Why It's #1</h3>
 <p>This isn't just a "nice head massage" - it's a <strong>medical-grade scalp therapy</strong> that addresses hair loss, dandruff, oily scalp, and thinning hair using Korean dermatological expertise. Think of it as <strong>physical therapy for your scalp</strong>.</p>
@@ -5997,7 +5997,7 @@ export const blogArticles = [
 </div>
 
 <h2>🥈 #2: BB Glow Semi-Permanent Foundation - The Innovation</h2>
-<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1000&h=600&fit=crop" alt="BB Glow treatment" />
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow treatment" />
 
 <h3>What Is BB Glow?</h3>
 <p>Imagine waking up every morning with <strong>perfect, flawless foundation already applied</strong>. That's BB Glow - a Korean innovation that uses <strong>microneedling to infuse pigmented serums</strong> into the skin's top layer, creating a semi-permanent "makeup" effect that lasts 6-12 months.</p>
@@ -6052,7 +6052,7 @@ export const blogArticles = [
 </div>
 
 <h2>🥉 #3: Korean Deep Tissue Massage - The Value King</h2>
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1000&h=600&fit=crop" alt="Korean massage therapy" />
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean massage therapy" />
 
 <h3>Why Korean Massage Is Different</h3>
 <p>Korean massage therapists undergo <strong>rigorous 2-3 year training programs</strong> combining traditional Korean medicine (acupressure points), modern sports therapy, and aromatherapy. They don't just rub muscles - they <strong>diagnose and treat</strong> specific pain points.</p>
@@ -6107,7 +6107,7 @@ export const blogArticles = [
 </div>
 
 <h2>4️⃣ #4: Aqua Peel Glass Skin Facial - Instant Results</h2>
-<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1000&h=600&fit=crop" alt="Korean facial treatment" />
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean facial treatment" />
 
 <h3>The Korean "Glass Skin" Secret</h3>
 <p>Aqua Peel (also called Hydrafacial in the West) is THE treatment behind Korean celebrities' <strong>impossibly smooth, luminous "glass skin"</strong>. It's a non-invasive facial that combines <strong>hydrating exfoliation + blackhead extraction + serum infusion</strong> in one device.</p>
@@ -6170,7 +6170,7 @@ export const blogArticles = [
 </div>
 
 <h2>5️⃣ #5: Semi-Permanent Lip Tint - Ultimate Convenience</h2>
-<img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1000&h=600&fit=crop" alt="Korean lip tint treatment" />
+<img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean lip tint treatment" />
 
 <h3>What Is Semi-Permanent Lip Tint?</h3>
 <p>Imagine having <strong>perfectly tinted, gradient lips 24/7</strong> without lipstick. Semi-permanent lip tint (also called lip blushing) is a <strong>cosmetic tattoo technique</strong> that deposits pigment into the lips' top layer, creating a natural, long-lasting color that enhances your natural lip tone.</p>
@@ -6356,7 +6356,7 @@ export const blogArticles = [
 <p><strong>A:</strong> Not required in Korea, but ₩10,000-20,000 (~$8-15) is appreciated for exceptional service. Leave in treatment room, not directly to therapist.</p>
 
 <h2>🌟 Final Thoughts</h2>
-<img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1000&h=600&fit=crop" alt="Seoul beauty experience" />
+<img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul beauty experience" />
 
 <p>These 5 treatments represent the <strong>best of Korean beauty innovation</strong> - from ancient scalp therapy techniques to cutting-edge BB Glow technology. What makes them special isn't just the results (though those are incredible), it's the <strong>combination of expertise, technology, and value</strong> you won't find anywhere else in the world.</p>
 
@@ -6399,7 +6399,7 @@ export const blogArticles = [
       zh: '2025年首爾美容旅遊完整指南'
     },
     slug: 'seoul-beauty-tourism-guide-2025',
-    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '외국인을 위한 서울 뷰티 투어리즘 완벽 가이드. 예약 방법, 가격, 영어 지원, 추천 지역 총정리.',
       en: 'Complete Seoul beauty tourism guide for international travelers. Booking, prices, English support, best districts. Experience K-Beauty in Seoul.',
@@ -6409,7 +6409,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>Why Seoul Is the World's K-Beauty Capital</h2>
-<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="Seoul beauty district Gangnam" />
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul beauty district Gangnam" />
 
 <p>Seoul has become the <strong>global epicenter of beauty innovation</strong>, attracting over <strong>2.5 million beauty tourists annually</strong>. From cutting-edge facial treatments to traditional Korean spa experiences, Seoul offers beauty services you simply can't find anywhere else in the world.</p>
 
@@ -6429,7 +6429,7 @@ export const blogArticles = [
 <h2>🏙️ Top Districts for Beauty Tourism in Seoul</h2>
 
 <h3>1. Gangnam District (강남구) - Premium Beauty Hub</h3>
-<img src="https://images.unsplash.com/photo-1544441892-794166f1e3be?w=1000&h=600&fit=crop" alt="Gangnam Seoul beauty district" />
+<img src="https://images.unsplash.com/photo-1544441892-794166f1e3be?w=1000&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Seoul beauty district" />
 
 <p><strong>Why Gangnam?</strong> Home to Seoul's most luxurious clinics and experienced practitioners. Think of it as the "Beverly Hills of K-Beauty."</p>
 
@@ -6736,7 +6736,7 @@ export const blogArticles = [
       zh: '江南頭皮護理完整指南2025'
     },
     slug: 'gangnam-head-spa-complete-guide-2025',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     excerpt: {
       ko: '강남 헤드스파 vs 두피 디톡스 vs 탈모 치료 완벽 비교. 가격, 효과, 예약 방법 총정리.',
       en: 'Complete guide to Gangnam head spa, scalp detox, and hair loss treatments. Prices, benefits, booking with kbeautyseoul.co.kr.',
@@ -6746,7 +6746,7 @@ export const blogArticles = [
     content: {
       en: `
 <h2>What is Korean Head Spa? The Ultimate Scalp Treatment</h2>
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="Korean head spa treatment" />
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean head spa treatment" />
 
 <p>Korean head spa (헤드스파) has become one of the <strong>most sought-after beauty treatments in Seoul</strong>, with over 50,000+ international visitors booking scalp treatments annually in Gangnam alone. Unlike basic hair salon treatments, Korean head spa is a <strong>medical-grade scalp therapy</strong> that addresses hair loss, dandruff, oily scalp, and overall scalp health using advanced Korean dermatological technology.</p>
 
@@ -7000,7 +7000,7 @@ export const blogArticles = [
       ja: '韓国スキンケアルーティン：完璧な10ステップガイド2025'
     },
     date: '2025-02-05',
-    image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800',
+    image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Korean Skincare Routine: Complete 10-Step Guide 2025</h1><p>Complete guide to the famous 10-step Korean skincare routine with product recommendations and order...</p>`,
       ko: `<h1>한국식 스킨케어 루틴: 완벽한 10단계 가이드 2025</h1><p>10단계 한국식 스킨케어 완벽 가이드...</p>`,
@@ -7030,7 +7030,7 @@ export const blogArticles = [
       ja: 'ソウル美容クリニック：完全ガイド2025（英語予約）'
     },
     date: '2025-02-06',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800',
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Seoul Beauty Clinics: Complete Guide 2025</h1><p>Complete Seoul beauty clinic guide with prices, best areas, and English booking information...</p>`,
       ko: `<h1>서울 뷰티 클리닉: 완벽 가이드 2025</h1><p>영어 예약 가능한 서울 뷰티 클리닉 완벽 가이드...</p>`,
@@ -7060,7 +7060,7 @@ export const blogArticles = [
       ja: '韓国美容ツアー完全ガイド2025（日本人観光客向け）'
     },
     date: '2025-02-07',
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800',
+    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Korean Beauty Tour Complete Guide 2025</h1><p>Japanese version available...</p>`,
       ko: `<h1>한국 뷰티 투어 완벽 가이드 2025</h1><p>일본 관광객을 위한 완벽한 한국 뷰티 투어 가이드...</p>`,
@@ -7090,7 +7090,7 @@ export const blogArticles = [
       ja: 'ソウルエステおすすめランキング2025（日本人観光客向け）'
     },
     date: '2025-02-08',
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Seoul Spa Ranking 2025</h1><p>Japanese version available...</p>`,
       ko: `<h1>서울 에스테틱 추천 랭킹 2025</h1><p>일본 관광객을 위한 서울 에스테틱 추천 랭킹...</p>`,
@@ -7120,7 +7120,7 @@ export const blogArticles = [
       ja: '韓国スキンケア最新トレンド2025（日本市場向け）'
     },
     date: '2025-02-09',
-    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800',
+    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Korean Skincare Latest Trends 2025</h1><p>Japanese version available...</p>`,
       ko: `<h1>한국 스킨케어 최신 트렌드 2025</h1><p>일본 시장을 위한 한국 스킨케어 최신 트렌드...</p>`,
@@ -7151,7 +7151,7 @@ export const blogArticles = [
       ja: '江南ヘッドスパ完全ガイド2025：TOP10おすすめ、料金・予約方法'
     },
     date: '2025-12-14',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `
 <h1>Ultimate Gangnam Head Spa Guide 2025: Top 10 Best Places, Prices & Booking</h1>
@@ -7395,7 +7395,7 @@ export const blogArticles = [
       ja: '【2025年最新】江南ヘッドスパ完全ガイド：おすすめ10選・料金・予約方法'
     },
     date: '2025-12-14',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Gangnam Head Spa Guide (Japanese Version)</h1><p>Complete guide for Japanese tourists...</p>`,
       ko: `<h1>강남 헤드스파 가이드 (일본어 버전)</h1><p>일본 관광객을 위한 완벽한 가이드...</p>`,

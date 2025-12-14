@@ -9,7 +9,7 @@ export const article23 = {
     ja: 'ソウル美容クリニック：完全ガイド2025（英語予約）'
   },
   date: '2025-02-06',
-  image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800',
+  image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `
 <h1>Seoul Beauty Clinics: Complete Guide 2025 (English Booking)</h1>

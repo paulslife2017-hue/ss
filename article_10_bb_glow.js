@@ -4,7 +4,7 @@ module.exports = {
   slug: "bb-glow-treatment-seoul-guide-2025",
   excerpt: "Everything about BB Glow treatment in Seoul: prices (₩150,000-400,000), best clinics in Gangnam, procedure details, before/after results, and booking tips for this revolutionary Korean skin treatment.",
   content: `
-<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop" alt="BB Glow Treatment in Seoul Korea" class="featured-image">
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Treatment in Seoul Korea" class="featured-image">
 
 <p>BB Glow is Korea's revolutionary semi-permanent makeup treatment that's transformed the beauty industry. This micro-needling procedure infuses skin with foundation-like pigments, creating flawless, glowing skin for 6-12 months. If you're visiting Seoul, getting BB Glow from the experts who invented it is a must-try experience.</p>
 
@@ -483,7 +483,7 @@ module.exports = {
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["BB Glow", "Skincare", "Semi-Permanent Makeup", "Gangnam", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "14 min read",
   views: 3215,
   published: true,

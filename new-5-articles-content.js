@@ -9,7 +9,7 @@ export const article22 = {
     ja: '韓国スキンケアルーティン：完璧な10ステップガイド2025'
   },
   date: '2025-02-05',
-  image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800',
+  image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `
 <h1>Korean Skincare Routine: Complete 10-Step Guide 2025</h1>
@@ -515,7 +515,7 @@ export const article23 = {
     ja: 'ソウル美容クリニック：完全ガイド2025（英語予約）'
   },
   date: '2025-02-06',
-  image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800',
+  image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `
 <h1>Seoul Beauty Clinics: Complete Guide 2025 (English Booking)</h1>
@@ -1027,7 +1027,7 @@ export const article24 = {
     ja: '韓国美容ツアー完全ガイド2025（日本人観光客向け）'
   },
   date: '2025-02-07',
-  image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800',
+  image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `<h1>Korean Beauty Tour Complete Guide 2025 (For Japanese Tourists)</h1><p>Japanese version available below...</p>`,
     ko: `<h1>한국 뷰티 투어 완벽 가이드 2025 (일본 관광객용)</h1><p>일본 관광객을 위한 완벽한 한국 뷰티 투어 가이드...</p>`,
@@ -1478,7 +1478,7 @@ export const article25 = {
     ja: 'ソウルエステおすすめランキング2025（日本人観光客向け）'
   },
   date: '2025-02-08',
-  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800',
+  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `<h1>Seoul Spa Ranking 2025 (For Japanese Tourists)</h1><p>Japanese version available below...</p>`,
     ko: `<h1>서울 에스테틱 추천 랭킹 2025 (일본 관광객용)</h1><p>일본 관광객을 위한 서울 에스테틱 추천 랭킹...</p>`,
@@ -1999,7 +1999,7 @@ export const article26 = {
     ja: '韓国スキンケア最新トレンド2025（日本市場向け）'
   },
   date: '2025-02-09',
-  image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800',
+  image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&fm=webp&auto=format&q=80',
   content: {
     en: `<h1>Korean Skincare Latest Trends 2025</h1><p>Japanese version available below...</p>`,
     ko: `<h1>한국 스킨케어 최신 트렌드 2025</h1><p>일본 시장을 위한 한국 스킨케어 최신 트렌드...</p>`,

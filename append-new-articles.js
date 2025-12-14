@@ -11,7 +11,7 @@ const newArticles = [
       ja: '江南ヘッドスパ完全ガイド2025：TOP10おすすめ、料金・予約方法'
     },
     date: '2025-12-14',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `
 <h1>Ultimate Gangnam Head Spa Guide 2025: Top 10 Best Places, Prices & Booking</h1>
@@ -167,7 +167,7 @@ const newArticles = [
       ja: '【2025年最新】江南ヘッドスパ完全ガイド：おすすめ10選・料金・予約方法'
     },
     date: '2025-12-14',
-    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800',
+    image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80',
     content: {
       en: `<h1>Gangnam Head Spa Guide 2025 (Japanese Version)</h1><p>Complete guide for Japanese tourists...</p>`,
       ko: `<h1>강남 헤드스파 가이드 2025 (일본어 버전)</h1><p>일본 관광객을 위한 완벽한 가이드...</p>`,

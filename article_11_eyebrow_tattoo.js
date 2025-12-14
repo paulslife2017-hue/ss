@@ -4,7 +4,7 @@ module.exports = {
   slug: "korean-eyebrow-tattoo-microblading-seoul-2025",
   excerpt: "Complete guide to Korean eyebrow tattoo and microblading in Seoul. Compare techniques (microblading, powder brows, combo brows), prices (₩200,000-800,000), best clinics in Gangnam, and everything you need to know for perfect natural-looking brows.",
   content: `
-<img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop" alt="Korean Eyebrow Tattoo Microblading in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Eyebrow Tattoo Microblading in Seoul" class="featured-image">
 
 <p>Korean eyebrow tattooing has revolutionized the semi-permanent makeup industry with techniques that create incredibly natural-looking brows. Seoul is the world capital for eyebrow artistry, where master technicians have perfected methods like microblading, nano brows, and powder brows. This comprehensive guide covers everything you need to know about getting perfect Korean-style eyebrows in 2025.</p>
 
@@ -596,7 +596,7 @@ module.exports = {
   category: "Beauty",
   categorySlug: "beauty",
   tags: ["Eyebrow Tattoo", "Microblading", "Semi-Permanent Makeup", "Gangnam", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "16 min read",
   views: 3892,
   published: true,

@@ -5,7 +5,7 @@ function generateFeaturedBlogCard(article, lang) {
   
   return `
     <a href="/blog/${article.id}?lang=${lang}" class="featured-card">
-      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=400&fit=crop" 
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=400&fit=crop&fm=webp&auto=format&q=80" 
            alt="${title}" class="featured-card-img">
       <div class="featured-card-content">
         <span class="featured-card-category">${article.category}</span>
@@ -56,7 +56,7 @@ function generateLatestBlogCard(article, lang) {
   
   return `
     <a href="/blog/${article.id}?lang=${lang}" class="latest-card">
-      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=300&fit=crop" 
+      <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=300&fit=crop&fm=webp&auto=format&q=80" 
            alt="${title}" class="latest-card-img">
       <div class="latest-card-content">
         <h4 class="latest-card-title">${title}</h4>

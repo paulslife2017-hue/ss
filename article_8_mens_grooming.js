@@ -13,7 +13,7 @@ export const article8 = {
   keywords: 'mens grooming seoul, korean barbershop, mens facial seoul, mens skincare korea, mens haircut gangnam, mens spa seoul, grooming for men korea',
   content: `
     <div class="blog-content">
-      <img src="https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?w=1200&h=600&fit=crop" alt="Men's Grooming in Seoul" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Men's Grooming in Seoul" class="featured-image">
       
       <h2>Why Seoul is the Ultimate Men's Grooming Destination</h2>
       <p>Korean men take grooming seriously - and it shows. Seoul has evolved into one of the world's leading cities for men's grooming, offering everything from traditional barbershops to high-tech skincare clinics. Whether you're visiting Seoul or living here, this comprehensive guide will help you navigate the city's best grooming services designed specifically for men.</p>

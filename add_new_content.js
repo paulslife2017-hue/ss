@@ -15,7 +15,7 @@ dae/Myeongdong, pricing guide ₩30K-₩120K, booking tips, trending designs, ge
     category: 'Nail Art',
     categorySlug: 'nail-art',
     tags: ['Nail Art', 'Gel Nails', 'Korean Nails', 'Beauty Trends', 'Nail Salon', 'Manicure'],
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Emily Park',
     readTime: '19 min read',
     views: 0,

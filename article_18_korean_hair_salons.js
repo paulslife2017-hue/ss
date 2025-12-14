@@ -467,7 +467,7 @@ module.exports = {
   readTime: '14 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 };

@@ -16,7 +16,7 @@ const posts = [
     excerpt: 'Discover the best Korean skincare treatments in Seoul. From head spas in Gangnam to BB Glow facials in Myeongdong, find out where to get authentic K-beauty experiences.',
     content: `
       <div class="blog-content">
-        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop" alt="Korean Skincare Treatment" class="featured-image">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Skincare Treatment" class="featured-image">
         
         <h2>Why Korean Skincare is Taking Over the World</h2>
         <p>Korean skincare has become a global phenomenon, and there's no better place to experience it than in Seoul, South Korea. With innovative treatments, cutting-edge technology, and centuries-old beauty secrets, Seoul offers an unparalleled beauty experience for travelers and locals alike.</p>
@@ -181,7 +181,7 @@ const posts = [
     category: 'Skincare',
     categorySlug: 'skincare',
     tags: ['Korean Skincare', 'Seoul Beauty', 'K-Beauty', 'Head Spa', 'BB Glow', 'Beauty Tourism'],
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Sarah Kim',
     readTime: '12 min read',
     views: 0,
@@ -197,7 +197,7 @@ const posts = [
     excerpt: 'Everything you need to know about Korean massage in Seoul. Compare Swedish, deep tissue, and traditional Korean massage techniques, prices, and the best locations.',
     content: `
       <div class="blog-content">
-        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Korean Massage Spa" class="featured-image">
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Massage Spa" class="featured-image">
         
         <h2>The Art of Korean Massage Therapy</h2>
         <p>Korean massage therapy is renowned worldwide for its unique blend of traditional healing techniques and modern spa luxury. Whether you're seeking relaxation, pain relief, or a cultural experience, Seoul offers an incredible variety of massage services tailored to international visitors.</p>
@@ -478,7 +478,7 @@ const posts = [
     category: 'Massage',
     categorySlug: 'massage',
     tags: ['Korean Massage', 'Seoul Spa', 'Swedish Massage', 'Deep Tissue', 'Gangnam Massage', 'Wellness'],
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Michael Park',
     readTime: '14 min read',
     views: 0,
@@ -494,7 +494,7 @@ const posts = [
     excerpt: 'Plan your Seoul beauty trip with our complete guide. Visa requirements, best seasons, neighborhood guides, and how to book treatments as a tourist.',
     content: `
       <div class="blog-content">
-        <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?w=1200&h=600&fit=crop" alt="Seoul City Beauty" class="featured-image">
+        <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul City Beauty" class="featured-image">
         
         <h2>Why Seoul is the World's Beauty Tourism Capital</h2>
         <p>Seoul has emerged as the global epicenter of beauty tourism, attracting millions of visitors annually who come specifically for Korean skincare, spa treatments, and wellness services. With its unique blend of cutting-edge technology, traditional wisdom, and competitive pricing, Seoul offers beauty experiences you simply can't find anywhere else.</p>
@@ -946,7 +946,7 @@ const posts = [
     category: 'Travel',
     categorySlug: 'travel',
     tags: ['Seoul Travel', 'Beauty Tourism', 'K-Beauty', 'Travel Guide', 'Seoul Guide', 'Medical Tourism'],
-    image: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1542296332-2e4473faf563?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Jessica Chen',
     readTime: '18 min read',
     views: 0,
@@ -1415,7 +1415,7 @@ const posts = [
     category: 'Skincare',
     categorySlug: 'skincare',
     tags: ['Aqua Peel', 'Hydrafacial', 'Facial Treatment', 'Korean Skincare', 'Deep Cleansing', 'Glass Skin'],
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Dr. Lisa Chen',
     readTime: '24 min read',
     views: 0,
@@ -1896,7 +1896,7 @@ const posts = [
     category: 'Travel',
     categorySlug: 'travel',
     tags: ['Jjimjilbang', 'Korean Spa', 'Korean Bathhouse', 'Seoul Experience', 'Korean Culture', 'Budget Travel'],
-    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'David Kim',
     readTime: '26 min read',
     views: 0,
@@ -1913,7 +1913,7 @@ const posts = [
     category: 'Beauty',
     categorySlug: 'beauty',
     tags: ['Gel Nails', 'Nail Art', 'K-Beauty', 'Seoul', 'Gangnam', 'Hongdae'],
-    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Seoul Beauty Expert',
     readTime: '22 min read',
     views: 0,
@@ -1931,7 +1931,7 @@ const posts = [
     category: 'Travel',
     categorySlug: 'travel',
     tags: ['Myeongdong', 'K-Beauty Shopping', 'Seoul', 'Cosmetics', 'Skincare', 'Shopping Guide'],
-    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Seoul Beauty Expert',
     readTime: '24 min read',
     views: 0,
@@ -1949,7 +1949,7 @@ const posts = [
     category: 'Beauty',
     categorySlug: 'beauty',
     tags: ['Men\'s Grooming', 'Seoul', 'Barbershop', 'Skincare for Men', 'K-Beauty'],
-    image: 'https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?w=800&h=600&fit=crop&fm=webp&auto=format&q=80',
     author: 'Seoul Beauty Expert',
     readTime: '23 min read',
     views: 0,
@@ -1965,7 +1965,7 @@ const posts = [
   slug: "best-head-spas-gangnam-seoul-2025",
   excerpt: "Discover the top 10 head spas in Gangnam offering authentic Korean scalp treatments. Complete guide to prices (₩80,000-250,000), booking tips, and what to expect from this viral K-beauty experience.",
   content: `
-<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="Luxury Head Spa in Gangnam Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Luxury Head Spa in Gangnam Seoul" class="featured-image">
 
 <p>Korean head spas have taken social media by storm, with millions of views on TikTok and Instagram. Gangnam, Seoul's luxury beauty district, is home to the best head spa experiences in Korea. This comprehensive guide covers everything you need to know about booking the perfect scalp treatment in 2025.</p>
 
@@ -2326,7 +2326,7 @@ const posts = [
   category: "Head Spa",
   categorySlug: "head-spa",
   tags: ["Head Spa", "Gangnam", "Scalp Treatment", "Hair Care", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "12 min read",
   views: 2847,
   published: true,
@@ -2341,7 +2341,7 @@ const posts = [
   slug: "bb-glow-treatment-seoul-guide-2025",
   excerpt: "Everything about BB Glow treatment in Seoul: prices (₩150,000-400,000), best clinics in Gangnam, procedure details, before/after results, and booking tips for this revolutionary Korean skin treatment.",
   content: `
-<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop" alt="BB Glow Treatment in Seoul Korea" class="featured-image">
+<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="BB Glow Treatment in Seoul Korea" class="featured-image">
 
 <p>BB Glow is Korea's revolutionary semi-permanent makeup treatment that's transformed the beauty industry. This micro-needling procedure infuses skin with foundation-like pigments, creating flawless, glowing skin for 6-12 months. If you're visiting Seoul, getting BB Glow from the experts who invented it is a must-try experience.</p>
 
@@ -2820,7 +2820,7 @@ const posts = [
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["BB Glow", "Skincare", "Semi-Permanent Makeup", "Gangnam", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "14 min read",
   views: 3215,
   published: true,
@@ -2835,7 +2835,7 @@ const posts = [
   slug: "korean-eyebrow-tattoo-microblading-seoul-2025",
   excerpt: "Complete guide to Korean eyebrow tattoo and microblading in Seoul. Compare techniques (microblading, powder brows, combo brows), prices (₩200,000-800,000), best clinics in Gangnam, and everything you need to know for perfect natural-looking brows.",
   content: `
-<img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop" alt="Korean Eyebrow Tattoo Microblading in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Eyebrow Tattoo Microblading in Seoul" class="featured-image">
 
 <p>Korean eyebrow tattooing has revolutionized the semi-permanent makeup industry with techniques that create incredibly natural-looking brows. Seoul is the world capital for eyebrow artistry, where master technicians have perfected methods like microblading, nano brows, and powder brows. This comprehensive guide covers everything you need to know about getting perfect Korean-style eyebrows in 2025.</p>
 
@@ -3427,7 +3427,7 @@ const posts = [
   category: "Beauty",
   categorySlug: "beauty",
   tags: ["Eyebrow Tattoo", "Microblading", "Semi-Permanent Makeup", "Gangnam", "K-Beauty", "Seoul"],
-  image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "16 min read",
   views: 3892,
   published: true,
@@ -3442,7 +3442,7 @@ const posts = [
   slug: "korean-anti-aging-treatments-seoul-2025",
   excerpt: "Discover Seoul's best anti-aging treatments including Thermage, Ulthera, Botox, fillers, laser treatments & more. Complete guide to prices (₩150,000-3,000,000), best clinics in Gangnam, and achieving youthful Korean glass skin.",
   content: `
-<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop" alt="Korean Anti-Aging Treatment in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Anti-Aging Treatment in Seoul" class="featured-image">
 
 <p>Korean anti-aging treatments represent the cutting edge of aesthetic medicine, combining advanced technology with traditional beauty wisdom. Seoul's dermatology clinics and medical spas offer world-class rejuvenation procedures that keep Korean celebrities looking decades younger. This comprehensive guide covers the most effective Korean anti-aging treatments available in 2025.</p>
 
@@ -3936,7 +3936,7 @@ const posts = [
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["Anti-Aging", "Skincare", "Medical Aesthetics", "Gangnam", "Dermatology", "Seoul"],
-  image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "18 min read",
   views: 4156,
   published: true,
@@ -3951,7 +3951,7 @@ const posts = [
   slug: "korean-10-step-skincare-routine-guide-2025",
   excerpt: "Master the famous Korean 10-step skincare routine for flawless glass skin. Complete guide with product recommendations, order, timing, and tips for achieving the coveted K-beauty glow.",
   content: `
-<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop" alt="Korean 10-Step Skincare Routine Products" class="featured-image">
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean 10-Step Skincare Routine Products" class="featured-image">
 
 <p>The Korean 10-step skincare routine has revolutionized beauty worldwide, promising radiant, youthful "glass skin." While it may seem overwhelming, this comprehensive approach to skincare delivers results that keep Korean women looking decades younger. This guide breaks down each step, explains why it matters, and helps you customize the routine for your skin type.</p>
 
@@ -4377,7 +4377,7 @@ const posts = [
   category: "Skincare",
   categorySlug: "skincare",
   tags: ["Skincare Routine", "K-Beauty", "Glass Skin", "Korean Skincare", "Beauty Guide", "Seoul"],
-  image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "15 min read",
   views: 5234,
   published: true,
@@ -4392,7 +4392,7 @@ const posts = [
   slug: "seoul-couple-spa-packages-guide-2025",
   excerpt: "Discover Seoul's best couple spa packages for romantic relaxation. Complete guide to prices (₩200,000-1,200,000), luxury spas in Gangnam, private rooms, and unforgettable K-beauty experiences for couples.",
   content: `
-<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop" alt="Couple Spa Experience in Seoul Korea" class="featured-image">
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Couple Spa Experience in Seoul Korea" class="featured-image">
 
 <p>Seoul offers some of the world's most romantic and luxurious couple spa experiences, combining traditional Korean wellness with modern luxury. Whether you're on a honeymoon, anniversary, or simply want quality time together, Korean couple spas provide private sanctuaries for relaxation and rejuvenation. This comprehensive guide covers the best couple spa packages in Seoul for 2025.</p>
 
@@ -4837,7 +4837,7 @@ const posts = [
   category: "Spa & Wellness",
   categorySlug: "spa-wellness",
   tags: ["Couple Spa", "Massage", "Romantic Seoul", "Wellness", "Luxury Spa", "Gangnam"],
-  image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "13 min read",
   views: 2967,
   published: true,
@@ -4852,7 +4852,7 @@ const posts = [
   slug: "korean-foot-massage-reflexology-seoul-2025",
   excerpt: "Ultimate guide to Korean foot massage and reflexology in Seoul. Best locations, prices (₩30,000-120,000), techniques, health benefits, and where to find authentic foot spas in Gangnam, Myeongdong & more.",
   content: `
-<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop" alt="Korean Foot Massage Reflexology in Seoul" class="featured-image">
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Foot Massage Reflexology in Seoul" class="featured-image">
 
 <p>Korean foot massage and reflexology are deeply rooted in traditional Eastern medicine, offering therapeutic benefits beyond simple relaxation. Seoul's foot spas combine ancient healing techniques with modern comfort, providing relief from tired feet after days of exploring the city. This comprehensive guide covers everything you need to know about experiencing authentic Korean foot reflexology in 2025.</p>
 
@@ -5238,7 +5238,7 @@ const posts = [
   category: "Massage",
   categorySlug: "massage",
   tags: ["Foot Massage", "Reflexology", "Wellness", "Massage", "Seoul", "Health"],
-  image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop",
+  image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   readTime: "14 min read",
   views: 3421,
   published: true,
@@ -6023,7 +6023,7 @@ const posts = [
   readTime: '12 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 },
@@ -6496,7 +6496,7 @@ const posts = [
   readTime: '14 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 },
@@ -7043,7 +7043,7 @@ const posts = [
   readTime: '16 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 },
@@ -7518,7 +7518,7 @@ const posts = [
   readTime: '18 min',
   views: 0,
   featured: true,
-  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=630&fit=crop',
+  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80',
   publishedAt: '2025-01-30',
   updatedAt: '2025-01-30'
 },
@@ -7530,7 +7530,7 @@ const posts = [
   excerpt: "Complete guide to Korean spring skincare: transition your routine, best products for spring weather, recommended treatments in Seoul, and expert tips to achieve glowing skin this season.",
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop" alt="Korean Spring Skincare Products" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Spring Skincare Products" class="featured-image">
       
       <div class="quick-facts">
         <h3>🌸 Spring Skincare Quick Facts</h3>
@@ -8109,7 +8109,7 @@ const posts = [
   readTime: "18 min read",
   tags: ["Spring Skincare", "Korean Routine", "Seasonal Skincare", "K-Beauty Products", "Seoul Treatments", "Yellow Dust Protection", "Sunscreen", "Brightening", "Cherry Blossom Season"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "Complete Korean spring skincare routine 2025: Best products, treatments in Seoul, yellow dust protection, sunscreen guide, and expert tips for glowing skin this season.",
   canonicalUrl: "https://seoulzen.com/post/korean-spring-skincare-routine-2025",
   views: 0,
@@ -8123,7 +8123,7 @@ const posts = [
   excerpt: 'Everything you need to know about Korean lip tattoo (lip blushing) in Seoul. Learn about popular styles, procedure steps, healing process, pricing, and the best clinics in Gangnam.',
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop" alt="Korean Lip Tattoo Treatment in Seoul" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Lip Tattoo Treatment in Seoul" class="featured-image">
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 Looking for Professional Lip Tattoo Services in Seoul?</h3>
@@ -8414,7 +8414,7 @@ const posts = [
   readTime: "15 min read",
   tags: ["Lip Tattoo", "Lip Blushing", "Korean Beauty", "Semi-Permanent Makeup", "Seoul Beauty", "K-Beauty", "Gangnam", "Beauty Treatments", "Cosmetic Tattoo", "Lip Color"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "Complete guide to Korean lip tattoo in Seoul 2025: Popular styles, procedure steps, healing timeline, pricing, and best clinics in Gangnam. Book at kbeautyseoul.co.kr",
   canonicalUrl: "https://seoulzen.com/post/korean-lip-tattoo-complete-guide-seoul-2025",
   views: 0,
@@ -8428,7 +8428,7 @@ const posts = [
   excerpt: 'Complete guide to Korean lip tattoo (lip blushing) in Seoul. Learn about styles, procedures, pricing, and best clinics. English & Japanese guide included. 韓国のリップタトゥー完全ガイド：スタイル、施術、価格情報。',
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop" alt="Korean Lip Tattoo" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Lip Tattoo" class="featured-image">
       
       <div class="language-notice" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 12px; margin-bottom: 30px;">
         <h3 style="color: white; margin-top: 0;">🌍 Multilingual Guide Available</h3>
@@ -8720,7 +8720,7 @@ const posts = [
   readTime: "12 min read",
   tags: ["Lip Tattoo", "Korean Beauty", "Semi-Permanent Makeup", "Lip Blushing", "Seoul Beauty", "K-Beauty Treatments", "Gangnam", "Lip Color", "Beauty Guide", "Japanese Guide", "リップタトゥー"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1515688594390-b649af70d282?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "Complete Korean lip tattoo guide 2025: Styles, procedures, pricing, best clinics in Seoul. English & Japanese guide. 韓国リップタトゥー完全ガイド | kbeautyseoul.co.kr",
   canonicalUrl: "https://seoulzen.com/post/korean-lip-tattoo-guide-2025",
   views: 0,
@@ -8938,7 +8938,7 @@ function generateHomePage(posts, categories) {
     <meta property="og:description" content="Your complete guide to Korean beauty treatments in Seoul. Expert reviews, booking tips & the best spas.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://your-domain.com">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&h=630&fit=crop&fm=webp&auto=format&q=80">
     
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"

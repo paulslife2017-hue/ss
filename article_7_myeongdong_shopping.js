@@ -13,7 +13,7 @@ export const article7 = {
   keywords: 'myeongdong shopping, k-beauty myeongdong, korean cosmetics shopping seoul, olive young myeongdong, innisfree myeongdong, tax refund korea, best korean skincare products',
   content: `
     <div class="blog-content">
-      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&h=600&fit=crop" alt="Myeongdong Beauty Shopping Seoul" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Myeongdong Beauty Shopping Seoul" class="featured-image">
       
       <h2>Why Myeongdong is K-Beauty Shopping Paradise</h2>
       <p>Myeongdong (명동) is Seoul's ultimate beauty shopping destination, attracting over 2 million visitors monthly. This bustling district in central Seoul is packed with hundreds of cosmetic stores, flagship shops, and exclusive K-beauty deals you won't find anywhere else. Whether you're a K-beauty newbie or a seasoned collector, this comprehensive guide will help you maximize your Myeongdong shopping experience.</p>

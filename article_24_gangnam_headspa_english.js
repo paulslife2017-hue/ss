@@ -6,7 +6,7 @@
   excerpt: 'Complete guide to Gangnam head spa treatments in Seoul. Discover the best scalp care, relaxation techniques, pricing, and top-rated spas with English-speaking staff.',
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop" alt="Gangnam Head Spa Treatment" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Head Spa Treatment" class="featured-image">
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 Experience Premium Gangnam Head Spa</h3>
@@ -389,7 +389,7 @@
   readTime: "16 min read",
   tags: ["Head Spa", "Gangnam", "Scalp Treatment", "Korean Wellness", "Seoul Spa", "Hair Care", "Relaxation", "K-Beauty", "Scalp Massage", "Hair Growth"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "Complete Gangnam head spa guide 2025: Best Korean scalp treatments, pricing, locations, and booking tips. Experience premium relaxation at kbeautyseoul.co.kr",
   canonicalUrl: "https://seoulzen.com/post/gangnam-head-spa-ultimate-guide-2025",
   views: 0,

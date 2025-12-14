@@ -6,7 +6,7 @@
   excerpt: 'ソウル江南のヘッドスパトリートメント完全ガイド。最高の頭皮ケア、リラクゼーション技術、価格、日本語対応スタッフのいるトップスパを発見。',
   content: `
     <div class="article-content">
-      <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop" alt="江南ヘッドスパトリートメント" class="featured-image">
+      <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80" alt="江南ヘッドスパトリートメント" class="featured-image">
       
       <div class="cta-banner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; text-align: center; margin: 30px 0;">
         <h3 style="color: white; margin-top: 0;">🌟 プレミアム江南ヘッドスパ体験</h3>
@@ -281,7 +281,7 @@
   readTime: "16 min read",
   tags: ["ヘッドスパ", "江南", "頭皮トリートメント", "韓国ウェルネス", "ソウルスパ", "ヘアケア", "リラクゼーション", "K-Beauty", "頭皮マッサージ", "髪の成長", "日本語ガイド"],
   featured: true,
-  featuredImage: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop",
+  featuredImage: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=1200&h=600&fit=crop&fm=webp&auto=format&q=80",
   metaDescription: "江南ヘッドスパ完全ガイド2025：最高の韓国頭皮トリートメント、価格、ロケーション、予約のヒント。kbeautyseoul.co.krでプレミアムリラクゼーションを体験",
   canonicalUrl: "https://seoulzen.com/post/gangnam-head-spa-japanese-guide-2025",
   views: 0,
