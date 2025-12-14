@@ -1,0 +1,149 @@
+{
+  "linkingStrategy": {
+    "description": "Strategic internal linking matrix for Seoul Zen blog articles",
+    "rules": {
+      "maxLinksPerArticle": 10,
+      "linkPlacement": "contextual (within content)",
+      "anchorTextVariation": true,
+      "avoidCircularLinks": true
+    },
+    "categories": {
+      "treatments_2025": [
+        "korean-beauty-treatments-trending-2025.html",
+        "korean-beauty-treatments-trending-2025-japanese.html"
+      ],
+      "juvelook": [
+        "juvelook-treatment-seoul-complete-guide-2025.html",
+        "juvelook-treatment-seoul-guide-2025-japanese.html"
+      ],
+      "pdrn": [
+        "pdrn-treatment-seoul-complete-guide-2025.html",
+        "pdrn-treatment-seoul-guide-2025-japanese.html",
+        "pdrn-vs-botox-comparison-guide-2025.html",
+        "pdrn-treatment-reviews-real-patients-2025.html",
+        "pdrn-side-effects-safety-guide-2025.html"
+      ],
+      "booking_guides": [
+        "korean-beauty-salon-booking-guide-2025.html",
+        "korean-beauty-salon-booking-guide-2025-japanese.html"
+      ],
+      "head_spa": [
+        "gangnam-head-spa-complete-guide-2025.html",
+        "ultimate-gangnam-head-spa-guide-2025.html",
+        "gangnam-headspa-guide-2025-japanese.html",
+        "gangnam-massage-guide-2025.html",
+        "gangnam-scalp-care-guide-2025.html"
+      ],
+      "skincare": [
+        "korean-skincare-routine-complete-guide-2025.html",
+        "seoul-skincare-routine-ultimate-guide.html",
+        "seoul-skincare-routine-japanese.html",
+        "korean-skincare-routine-beginners-2025.html",
+        "best-seoul-skincare-brands-2024.html"
+      ],
+      "beauty_services": [
+        "seoul-beauty-clinics-comprehensive-guide-2025.html",
+        "seoul-lip-tattoo-guide-2025.html",
+        "seoul-bb-glow-treatment-2025.html",
+        "seoul-nail-art-guide-2025.html"
+      ],
+      "spa_jjimjilbang": [
+        "korean-spa-jjimjilbang-guide-2025.html",
+        "seoul-spa-ranking-2025-japanese.html"
+      ],
+      "tourism": [
+        "seoul-beauty-tourism-guide-2025.html",
+        "korean-beauty-tour-complete-guide-2025-japanese.html",
+        "my-gangnam-beauty-treatment-experience-2025.html"
+      ]
+    },
+    "linkingRules": [
+      {
+        "from": "treatments_2025",
+        "to": ["juvelook", "pdrn", "booking_guides", "head_spa"],
+        "reason": "Trending treatments link to specific treatment guides"
+      },
+      {
+        "from": "juvelook",
+        "to": ["treatments_2025", "pdrn", "booking_guides", "beauty_services"],
+        "reason": "Juvelook links to related treatments and booking"
+      },
+      {
+        "from": "pdrn",
+        "to": ["treatments_2025", "juvelook", "booking_guides"],
+        "reason": "PDRN series interconnected with other treatments"
+      },
+      {
+        "from": "booking_guides",
+        "to": ["treatments_2025", "juvelook", "pdrn", "head_spa", "beauty_services"],
+        "reason": "Booking guides link to all treatment types"
+      },
+      {
+        "from": "head_spa",
+        "to": ["treatments_2025", "spa_jjimjilbang", "booking_guides"],
+        "reason": "Head spa links to related spa services"
+      },
+      {
+        "from": "skincare",
+        "to": ["treatments_2025", "juvelook", "pdrn", "beauty_services"],
+        "reason": "Skincare guides link to professional treatments"
+      },
+      {
+        "from": "beauty_services",
+        "to": ["treatments_2025", "booking_guides", "tourism"],
+        "reason": "Beauty services link to comprehensive guides"
+      },
+      {
+        "from": "spa_jjimjilbang",
+        "to": ["head_spa", "tourism", "booking_guides"],
+        "reason": "Spa/jjimjilbang link to related experiences"
+      },
+      {
+        "from": "tourism",
+        "to": ["treatments_2025", "beauty_services", "head_spa", "booking_guides"],
+        "reason": "Tourism guides link to all service types"
+      }
+    ],
+    "priorityLinks": [
+      {
+        "article": "korean-beauty-treatments-trending-2025.html",
+        "addLinks": [
+          {"anchor": "Juvelook treatment", "url": "/blog/juvelook-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "PDRN therapy", "url": "/blog/pdrn-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "book your treatment", "url": "/blog/korean-beauty-salon-booking-guide-2025.html"},
+          {"anchor": "Gangnam head spa", "url": "/blog/gangnam-head-spa-complete-guide-2025.html"},
+          {"anchor": "Seoul beauty clinics", "url": "/blog/seoul-beauty-clinics-comprehensive-guide-2025.html"}
+        ]
+      },
+      {
+        "article": "juvelook-treatment-seoul-complete-guide-2025.html",
+        "addLinks": [
+          {"anchor": "trending Korean beauty treatments", "url": "/blog/korean-beauty-treatments-trending-2025.html"},
+          {"anchor": "PDRN vs Juvelook comparison", "url": "/blog/pdrn-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "how to book", "url": "/blog/korean-beauty-salon-booking-guide-2025.html"},
+          {"anchor": "Korean skincare routine", "url": "/blog/korean-skincare-routine-complete-guide-2025.html"}
+        ]
+      },
+      {
+        "article": "pdrn-treatment-seoul-complete-guide-2025.html",
+        "addLinks": [
+          {"anchor": "Juvelook skin booster", "url": "/blog/juvelook-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "PDRN vs Botox", "url": "/blog/pdrn-vs-botox-comparison-guide-2025.html"},
+          {"anchor": "real patient reviews", "url": "/blog/pdrn-treatment-reviews-real-patients-2025.html"},
+          {"anchor": "side effects and safety", "url": "/blog/pdrn-side-effects-safety-guide-2025.html"},
+          {"anchor": "book PDRN treatment", "url": "/blog/korean-beauty-salon-booking-guide-2025.html"}
+        ]
+      },
+      {
+        "article": "korean-beauty-salon-booking-guide-2025.html",
+        "addLinks": [
+          {"anchor": "trending treatments for 2025", "url": "/blog/korean-beauty-treatments-trending-2025.html"},
+          {"anchor": "Juvelook", "url": "/blog/juvelook-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "PDRN treatment", "url": "/blog/pdrn-treatment-seoul-complete-guide-2025.html"},
+          {"anchor": "head spa services", "url": "/blog/gangnam-head-spa-complete-guide-2025.html"},
+          {"anchor": "comprehensive clinic guide", "url": "/blog/seoul-beauty-clinics-comprehensive-guide-2025.html"}
+        ]
+      }
+    ]
+  }
+}
