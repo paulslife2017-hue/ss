@@ -1,0 +1,31 @@
+# High Priority URLs for Google Search Console Submission
+# Submit these URLs first for fastest indexing
+
+# NEW High-Value Articles (Priority 1 - Submit ASAP)
+https://seoulzen.com/blog/korean-beauty-treatments-trending-2025.html
+https://seoulzen.com/blog/korean-beauty-treatments-trending-2025-japanese.html
+https://seoulzen.com/blog/juvelook-treatment-seoul-complete-guide-2025.html
+https://seoulzen.com/blog/juvelook-treatment-seoul-guide-2025-japanese.html
+
+# PDRN Series (Priority 2)
+https://seoulzen.com/blog/pdrn-treatment-seoul-complete-guide-2025.html
+https://seoulzen.com/blog/pdrn-treatment-seoul-guide-2025-japanese.html
+https://seoulzen.com/blog/pdrn-vs-botox-comparison-guide-2025.html
+https://seoulzen.com/blog/pdrn-treatment-reviews-real-patients-2025.html
+https://seoulzen.com/blog/pdrn-side-effects-safety-guide-2025.html
+
+# Booking Guide Series (Priority 3)
+https://seoulzen.com/blog/korean-beauty-salon-booking-guide-2025.html
+https://seoulzen.com/blog/korean-beauty-salon-booking-guide-2025-japanese.html
+
+# Popular Existing Articles (Priority 4)
+https://seoulzen.com/blog/gangnam-head-spa-complete-guide-2025.html
+https://seoulzen.com/blog/ultimate-gangnam-head-spa-guide-2025.html
+https://seoulzen.com/blog/gangnam-headspa-guide-2025-japanese.html
+https://seoulzen.com/blog/seoul-beauty-clinics-comprehensive-guide-2025.html
+https://seoulzen.com/blog/korean-beauty-trends-2025.html
+https://seoulzen.com/blog/korean-skincare-routine-complete-guide-2025.html
+
+# Main Pages
+https://seoulzen.com
+https://seoulzen.com/blog.html
