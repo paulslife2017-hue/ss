@@ -4433,7 +4433,7 @@ export const blogArticles = [
       ko: '2025 최고의 한국 선크림 가이드. SPF50+ PA++++ 상위 20개: Beauty of Joseon, ISNTREE, Round Lab. 화학적 vs 물리적, 피부 타입별 추천.',
       ja: '2025年最高の韓国日焼け止めガイド。SPF50+ PA++++トップ20：Beauty of Joseon、ISNTREE、Round Lab。ケミカル vs フィジカル、肌タイプ別推奨。'
     }
-  }
+  },
 ,
 
   // Article 16: Korean Skincare for Acne
@@ -6977,5 +6977,155 @@ export const blogArticles = [
       ko: '2025 강남 헤드스파 완벽 가이드. 헤드스파(₩12만), 두피 디톡스(₩15만), 탈모 치료(₩18만) 비교. 가격, 효과, kbeautyseoul.co.kr 영어 예약. 미국/영국보다 34-49% 저렴.',
       ja: '2025年江南ヘッドスパ完全ガイド。ヘッドスパ(₩12万)、頭皮デトックス(₩15万)、育毛治療(₩18万)比較。価格、効果、kbeautyseoul.co.kr英語予約。米英より34-49%安い。'
     }
-  }
+  },
+  // Article 22: Korean Skincare Routine Complete Guide 2025
+  {
+    id: 22,
+    slug: 'korean-skincare-routine-complete-guide-2025',
+    title: {
+      en: 'Korean Skincare Routine: Complete 10-Step Guide 2025',
+      ko: '한국식 스킨케어 루틴: 완벽한 10단계 가이드 2025',
+      ja: '韓国スキンケアルーティン：完璧な10ステップガイド2025'
+    },
+    date: '2025-02-05',
+    image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800',
+    content: {
+      en: `<h1>Korean Skincare Routine: Complete 10-Step Guide 2025</h1><p>Complete guide to the famous 10-step Korean skincare routine with product recommendations and order...</p>`,
+      ko: `<h1>한국식 스킨케어 루틴: 완벽한 10단계 가이드 2025</h1><p>10단계 한국식 스킨케어 완벽 가이드...</p>`,
+      ja: `<h1>韓国スキンケアルーティン：完璧な10ステップガイド2025</h1><p>10ステップ韓国スキンケア完璧ガイド...</p>`
+    },
+    excerpt: {
+      en: 'Complete guide to the famous 10-step Korean skincare routine. Learn the correct order, best products, and how to achieve glass skin. Updated for 2025.',
+      ko: '유명한 10단계 한국식 스킨케어 루틴 완벽 가이드. 올바른 순서, 최고의 제품, 유리알 피부 만드는 법.',
+      ja: '有名な10ステップ韓国スキンケアルーティンの完全ガイド。正しい順序、最高の製品、ガラス肌の作り方。'
+    },
+    author: 'K-Beauty Seoul Skincare Expert',
+    readTime: '22 min read',
+    tags: ['korean skincare routine', 'k-beauty', '10 step skincare', 'glass skin', 'korean beauty products', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Complete Korean skincare routine guide 2025: Master the 10-step K-Beauty routine with product recommendations, order, timeline. Book professional facial in Seoul via kbeautyseoul.co.kr.',
+      ko: '2025 한국식 스킨케어 루틴 완벽 가이드: 10단계 K-뷰티 루틴 마스터하기. 제품 추천, 순서, 타임라인. kbeautyseoul.co.kr에서 서울 전문 페이셜 예약.',
+      ja: '2025年韓国スキンケアルーティン完全ガイド：10ステップK-Beauty製品推薦、順序、タイムライン。kbeautyseoul.co.krでソウル専門フェイシャル予約。'
+    }
+  },
+  // Article 23: Seoul Beauty Clinics Comprehensive Guide 2025
+  {
+    id: 23,
+    slug: 'seoul-beauty-clinics-comprehensive-guide-2025',
+    title: {
+      en: 'Seoul Beauty Clinics: Complete Guide 2025 (English Booking)',
+      ko: '서울 뷰티 클리닉: 완벽 가이드 2025 (영어 예약)',
+      ja: 'ソウル美容クリニック：完全ガイド2025（英語予約）'
+    },
+    date: '2025-02-06',
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800',
+    content: {
+      en: `<h1>Seoul Beauty Clinics: Complete Guide 2025</h1><p>Complete Seoul beauty clinic guide with prices, best areas, and English booking information...</p>`,
+      ko: `<h1>서울 뷰티 클리닉: 완벽 가이드 2025</h1><p>영어 예약 가능한 서울 뷰티 클리닉 완벽 가이드...</p>`,
+      ja: `<h1>ソウル美容クリニック：完全ガイド2025</h1><p>英語予約可能なソウル美容クリニック完璧ガイド...</p>`
+    },
+    excerpt: {
+      en: 'Complete Seoul beauty clinic guide 2025. Compare prices (40-70% cheaper than USA/UK), best areas (Gangnam, Apgujeong), safety tips. Book English-speaking clinics.',
+      ko: '2025 서울 뷰티 클리닉 완벽 가이드. 가격 비교(미국/영국보다 40-70% 저렴), 최고 지역(강남, 압구정), 안전 팁.',
+      ja: '2025年ソウル美容クリニック完全ガイド。価格比較（米国/英国より40-70%安い）、最高エリア（江南、狎鴎亭）。'
+    },
+    author: 'K-Beauty Seoul Medical Tourism Expert',
+    readTime: '25 min read',
+    tags: ['seoul beauty clinic', 'korean plastic surgery', 'medical tourism', 'gangnam clinic', 'beauty treatment seoul', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Seoul beauty clinic guide 2025: Top treatments (Botox ₩150k, rhinoplasty ₩5M), best areas, English booking via kbeautyseoul.co.kr. Save 40-70% vs USA/UK.',
+      ko: '2025 서울 뷰티 클리닉 가이드: 인기 시술(보톡스 ₩15만, 코수술 ₩500만), 최고 지역, kbeautyseoul.co.kr 영어 예약. 미국/영국 대비 40-70% 절약.',
+      ja: '2025年ソウル美容クリニックガイド：人気施術（ボトックス₩15万、鼻整形₩500万）、最高エリア、kbeautyseoul.co.kr英語予約。'
+    }
+  },
+  // Article 24: 韓国美容ツアー完全ガイド2025 (Japanese)
+  {
+    id: 24,
+    slug: 'korean-beauty-tour-complete-guide-2025-japanese',
+    title: {
+      en: 'Korean Beauty Tour Complete Guide 2025 (For Japanese Tourists)',
+      ko: '한국 뷰티 투어 완벽 가이드 2025 (일본 관광객용)',
+      ja: '韓国美容ツアー完全ガイド2025（日本人観光客向け）'
+    },
+    date: '2025-02-07',
+    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800',
+    content: {
+      en: `<h1>Korean Beauty Tour Complete Guide 2025</h1><p>Japanese version available...</p>`,
+      ko: `<h1>한국 뷰티 투어 완벽 가이드 2025</h1><p>일본 관광객을 위한 완벽한 한국 뷰티 투어 가이드...</p>`,
+      ja: `<h1>韓国美容ツアー完全ガイド2025</h1><p>日本人観光客向け韓国美容ツアー完全ガイド...</p>`
+    },
+    excerpt: {
+      en: 'Complete Korean beauty tour guide for Japanese tourists. Compare prices (40-60% cheaper than Japan), 2-3 day itineraries, Japanese language support.',
+      ko: '일본 관광객을 위한 완벽한 한국 뷰티 투어 가이드. 가격 비교(일본보다 40-60% 저렴), 2-3일 일정.',
+      ja: '日本人観光客向け韓国美容ツアー完全ガイド。価格比較（日本より40-60%安い）、2-3日モデルプラン。'
+    },
+    author: 'K-Beauty Seoul Japanese Tourism Specialist',
+    readTime: '28 min read',
+    tags: ['韓国美容ツアー', '日本人向け', 'korean beauty tour', 'japanese tourists', '整形手術', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Korean beauty tour guide 2025 for Japanese tourists: Botox ₩150k (¥15,750, 60% OFF vs Japan), 2-3 day plans, Japanese support.',
+      ko: '2025 일본 관광객용 한국 뷰티 투어 가이드: 보톡스 ₩15만(¥15,750, 일본 대비 60% 할인), 2-3일 일정.',
+      ja: '2025年日本人向け韓国美容ツアーガイド：ボトックス₩15万（¥15,750、日本より60%OFF）、2-3日プラン。'
+    }
+  },
+  // Article 25: ソウルエステおすすめランキング2025 (Japanese)
+  {
+    id: 25,
+    slug: 'seoul-spa-ranking-2025-japanese',
+    title: {
+      en: 'Seoul Spa Ranking 2025 (For Japanese Tourists)',
+      ko: '서울 에스테틱 추천 랭킹 2025 (일본 관광객용)',
+      ja: 'ソウルエステおすすめランキング2025（日本人観光客向け）'
+    },
+    date: '2025-02-08',
+    image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800',
+    content: {
+      en: `<h1>Seoul Spa Ranking 2025</h1><p>Japanese version available...</p>`,
+      ko: `<h1>서울 에스테틱 추천 랭킹 2025</h1><p>일본 관광객을 위한 서울 에스테틱 추천 랭킹...</p>`,
+      ja: `<h1>ソウルエステおすすめランキング2025</h1><p>日本人観光客向けソウルエステランキング...</p>`
+    },
+    excerpt: {
+      en: 'Seoul spa ranking 2025 for Japanese tourists. Top 10 spas with Japanese support, prices 16-47% cheaper than Japan.',
+      ko: '2025 일본 관광객용 서울 에스테틱 추천 랭킹. 일본어 지원 TOP 10 스파, 일본보다 16-47% 저렴한 가격.',
+      ja: '2025年日本人向けソウルエステランキング。日本語対応TOP10スパ、日本より16-47%安い価格。'
+    },
+    author: 'K-Beauty Seoul Spa Specialist',
+    readTime: '26 min read',
+    tags: ['ソウルエステ', 'seoul spa', 'japanese tourists', 'ヘッドスパ', 'korean spa', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Seoul spa ranking 2025 for Japanese: Head spa ₩120k (¥12,600, 16% OFF), facial ₩150k, massage ₩150k. Japanese support.',
+      ko: '2025 일본인용 서울 스파 랭킹: 헤드스파 ₩12만(¥12,600, 16% 할인), 페이셜 ₩15만, 마사지 ₩15만.',
+      ja: '2025年日本人向けソウルスパランキング：ヘッドスパ₩12万（¥12,600、16%OFF）、フェイシャル₩15万。'
+    }
+  },
+  // Article 26: 韓国スキンケア最新トレンド2025 (Japanese)
+  {
+    id: 26,
+    slug: 'korean-skincare-trend-2025-japanese',
+    title: {
+      en: 'Korean Skincare Latest Trends 2025 (For Japanese Market)',
+      ko: '한국 스킨케어 최신 트렌드 2025 (일본 시장용)',
+      ja: '韓国スキンケア最新トレンド2025（日本市場向け）'
+    },
+    date: '2025-02-09',
+    image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800',
+    content: {
+      en: `<h1>Korean Skincare Latest Trends 2025</h1><p>Japanese version available...</p>`,
+      ko: `<h1>한국 스킨케어 최신 트렌드 2025</h1><p>일본 시장을 위한 한국 스킨케어 최신 트렌드...</p>`,
+      ja: `<h1>韓国スキンケア最新トレンド2025</h1><p>日本市場向け韓国スキンケア最新トレンド...</p>`
+    },
+    excerpt: {
+      en: 'Korean skincare latest trends 2025 for Japanese market. Skin Streaming, Blue Beauty, Glass Skin 2.0, Cica Boom, K×J Hybrid.',
+      ko: '2025 일본 시장용 한국 스킨케어 최신 트렌드. 스킨 스트리밍, 블루 뷰티, 글래스 스킨 2.0, 시카 붐.',
+      ja: '2025年日本市場向け韓国スキンケア最新トレンド。スキンストリーミング、ブルービューティー、ガラス肌2.0。'
+    },
+    author: 'K-Beauty Seoul Trend Analyst',
+    readTime: '30 min read',
+    tags: ['韓国スキンケア', 'korean skincare trend', 'k-beauty 2025', 'glass skin', 'cica', 'kbeautyseoul'],
+    metaDescription: {
+      en: 'Korean skincare trends 2025 for Japanese: Skin Streaming, Glass Skin 2.0, Cica Boom. Unreleased products guide.',
+      ko: '2025 일본인용 한국 스킨케어 트렌드: 스킨 스트리밍, 글래스 스킨 2.0, 시카 붐. 미출시 제품 가이드.',
+      ja: '2025年日本人向け韓国スキンケアトレンド：スキンストリーミング、ガラス肌2.0、シカブーム。'
+    }
+  },
 ];

@@ -1,207 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
   <!-- Homepage -->
   <url>
-    <loc>https://seoulzen.com/</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai</loc>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
+  
+  <!-- Blog List Pages -->
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog?lang=en</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog?lang=ko</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog?lang=ja</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Blog Articles (26 total) -->
+  <!-- Article 1-10 -->
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/gangnam-massage-complete-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-lip-tattoo-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-eyebrow-tattoo-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/bb-glow-treatment-seoul-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-massage-types-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-beauty-treatment-prices-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/k-beauty-shopping-guide-seoul-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-spa-relaxation-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-skincare-routine-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-beauty-tourism-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Article 11-20 -->
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/gangnam-beauty-services-comparison-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-lip-filler-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-facial-treatment-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/best-head-spas-gangnam-seoul-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-english-beauty-services-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-semi-permanent-makeup-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-massage-spa-comparison-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/k-beauty-products-recommendations-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/my-gangnam-beauty-treatment-experience-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/top-5-korean-beauty-services-worth-trying-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Article 21 -->
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/gangnam-head-spa-complete-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NEW Article 22-26 (High-traffic targeted) -->
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-skincare-routine-complete-guide-2025</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-beauty-clinics-comprehensive-guide-2025</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-beauty-tour-complete-guide-2025-japanese</loc>
+    <lastmod>2025-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/seoul-spa-ranking-2025-japanese</loc>
+    <lastmod>2025-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/blog/korean-skincare-trend-2025-japanese</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Category Pages -->
   <url>
-    <loc>https://seoulzen.com/category/skincare</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://8080-i34s44ugufpc2xwrl8wzh-d0b9e1e2.sandbox.novita.ai/catalog</loc>
+    <lastmod>2025-02-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/category/massage</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/category/travel</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Articles 1-5 -->
-  <url>
-    <loc>https://seoulzen.com/post/korean-skincare-routine-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/korean-massage-types-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/seoul-beauty-tourism-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/aqua-peel-facial-treatment-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/jjimjilbang-korean-spa-guide-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Articles 6-10 -->
-  <url>
-    <loc>https://seoulzen.com/post/korean-gel-nails-nail-art-seoul-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/myeongdong-beauty-shopping-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/mens-grooming-seoul-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/best-head-spas-gangnam-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/bb-glow-treatment-seoul-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Articles 11-15 -->
-  <url>
-    <loc>https://seoulzen.com/post/korean-eyebrow-tattoo-microblading-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/korean-anti-aging-treatments-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/korean-skincare-routine-10-steps-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/seoul-couple-spa-packages-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/korean-foot-massage-reflexology-seoul-guide</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Articles 16-20 (NEW) -->
-  <url>
-    <loc>https://seoulzen.com/post/korean-body-scrub-seshin-jjimjilbang-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/best-korean-sheet-masks-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/best-korean-hair-salons-seoul-guide-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/best-korean-dermatology-clinics-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/post/korean-wellness-holistic-spa-seoul-2025</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Legal Pages (Required for AdSense) -->
-  <url>
-    <loc>https://seoulzen.com/privacy-policy</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/terms-of-service</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://seoulzen.com/contact</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <url>
-    <loc>https://seoulzen.com/about</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
 </urlset>
