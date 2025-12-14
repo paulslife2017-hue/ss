@@ -3054,12 +3054,18 @@ app.get('/ads.txt', (c) => {
 
 const port = process.env.PORT || 8080;
 
-serve({
-  fetch: app.fetch,
-  port
-});
+// Only start server in non-Vercel environment
+if (!process.env.VERCEL) {
+  serve({
+    fetch: app.fetch,
+    port
+  });
+  
+  console.log(`✅ K-Beauty Seoul running on port ${port}`);
+  console.log(`📱 Mobile-optimized with horizontal scroll`);
+  console.log(`🎬 YouTube thumbnail support`);
+  console.log(`🎨 Admin panel at /admin`);
+}
 
-console.log(`✅ K-Beauty Seoul running on port ${port}`);
-console.log(`📱 Mobile-optimized with horizontal scroll`);
-console.log(`🎬 YouTube thumbnail support`);
-console.log(`🎨 Admin panel at /admin`);
+// Export for Vercel serverless
+export default app;
