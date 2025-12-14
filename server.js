@@ -1,9 +1,33 @@
 import { Hono } from 'hono';
 import { serve } from '@hono/node-server';
 import { serveStatic } from '@hono/node-server/serve-static';
+import { compress } from 'hono/compress';
 import { blogArticles } from './blog-articles.js';
 
 const app = new Hono();
+
+// ==========================================
+// PERFORMANCE OPTIMIZATION: Compression & Caching
+// ==========================================
+
+// Enable Gzip compression for all responses
+app.use('*', compress({
+  encoding: 'gzip',
+  threshold: 1024 // Only compress responses > 1KB
+}));
+
+// Cache headers for static assets
+app.use('/public/*', async (c, next) => {
+  await next();
+  // Cache static files for 1 year (immutable)
+  c.header('Cache-Control', 'public, max-age=31536000, immutable');
+});
+
+// Cache headers for images
+app.use('/images/*', async (c, next) => {
+  await next();
+  c.header('Cache-Control', 'public, max-age=2592000'); // 30 days
+});
 
 // ==========================================
 // ADMIN & DATA CONFIGURATION
@@ -28,7 +52,7 @@ let services = [
     rating: 4.8,
     reviews: 234,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/massage?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -46,7 +70,7 @@ let services = [
     rating: 4.8,
     reviews: 342,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/headspa?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -64,7 +88,7 @@ let services = [
     rating: 4.9,
     reviews: 218,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1515688594390-b649af70d282?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/lip-tattoo?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -80,7 +104,7 @@ let services = [
     rating: 4.7,
     reviews: 156,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyebrow?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -98,7 +122,7 @@ let services = [
     rating: 4.6,
     reviews: 89,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/bb-glow?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -114,7 +138,7 @@ let services = [
     rating: 4.8,
     reviews: 267,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/glass-skin?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -130,7 +154,7 @@ let services = [
     rating: 4.7,
     reviews: 198,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aqua-peel?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -148,7 +172,7 @@ let services = [
     rating: 4.9,
     reviews: 567,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/aromatherapy?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -164,7 +188,7 @@ let services = [
     rating: 4.8,
     reviews: 423,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/deep-tissue?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -181,7 +205,7 @@ let services = [
     rating: 4.9,
     reviews: 312,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hot-stone?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -198,7 +222,7 @@ let services = [
     rating: 4.8,
     reviews: 234,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/oxygen-facial?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -215,7 +239,7 @@ let services = [
     rating: 4.9,
     reviews: 456,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/collagen-facial?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -231,7 +255,7 @@ let services = [
     rating: 4.7,
     reviews: 189,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1629397685936-3d6a9682ec63?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1629397685936-3d6a9682ec63?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/led-therapy?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -249,7 +273,7 @@ let services = [
     rating: 4.8,
     reviews: 298,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1583001308194-8c68f0e11012?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1583001308194-8c68f0e11012?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/eyeliner?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -265,7 +289,7 @@ let services = [
     rating: 4.9,
     reviews: 167,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1595475884562-073c30d45670?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1595475884562-073c30d45670?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hairline?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -283,7 +307,7 @@ let services = [
     rating: 4.8,
     reviews: 389,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/scalp-detox?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -299,7 +323,7 @@ let services = [
     rating: 4.9,
     reviews: 234,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://kbeautyseoul.co.kr/booking/hair-loss?ref=KBSEOUL2025',
     platform: 'K-Beauty Seoul',
     category: 'beauty',
@@ -317,7 +341,7 @@ let services = [
     rating: 4.9,
     reviews: 523,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1583500557349-fb5238f8d946?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://www.klook.com/activity/hanbok-palace-tour?aid=KLOOK_AFFILIATE_ID',
     platform: 'Klook',
     category: 'tour',
@@ -335,7 +359,7 @@ let services = [
     rating: 4.9,
     reviews: 412,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://www.klook.com/activity/kbeauty-tour-seoul?aid=KLOOK_AFFILIATE_ID',
     platform: 'Klook',
     category: 'tour',
@@ -352,7 +376,7 @@ let services = [
     rating: 4.8,
     reviews: 356,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://www.kkday.com/seoul-night-tour?pid=KKDAY_AFFILIATE_ID',
     platform: 'KKday',
     category: 'tour',
@@ -369,7 +393,7 @@ let services = [
     rating: 4.7,
     reviews: 189,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://www.kkday.com/gangnam-food-tour?pid=KKDAY_AFFILIATE_ID',
     platform: 'KKday',
     category: 'tour',
@@ -386,7 +410,7 @@ let services = [
     rating: 4.9,
     reviews: 1243,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://link.coupang.com/a/sulwhasoo?lptag=AF123456',
     platform: 'Coupang',
     category: 'shop',
@@ -402,7 +426,7 @@ let services = [
     rating: 4.8,
     reviews: 876,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://link.coupang.com/a/whoo?lptag=AF123456',
     platform: 'Coupang',
     category: 'shop',
@@ -419,7 +443,7 @@ let services = [
     rating: 4.7,
     reviews: 2134,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://link.coupang.com/a/cosrx?lptag=AF123456',
     platform: 'Coupang',
     category: 'shop',
@@ -435,7 +459,7 @@ let services = [
     rating: 4.9,
     reviews: 3567,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1556229010-aa3bafc8e533?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1556229010-aa3bafc8e533?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://smartstore.naver.com/beauty-joseon?ref=NAVER_SHOPPING_ID',
     platform: 'Naver Shopping',
     category: 'shop',
@@ -452,7 +476,7 @@ let services = [
     rating: 4.6,
     reviews: 4521,
     youtubeUrl: '',
-    imageUrl: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&h=600&fit=crop&q=80&fm=webp&auto=format',
     affiliateUrl: 'https://link.coupang.com/a/mediheal?lptag=AF123456',
     platform: 'Coupang',
     category: 'shop',
@@ -2415,7 +2439,7 @@ app.get('/blog', (c) => {
           ${blogArticles.map(article => `
             <a href="/blog/${article.id}?lang=${lang}" class="blog-link">
               <div class="blog-card">
-                <img src="${article.content[lang]?.match(/src="([^"]+)"/)?.[1] || 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop'}" alt="${article.title[lang] || article.title.en}" class="blog-image" />
+                <img src="${article.content[lang]?.match(/src="([^"]+)"/)?.[1] || 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&q=80&fm=webp&auto=format'}" alt="${article.title[lang] || article.title.en}" class="blog-image" />
                 <div class="blog-content">
                   <div class="blog-category">${article.category.toUpperCase()}</div>
                   <div class="blog-title">${article.title[lang] || article.title.en}</div>
