@@ -1088,15 +1088,18 @@ function generateHomePage(lang = 'en') {
       <nav class="nav">
         <div class="nav-container">
           <div class="logo">
-            <a href="/?lang=${lang}">
-              <img src="https://via.placeholder.com/120x40/FF6B9D/FFFFFF?text=K-Beauty+Seoul" alt="K-Beauty Seoul">
+            <a href="/?lang=${lang}" style="text-decoration: none;">
+              <img src="https://via.placeholder.com/120x40/FF6B9D/FFFFFF?text=K-Beauty+Seoul" alt="K-Beauty Seoul" style="display: block; margin-bottom: 2px;">
+              <div style="font-size: 10px; color: #FF6B9D; text-align: center; font-weight: 600; letter-spacing: 0.5px;">
+                ${lang === 'ko' ? '🏆 kbeautyseoul.co.kr 공식 블로그' : lang === 'ja' ? '🏆 kbeautyseoul.co.kr 公式ブログ' : '🏆 Official Blog of kbeautyseoul.co.kr'}
+              </div>
             </a>
           </div>
           <div class="nav-links">
             <a href="/catalog/beauty?lang=${lang}" class="nav-link">${t.nav.beauty}</a>
             <a href="/catalog/tour?lang=${lang}" class="nav-link">${t.nav.tour}</a>
             <a href="/catalog/shop?lang=${lang}" class="nav-link">${t.nav.shop}</a>
-            <a href="/admin" class="nav-link admin-link">${t.nav.admin}</a>
+            <a href="/blog?lang=${lang}" class="nav-link" style="color: #FF6B9D; font-weight: 700;">📝 Blog</a>
           </div>
           <select onchange="window.location.href='/?lang='+this.value" class="lang-select">
             <option value="ko" ${lang === 'ko' ? 'selected' : ''}>🇰🇷 한국어</option>
@@ -1106,6 +1109,30 @@ function generateHomePage(lang = 'en') {
           </select>
         </div>
       </nav>
+      
+      <!-- Fixed CTA Button: Book Now -->
+      <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=blog&utm_medium=fixed_cta" 
+         target="_blank"
+         style="position: fixed; bottom: 30px; right: 30px; z-index: 9999; 
+                background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%); 
+                color: white; padding: 18px 32px; border-radius: 50px; 
+                text-decoration: none; font-weight: 700; font-size: 16px; 
+                box-shadow: 0 8px 24px rgba(255, 107, 157, 0.4); 
+                transition: all 0.3s ease; display: flex; align-items: center; gap: 8px;
+                animation: pulse 2s infinite;">
+        <span style="font-size: 20px;">📅</span>
+        <span>${lang === 'ko' ? '지금 예약하기' : lang === 'ja' ? '今すぐ予約' : 'Book Now'}</span>
+      </a>
+      <style>
+        @keyframes pulse {
+          0%, 100% { transform: scale(1); box-shadow: 0 8px 24px rgba(255, 107, 157, 0.4); }
+          50% { transform: scale(1.05); box-shadow: 0 12px 32px rgba(255, 107, 157, 0.6); }
+        }
+        a[href*="kbeautyseoul.co.kr"]:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 12px 32px rgba(255, 107, 157, 0.6);
+        }
+      </style>
       
       <section class="hero">
         <div class="hero-video-container">
@@ -2084,8 +2111,20 @@ app.get('/blog', (c) => {
     </head>
     <body>
       <div class="header">
-        <h1>${lang === 'ko' ? '📝 K-뷰티 블로그' : lang === 'ja' ? '📝 K-ビューティブログ' : '📝 K-Beauty Blog'}</h1>
-        <p>${lang === 'ko' ? '서울 최고의 뷰티 서비스 가이드' : lang === 'ja' ? 'ソウル最高の美容サービスガイド' : 'Seoul\'s Best Beauty Services Guide'}</p>
+        <div style="display: inline-block; background: rgba(255,255,255,0.2); padding: 8px 20px; border-radius: 25px; margin-bottom: 15px; backdrop-filter: blur(10px);">
+          <span style="font-size: 14px; font-weight: 600;">
+            ${lang === 'ko' ? '🏆 kbeautyseoul.co.kr 공식 블로그' : lang === 'ja' ? '🏆 kbeautyseoul.co.kr 公式ブログ' : '🏆 Official Blog of kbeautyseoul.co.kr'}
+          </span>
+        </div>
+        <h1>${lang === 'ko' ? '📝 K-뷰티 서울 가이드' : lang === 'ja' ? '📝 K-ビューティソウルガイド' : '📝 K-Beauty Seoul Guide'}</h1>
+        <p>${lang === 'ko' ? '실제 후기 & 예약 가이드 | 전문가가 직접 작성한 신뢰할 수 있는 정보' : lang === 'ja' ? '実際のレビュー＆予約ガイド｜専門家が書いた信頼できる情報' : 'Real Reviews & Booking Guide | Trusted Info by Beauty Experts'}</p>
+        <div style="margin-top: 15px;">
+          <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025&utm_source=blog_header" 
+             target="_blank"
+             style="display: inline-block; background: white; color: #FF6B9D; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 700; font-size: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transition: all 0.3s;">
+            ${lang === 'ko' ? '🎁 지금 예약하고 10% 할인받기' : lang === 'ja' ? '🎁 今予約して10%割引' : '🎁 Book Now & Get 10% OFF'}
+          </a>
+        </div>
         
         <!-- Search Box -->
         <div style="max-width: 600px; margin: 20px auto 0;">
@@ -2363,16 +2402,38 @@ app.get('/about', (c) => {
     </head>
     <body>
       <div class="header">
-        <h1>About K-Beauty Seoul</h1>
-        <p>Your Trusted Guide to Authentic Korean Beauty Experiences</p>
+        <h1>About K-Beauty Seoul Blog</h1>
+        <p>🏆 Official Information Blog of <strong><a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D; text-decoration: none;">kbeautyseoul.co.kr</a></strong></p>
+        <p style="font-size: 16px; margin-top: 10px;">Your Trusted Guide to Authentic Korean Beauty Experiences</p>
       </div>
       
       <div class="container">
-        <h2>Our Mission</h2>
-        <p>K-Beauty Seoul was founded in 2020 with a simple mission: to bridge the gap between international visitors and Seoul's incredible beauty and wellness industry. We believe everyone deserves access to authentic Korean beauty treatments, and we're here to make that experience seamless, enjoyable, and unforgettable.</p>
+        <h2>🎯 Who We Are</h2>
+        <p><strong>We are the official information blog of <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></strong>, Korea's leading beauty booking platform trusted by thousands of international travelers.</p>
+        
+        <p>Since 2020, we've helped visitors from over 50 countries experience the best of Korean beauty treatments through our comprehensive guides, honest reviews, and seamless booking system.</p>
 
-        <h2>What We Do</h2>
-        <p>We are a comprehensive platform connecting travelers and beauty enthusiasts with verified, high-quality Korean beauty services throughout Seoul. Our team personally vets every clinic, salon, and spa we recommend, ensuring you receive only the best treatments Korea has to offer.</p>
+        <h2>📝 Our Mission</h2>
+        <p>To bridge the gap between international visitors and Seoul's incredible beauty industry by providing:</p>
+        <ul style="margin-left: 30px; margin-bottom: 24px;">
+          <li>✅ <strong>Detailed treatment guides</strong> - Everything you need to know before booking</li>
+          <li>✅ <strong>Real experience reviews</strong> - Honest feedback from actual customers</li>
+          <li>✅ <strong>Price comparisons</strong> - Save 30-50% vs your home country</li>
+          <li>✅ <strong>Easy booking</strong> - Reserve in English through <a href="https://kbeautyseoul.co.kr?ref=KBSEOUL2025" target="_blank" style="color: #FF6B9D;">kbeautyseoul.co.kr</a></li>
+        </ul>
+
+        <h2>🌟 What We Do</h2>
+        <p>As the official blog of kbeautyseoul.co.kr, we provide comprehensive, unbiased information about Korean beauty treatments to help you make informed decisions.</p>
+        
+        <p><strong>Our Blog Features:</strong></p>
+        <ul style="margin-left: 30px; margin-bottom: 24px;">
+          <li>📚 In-depth treatment guides (Head Spa, BB Glow, Massage, etc.)</li>
+          <li>💰 Transparent pricing information with comparison tables</li>
+          <li>⭐ Real customer reviews and experience stories</li>
+          <li>🗺️ Seoul beauty tourism itineraries and tips</li>
+          <li>🎁 Exclusive discount codes for kbeautyseoul.co.kr bookings</li>
+          <li>🌏 Multi-language support (English, Korean, Japanese, Chinese)</li>
+        </ul>
 
         <p><strong>Our Services Include:</strong></p>
         <ul style="margin-left: 30px; margin-bottom: 24px;">
