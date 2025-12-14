@@ -29,6 +29,34 @@ app.use('/images/*', async (c, next) => {
   c.header('Cache-Control', 'public, max-age=2592000'); // 30 days
 });
 
+// PWA - Service Worker (no cache, always fresh)
+app.get('/service-worker.js', serveStatic({ 
+  root: './public',
+  onNotFound: (path, c) => c.text('Service Worker not found', 404)
+}));
+app.use('/service-worker.js', async (c, next) => {
+  await next();
+  c.header('Cache-Control', 'no-cache, no-store, must-revalidate');
+  c.header('Content-Type', 'application/javascript');
+});
+
+// PWA - Manifest
+app.get('/manifest.json', serveStatic({ 
+  root: './public',
+  onNotFound: (path, c) => c.text('Manifest not found', 404)
+}));
+app.use('/manifest.json', async (c, next) => {
+  await next();
+  c.header('Cache-Control', 'public, max-age=86400'); // 1 day
+  c.header('Content-Type', 'application/json');
+});
+
+// PWA - Offline page
+app.get('/offline.html', serveStatic({ 
+  root: './public',
+  onNotFound: (path, c) => c.text('Offline page not found', 404)
+}));
+
 // ==========================================
 // ADMIN & DATA CONFIGURATION
 // ==========================================
