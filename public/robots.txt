@@ -1,4 +1,15 @@
 User-agent: *
 Allow: /
 
+# Sitemaps
 Sitemap: https://seoulzen.com/sitemap.xml
+
+# Google Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Crawl-delay (prevent overload)
+Crawl-delay: 1

@@ -14,7 +14,8 @@
   "dependencies": {
     "@hono/node-server": "^1.19.6",
     "@supabase/supabase-js": "^2.49.2",
-    "hono": "^4.10.6"
+    "hono": "^4.10.6",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "terser": "^5.44.1",
