@@ -1,0 +1,5 @@
+# Redirect www to non-www
+https://www.seoulzen.com/* https://seoulzen.com/:splat 301!
+
+# Ensure all blog pages are accessible
+/blog/* /blog/:splat 200

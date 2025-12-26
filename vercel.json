@@ -9,10 +9,32 @@
       }
     }
   ],
+  "redirects": [
+    {
+      "source": "https://www.seoulzen.com/:path*",
+      "destination": "https://seoulzen.com/:path*",
+      "permanent": true
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
     }
   ]
 }
