@@ -11,5 +11,10 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-# Crawl-delay (prevent overload)
-Crawl-delay: 1
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Naver (Korean search engine)
+User-agent: Yeti
+Allow: /
