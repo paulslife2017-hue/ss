@@ -1,0 +1,40 @@
+# Google Search Console 수동 색인 요청 URL 목록
+# 작성일: 2025-12-28
+# 총 URL: 20개 (우선순위 순)
+
+# === 최우선 URL (5개) ===
+https://seoulzen.com
+https://seoulzen.com/blog.html
+https://seoulzen.com/blog/seoul-botox-guide-2025.html
+https://seoulzen.com/blog/korean-beauty-treatments-trending-2025.html
+https://seoulzen.com/blog/gangnam-beauty-district-clinic-guide-2025.html
+
+# === 높은 우선순위 (5개) ===
+https://seoulzen.com/blog/korean-pdrn-salmon-injection-guide-2025.html
+https://seoulzen.com/blog/korean-thread-lift-non-surgical-facelift-guide-2025.html
+https://seoulzen.com/blog/korean-jaw-reduction-surgery-v-line-guide-2025.html
+https://seoulzen.com/blog/korean-hair-transplant-fue-method-guide-2025.html
+https://seoulzen.com/blog/gangnam-dental-clinic-english-guide-2025.html
+
+# === 중간 우선순위 (5개) ===
+https://seoulzen.com/blog/korean-double-eyelid-surgery-guide-2025.html
+https://seoulzen.com/blog/korean-breast-augmentation-surgery-guide-2025.html
+https://seoulzen.com/blog/korean-nose-job-rhinoplasty-guide-2025.html
+https://seoulzen.com/blog/korean-filler-treatment-guide-2025.html
+https://seoulzen.com/blog/korean-glass-skin-facial-treatment-guide-2025.html
+
+# === 추가 URL (5개) ===
+https://seoulzen.com/blog/korean-acne-scar-treatment-laser-guide-2025.html
+https://seoulzen.com/blog/korean-laser-hair-removal-guide-2025.html
+https://seoulzen.com/blog/korean-skincare-routine-beginners-2025.html
+https://seoulzen.com/blog/korean-spa-jjimjilbang-guide-2025.html
+https://seoulzen.com/blog/korean-medical-visa-guide-2025.html
+
+# === 사용 방법 ===
+# 1. Google Search Console 접속: https://search.google.com/search-console
+# 2. 속성 선택: seoulzen.com (www 없는 버전)
+# 3. 상단 검색창 "URL 검사" 클릭
+# 4. 위 URL을 하나씩 복사-붙여넣기
+# 5. "색인 생성 요청" 버튼 클릭
+# 6. 1-2분 간격으로 다음 URL 제출
+# 7. 하루 최대 10-20개까지 제출 가능
