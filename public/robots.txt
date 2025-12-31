@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.seoulzen.com/sitemap.xml
+Sitemap: https://seoulzen.com/sitemap.xml
 
 # Google Bots
 User-agent: Googlebot

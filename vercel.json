@@ -11,8 +11,8 @@
   ],
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://www.seoulzen.com/:path*",
+      "source": "https://www.seoulzen.com/:path*",
+      "destination": "https://seoulzen.com/:path*",
       "permanent": true
     }
   ],
