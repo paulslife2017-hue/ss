@@ -1,736 +1,987 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DH40QL7TS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-4DH40QL7TS');
-  </script>
-  
-  <title>All Articles (32) - Seoul Zen Blog</title>
-  <meta name="description" content="Browse all 32 expert guides on Korean beauty services in Seoul. Massage, spa, skincare, and more.">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DH40QL7TS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4DH40QL7TS');
+    </script>
+    
+    <!-- Primary Meta Tags -->
+    <title>Seoul Beauty & Wellness Guide for Travelers | KBeauty Seoul Official</title>
+    <meta name="title" content="Seoul Beauty & Wellness Guide for Travelers | KBeauty Seoul Official">
+    <meta name="description" content="Your complete guide to Korean beauty, wellness, and spa services in Seoul. Expert advice for international travelers seeking authentic K-beauty experiences.">
+    <meta name="keywords" content="Seoul beauty guide, Korean spa, K-beauty services, Seoul wellness, Gangnam beauty, Korean head spa, Seoul massage, beauty tourism Seoul">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kbeautyseoul.co.kr/public/blog.html">
+    <meta property="og:title" content="Seoul Beauty & Wellness Guide for Travelers">
+    <meta property="og:description" content="Expert guides on Korean beauty, wellness, and spa services">
+    <meta property="og:image" content="https://kbeautyseoul.co.kr/images/blog-hero.jpg">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+         crossorigin="anonymous"></script>
+    
+    <style>
+        /* ==================== RESET & BASE ==================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* ==================== TOP NAVIGATION ==================== */
+        .top-nav {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid #e8e8e8;
+            padding: 20px 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo span {
+            color: #c4975c;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #c4975c;
+        }
+        
+        .nav-cta {
+            background: #1a1a1a;
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-cta:hover {
+            background: #c4975c;
+            transform: translateY(-1px);
+        }
+        
+        /* ==================== HERO SECTION ==================== */
+        .hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+            color: white;
+            padding: 120px 32px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(196, 151, 92, 0.15) 0%, transparent 70%);
+            top: -300px;
+            right: -300px;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(196, 151, 92, 0.1) 0%, transparent 70%);
+            bottom: -200px;
+            left: -200px;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-tag {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #c4975c;
+            margin-bottom: 24px;
+        }
+        
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 48px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #c4975c;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* ==================== CONTAINER ==================== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 32px;
+        }
+        
+        /* ==================== SECTION HEADER ==================== */
+        .section-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        
+        .section-tag {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #c4975c;
+            margin-bottom: 16px;
+        }
+        
+        .section-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* ==================== FEATURED ARTICLE ==================== */
+        .featured-article {
+            background: #fafafa;
+            border-radius: 0;
+            overflow: hidden;
+            margin-bottom: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            border: 1px solid #e8e8e8;
+        }
+        
+        .featured-image {
+            background: linear-gradient(135deg, #c4975c 0%, #d4af6f 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 120px;
+            color: white;
+            min-height: 500px;
+        }
+        
+        .featured-content {
+            padding: 64px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .featured-tag {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #c4975c;
+            margin-bottom: 20px;
+        }
+        
+        .featured-content h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+        }
+        
+        .featured-excerpt {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 32px;
+            line-height: 1.7;
+        }
+        
+        .featured-meta {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 32px;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .featured-btn {
+            display: inline-block;
+            background: #1a1a1a;
+            color: white;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            border: 2px solid #1a1a1a;
+            width: fit-content;
+        }
+        
+        .featured-btn:hover {
+            background: white;
+            color: #1a1a1a;
+            transform: translateY(-2px);
+        }
+        
+        /* ==================== ARTICLE GRID ==================== */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+        
+        .article-card {
+            background: white;
+            border: 1px solid #e8e8e8;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+        }
+        
+        .article-image {
+            width: 100%;
+            height: 240px;
+            background: linear-gradient(135deg, #c4975c 0%, #d4af6f 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 72px;
+            color: white;
+        }
+        
+        .article-content {
+            padding: 32px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-category {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #c4975c;
+            margin-bottom: 12px;
+        }
+        
+        .article-card h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        
+        .article-excerpt {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        
+        .article-meta {
+            font-size: 13px;
+            color: #999;
+            display: flex;
+            gap: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .article-card a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .has-link {
+            position: relative;
+        }
+        
+        .has-link::after {
+            content: "🔗";
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 20px;
+        }
+        
+        /* ==================== CATEGORIES ==================== */
+        .categories {
+            background: #fafafa;
+            padding: 80px 32px;
+            margin: 80px 0;
+        }
+        
+        .category-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+        
+        .category-card {
+            background: white;
+            padding: 40px 32px;
+            text-align: center;
+            border: 1px solid #e8e8e8;
+            transition: all 0.3s ease;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+        }
+        
+        .category-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .category-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+        
+        .category-count {
+            font-size: 14px;
+            color: #999;
+        }
+        
+        /* ==================== CTA SECTION ==================== */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+            color: white;
+            padding: 80px 32px;
+            text-align: center;
+            margin: 80px 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn-primary {
+            background: white;
+            color: #1a1a1a;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .cta-btn-primary:hover {
+            background: transparent;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .cta-btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .cta-btn-secondary:hover {
+            background: white;
+            color: #1a1a1a;
+            transform: translateY(-2px);
+        }
+        
+        /* ==================== FOOTER ==================== */
+        footer {
+            background: #fafafa;
+            padding: 64px 32px 32px;
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+        
+        .footer-logo span {
+            color: #c4975c;
+        }
+        
+        .footer-tagline {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 32px;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #c4975c;
+        }
+        
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid #e8e8e8;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 1024px) {
+            .article-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+            
+            .category-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .nav-links {
+                gap: 20px;
+            }
+            
+            .hero {
+                padding: 80px 24px 60px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .hero-stats {
+                flex-direction: column;
+                gap: 24px;
+            }
+            
+            .container {
+                padding: 60px 24px;
+            }
+            
+            .section-title {
+                font-size: 32px;
+            }
+            
+            .featured-article {
+                grid-template-columns: 1fr;
+            }
+            
+            .featured-image {
+                min-height: 300px;
+            }
+            
+            .featured-content {
+                padding: 40px 24px;
+            }
+            
+            .featured-content h2 {
+                font-size: 28px;
+            }
+            
+            .article-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .category-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .cta-section {
+                padding: 60px 24px;
+            }
+            
+            .cta-section h2 {
+                font-size: 32px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cta-btn-primary,
+            .cta-btn-secondary {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<nav class="top-nav">
+    <div class="nav-container">
+        <a href="/" class="logo">KBeauty<span>Seoul</span></a>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/public/blog.html">Blog</a>
+            <a href="https://kbeautyseoul.co.kr/catalog">Services</a>
+            <a href="https://kbeautyseoul.co.kr/catalog" class="nav-cta">Book Now</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-tag">OFFICIAL GUIDE</div>
+        <h1>Seoul Beauty & Wellness<br>Guide for Travelers</h1>
+        <p class="hero-subtitle">Your trusted resource for authentic Korean beauty experiences. Expert insights, honest reviews, and practical tips for international visitors.</p>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">35+</span>
+                <span class="stat-label">Expert Guides</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Monthly Readers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Verified Info</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Article -->
+<div class="container">
+    <div class="section-header">
+        <div class="section-tag">FEATURED GUIDE</div>
+        <h2 class="section-title">Start Here</h2>
+        <p class="section-subtitle">New to Seoul's beauty scene? This comprehensive guide is your perfect starting point.</p>
+    </div>
+    
+    <article class="featured-article has-link">
+        <div class="featured-image">💆</div>
+        <div class="featured-content">
+            <div class="featured-tag">⭐ MOST POPULAR</div>
+            <h2>Best Head Spa in Seoul for Foreigners</h2>
+            <p class="featured-excerpt">Discover the ultimate relaxation experience at Seoul's top head spa locations. We've personally visited and reviewed the best English-friendly spas that cater specifically to international visitors.</p>
+            <div class="featured-meta">
+                <span>📖 12 min read</span>
+                <span>•</span>
+                <span>Updated Jan 2026</span>
+            </div>
+            <a href="https://kbeautyseoul.co.kr/catalog?category=headspa" class="featured-btn">Browse Head Spa Services →</a>
+        </div>
+    </article>
+</div>
+
+<!-- Essential Guides Section -->
+<div class="container">
+    <div class="section-header">
+        <div class="section-tag">ESSENTIAL GUIDES</div>
+        <h2 class="section-title">Must-Read Articles for First-Time Visitors</h2>
+        <p class="section-subtitle">Everything you need to know before booking your first Korean beauty service</p>
+    </div>
+    
+    <div class="article-grid">
+        <!-- Article 1 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://kbeautyseoul.co.kr/catalog">
+                <div class="article-image">🎯</div>
+                <div class="article-content">
+                    <div class="article-category">GETTING STARTED</div>
+                    <h3>What Is a Korean Head Spa?</h3>
+                    <p class="article-excerpt">Learn about the traditional Korean head spa treatment that's taking the world by storm. Understand the techniques, benefits, and what makes it different.</p>
+                    <div class="article-meta">
+                        <span>8 min read</span>
+                        <span>•</span>
+                        <span>Beginner</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 2 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🗺️</div>
+                <div class="article-content">
+                    <div class="article-category">COMPARISON</div>
+                    <h3>Gangnam vs Hongdae: Where to Get Beauty Treatments</h3>
+                    <p class="article-excerpt">Compare Seoul's two most popular beauty districts. Prices, atmosphere, services, and which one suits your travel style better.</p>
+                    <div class="article-meta">
+                        <span>10 min read</span>
+                        <span>•</span>
+                        <span>Comparison</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 3 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://kbeautyseoul.co.kr/catalog?category=skincare">
+                <div class="article-image">🧴</div>
+                <div class="article-content">
+                    <div class="article-category">TREATMENTS</div>
+                    <h3>Korean Scalp Care Explained</h3>
+                    <p class="article-excerpt">Deep dive into Korean scalp care philosophy. Learn about products, techniques, and why scalp health is the foundation of Korean beauty.</p>
+                    <div class="article-meta">
+                        <span>15 min read</span>
+                        <span>•</span>
+                        <span>Advanced</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 4 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">✅</div>
+                <div class="article-content">
+                    <div class="article-category">SAFETY</div>
+                    <h3>Is Korean Beauty Treatment Safe for Travelers?</h3>
+                    <p class="article-excerpt">Address common safety concerns, hygiene standards, and what to look for when choosing beauty services in Seoul as a foreigner.</p>
+                    <div class="article-meta">
+                        <span>7 min read</span>
+                        <span>•</span>
+                        <span>Safety</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 5 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://kbeautyseoul.co.kr/catalog">
+                <div class="article-image">📱</div>
+                <div class="article-content">
+                    <div class="article-category">PRACTICAL</div>
+                    <h3>How to Book Beauty Services in Seoul</h3>
+                    <p class="article-excerpt">Step-by-step guide to booking Korean beauty services. Apps, platforms, language tips, and payment methods explained simply.</p>
+                    <div class="article-meta">
+                        <span>12 min read</span>
+                        <span>•</span>
+                        <span>Tutorial</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 6 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🧖</div>
+                <div class="article-content">
+                    <div class="article-category">RELAXATION</div>
+                    <h3>Best Relaxing Spas in Seoul</h3>
+                    <p class="article-excerpt">Our curated list of Seoul's most relaxing spa experiences. From traditional jjimjilbang to modern wellness centers.</p>
+                    <div class="article-meta">
+                        <span>14 min read</span>
+                        <span>•</span>
+                        <span>Review</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 7 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🏮</div>
+                <div class="article-content">
+                    <div class="article-category">CULTURE</div>
+                    <h3>Korean Wellness Culture Explained</h3>
+                    <p class="article-excerpt">Understanding the philosophy behind Korean wellness. Traditional practices, modern innovations, and cultural context.</p>
+                    <div class="article-meta">
+                        <span>11 min read</span>
+                        <span>•</span>
+                        <span>Culture</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 8 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🏪</div>
+                <div class="article-content">
+                    <div class="article-category">EXPECTATIONS</div>
+                    <h3>What to Expect at a Korean Beauty Shop</h3>
+                    <p class="article-excerpt">First-timer's guide to Korean beauty shops. Etiquette, typical services, pricing structure, and how to communicate your needs.</p>
+                    <div class="article-meta">
+                        <span>9 min read</span>
+                        <span>•</span>
+                        <span>Guide</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 9 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">✈️</div>
+                <div class="article-content">
+                    <div class="article-category">TRAVEL GUIDE</div>
+                    <h3>Seoul Beauty Guide for First-Time Visitors</h3>
+                    <p class="article-excerpt">Complete travel guide to Seoul's beauty scene. Neighborhoods, must-try services, budgeting tips, and itinerary suggestions.</p>
+                    <div class="article-meta">
+                        <span>18 min read</span>
+                        <span>•</span>
+                        <span>Comprehensive</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 10 - Latest -->
+        <article class="article-card">
+            <a href="/gangnam-makeup-complete-guide-2026.html">
+                <div class="article-image">💄</div>
+                <div class="article-content">
+                    <div class="article-category">MAKEUP</div>
+                    <h3>Complete Guide to Gangnam Makeup</h3>
+                    <p class="article-excerpt">Everything about professional makeup services in Gangnam. K-beauty trends, pricing, booking tips, and what makes Gangnam special.</p>
+                    <div class="article-meta">
+                        <span>25 min read</span>
+                        <span>•</span>
+                        <span>New!</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+</div>
+
+<!-- Categories Section -->
+<section class="categories">
+    <div class="section-header">
+        <div class="section-tag">BROWSE BY TOPIC</div>
+        <h2 class="section-title">Explore by Category</h2>
+        <p class="section-subtitle">Find exactly what you're looking for</p>
+    </div>
+    
+    <div class="category-grid">
+        <div class="category-card">
+            <div class="category-icon">💆</div>
+            <h3>Head Spa & Massage</h3>
+            <p class="category-count">12 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">✨</div>
+            <h3>Skincare Treatments</h3>
+            <p class="category-count">8 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">💄</div>
+            <h3>Makeup Services</h3>
+            <p class="category-count">5 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">🏮</div>
+            <h3>Culture & Wellness</h3>
+            <p class="category-count">10 articles</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <h2>Ready to Experience Korean Beauty?</h2>
+    <p>Browse verified services, read real reviews, and book your perfect Seoul beauty experience with confidence.</p>
+    <div class="cta-buttons">
+        <a href="https://kbeautyseoul.co.kr/catalog" class="cta-btn-primary">Browse All Services</a>
+        <a href="https://kbeautyseoul.co.kr" class="cta-btn-secondary">Visit Homepage</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">KBeauty<span>Seoul</span></div>
+        <p class="footer-tagline">Your trusted guide to authentic Korean beauty experiences</p>
+        
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/public/blog.html">Blog</a>
+            <a href="https://kbeautyseoul.co.kr/catalog">Services</a>
+            <a href="https://kbeautyseoul.co.kr">About Us</a>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 KBeautySeoul. All rights reserved. | Made with ❤️ in Seoul</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Google AdSense Auto Ads -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
      crossorigin="anonymous"></script>
 
-  
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
-  line-height: 1.7; 
-  color: #1a1a1a; 
-  background: #fafafa;
-}
-.container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
-
-/* Modern Header */
-header { 
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
-  color: white; 
-  padding: 48px 0;
-  position: relative;
-  overflow: hidden;
-}
-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0 0v120h1200V0c-200 50-400 80-600 80S200 50 0 0z" fill="rgba(255,255,255,0.05)"/></svg>');
-  opacity: 0.3;
-}
-header .container { position: relative; z-index: 1; }
-header h1 { 
-  font-size: clamp(2rem, 5vw, 3rem); 
-  margin-bottom: 12px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-header p { font-size: 1.125rem; opacity: 0.95; font-weight: 500; }
-
-/* Navigation */
-nav { 
-  background: white; 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-  padding: 16px 0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-nav .container { 
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-nav a { 
-  text-decoration: none; 
-  color: #4b5563; 
-  padding: 10px 20px; 
-  border-radius: 8px;
-  transition: all 0.2s;
-  font-weight: 500;
-  font-size: 0.9375rem;
-}
-nav a:hover { 
-  background: #6366f1; 
-  color: white; 
-  transform: translateY(-1px);
-}
-
-/* Hero Section */
-.hero { 
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
-  color: white;
-  padding: 80px 24px;
-  text-align: center;
-  margin: 40px 0;
-  border-radius: 24px;
-  position: relative;
-  overflow: hidden;
-}
-.hero::before {
-  content: '';
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
-  top: -250px;
-  right: -250px;
-}
-.hero h2 { 
-  font-size: clamp(2rem, 6vw, 3.5rem); 
-  margin-bottom: 20px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-}
-.hero p { font-size: 1.25rem; margin-bottom: 32px; opacity: 0.95; max-width: 600px; margin-left: auto; margin-right: auto; }
-.btn { 
-  display: inline-block;
-  padding: 14px 32px;
-  background: white;
-  color: #6366f1;
-  text-decoration: none;
-  border-radius: 12px;
-  font-weight: 600;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 8px;
-  font-size: 0.9375rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-.btn:hover { 
-  transform: translateY(-2px); 
-  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
-}
-
-/* Blog Grid - Modern Card Design */
-.blog-grid { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
-  gap: 32px; 
-  margin: 48px 0;
-}
-.blog-card { 
-  background: white; 
-  border-radius: 16px; 
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid #f3f4f6;
-}
-.blog-card:hover { 
-  transform: translateY(-4px); 
-  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
-  border-color: #e5e7eb;
-}
-.blog-card img { 
-  width: 100%; 
-  height: 220px; 
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-.blog-card:hover img { transform: scale(1.05); }
-.blog-card-content { padding: 24px; }
-.blog-card h3 { 
-  font-size: 1.25rem; 
-  margin-bottom: 12px; 
-  color: #111827;
-  font-weight: 700;
-  line-height: 1.3;
-}
-.blog-card p { 
-  color: #6b7280; 
-  margin-bottom: 16px;
-  font-size: 0.9375rem;
-  line-height: 1.6;
-}
-.blog-card .meta {
-  font-size: 0.875rem;
-  color: #9ca3af;
-  margin-bottom: 12px;
-  display: flex;
-  gap: 12px;
-}
-.blog-card a.read-more { 
-  color: #6366f1; 
-  text-decoration: none; 
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.9375rem;
-  transition: gap 0.2s;
-}
-.blog-card a.read-more:hover { 
-  color: #4f46e5;
-  gap: 10px;
-}
-
-/* Section Headers */
-.section-title { 
-  text-align: center; 
-  font-size: clamp(2rem, 4vw, 2.5rem); 
-  margin: 80px 0 16px; 
-  color: #111827;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-.section-subtitle { 
-  text-align: center; 
-  color: #6b7280; 
-  font-size: 1.125rem;
-  margin-bottom: 48px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Footer */
-footer { 
-  background: #111827; 
-  color: #d1d5db; 
-  padding: 48px 0; 
-  margin-top: 96px;
-  text-align: center;
-}
-footer a { color: #818cf8; text-decoration: none; font-weight: 500; }
-footer a:hover { color: #a5b4fc; text-decoration: underline; }
-footer p { line-height: 1.8; }
-
-/* Badges */
-.badge { 
-  display: inline-block;
-  padding: 6px 16px;
-  background: rgba(255,255,255,0.2);
-  border-radius: 20px;
-  font-size: 0.875rem;
-  margin: 6px;
-  font-weight: 500;
-  backdrop-filter: blur(10px);
-}
-
-/* Article Page */
-article { 
-  background: white; 
-  padding: 48px; 
-  border-radius: 16px; 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  margin: 32px 0;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-article h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 24px; color: #111827; font-weight: 800; line-height: 1.2; }
-article h2 { font-size: 2rem; margin: 40px 0 16px; color: #1f2937; font-weight: 700; }
-article h3 { font-size: 1.5rem; margin: 32px 0 12px; color: #374151; font-weight: 600; }
-article p { margin-bottom: 16px; line-height: 1.8; color: #374151; }
-article ul, article ol { margin: 16px 0 16px 32px; }
-article li { margin-bottom: 10px; line-height: 1.7; color: #374151; }
-article a { color: #6366f1; text-decoration: none; font-weight: 500; }
-article a:hover { text-decoration: underline; color: #4f46e5; }
-article img { 
-  width: 100%; 
-  border-radius: 12px; 
-  margin: 24px 0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
-}
-article table { width: 100%; border-collapse: collapse; margin: 24px 0; border-radius: 8px; overflow: hidden; }
-article th, article td { padding: 14px; border: 1px solid #e5e7eb; text-align: left; }
-article th { background: #f9fafb; font-weight: 600; color: #111827; }
-article tr:hover { background: #f9fafb; }
-
-/* Back Link */
-.back-link { 
-  display: inline-block; 
-  margin: 24px 0; 
-  padding: 12px 24px;
-  background: #6366f1;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: all 0.2s;
-  font-size: 0.9375rem;
-}
-.back-link:hover { background: #4f46e5; transform: translateX(-4px); }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .container { padding: 0 16px; }
-  header { padding: 32px 0; }
-  .hero { padding: 60px 20px; margin: 24px 0; border-radius: 16px; }
-  .blog-grid { grid-template-columns: 1fr; gap: 24px; }
-  article { padding: 24px; margin: 20px 0; }
-  .section-title { margin: 56px 0 12px; }
-}
-</style>
-
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>📖 All Articles</h1>
-      <p>32 Expert K-Beauty Guides</p>
-    </div>
-  </header>
-
-  <nav>
-    <div class="container" style="text-align: center;">
-      <a href="/">🏠 Home</a>
-      <a href="/blog.html">📖 All Articles</a>
-      <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">📅 Book Services</a>
-    </div>
-  </nav>
-
-  <div class="container">
-    <h2 class="section-title">Complete Guide Collection</h2>
-    <p class="section-subtitle">Everything you need to know about K-Beauty in Seoul</p>
-    
-    <div class="blog-grid">
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Massage Guide 2025: From Aromatherapy to Deep Tissue" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Gangnam Massage Guide 2025: From Aromatherapy to Deep Tissue</h3>
-            <p>Complete guide to best massage shops in Gangnam. Compare aromatherapy, deep tissue, hot stone massage with prices....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 8 min read</span>
-            </div>
-            <a href="/blog/gangnam-massage-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Scalp Care Guide 2025: From Head Spa to Hair Loss Treatment" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Gangnam Scalp Care Guide 2025: From Head Spa to Hair Loss Treatment</h3>
-            <p>Best scalp care specialists in Gangnam. Complete comparison of head spa, scalp detox, hair loss treatment programs....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 10 min read</span>
-            </div>
-            <a href="/blog/gangnam-scalp-care-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Lip Tattoo Complete Guide 2025: Best Semi-Permanent Lip Makeup in Gangnam" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Lip Tattoo Complete Guide 2025: Best Semi-Permanent Lip Makeup in Gangnam</h3>
-            <p>Best lip tattoo studios in Seoul Gangnam. Natural lip color, lasts 6-12 months, minimal pain. Complete guide to lip tattoo prices,...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 12 min read</span>
-            </div>
-            <a href="/blog/seoul-lip-tattoo-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul BB Glow Treatment Complete Guide 2025: Perfect Skin Tone Without Makeup" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul BB Glow Treatment Complete Guide 2025: Perfect Skin Tone Without Makeup</h3>
-            <p>BB Glow is Seoul's hottest skin treatment. Perfect skin tone without foundation, lasts 6-12 months. Complete guide to prices, bene...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 14 min read</span>
-            </div>
-            <a href="/blog/seoul-bb-glow-treatment-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Nail Art Complete Guide 2025: Best Nail Salons in Gangnam & Hongdae" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Nail Art Complete Guide 2025: Best Nail Salons in Gangnam & Hongdae</h3>
-            <p>Complete guide to Seoul's best nail art. Korean gel nails, 3D nail art, minimalist designs. Prices, popular salons, and booking....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 13 min read</span>
-            </div>
-            <a href="/blog/seoul-nail-art-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Spa (Jjimjilbang) Complete Guide 2025: Best Spas in Seoul" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Spa (Jjimjilbang) Complete Guide 2025: Best Spas in Seoul</h3>
-            <p>Complete Korean jjimjilbang spa guide. 24-hour spa, body scrub, clay rooms, salt rooms. How to use and etiquette for foreigners....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 16 min read</span>
-            </div>
-            <a href="/blog/korean-spa-jjimjilbang-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Beauty Trends 2025: The Future of K-Beauty Industry" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Beauty Trends 2025: The Future of K-Beauty Industry</h3>
-            <p>Complete analysis of 2025 Korean beauty trends. Glass skin, clean beauty, personalized skincare rising trends....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 18 min read</span>
-            </div>
-            <a href="/blog/korean-beauty-trends-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Korean Skincare Routine for Beginners: Complete 10-Step Guide 2025" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Skincare Routine for Beginners: Complete 10-Step Guide 2025</h3>
-            <p>Complete guide to the famous Korean 10-step skincare routine. Step-by-step instructions and product recommendations for beginners....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 14 min read</span>
-            </div>
-            <a href="/blog/korean-skincare-routine-beginners-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Best Korean Sheet Masks 2025: Complete Buying Guide by Skin Type" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Best Korean Sheet Masks 2025: Complete Buying Guide by Skin Type</h3>
-            <p>Complete guide to Korean sheet masks by skin type. Compare hyaluronic acid, collagen, vitamin C masks...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 16 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="K-Beauty vs J-Beauty: Complete Comparison Guide 2025" loading="lazy">
-          <div class="blog-card-content">
-            <h3>K-Beauty vs J-Beauty: Complete Comparison Guide 2025</h3>
-            <p>Compare Korean and Japanese beauty philosophies, products, and routines. Which is right for you?...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 17 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Korean Makeup Trends 2025: From Aegyo-Sal to Gradient Lips" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Makeup Trends 2025: From Aegyo-Sal to Gradient Lips</h3>
-            <p>Complete 2025 K-Beauty makeup trends guide. Aegyo-sal, gradient lips, glossy skin techniques...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 15 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Seoul Beauty Travel Itinerary 2025: Shop, Spa & K-Beauty Experiences" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Beauty Travel Itinerary 2025: Shop, Spa & K-Beauty Experiences</h3>
-            <p>Complete 3-day Seoul K-Beauty travel guide. Shopping, spa, skincare, makeup experiences...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 19 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="K-Beauty Ingredients Guide 2025: What Works & Why" loading="lazy">
-          <div class="blog-card-content">
-            <h3>K-Beauty Ingredients Guide 2025: What Works & Why</h3>
-            <p>Complete K-Beauty ingredients guide. The science behind snail mucin, centella, fermented extracts...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 20 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Best Korean Sunscreens 2025: Complete SPF Buying Guide" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Best Korean Sunscreens 2025: Complete SPF Buying Guide</h3>
-            <p>Complete 2025 guide to best Korean sunscreens. Chemical vs physical SPF comparison, top recommendations...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 18 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Korean Skincare for Acne 2025: Complete Treatment Guide" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Skincare for Acne 2025: Complete Treatment Guide</h3>
-            <p>Complete K-Beauty guide for acne-prone skin. COSRX, Some By Mi, tea tree product recommendations...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 16 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Korean Skincare Products to Buy 2025: Ultimate Shopping List" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Skincare Products to Buy 2025: Ultimate Shopping List</h3>
-            <p>Complete 2025 Korean skincare shopping list. Best products by value, effectiveness, and popularity...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 22 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="How to Book Korean Beauty Services in Seoul 2025: Complete Guide" loading="lazy">
-          <div class="blog-card-content">
-            <h3>How to Book Korean Beauty Services in Seoul 2025: Complete Guide</h3>
-            <p>Complete guide to booking beauty services in Seoul Gangnam. kbeautyseoul.co.kr review and booking tips...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 18 min read</span>
-            </div>
-            <a href="/blog/undefined.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="My Real Experience: Gangnam Beauty Treatment Review 2025" loading="lazy">
-          <div class="blog-card-content">
-            <h3>My Real Experience: Gangnam Beauty Treatment Review 2025</h3>
-            <p>Honest review of massage, scalp care, and facial treatments I personally received in Gangnam. Detailed experience from K-Beauty Se...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 25 min read</span>
-            </div>
-            <a href="/blog/my-gangnam-beauty-treatment-experience-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Top 5 Korean Beauty Services Worth Trying in Seoul 2025" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Top 5 Korean Beauty Services Worth Trying in Seoul 2025</h3>
-            <p>Must-try K-Beauty treatments in Seoul: from scalp care to BB Glow. Prices, benefits, booking guide via kbeautyseoul.co.kr....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 23 min read</span>
-            </div>
-            <a href="/blog/top-5-korean-beauty-services-worth-trying-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Seoul Beauty Tourism Guide 2025: K-Beauty Treatments for International Travelers" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Beauty Tourism Guide 2025: K-Beauty Treatments for International Travelers</h3>
-            <p>Complete Seoul beauty tourism guide for international travelers. Booking, prices, English support, best districts. Experience K-Be...</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 28 min read</span>
-            </div>
-            <a href="/blog/seoul-beauty-tourism-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=600&fit=crop&fm=webp&auto=format&q=80" alt="Gangnam Head Spa Complete Guide 2025: Scalp Treatment & Hair Loss Solutions" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Gangnam Head Spa Complete Guide 2025: Scalp Treatment & Hair Loss Solutions</h3>
-            <p>Complete guide to Gangnam head spa, scalp detox, and hair loss treatments. Prices, benefits, booking with kbeautyseoul.co.kr....</p>
-            <div class="meta">
-              <span>📅 2025-01-01</span>
-              <span>⏱️ 18 min read</span>
-            </div>
-            <a href="/blog/gangnam-head-spa-complete-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&fm=webp&auto=format&q=80" alt="Korean Skincare Routine: Complete 10-Step Guide 2025" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Skincare Routine: Complete 10-Step Guide 2025</h3>
-            <p>Complete guide to the famous 10-step Korean skincare routine. Learn the correct order, best products, and how to achieve glass ski...</p>
-            <div class="meta">
-              <span>📅 2025-02-05</span>
-              <span>⏱️ 22 min read</span>
-            </div>
-            <a href="/blog/korean-skincare-routine-complete-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&fm=webp&auto=format&q=80" alt="Seoul Beauty Clinics: Complete Guide 2025 (English Booking)" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Beauty Clinics: Complete Guide 2025 (English Booking)</h3>
-            <p>Complete Seoul beauty clinic guide 2025. Compare prices (40-70% cheaper than USA/UK), best areas (Gangnam, Apgujeong), safety tips...</p>
-            <div class="meta">
-              <span>📅 2025-02-06</span>
-              <span>⏱️ 25 min read</span>
-            </div>
-            <a href="/blog/seoul-beauty-clinics-comprehensive-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&fm=webp&auto=format&q=80" alt="Korean Beauty Tour Complete Guide 2025 (For Japanese Tourists)" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Beauty Tour Complete Guide 2025 (For Japanese Tourists)</h3>
-            <p>Complete Korean beauty tour guide for Japanese tourists. Compare prices (40-60% cheaper than Japan), 2-3 day itineraries, Japanese...</p>
-            <div class="meta">
-              <span>📅 2025-02-07</span>
-              <span>⏱️ 28 min read</span>
-            </div>
-            <a href="/blog/korean-beauty-tour-complete-guide-2025-japanese.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&fm=webp&auto=format&q=80" alt="Seoul Spa Ranking 2025 (For Japanese Tourists)" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Spa Ranking 2025 (For Japanese Tourists)</h3>
-            <p>Seoul spa ranking 2025 for Japanese tourists. Top 10 spas with Japanese support, prices 16-47% cheaper than Japan....</p>
-            <div class="meta">
-              <span>📅 2025-02-08</span>
-              <span>⏱️ 26 min read</span>
-            </div>
-            <a href="/blog/seoul-spa-ranking-2025-japanese.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&fm=webp&auto=format&q=80" alt="Korean Skincare Latest Trends 2025 (For Japanese Market)" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Korean Skincare Latest Trends 2025 (For Japanese Market)</h3>
-            <p>Korean skincare latest trends 2025 for Japanese market. Skin Streaming, Blue Beauty, Glass Skin 2.0, Cica Boom, K×J Hybrid....</p>
-            <div class="meta">
-              <span>📅 2025-02-09</span>
-              <span>⏱️ 30 min read</span>
-            </div>
-            <a href="/blog/korean-skincare-trend-2025-japanese.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80" alt="Ultimate Gangnam Head Spa Guide 2025: Top 10 Best Places, Prices & Booking" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Ultimate Gangnam Head Spa Guide 2025: Top 10 Best Places, Prices & Booking</h3>
-            <p>Complete guide to best head spa in Gangnam Seoul 2025. Top 10 places, prices (₩95k-250k), booking tips, 15-step treatment process....</p>
-            <div class="meta">
-              <span>📅 2025-12-14</span>
-              <span>⏱️ 15 min read</span>
-            </div>
-            <a href="/blog/ultimate-gangnam-head-spa-guide-2025.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&fm=webp&auto=format&q=80" alt="Gangnam Head Spa Complete Guide 2025 (For Japanese Tourists)" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Gangnam Head Spa Complete Guide 2025 (For Japanese Tourists)</h3>
-            <p>Complete Gangnam head spa guide for Japanese tourists. Top 10 places, prices (₩95k-250k/¥9.5k-25k), Japanese language support, boo...</p>
-            <div class="meta">
-              <span>📅 2025-12-14</span>
-              <span>⏱️ 15分</span>
-            </div>
-            <a href="/blog/gangnam-headspa-guide-2025-japanese.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Seoul Skincare Routine: The Ultimate 10-Step Korean Beauty Guide" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Skincare Routine: The Ultimate 10-Step Korean Beauty Guide</h3>
-            <p>Discover the authentic Seoul skincare routine that Korean women swear by. Learn the complete 10-step Korean beauty regimen for fla...</p>
-            <div class="meta">
-              <span>📅 2024-12-14</span>
-              <span>⏱️ 12 min</span>
-            </div>
-            <a href="/blog/seoul-skincare-routine-ultimate-guide.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Seoul Skincare Routine: Korean Beauty Secrets Complete Guide" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Seoul Skincare Routine: Korean Beauty Secrets Complete Guide</h3>
-            <p>Discover the authentic Seoul skincare routine practiced by Korean women. Complete guide to 10-step skincare for transparent, glowi...</p>
-            <div class="meta">
-              <span>📅 2024-12-14</span>
-              <span>⏱️ 12分</span>
-            </div>
-            <a href="/blog/seoul-skincare-routine-japanese.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-        <div class="blog-card">
-          <img src="undefined" alt="Best Seoul Skincare Brands 2024: Top 15 K-Beauty Brands Korean Women Love" loading="lazy">
-          <div class="blog-card-content">
-            <h3>Best Seoul Skincare Brands 2024: Top 15 K-Beauty Brands Korean Women Love</h3>
-            <p>Discover the top Seoul skincare brands that Korean women swear by. From luxury to affordable, explore the best Korean beauty brand...</p>
-            <div class="meta">
-              <span>📅 2024-12-14</span>
-              <span>⏱️ 15 min</span>
-            </div>
-            <a href="/blog/best-seoul-skincare-brands-2024.html" class="read-more">Read Full Guide →</a>
-          </div>
-        </div>
-      
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
-      <p><strong>Seoul Zen</strong> - Official Blog of <a href="https://kbeautyseoul.co.kr?utm_source=seoulzen&utm_medium=blog&utm_campaign=general&discount=FIRST10" target="_blank">kbeautyseoul.co.kr</a></p>
-      <p style="margin-top: 20px; opacity: 0.7;">© 2025 Seoul Zen. All rights reserved.</p>
-    </div>
-  </footer>
 </body>
 </html>
