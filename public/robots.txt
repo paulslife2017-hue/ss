@@ -1,20 +1,29 @@
+# SeoulZen Robots.txt - Optimized for SEO
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://seoulzen.com/sitemap.xml
+# Sitemap location
+Sitemap: https://seoulzen.com/public/sitemap.xml
 
-# Google Bots
+# Crawl-delay (be nice to servers)
+Crawl-delay: 0
+
+# Allow all major search engines
 User-agent: Googlebot
 Allow: /
 
-User-agent: Googlebot-Image
-Allow: /
-
-# Bing
 User-agent: Bingbot
 Allow: /
 
-# Naver (Korean search engine)
-User-agent: Yeti
+User-agent: Slurp
 Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block common bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
