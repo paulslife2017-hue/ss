@@ -245,6 +245,163 @@
             transform: scale(1.05);
         }
         
+        /* Featured Studios Section */
+        .featured-studios-top {
+            background: linear-gradient(135deg, #fff9e6 0%, #fef8ed 50%, #ffffff 100%);
+            border: 3px solid #d4af37;
+            border-radius: 16px;
+            padding: 30px 20px;
+            margin: 40px 0;
+            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+        }
+        
+        .featured-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .featured-header h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            border: none;
+            padding: 0;
+        }
+        
+        .disclosure {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+            display: block;
+            margin-top: 8px;
+        }
+        
+        .studio-cards-mobile {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 20px;
+            padding: 10px 5px 20px 5px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        
+        .studio-cards-mobile::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .studio-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            min-width: 280px;
+            max-width: 320px;
+            flex-shrink: 0;
+            scroll-snap-align: center;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .studio-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+        }
+        
+        .studio-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4af37, #c49a2f);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            align-self: flex-start;
+        }
+        
+        .studio-image {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .studio-card h3 {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin: 10px 0;
+        }
+        
+        .studio-rating {
+            color: #d4af37;
+            font-size: 0.95em;
+            margin: 8px 0;
+            font-weight: 600;
+        }
+        
+        .studio-rating span {
+            color: #666;
+            font-weight: normal;
+            font-size: 0.9em;
+        }
+        
+        .studio-price {
+            color: #34495e;
+            font-size: 1.05em;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        
+        .studio-features {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+            flex-grow: 1;
+        }
+        
+        .studio-features li {
+            color: #555;
+            font-size: 0.9em;
+            margin: 6px 0;
+            padding-left: 0;
+        }
+        
+        .btn-book {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #d4af37, #c49a2f);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 1em;
+            margin-top: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+        }
+        
+        .btn-book:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(212, 175, 55, 0.4);
+        }
+        
+        @media (min-width: 769px) {
+            .studio-cards-mobile {
+                justify-content: center;
+                flex-wrap: wrap;
+                overflow-x: visible;
+            }
+            
+            .studio-card {
+                max-width: 320px;
+            }
+        }
+        
         @media (max-width: 768px) {
             h1 {
                 font-size: 1.8em;
@@ -296,6 +453,70 @@
         <div class="highlight-box">
             <strong>🎨 Quick Summary:</strong> Gangnam is Seoul's premier destination for professional makeup services, featuring world-class makeup artists, cutting-edge K-beauty techniques, and luxury studios. This comprehensive guide covers everything you need to know about Gangnam makeup in 2026, including top artists, price guides, booking tips, and the latest K-beauty trends.
         </div>
+
+        <!-- Featured Top 3 Studios -->
+        <section class="featured-studios-top">
+            <div class="featured-header">
+                <h2>⭐ Top 3 Most Booked Gangnam Makeup Studios</h2>
+                <span class="disclosure">💼 Verified Partner Recommendations | Book with Confidence</span>
+            </div>
+            
+            <div class="studio-cards-mobile">
+                <!-- Studio 1 -->
+                <div class="studio-card">
+                    <span class="studio-badge">🏆 #1 Most Booked</span>
+                    <img src="https://via.placeholder.com/320x160/d4af37/FFFFFF?text=Jungsaemmool+Beauty+Lab" alt="Jungsaemmool Beauty Lab" class="studio-image">
+                    <h3>Jungsaemmool Beauty Lab</h3>
+                    <div class="studio-rating">⭐⭐⭐⭐⭐ <span>4.9 (328 reviews)</span></div>
+                    <div class="studio-price">From ₩200,000 (~$160)</div>
+                    <ul class="studio-features">
+                        <li>✓ Celebrity Makeup Artist</li>
+                        <li>✓ English Speaking Staff</li>
+                        <li>✓ Premium Korean Products</li>
+                        <li>✓ Same-Day Booking Available</li>
+                    </ul>
+                    <a href="https://kbeautyseoul.co.kr/catalog?category=makeup&highlight=jungsaemmool" class="btn-book" target="_blank" rel="noopener sponsored">
+                        📅 Check Availability →
+                    </a>
+                </div>
+                
+                <!-- Studio 2 -->
+                <div class="studio-card">
+                    <span class="studio-badge">🌟 Top Rated</span>
+                    <img src="https://via.placeholder.com/320x160/c49a2f/FFFFFF?text=The+Beauty+Class" alt="The Beauty Class Studio" class="studio-image">
+                    <h3>The Beauty Class Studio</h3>
+                    <div class="studio-rating">⭐⭐⭐⭐⭐ <span>4.8 (256 reviews)</span></div>
+                    <div class="studio-price">From ₩80,000 (~$65)</div>
+                    <ul class="studio-features">
+                        <li>✓ Makeup + Lesson Package</li>
+                        <li>✓ Multi-Language Support</li>
+                        <li>✓ Instagram-Worthy Results</li>
+                        <li>✓ Great for Beginners</li>
+                    </ul>
+                    <a href="https://kbeautyseoul.co.kr/catalog?category=makeup&highlight=beautyclass" class="btn-book" target="_blank" rel="noopener sponsored">
+                        📅 Book Your Session →
+                    </a>
+                </div>
+                
+                <!-- Studio 3 -->
+                <div class="studio-card">
+                    <span class="studio-badge">💝 Best Value</span>
+                    <img src="https://via.placeholder.com/320x160/b8942a/FFFFFF?text=K-Style+Makeup" alt="K-Style Makeup & Hair" class="studio-image">
+                    <h3>K-Style Makeup & Hair</h3>
+                    <div class="studio-rating">⭐⭐⭐⭐⭐ <span>4.7 (189 reviews)</span></div>
+                    <div class="studio-price">From ₩70,000 (~$56)</div>
+                    <ul class="studio-features">
+                        <li>✓ Quick Service (45-60 min)</li>
+                        <li>✓ Walk-ins Welcome</li>
+                        <li>✓ Makeup + Hair Combo</li>
+                        <li>✓ Near Gangnam Station</li>
+                    </ul>
+                    <a href="https://kbeautyseoul.co.kr/catalog?category=makeup&highlight=kstyle" class="btn-book" target="_blank" rel="noopener sponsored">
+                        📅 Book Instantly →
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <h2>🌟 Introduction: Why Gangnam for Makeup?</h2>
         
