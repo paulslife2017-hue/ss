@@ -1,3 +1,10 @@
+# 홈페이지 canonical URL 헤더
+/
+  Link: <https://seoulzen.com/>; rel="canonical"
+  
+/index.html
+  Link: <https://seoulzen.com/>; rel="canonical"
+
 # ads.txt - 올바른 Content-Type 보장
 /ads.txt
   Content-Type: text/plain; charset=utf-8
@@ -17,3 +24,7 @@
 /robots.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400
+
+# 블로그 페이지 canonical URL 헤더 (패턴 매칭)
+/blog/*
+  Link: <https://seoulzen.com/blog/:splat>; rel="canonical"
