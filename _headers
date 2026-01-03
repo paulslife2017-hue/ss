@@ -1,30 +1,37 @@
 # 홈페이지 canonical URL 헤더
 /
   Link: <https://seoulzen.com/>; rel="canonical"
+  X-Robots-Tag: index, follow
   
 /index.html
   Link: <https://seoulzen.com/>; rel="canonical"
+  X-Robots-Tag: index, follow
+
+# 블로그 페이지 canonical URL 헤더 (패턴 매칭)
+/blog/*
+  Link: <https://seoulzen.com/blog/:splat>; rel="canonical"
+  X-Robots-Tag: index, follow
 
 # ads.txt - 올바른 Content-Type 보장
 /ads.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400
+  X-Robots-Tag: noindex
 
 # sitemap.xml - 올바른 Content-Type 보장
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
   Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex
 
 # feed.xml (RSS) - 올바른 Content-Type 보장  
 /feed.xml
   Content-Type: application/rss+xml; charset=utf-8
   Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex
 
 # robots.txt
 /robots.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400
-
-# 블로그 페이지 canonical URL 헤더 (패턴 매칭)
-/blog/*
-  Link: <https://seoulzen.com/blog/:splat>; rel="canonical"
+  X-Robots-Tag: noindex
