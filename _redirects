@@ -1,0 +1,11 @@
+# www → non-www 리다이렉트 (301 영구 이동)
+https://www.seoulzen.com/*  https://seoulzen.com/:splat  301!
+
+# sitemap.xml 리다이렉트
+/sitemap.xml  /public/sitemap.xml  200
+/robots.txt   /public/robots.txt   200
+/ads.txt      /public/ads.txt      200
+/feed.xml     /public/feed.xml     200
+
+# 기본 페이지 설정
+/  /public/index.html  200

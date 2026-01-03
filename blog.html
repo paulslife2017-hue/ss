@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="canonical" href="https://seoulzen.com/public/blog.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DH40QL7TS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4DH40QL7TS');
+    </script>
+    
+    <!-- Primary Meta Tags -->
+    <title>Seoul Beauty & Wellness Guide for Travelers | KBeauty Seoul Official</title>
+    <meta name="title" content="Seoul Beauty & Wellness Guide for Travelers | KBeauty Seoul Official">
+    <meta name="description" content="Your complete guide to Korean beauty, wellness, and spa services in Seoul. Expert advice for international travelers seeking authentic K-beauty experiences.">
+    <meta name="keywords" content="Seoul beauty guide, Korean spa, K-beauty services, Seoul wellness, Gangnam beauty, Korean head spa, Seoul massage, beauty tourism Seoul">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seoulzen.com/public/blog.html">
+    <meta property="og:title" content="Seoul Beauty & Wellness Guide for Travelers">
+    <meta property="og:description" content="Expert guides on Korean beauty, wellness, and spa services">
+    <meta property="og:image" content="https://seoulzen.com/images/blog-hero.jpg">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+         crossorigin="anonymous"></script>
+    
+    <style>
+        /* ==================== RESET & BASE ==================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* ==================== TOP NAVIGATION ==================== */
+        .top-nav {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid #e8e8e8;
+            padding: 20px 0;
+            z-index: 1000;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo span {
+            color: #c4975c;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #c4975c;
+        }
+        
+        .nav-cta {
+            background: #1a1a1a;
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-cta:hover {
+            background: #c4975c;
+            transform: translateY(-1px);
+        }
+        
+        /* ==================== HERO SECTION ==================== */
+        .hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+            color: white;
+            padding: 120px 32px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(196, 151, 92, 0.15) 0%, transparent 70%);
+            top: -300px;
+            right: -300px;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(196, 151, 92, 0.1) 0%, transparent 70%);
+            bottom: -200px;
+            left: -200px;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-tag {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #c4975c;
+            margin-bottom: 24px;
+        }
+        
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-top: 48px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #c4975c;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* ==================== CONTAINER ==================== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 32px;
+        }
+        
+        /* ==================== SECTION HEADER ==================== */
+        .section-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        
+        .section-tag {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #c4975c;
+            margin-bottom: 16px;
+        }
+        
+        .section-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* ==================== FEATURED ARTICLE ==================== */
+        .featured-article {
+            background: #fafafa;
+            border-radius: 0;
+            overflow: hidden;
+            margin-bottom: 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            border: 1px solid #e8e8e8;
+        }
+        
+        .featured-image {
+            background: linear-gradient(135deg, #c4975c 0%, #d4af6f 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 120px;
+            color: white;
+            min-height: 500px;
+        }
+        
+        .featured-content {
+            padding: 64px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .featured-tag {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #c4975c;
+            margin-bottom: 20px;
+        }
+        
+        .featured-content h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+        }
+        
+        .featured-excerpt {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 32px;
+            line-height: 1.7;
+        }
+        
+        .featured-meta {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 32px;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .featured-btn {
+            display: inline-block;
+            background: #1a1a1a;
+            color: white;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            border: 2px solid #1a1a1a;
+            width: fit-content;
+        }
+        
+        .featured-btn:hover {
+            background: white;
+            color: #1a1a1a;
+            transform: translateY(-2px);
+        }
+        
+        /* ==================== ARTICLE GRID ==================== */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+        
+        .article-card {
+            background: white;
+            border: 1px solid #e8e8e8;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+        }
+        
+        .article-image {
+            width: 100%;
+            height: 240px;
+            background: linear-gradient(135deg, #c4975c 0%, #d4af6f 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 72px;
+            color: white;
+        }
+        
+        .article-content {
+            padding: 32px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-category {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #c4975c;
+            margin-bottom: 12px;
+        }
+        
+        .article-card h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        
+        .article-excerpt {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        
+        .article-meta {
+            font-size: 13px;
+            color: #999;
+            display: flex;
+            gap: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .article-card a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .has-link {
+            position: relative;
+        }
+        
+        .has-link::after {
+            content: "🔗";
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 20px;
+        }
+        
+        /* ==================== CATEGORIES ==================== */
+        .categories {
+            background: #fafafa;
+            padding: 80px 32px;
+            margin: 80px 0;
+        }
+        
+        .category-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+        
+        .category-card {
+            background: white;
+            padding: 40px 32px;
+            text-align: center;
+            border: 1px solid #e8e8e8;
+            transition: all 0.3s ease;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+        }
+        
+        .category-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .category-card h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+        
+        .category-count {
+            font-size: 14px;
+            color: #999;
+        }
+        
+        /* ==================== CTA SECTION ==================== */
+        .cta-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+            color: white;
+            padding: 80px 32px;
+            text-align: center;
+            margin: 80px 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn-primary {
+            background: white;
+            color: #1a1a1a;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .cta-btn-primary:hover {
+            background: transparent;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .cta-btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 16px 40px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .cta-btn-secondary:hover {
+            background: white;
+            color: #1a1a1a;
+            transform: translateY(-2px);
+        }
+        
+        /* ==================== FOOTER ==================== */
+        footer {
+            background: #fafafa;
+            padding: 64px 32px 32px;
+            border-top: 1px solid #e8e8e8;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+        
+        .footer-logo span {
+            color: #c4975c;
+        }
+        
+        .footer-tagline {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 32px;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #c4975c;
+        }
+        
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid #e8e8e8;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        /* ==================== RESPONSIVE ==================== */
+        @media (max-width: 1024px) {
+            .article-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+            
+            .category-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .nav-links {
+                gap: 20px;
+            }
+            
+            .hero {
+                padding: 80px 24px 60px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .hero-stats {
+                flex-direction: column;
+                gap: 24px;
+            }
+            
+            .container {
+                padding: 60px 24px;
+            }
+            
+            .section-title {
+                font-size: 32px;
+            }
+            
+            .featured-article {
+                grid-template-columns: 1fr;
+            }
+            
+            .featured-image {
+                min-height: 300px;
+            }
+            
+            .featured-content {
+                padding: 40px 24px;
+            }
+            
+            .featured-content h2 {
+                font-size: 28px;
+            }
+            
+            .article-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            
+            .category-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .cta-section {
+                padding: 60px 24px;
+            }
+            
+            .cta-section h2 {
+                font-size: 32px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cta-btn-primary,
+            .cta-btn-secondary {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Navigation -->
+<nav class="top-nav">
+    <div class="nav-container">
+        <a href="https://seoulzen.com/" class="logo">Seoul<span>Zen</span></a>
+        <div class="nav-links">
+            <a href="https://seoulzen.com/">Home</a>
+            <a href="https://seoulzen.com/public/blog.html">Blog</a>
+            <a href="https://seoulzen.com/catalog">Services</a>
+            <a href="https://seoulzen.com/catalog" class="nav-cta">Book Now</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-tag">OFFICIAL GUIDE</div>
+        <h1>Seoul Beauty & Wellness<br>Guide for Travelers</h1>
+        <p class="hero-subtitle">Your trusted resource for authentic Korean beauty experiences. Expert insights, honest reviews, and practical tips for international visitors.</p>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">35+</span>
+                <span class="stat-label">Expert Guides</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Monthly Readers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Verified Info</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Article -->
+<div class="container">
+    <div class="section-header">
+        <div class="section-tag">FEATURED GUIDE</div>
+        <h2 class="section-title">Start Here</h2>
+        <p class="section-subtitle">New to Seoul's beauty scene? This comprehensive guide is your perfect starting point.</p>
+    </div>
+    
+    <article class="featured-article has-link">
+        <div class="featured-image">💆</div>
+        <div class="featured-content">
+            <div class="featured-tag">⭐ MOST POPULAR</div>
+            <h2>Best Head Spa in Seoul for Foreigners</h2>
+            <p class="featured-excerpt">Discover the ultimate relaxation experience at Seoul's top head spa locations. We've personally visited and reviewed the best English-friendly spas that cater specifically to international visitors.</p>
+            <div class="featured-meta">
+                <span>📖 12 min read</span>
+                <span>•</span>
+                <span>Updated Jan 2026</span>
+            </div>
+            <a href="https://seoulzen.com/catalog?category=headspa" class="featured-btn">Browse Head Spa Services →</a>
+        </div>
+    </article>
+</div>
+
+<!-- Essential Guides Section -->
+<div class="container">
+    <div class="section-header">
+        <div class="section-tag">ESSENTIAL GUIDES</div>
+        <h2 class="section-title">Must-Read Articles for First-Time Visitors</h2>
+        <p class="section-subtitle">Everything you need to know before booking your first Korean beauty service</p>
+    </div>
+    
+    <div class="article-grid">
+        <!-- NEW: Glass Skin Guide (EN) -->
+        <article class="article-card has-link" style="border: 2px solid #667eea;">
+            <a href="/public/korean-glass-skin-guide-2026-en.html">
+                <div class="article-image">✨</div>
+                <div class="article-content">
+                    <div class="article-category" style="background: #667eea; color: white;">HOT 🔥 HIGH REVENUE</div>
+                    <h3>Korean Glass Skin: Complete Guide 2026</h3>
+                    <p class="article-excerpt">Master the Korean glass skin look with our comprehensive 8,000+ word guide. Step-by-step routines, product recommendations from $50-$300, and proven techniques for luminous, translucent skin.</p>
+                    <div class="article-meta">
+                        <span>22 min read</span>
+                        <span>•</span>
+                        <span>Step-by-Step Guide</span>
+                        <span>•</span>
+                        <span style="color: #667eea; font-weight: 600;">NEW!</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- NEW: Korean Skincare Guide (JP) -->
+        <article class="article-card has-link" style="border: 2px solid #667eea;">
+            <a href="/public/korean-skincare-guide-2026-jp.html">
+                <div class="article-image">🇯🇵</div>
+                <div class="article-content">
+                    <div class="article-category" style="background: #667eea; color: white;">HOT 🔥 HIGH REVENUE</div>
+                    <h3>韓国スキンケア完全ガイド 2026 (Japanese)</h3>
+                    <p class="article-excerpt">韓国スキンケアの全てを網羅した8,000語以上の完全ガイド。10ステップルーティン、予算別プラン（¥5,000-¥30,000）、肌タイプ別カスタマイズ方法を徹底解説。</p>
+                    <div class="article-meta">
+                        <span>25分で読める</span>
+                        <span>•</span>
+                        <span>ステップバイステップガイド</span>
+                        <span>•</span>
+                        <span style="color: #667eea; font-weight: 600;">NEW!</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 1 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://seoulzen.com/catalog">
+                <div class="article-image">🎯</div>
+                <div class="article-content">
+                    <div class="article-category">GETTING STARTED</div>
+                    <h3>What Is a Korean Head Spa?</h3>
+                    <p class="article-excerpt">Learn about the traditional Korean head spa treatment that's taking the world by storm. Understand the techniques, benefits, and what makes it different.</p>
+                    <div class="article-meta">
+                        <span>8 min read</span>
+                        <span>•</span>
+                        <span>Beginner</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 2 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🗺️</div>
+                <div class="article-content">
+                    <div class="article-category">COMPARISON</div>
+                    <h3>Gangnam vs Hongdae: Where to Get Beauty Treatments</h3>
+                    <p class="article-excerpt">Compare Seoul's two most popular beauty districts. Prices, atmosphere, services, and which one suits your travel style better.</p>
+                    <div class="article-meta">
+                        <span>10 min read</span>
+                        <span>•</span>
+                        <span>Comparison</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 3 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://seoulzen.com/catalog?category=skincare">
+                <div class="article-image">🧴</div>
+                <div class="article-content">
+                    <div class="article-category">TREATMENTS</div>
+                    <h3>Korean Scalp Care Explained</h3>
+                    <p class="article-excerpt">Deep dive into Korean scalp care philosophy. Learn about products, techniques, and why scalp health is the foundation of Korean beauty.</p>
+                    <div class="article-meta">
+                        <span>15 min read</span>
+                        <span>•</span>
+                        <span>Advanced</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 4 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">✅</div>
+                <div class="article-content">
+                    <div class="article-category">SAFETY</div>
+                    <h3>Is Korean Beauty Treatment Safe for Travelers?</h3>
+                    <p class="article-excerpt">Address common safety concerns, hygiene standards, and what to look for when choosing beauty services in Seoul as a foreigner.</p>
+                    <div class="article-meta">
+                        <span>7 min read</span>
+                        <span>•</span>
+                        <span>Safety</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 5 - With Link -->
+        <article class="article-card has-link">
+            <a href="https://seoulzen.com/catalog">
+                <div class="article-image">📱</div>
+                <div class="article-content">
+                    <div class="article-category">PRACTICAL</div>
+                    <h3>How to Book Beauty Services in Seoul</h3>
+                    <p class="article-excerpt">Step-by-step guide to booking Korean beauty services. Apps, platforms, language tips, and payment methods explained simply.</p>
+                    <div class="article-meta">
+                        <span>12 min read</span>
+                        <span>•</span>
+                        <span>Tutorial</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 6 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🧖</div>
+                <div class="article-content">
+                    <div class="article-category">RELAXATION</div>
+                    <h3>Best Relaxing Spas in Seoul</h3>
+                    <p class="article-excerpt">Our curated list of Seoul's most relaxing spa experiences. From traditional jjimjilbang to modern wellness centers.</p>
+                    <div class="article-meta">
+                        <span>14 min read</span>
+                        <span>•</span>
+                        <span>Review</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 7 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🏮</div>
+                <div class="article-content">
+                    <div class="article-category">CULTURE</div>
+                    <h3>Korean Wellness Culture Explained</h3>
+                    <p class="article-excerpt">Understanding the philosophy behind Korean wellness. Traditional practices, modern innovations, and cultural context.</p>
+                    <div class="article-meta">
+                        <span>11 min read</span>
+                        <span>•</span>
+                        <span>Culture</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 8 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">🏪</div>
+                <div class="article-content">
+                    <div class="article-category">EXPECTATIONS</div>
+                    <h3>What to Expect at a Korean Beauty Shop</h3>
+                    <p class="article-excerpt">First-timer's guide to Korean beauty shops. Etiquette, typical services, pricing structure, and how to communicate your needs.</p>
+                    <div class="article-meta">
+                        <span>9 min read</span>
+                        <span>•</span>
+                        <span>Guide</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 9 -->
+        <article class="article-card">
+            <a href="#">
+                <div class="article-image">✈️</div>
+                <div class="article-content">
+                    <div class="article-category">TRAVEL GUIDE</div>
+                    <h3>Seoul Beauty Guide for First-Time Visitors</h3>
+                    <p class="article-excerpt">Complete travel guide to Seoul's beauty scene. Neighborhoods, must-try services, budgeting tips, and itinerary suggestions.</p>
+                    <div class="article-meta">
+                        <span>18 min read</span>
+                        <span>•</span>
+                        <span>Comprehensive</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 10 - Latest -->
+        <article class="article-card">
+            <a href="/gangnam-makeup-complete-guide-2026.html">
+                <div class="article-image">💄</div>
+                <div class="article-content">
+                    <div class="article-category">MAKEUP</div>
+                    <h3>Complete Guide to Gangnam Makeup</h3>
+                    <p class="article-excerpt">Everything about professional makeup services in Gangnam. K-beauty trends, pricing, booking tips, and what makes Gangnam special.</p>
+                    <div class="article-meta">
+                        <span>25 min read</span>
+                        <span>•</span>
+                        <span>New!</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 11 - MEGA GUIDE -->
+        <article class="article-card has-link" style="grid-column: 1 / -1; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none;">
+            <a href="/public/ultimate-kbeauty-shopping-guide-2026.html" style="color: white;">
+                <div class="article-image" style="background: rgba(255,255,255,0.2);">🛍️</div>
+                <div class="article-content">
+                    <div class="article-category" style="color: #ffd700;">⭐ ULTIMATE GUIDE</div>
+                    <h3 style="color: white; font-size: 26px;">Complete Guide to Buying Korean Beauty Products & Services Online (2026)</h3>
+                    <p class="article-excerpt" style="color: rgba(255,255,255,0.95);">The ultimate 10,000+ word guide comparing 15+ K-Beauty shopping websites. Find authentic Korean beauty products, compare prices, learn shipping secrets, and discover the best places to shop online. Includes exclusive tips, comparison tables, and money-saving strategies!</p>
+                    <div class="article-meta" style="color: rgba(255,255,255,0.9);">
+                        <span>📖 25 min read</span>
+                        <span>•</span>
+                        <span>🔥 15+ Shops Reviewed</span>
+                        <span>•</span>
+                        <span>💰 Money-Saving Tips</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 12 - NEW HIGH-TRAFFIC SKINCARE ROUTINE -->
+        <article class="article-card has-link" style="grid-column: 1 / -1; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #1a1a1a; border: none;">
+            <a href="/public/korean-skincare-routine-beginners-guide-2026.html" style="color: #1a1a1a;">
+                <div class="article-image" style="background: rgba(255,255,255,0.3);">✨</div>
+                <div class="article-content">
+                    <div class="article-category" style="color: #ff6b9d; font-weight: 700;">🔥 MOST POPULAR</div>
+                    <h3 style="color: #1a1a1a; font-size: 26px; font-weight: 800;">Korean Skincare Routine: Complete Beginner's Guide 2026</h3>
+                    <p class="article-excerpt" style="color: #2c3e50;">Learn the famous 10-step Korean skincare routine from scratch. Step-by-step instructions, product recommendations for every budget, common mistakes to avoid, and realistic timelines. Perfect for beginners who want glowing Korean skin!</p>
+                    <div class="article-meta" style="color: #555;">
+                        <span>📖 20 min read</span>
+                        <span>•</span>
+                        <span>✨ 10-Step Breakdown</span>
+                        <span>•</span>
+                        <span>💰 Budget Options</span>
+                        <span>•</span>
+                        <span>🎯 Phase-by-Phase</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+        
+        <!-- Article 13 - 10-STEP ROUTINE GUIDE -->
+        <article class="article-card has-link" style="grid-column: 1 / -1; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #1a1a1a; border: none;">
+            <a href="/public/korean-skincare-routine-beginners-2026.html" style="color: #1a1a1a;">
+                <div class="article-image" style="background: rgba(255,255,255,0.5);">✨</div>
+                <div class="article-content">
+                    <div class="article-category" style="color: #e91e63;">🆕 BEGINNER'S MUST-READ</div>
+                    <h3 style="color: #1a1a1a; font-size: 26px;">Korean Skincare Routine for Beginners: Complete 10-Step Guide (2026)</h3>
+                    <p class="article-excerpt" style="color: #2c3e50;">Master the famous Korean 10-step skincare routine! Complete beginner-friendly guide with product recommendations, step-by-step instructions, common mistakes to avoid, and simplified starter routines. Learn the secrets behind "glass skin" and achieve glowing, healthy skin the K-Beauty way. Perfect for complete beginners!</p>
+                    <div class="article-meta" style="color: #555;">
+                        <span>📖 20 min read</span>
+                        <span>•</span>
+                        <span>✨ 10 Steps Explained</span>
+                        <span>•</span>
+                        <span>🎯 Easy to Follow</span>
+                    </div>
+                </div>
+            </a>
+        </article>
+    </div>
+</div>
+
+<!-- Categories Section -->
+<section class="categories">
+    <div class="section-header">
+        <div class="section-tag">BROWSE BY TOPIC</div>
+        <h2 class="section-title">Explore by Category</h2>
+        <p class="section-subtitle">Find exactly what you're looking for</p>
+    </div>
+    
+    <div class="category-grid">
+        <div class="category-card">
+            <div class="category-icon">💆</div>
+            <h3>Head Spa & Massage</h3>
+            <p class="category-count">12 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">✨</div>
+            <h3>Skincare Treatments</h3>
+            <p class="category-count">8 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">💄</div>
+            <h3>Makeup Services</h3>
+            <p class="category-count">5 articles</p>
+        </div>
+        
+        <div class="category-card">
+            <div class="category-icon">🏮</div>
+            <h3>Culture & Wellness</h3>
+            <p class="category-count">10 articles</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <h2>Ready to Experience Korean Beauty?</h2>
+    <p>Browse verified services, read real reviews, and book your perfect Seoul beauty experience with confidence.</p>
+    <div class="cta-buttons">
+        <a href="https://seoulzen.com/catalog" class="cta-btn-primary">Browse All Services</a>
+        <a href="https://seoulzen.com" class="cta-btn-secondary">Visit Homepage</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">Seoul<span>Zen</span></div>
+        <p class="footer-tagline">Your trusted guide to authentic Korean beauty experiences</p>
+        
+        <div class="footer-links">
+            <a href="https://seoulzen.com/">Home</a>
+            <a href="https://seoulzen.com/public/blog.html">Blog</a>
+            <a href="https://seoulzen.com/catalog">Services</a>
+            <a href="https://seoulzen.com/">About Us</a>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 SeoulZen. All rights reserved. | Made with ❤️ in Seoul</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Google AdSense Auto Ads -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6943282483618134"
+     crossorigin="anonymous"></script>
+
+</body>
+</html>
