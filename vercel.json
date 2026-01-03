@@ -1,68 +1,59 @@
 {
-  "buildCommand": "echo 'No build needed - static site'",
-  "outputDirectory": "public",
-  "redirects": [
+  "version": 2,
+  "public": true,
+  "github": {
+    "silent": true
+  },
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "https://seoulzen.com/:path*",
-      "permanent": true,
+      "src": "/(.*)",
+      "dest": "/public/$1",
       "has": [
         {
           "type": "host",
           "value": "www.seoulzen.com"
         }
-      ]
-    }
-  ],
-  "rewrites": [],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, must-revalidate"
-        }
-      ]
+      ],
+      "status": 308,
+      "headers": {
+        "Location": "https://seoulzen.com/$1"
+      }
     },
     {
-      "source": "/ads.txt",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
-        }
-      ]
+      "src": "/sitemap.xml",
+      "dest": "/public/sitemap.xml",
+      "headers": {
+        "Content-Type": "application/xml; charset=utf-8",
+        "Cache-Control": "public, max-age=3600"
+      }
     },
     {
-      "source": "/sitemap.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/xml; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
+      "src": "/robots.txt",
+      "dest": "/public/robots.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "public, max-age=86400"
+      }
     },
     {
-      "source": "/feed.xml",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/rss+xml; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
+      "src": "/ads.txt",
+      "dest": "/public/ads.txt",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Cache-Control": "public, max-age=86400"
+      }
+    },
+    {
+      "src": "/feed.xml",
+      "dest": "/public/feed.xml",
+      "headers": {
+        "Content-Type": "application/rss+xml; charset=utf-8",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
     }
   ]
 }
