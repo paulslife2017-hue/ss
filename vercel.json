@@ -1,9 +1,15 @@
 {
   "redirects": [
     {
-      "source": "https://www.seoulzen.com/:path*",
+      "source": "/:path*",
       "destination": "https://seoulzen.com/:path*",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.seoulzen.com"
+        }
+      ]
     }
   ],
   "rewrites": [
