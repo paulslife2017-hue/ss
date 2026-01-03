@@ -2,6 +2,9 @@
 User-agent: *
 Allow: /
 
+# Canonical domain (non-www)
+# Please crawl: https://seoulzen.com/
+
 # Sitemap location
 Sitemap: https://seoulzen.com/sitemap.xml
 

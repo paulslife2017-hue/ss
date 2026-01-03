@@ -7,7 +7,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta property="og:url" content="https://seoulzen.com/">
   <meta name="google-site-verification" content="OBR3cWow2YBgoRPHicsmirTaDCf-9B7V6mLk1V9qwxk" />
+  
+  <!-- Redirect www to non-www via JavaScript (fallback) -->
+  <script>
+    if (window.location.hostname === 'www.seoulzen.com') {
+      window.location.href = 'https://seoulzen.com' + window.location.pathname + window.location.search + window.location.hash;
+    }
+  </script>
   
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4DH40QL7TS"></script>
