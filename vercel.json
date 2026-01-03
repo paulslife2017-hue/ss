@@ -1,34 +1,28 @@
 {
-  "framework": null,
-  "installCommand": "echo 'No install needed'",
-  "buildCommand": "echo 'No build needed'",
-  "outputDirectory": ".",
-  "devCommand": null,
-  "redirects": [
+  "version": 2,
+  "builds": [
     {
-      "source": "https://www.seoulzen.com/:path*",
-      "destination": "https://seoulzen.com/:path*",
-      "permanent": true
+      "src": "**/*",
+      "use": "@vercel/static"
     }
   ],
-  "headers": [
+  "routes": [
     {
-      "source": "/",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<https://seoulzen.com/>; rel=\"canonical\""
-        }
-      ]
+      "src": "/(.*)",
+      "headers": {
+        "X-Robots-Tag": "index, follow",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      },
+      "continue": true
     },
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "index, follow"
-        }
-      ]
+      "src": "/",
+      "headers": {
+        "Link": "<https://seoulzen.com/>; rel=\"canonical\""
+      },
+      "continue": true
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
