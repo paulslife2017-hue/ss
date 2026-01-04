@@ -2,8 +2,12 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://seoulzen.com/public/sitemap.xml
+# Sitemap location (non-www only!)
+Sitemap: https://seoulzen.com/sitemap.xml
+
+# Block www version (force non-www canonical)
+User-agent: Googlebot
+Disallow: /*?*www*
 
 # Crawl-delay (be nice to servers)
 Crawl-delay: 0
